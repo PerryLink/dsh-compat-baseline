@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.5.1 — 2026-11-14
+
+- Expand ENTRY **`checked` from 10 to 20 rows** (seed positions 11–20):
+  9 new rows map to `recognized` (6 `pass`, 3 `warn`) and
+  `dsh-checkers@0.0.1` maps to `failed` (`DSC-01` / C-1.2: no resolvable
+  runtime entry; 1 blocking, 6/14 checks). Failures are recorded as evidence,
+  not hidden. `tested` remains **0** — no host boot was performed.
+- Evidence summary is now `{declared:123, checked:20, tested:0}`; ENTRY is
+  `{recognized:19, failed:1, not-run:2, unknown:121}`; gate is
+  `{blocked:1, review:21, pilot:121, production-candidate:0}` (the failed
+  checked row gates as `blocked`).
+- All 143 rows and their order are unchanged; only 10 rows changed
+  `standards.entry` / `evidence` / `gate`. Raw reports live under `evidence/`;
+  the pre-merge matrix is backed up as `data/matrix.v0.5.1.pre-merge.json`.
+- Checker is pinned to `dsh-standards@1.6.10` with host `0.2.2-rc.3`; no push,
+  no publish.
+
 ## 0.5.0 — 2026-11-14
 
 - Add the **evidence layer**: every matrix row now carries

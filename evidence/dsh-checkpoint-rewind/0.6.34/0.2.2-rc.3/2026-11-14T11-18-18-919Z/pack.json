@@ -1,0 +1,189 @@
+{
+  "id": "dsh-checkpoint-rewind@0.6.34",
+  "name": "dsh-checkpoint-rewind",
+  "version": "0.6.34",
+  "size": 209899,
+  "unpackedSize": 679076,
+  "shasum": "f4e305f9d97fbb0212bee53a638a2a0b2d4adad7",
+  "integrity": "sha512-dtabgIWan5I0BNdBVH40CZh0VBzh10fX0HJgJbtuPoZhkhQX6Ans+EnJTxhKvc+zDA1lK6CRZT83iOLkl8hzQg==",
+  "filename": "dsh-checkpoint-rewind-0.6.34.tgz",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 22550,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 45345,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 46323,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 72178,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 45345,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 41072,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 43273,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 4350,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 803,
+      "mode": 420
+    },
+    {
+      "path": "client/index.js",
+      "size": 40497,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 230,
+      "mode": 420
+    },
+    {
+      "path": "index.mjs",
+      "size": 97808,
+      "mode": 420
+    },
+    {
+      "path": "lib/checkpoints.mjs",
+      "size": 28472,
+      "mode": 420
+    },
+    {
+      "path": "lib/constants.mjs",
+      "size": 6677,
+      "mode": 420
+    },
+    {
+      "path": "lib/diff.mjs",
+      "size": 5539,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain.mjs",
+      "size": 5926,
+      "mode": 420
+    },
+    {
+      "path": "lib/errors.mjs",
+      "size": 5016,
+      "mode": 420
+    },
+    {
+      "path": "lib/gate.mjs",
+      "size": 9053,
+      "mode": 420
+    },
+    {
+      "path": "lib/glob.mjs",
+      "size": 3738,
+      "mode": 420
+    },
+    {
+      "path": "lib/lock.mjs",
+      "size": 746,
+      "mode": 420
+    },
+    {
+      "path": "lib/panel.mjs",
+      "size": 11203,
+      "mode": 420
+    },
+    {
+      "path": "lib/projection.mjs",
+      "size": 21219,
+      "mode": 420
+    },
+    {
+      "path": "lib/providers/copy.mjs",
+      "size": 29182,
+      "mode": 420
+    },
+    {
+      "path": "lib/providers/definition.mjs",
+      "size": 5240,
+      "mode": 420
+    },
+    {
+      "path": "lib/providers/git.mjs",
+      "size": 24583,
+      "mode": 420
+    },
+    {
+      "path": "lib/providers/registry.mjs",
+      "size": 3252,
+      "mode": 420
+    },
+    {
+      "path": "lib/render.mjs",
+      "size": 7087,
+      "mode": 420
+    },
+    {
+      "path": "lib/session.mjs",
+      "size": 3816,
+      "mode": 420
+    },
+    {
+      "path": "lib/settings-schema.mjs",
+      "size": 9412,
+      "mode": 420
+    },
+    {
+      "path": "lib/wire.mjs",
+      "size": 7201,
+      "mode": 420
+    },
+    {
+      "path": "lib/workspace.mjs",
+      "size": 1993,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 6971,
+      "mode": 420
+    },
+    {
+      "path": "typert.host.mjs",
+      "size": 798,
+      "mode": 420
+    },
+    {
+      "path": "types.d.ts",
+      "size": 10839,
+      "mode": 420
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

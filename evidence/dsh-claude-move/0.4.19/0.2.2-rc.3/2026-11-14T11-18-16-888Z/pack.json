@@ -1,0 +1,219 @@
+{
+  "id": "dsh-claude-move@0.4.19",
+  "name": "dsh-claude-move",
+  "version": "0.4.19",
+  "size": 220906,
+  "unpackedSize": 681219,
+  "shasum": "3da67bd09d8f0ebbac977236b52ea42ec146285a",
+  "integrity": "sha512-OElstDkmwSO4NlQ672yDJh2Frx0b8WGKGU8lii5e3e2mmAAn9ridC9MuNVLoO3/RRjrWj/uJC1H396L2RZP4rw==",
+  "filename": "dsh-claude-move-0.4.19.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 32410,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "NOTICE",
+      "size": 997,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 35131,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 52432,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 34682,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 31420,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 32437,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 3114,
+      "mode": 420
+    },
+    {
+      "path": "assets/social-card.png",
+      "size": 64940,
+      "mode": 420
+    },
+    {
+      "path": "client/client.js",
+      "size": 21300,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 170,
+      "mode": 420
+    },
+    {
+      "path": "index.mjs",
+      "size": 154420,
+      "mode": 420
+    },
+    {
+      "path": "lib/agmd-section.mjs",
+      "size": 5368,
+      "mode": 420
+    },
+    {
+      "path": "lib/commands-migrate.mjs",
+      "size": 3035,
+      "mode": 420
+    },
+    {
+      "path": "lib/context.mjs",
+      "size": 5698,
+      "mode": 420
+    },
+    {
+      "path": "lib/convert.mjs",
+      "size": 32222,
+      "mode": 420
+    },
+    {
+      "path": "lib/discovery.mjs",
+      "size": 23249,
+      "mode": 420
+    },
+    {
+      "path": "lib/export.mjs",
+      "size": 11130,
+      "mode": 420
+    },
+    {
+      "path": "lib/frontmatter.mjs",
+      "size": 2100,
+      "mode": 420
+    },
+    {
+      "path": "lib/handoff.mjs",
+      "size": 6325,
+      "mode": 420
+    },
+    {
+      "path": "lib/imports-store.mjs",
+      "size": 2730,
+      "mode": 420
+    },
+    {
+      "path": "lib/manifest.mjs",
+      "size": 2990,
+      "mode": 420
+    },
+    {
+      "path": "lib/persona.mjs",
+      "size": 1707,
+      "mode": 420
+    },
+    {
+      "path": "lib/report.mjs",
+      "size": 2406,
+      "mode": 420
+    },
+    {
+      "path": "lib/settings.mjs",
+      "size": 5469,
+      "mode": 420
+    },
+    {
+      "path": "lib/skill-migrate.mjs",
+      "size": 4904,
+      "mode": 420
+    },
+    {
+      "path": "lib/skills-provider.mjs",
+      "size": 8976,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/claude/mapper.mjs",
+      "size": 3915,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/claude/parser.mjs",
+      "size": 6837,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/codex/mapper.mjs",
+      "size": 4653,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/codex/parser.mjs",
+      "size": 14157,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/contract.mjs",
+      "size": 5701,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/hermes/mapper.mjs",
+      "size": 2303,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/hermes/parser.mjs",
+      "size": 5492,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/opencode/convert.mjs",
+      "size": 8952,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/opencode/mapper.mjs",
+      "size": 3737,
+      "mode": 420
+    },
+    {
+      "path": "lib/sources/opencode/parser.mjs",
+      "size": 10444,
+      "mode": 420
+    },
+    {
+      "path": "lib/wizard.mjs",
+      "size": 15635,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 4592,
+      "mode": 420
+    },
+    {
+      "path": "types.d.ts",
+      "size": 1682,
+      "mode": 420
+    }
+  ],
+  "entryCount": 41,
+  "bundled": []
+}

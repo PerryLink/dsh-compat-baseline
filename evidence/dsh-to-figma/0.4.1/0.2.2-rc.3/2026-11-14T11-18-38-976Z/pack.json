@@ -1,0 +1,544 @@
+{
+  "id": "dsh-to-figma@0.4.1",
+  "name": "dsh-to-figma",
+  "version": "0.4.1",
+  "size": 1019846,
+  "unpackedSize": 1980822,
+  "shasum": "fe590d3bb91bb0bc8c85572c807df817ed4ada39",
+  "integrity": "sha512-93TzFsEZNLbGDFyStiQ3XCUoZClwG10/QDyNlKLqutb71FBwInTV13HAOCfqTVJUMNvbxhTMMlSsR7JojGkpEQ==",
+  "filename": "dsh-to-figma-0.4.1.tgz",
+  "files": [
+    {
+      "path": "CAPABILITIES.md",
+      "size": 9641,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 13943,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 1063,
+      "mode": 420
+    },
+    {
+      "path": "README.en.md",
+      "size": 13013,
+      "mode": 420
+    },
+    {
+      "path": "README.ja.md",
+      "size": 16252,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 13093,
+      "mode": 420
+    },
+    {
+      "path": "README.zh-CN.md",
+      "size": 13093,
+      "mode": 420
+    },
+    {
+      "path": "assets/companion/FEATHER-LICENSE",
+      "size": 1082,
+      "mode": 420
+    },
+    {
+      "path": "assets/icon.png",
+      "size": 72813,
+      "mode": 420
+    },
+    {
+      "path": "cli.mjs",
+      "size": 5070,
+      "mode": 493
+    },
+    {
+      "path": "codex-tool-baseline.json",
+      "size": 11502,
+      "mode": 420
+    },
+    {
+      "path": "companion/authoring.js",
+      "size": 23997,
+      "mode": 420
+    },
+    {
+      "path": "companion/capabilities.js",
+      "size": 11414,
+      "mode": 420
+    },
+    {
+      "path": "companion/code.js",
+      "size": 201030,
+      "mode": 420
+    },
+    {
+      "path": "companion/compare.js",
+      "size": 6691,
+      "mode": 420
+    },
+    {
+      "path": "companion/context.js",
+      "size": 30145,
+      "mode": 420
+    },
+    {
+      "path": "companion/helpers.js",
+      "size": 6721,
+      "mode": 420
+    },
+    {
+      "path": "companion/icons.js",
+      "size": 4960,
+      "mode": 420
+    },
+    {
+      "path": "companion/main.js",
+      "size": 3721,
+      "mode": 420
+    },
+    {
+      "path": "companion/manifest.json",
+      "size": 510,
+      "mode": 420
+    },
+    {
+      "path": "companion/media.js",
+      "size": 12674,
+      "mode": 420
+    },
+    {
+      "path": "companion/operations.js",
+      "size": 31811,
+      "mode": 420
+    },
+    {
+      "path": "companion/quality.js",
+      "size": 6351,
+      "mode": 420
+    },
+    {
+      "path": "companion/readonly.js",
+      "size": 9699,
+      "mode": 420
+    },
+    {
+      "path": "companion/recovery.js",
+      "size": 5827,
+      "mode": 420
+    },
+    {
+      "path": "companion/reference.js",
+      "size": 4101,
+      "mode": 420
+    },
+    {
+      "path": "companion/runtime.js",
+      "size": 49557,
+      "mode": 420
+    },
+    {
+      "path": "companion/ui.html",
+      "size": 880639,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 119,
+      "mode": 420
+    },
+    {
+      "path": "docs/0.3.5-verification.md",
+      "size": 3679,
+      "mode": 420
+    },
+    {
+      "path": "docs/0.4.1-upgrade.md",
+      "size": 12792,
+      "mode": 420
+    },
+    {
+      "path": "docs/0.4.1-visual-quality.md",
+      "size": 4032,
+      "mode": 420
+    },
+    {
+      "path": "docs/evidence/desktop-mcp-2026-10-18.json",
+      "size": 1167,
+      "mode": 420
+    },
+    {
+      "path": "docs/evidence/local-mcp-2026-10-18.json",
+      "size": 1808,
+      "mode": 420
+    },
+    {
+      "path": "docs/evidence/performance-phase1-synthetic.json",
+      "size": 3695,
+      "mode": 420
+    },
+    {
+      "path": "docs/evidence/performance-phase2-natural.json",
+      "size": 61998,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-16-alignment.md",
+      "size": 4543,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-16-baseline.json",
+      "size": 1191,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-16-real-create.json",
+      "size": 1206,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-16-real-repeat.json",
+      "size": 1298,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-16-real-verify.json",
+      "size": 913,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-16-verification.md",
+      "size": 4879,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-17-alignment.md",
+      "size": 4734,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-17-baseline.json",
+      "size": 1994,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-17-real-evidence.json",
+      "size": 3853,
+      "mode": 420
+    },
+    {
+      "path": "docs/figma-use-17-spec-evidence.json",
+      "size": 3491,
+      "mode": 420
+    },
+    {
+      "path": "docs/first-use-efficiency-validation-2026-11-10.md",
+      "size": 5711,
+      "mode": 420
+    },
+    {
+      "path": "docs/natural-language-benchmark.md",
+      "size": 4507,
+      "mode": 420
+    },
+    {
+      "path": "docs/performance-phase2-results.md",
+      "size": 5775,
+      "mode": 420
+    },
+    {
+      "path": "docs/performance.md",
+      "size": 12244,
+      "mode": 420
+    },
+    {
+      "path": "docs/plugin-detail.en.md",
+      "size": 2383,
+      "mode": 420
+    },
+    {
+      "path": "docs/plugin-detail.zh.md",
+      "size": 2274,
+      "mode": 420
+    },
+    {
+      "path": "docs/releases/v0.3.5.md",
+      "size": 2852,
+      "mode": 420
+    },
+    {
+      "path": "docs/setup.md",
+      "size": 15962,
+      "mode": 420
+    },
+    {
+      "path": "docs/verification.md",
+      "size": 18988,
+      "mode": 420
+    },
+    {
+      "path": "index.mjs",
+      "size": 34792,
+      "mode": 420
+    },
+    {
+      "path": "lib/archive.mjs",
+      "size": 1706,
+      "mode": 420
+    },
+    {
+      "path": "lib/assets.mjs",
+      "size": 5638,
+      "mode": 420
+    },
+    {
+      "path": "lib/bridge.mjs",
+      "size": 23928,
+      "mode": 420
+    },
+    {
+      "path": "lib/capabilities.mjs",
+      "size": 1656,
+      "mode": 420
+    },
+    {
+      "path": "lib/catalog.mjs",
+      "size": 11014,
+      "mode": 420
+    },
+    {
+      "path": "lib/companion.mjs",
+      "size": 4097,
+      "mode": 420
+    },
+    {
+      "path": "lib/compare-reference.mjs",
+      "size": 1299,
+      "mode": 420
+    },
+    {
+      "path": "lib/design-sync.mjs",
+      "size": 11707,
+      "mode": 420
+    },
+    {
+      "path": "lib/diagnostics.mjs",
+      "size": 1819,
+      "mode": 420
+    },
+    {
+      "path": "lib/dom-capture.mjs",
+      "size": 11822,
+      "mode": 420
+    },
+    {
+      "path": "lib/errors.mjs",
+      "size": 5521,
+      "mode": 420
+    },
+    {
+      "path": "lib/figma-use-contract.mjs",
+      "size": 3299,
+      "mode": 420
+    },
+    {
+      "path": "lib/icon-names.mjs",
+      "size": 367,
+      "mode": 420
+    },
+    {
+      "path": "lib/idempotency.mjs",
+      "size": 2514,
+      "mode": 420
+    },
+    {
+      "path": "lib/media-store.mjs",
+      "size": 4539,
+      "mode": 420
+    },
+    {
+      "path": "lib/native-diagnostics.mjs",
+      "size": 1963,
+      "mode": 420
+    },
+    {
+      "path": "lib/oauth.mjs",
+      "size": 3988,
+      "mode": 420
+    },
+    {
+      "path": "lib/official.mjs",
+      "size": 1407,
+      "mode": 420
+    },
+    {
+      "path": "lib/performance.mjs",
+      "size": 3827,
+      "mode": 420
+    },
+    {
+      "path": "lib/project-index.mjs",
+      "size": 15514,
+      "mode": 420
+    },
+    {
+      "path": "lib/quality-catalog.mjs",
+      "size": 3495,
+      "mode": 420
+    },
+    {
+      "path": "lib/readonly-program.mjs",
+      "size": 2299,
+      "mode": 420
+    },
+    {
+      "path": "lib/recipes.mjs",
+      "size": 3696,
+      "mode": 420
+    },
+    {
+      "path": "lib/recovery.mjs",
+      "size": 4092,
+      "mode": 420
+    },
+    {
+      "path": "lib/reference-notice.mjs",
+      "size": 1143,
+      "mode": 420
+    },
+    {
+      "path": "lib/script-preflight.mjs",
+      "size": 10897,
+      "mode": 420
+    },
+    {
+      "path": "lib/storage.mjs",
+      "size": 1623,
+      "mode": 420
+    },
+    {
+      "path": "lib/upgrade-catalog.mjs",
+      "size": 12077,
+      "mode": 420
+    },
+    {
+      "path": "lib/workflows.mjs",
+      "size": 6655,
+      "mode": 420
+    },
+    {
+      "path": "locale/en.json",
+      "size": 232,
+      "mode": 420
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 209,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 2863,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/assets-scenes.md",
+      "size": 2942,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/components-variables.md",
+      "size": 13927,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/custom-animation-styles.md",
+      "size": 3059,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/design-to-code.md",
+      "size": 2654,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/figjam-slides.md",
+      "size": 3227,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/help-connection.md",
+      "size": 7004,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/help-design.md",
+      "size": 5928,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/help-motion.md",
+      "size": 4000,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/help-troubleshooting.md",
+      "size": 7583,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/local-workflows.md",
+      "size": 25827,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/motion.md",
+      "size": 5841,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/official-services.md",
+      "size": 2437,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/plugin-api.md",
+      "size": 11417,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/specs.md",
+      "size": 2953,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/text-motion.md",
+      "size": 3124,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/user-guide.md",
+      "size": 5929,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/references/workflow.md",
+      "size": 8983,
+      "mode": 420
+    },
+    {
+      "path": "skills/figma-workbench/SKILL.md",
+      "size": 13788,
+      "mode": 420
+    }
+  ],
+  "entryCount": 106,
+  "bundled": []
+}

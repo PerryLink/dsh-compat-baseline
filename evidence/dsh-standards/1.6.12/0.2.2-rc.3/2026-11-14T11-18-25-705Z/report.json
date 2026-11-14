@@ -1,0 +1,1155 @@
+{
+  "schema": "dsh-conformance/1",
+  "standard": {
+    "id": "DS-C",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "mode": "package",
+    "profile": "package",
+    "kind": "plugin",
+    "kindInferred": true,
+    "kindEvaluated": "plugin",
+    "name": "dsh-standards",
+    "version": "1.6.12",
+    "path": "/tmp/hcb-audit-tsKink/unpacked"
+  },
+  "anchor": {
+    "repo": "deepseek-ai/deepseek-harness",
+    "commit": "ce7073d51254c26cd63b22a60835b8f948deb447",
+    "scanner": "dsh-plugin-verify@0.1.0",
+    "dsh": "0.2.2-rc.3",
+    "cordis": "4.0.6-alpha.1",
+    "runtime": null,
+    "runtimeSource": "host",
+    "hostVersion": "0.2.2-rc.3",
+    "suspect": false
+  },
+  "g4": {
+    "hasClient": false,
+    "ok": true,
+    "result": "NA",
+    "reason": "no dsh.client declaration"
+  },
+  "checks": [
+    {
+      "id": "DSC-01",
+      "clause": "C-1",
+      "layer": "L0",
+      "result": "WARN",
+      "coverage": "full",
+      "reason": "C-1.3: no apply/default-class shape found by static scan; L1 is authoritative",
+      "evidence": [
+        "package.json"
+      ],
+      "details": [
+        {
+          "item": "C-1.1",
+          "result": "PASS",
+          "reason": "name=dsh-standards",
+          "evidence": []
+        },
+        {
+          "item": "C-1.1",
+          "result": "PASS",
+          "reason": "version=1.6.12",
+          "evidence": []
+        },
+        {
+          "item": "C-1.2",
+          "result": "PASS",
+          "reason": "entry resolves via exports[\".\"]: 40-checker/src/index.mjs",
+          "evidence": [
+            "40-checker/src/index.mjs"
+          ]
+        },
+        {
+          "item": "C-1.3",
+          "result": "WARN",
+          "reason": "no apply/default-class shape found by static scan; L1 is authoritative",
+          "evidence": [
+            "40-checker/src/index.mjs"
+          ]
+        },
+        {
+          "item": "C-1.4",
+          "result": "PASS",
+          "reason": "no dsh.bundle.patch declared",
+          "evidence": []
+        },
+        {
+          "item": "C-1.5",
+          "result": "PASS",
+          "reason": "license=Apache-2.0",
+          "evidence": []
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-02",
+      "clause": "C-2",
+      "layer": "L0",
+      "result": "WARN",
+      "coverage": "full",
+      "reason": "entry static claim: version declaration is WARN, not blocking",
+      "evidence": [
+        "package.json#engines",
+        "package.json#peerDependencies"
+      ],
+      "details": [
+        {
+          "item": "C-2.1",
+          "result": "FAIL",
+          "reason": "neither engines.dsh nor a @deepseek-ai/dsh* peer range is declared",
+          "evidence": [
+            "package.json#engines",
+            "package.json#peerDependencies"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-03",
+      "clause": "C-3",
+      "layer": "L0",
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "",
+      "evidence": [
+        "package.json#dependencies",
+        "package.json#scripts",
+        "--install-spec"
+      ],
+      "details": [
+        {
+          "item": "C-3.1",
+          "result": "PASS",
+          "reason": "parsed kind=registry",
+          "evidence": [
+            "--install-spec"
+          ]
+        },
+        {
+          "item": "C-3.2",
+          "result": "PASS",
+          "reason": "source is pinned",
+          "evidence": [
+            "--install-spec"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-04",
+      "clause": "C-4",
+      "layer": "L1",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "details": [],
+      "evidence": [],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-05",
+      "clause": "C-5",
+      "layer": "L1",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "details": [],
+      "evidence": [],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-06",
+      "clause": "C-6",
+      "layer": "L1+L2",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "details": [],
+      "evidence": [],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-07",
+      "clause": "C-7",
+      "layer": "L2",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "details": [],
+      "evidence": [],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-08",
+      "clause": "C-8",
+      "layer": "L3",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "details": [],
+      "evidence": [],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-09",
+      "clause": "C-9",
+      "layer": "L1",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "details": [],
+      "evidence": [],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-14",
+      "clause": "C-14",
+      "layer": "L1",
+      "method": "M",
+      "advisory": false,
+      "details": [],
+      "evidence": [],
+      "result": "NA",
+      "coverage": "not-run",
+      "reason": "entry static claim: no runtime evidence"
+    },
+    {
+      "id": "DSC-10",
+      "clause": "C-10",
+      "layer": "L0",
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "",
+      "evidence": [
+        "40-checker/src/cli.mjs:1",
+        "40-checker/src/cli.mjs:2",
+        "40-checker/src/cli.mjs:3"
+      ],
+      "details": [
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:fs' from 40-checker/src/cli.mjs:1 is outside the local closure",
+          "evidence": [
+            "40-checker/src/cli.mjs:1"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:os' from 40-checker/src/cli.mjs:2 is outside the local closure",
+          "evidence": [
+            "40-checker/src/cli.mjs:2"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:path' from 40-checker/src/cli.mjs:3 is outside the local closure",
+          "evidence": [
+            "40-checker/src/cli.mjs:3"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:url' from 40-checker/src/cli.mjs:4 is outside the local closure",
+          "evidence": [
+            "40-checker/src/cli.mjs:4"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:child_process' from 40-checker/src/cli.mjs:11 is outside the local closure",
+          "evidence": [
+            "40-checker/src/cli.mjs:11"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:module' from 40-checker/src/declarations.mjs:2 is outside the local closure",
+          "evidence": [
+            "40-checker/src/declarations.mjs:2"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:crypto' from 40-checker/src/security.mjs:18 is outside the local closure",
+          "evidence": [
+            "40-checker/src/security.mjs:18"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: local import '../../spec/remediation.json' from 40-checker/src/report.mjs:2 could not be resolved",
+          "evidence": [
+            "40-checker/src/report.mjs:2"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: local import '../../package.json' from 40-checker/src/remediation.mjs:13 could not be resolved",
+          "evidence": [
+            "40-checker/src/remediation.mjs:13"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "PASS",
+          "reason": "local relative import closure analysed (19 module(s))",
+          "evidence": [
+            "40-checker/src/index.mjs",
+            "40-checker/src/cli.mjs",
+            "40-checker/src/manifest.mjs",
+            "40-checker/src/declarations.mjs",
+            "40-checker/src/util.mjs"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": true
+    },
+    {
+      "id": "DSC-11",
+      "clause": "C-11",
+      "layer": "L0",
+      "result": "WARN",
+      "coverage": "full",
+      "reason": "C-11.1: dsh.capabilities is not declared (transitional WARN; host does not read it yet) | C-11.2: trigger for remote:expose observed but dsh.capabilities is absent | C-11.2: trigger for credentials:read observed but dsh.capabilities is absent | C-11.2: trigger for fs:read observed but dsh.capabilities is absent | C-11.4: danger-full-access literal in 2 execution context(s)",
+      "evidence": [
+        "package.json#dsh.capabilities",
+        "dsh.bundle.patch"
+      ],
+      "details": [
+        {
+          "item": "C-11.1",
+          "result": "WARN",
+          "reason": "dsh.capabilities is not declared (transitional WARN; host does not read it yet)",
+          "evidence": [
+            "package.json#dsh.capabilities"
+          ]
+        },
+        {
+          "item": "C-11.2",
+          "result": "WARN",
+          "reason": "trigger for remote:expose observed but dsh.capabilities is absent",
+          "evidence": [
+            "40-checker/src/declarations.mjs:49"
+          ]
+        },
+        {
+          "item": "C-11.2",
+          "result": "WARN",
+          "reason": "trigger for credentials:read observed but dsh.capabilities is absent",
+          "evidence": [
+            "40-checker/src/declarations.mjs:698"
+          ]
+        },
+        {
+          "item": "C-11.2",
+          "result": "WARN",
+          "reason": "trigger for fs:read observed but dsh.capabilities is absent",
+          "evidence": [
+            "40-checker/src/declarations.mjs:59",
+            "40-checker/src/declarations.mjs:719",
+            "40-checker/src/declarations.mjs:721"
+          ]
+        },
+        {
+          "item": "C-11.4",
+          "result": "WARN",
+          "reason": "danger-full-access literal in 2 execution context(s)",
+          "evidence": [
+            "40-checker/src/declarations.mjs:739",
+            "40-checker/src/declarations.mjs:801"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": true
+    },
+    {
+      "id": "DSC-12",
+      "clause": "C-12",
+      "layer": "L0",
+      "result": "WARN",
+      "coverage": "full",
+      "reason": "entry treats safety/brand fields as WARN; they do not block loadability",
+      "evidence": [
+        "package.json#dsh.capabilities"
+      ],
+      "details": [
+        {
+          "item": "C-12.1",
+          "result": "FAIL",
+          "reason": "credential backing-file access near a file-read API without credentials:provider",
+          "evidence": [
+            "40-checker/src/security.mjs:1633"
+          ]
+        },
+        {
+          "item": "C-12.2",
+          "result": "PASS",
+          "reason": "listRecords() not used",
+          "evidence": []
+        },
+        {
+          "item": "C-12.4",
+          "result": "WARN",
+          "reason": "danger-full-access/--add-dir literal in 3 execution context(s)",
+          "evidence": [
+            "40-checker/src/declarations.mjs:739",
+            "40-checker/src/declarations.mjs:801",
+            "40-checker/src/declarations.mjs:801"
+          ]
+        },
+        {
+          "item": "C-12.6",
+          "result": "NA",
+          "reason": "dsh.commitments is not declared (optional disclosure)",
+          "evidence": [
+            "package.json#dsh.commitments"
+          ]
+        },
+        {
+          "item": "C-12.7",
+          "result": "NA",
+          "reason": "dsh.disclosure is not declared (optional disclosure)",
+          "evidence": [
+            "package.json#dsh.commitments"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-13",
+      "clause": "C-13",
+      "layer": "L0",
+      "result": "WARN",
+      "coverage": "full",
+      "reason": "C-13.1: dsh.labels is not declared | C-13.2: dsh.capabilities is absent; trigger-to-label mapping cannot be evaluated",
+      "evidence": [
+        "package.json#dsh.labels",
+        "package.json#dsh.upstream"
+      ],
+      "details": [
+        {
+          "item": "C-13.1",
+          "result": "WARN",
+          "reason": "dsh.labels is not declared",
+          "evidence": [
+            "package.json#dsh.labels"
+          ]
+        },
+        {
+          "item": "C-13.2",
+          "result": "WARN",
+          "reason": "dsh.capabilities is absent; trigger-to-label mapping cannot be evaluated",
+          "evidence": [
+            "package.json#dsh.capabilities"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": true
+    }
+  ],
+  "coverage": {
+    "total": 14,
+    "mandatory": 5,
+    "checked": 7,
+    "pass": 2,
+    "warn": 5,
+    "advisory": 2,
+    "fail": 0,
+    "na": 1,
+    "notRun": 6,
+    "partial": 0,
+    "error": 6,
+    "entryBlocking": {
+      "required": 6,
+      "checked": [
+        "C-1.1",
+        "C-1.2",
+        "C-1.4",
+        "C-3.1",
+        "C-3.2"
+      ],
+      "notChecked": [
+        "C-3.5"
+      ],
+      "failed": [],
+      "pass": false
+    }
+  },
+  "buckets": {
+    "blocking": [],
+    "hygiene": [
+      {
+        "id": "DSC-01",
+        "clause": "C-1",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "C-1.3: no apply/default-class shape found by static scan; L1 is authoritative",
+        "declaration": false,
+        "advisory": false
+      },
+      {
+        "id": "DSC-02",
+        "clause": "C-2",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "entry static claim: version declaration is WARN, not blocking",
+        "declaration": false,
+        "advisory": false
+      },
+      {
+        "id": "DSC-11",
+        "clause": "C-11",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "C-11.1: dsh.capabilities is not declared (transitional WARN; host does not read it yet) | C-11.2: trigger for remote:expose observed but dsh.capabilities is absent | C-11.2: trigger for credentials:read observed but dsh.capabilities is absent | C-11.2: trigger for fs:read observed but dsh.capabilities is absent | C-11.4: danger-full-access literal in 2 execution context(s)",
+        "declaration": true,
+        "advisory": true
+      },
+      {
+        "id": "DSC-12",
+        "clause": "C-12",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "entry treats safety/brand fields as WARN; they do not block loadability",
+        "declaration": true,
+        "advisory": false
+      },
+      {
+        "id": "DSC-13",
+        "clause": "C-13",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "C-13.1: dsh.labels is not declared | C-13.2: dsh.capabilities is absent; trigger-to-label mapping cannot be evaluated",
+        "declaration": true,
+        "advisory": true
+      }
+    ],
+    "partial": [],
+    "notChecked": [
+      {
+        "id": "DSC-04",
+        "clause": "C-4",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-05",
+        "clause": "C-5",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-06",
+        "clause": "C-6",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-07",
+        "clause": "C-7",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-08",
+        "clause": "C-8",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-09",
+        "clause": "C-9",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-14",
+        "clause": "C-14",
+        "result": "NA",
+        "coverage": "not-run",
+        "reason": "entry static claim: no runtime evidence",
+        "howToEnable": "pass --host <app-boot/lib/index.js> for bundle G0-G3, or --runtime <path> for a plugin; omit --no-exec and --entry-claim static"
+      }
+    ]
+  },
+  "security": {
+    "scope": "advisory",
+    "status": "incomplete",
+    "checks": [
+      {
+        "id": "DSC-15",
+        "clause": "C-15",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": "",
+        "evidence": [
+          "package.json#scripts"
+        ],
+        "details": [
+          {
+            "item": "C-15.2",
+            "result": "PASS",
+            "reason": "no preinstall/install/postinstall/prepare script is declared",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": false
+      },
+      {
+        "id": "DSC-16",
+        "clause": "C-16",
+        "layer": "L0",
+        "result": "WARN",
+        "coverage": "partial",
+        "reason": "2 subprocess site(s) in the server entry closure",
+        "evidence": [
+          "40-checker/src/cli.mjs:11",
+          "40-checker/src/flow-evidence.mjs:30"
+        ],
+        "details": [
+          {
+            "item": "C-16.3",
+            "result": "WARN",
+            "reason": "subprocess capability observed: import node:child_process at 40-checker/src/cli.mjs:11",
+            "evidence": [
+              "40-checker/src/cli.mjs:11"
+            ]
+          },
+          {
+            "item": "C-16.3",
+            "result": "WARN",
+            "reason": "subprocess capability observed: import node:child_process at 40-checker/src/flow-evidence.mjs:30",
+            "evidence": [
+              "40-checker/src/flow-evidence.mjs:30"
+            ]
+          },
+          {
+            "item": "C-16.4",
+            "result": "NA",
+            "reason": "not-run: 26 package import(s) are outside the local closure (for example node:fs)",
+            "evidence": [
+              "40-checker/src/cli.mjs:1"
+            ]
+          }
+        ],
+        "method": "M",
+        "advisory": false
+      },
+      {
+        "id": "DSC-17",
+        "clause": "C-17",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "partial: 15 read argument(s) are dynamic and could not be statically resolved",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic readFileSync argument at 40-checker/src/author-cli.mjs:144 could not be statically resolved",
+            "evidence": [
+              "40-checker/src/author-cli.mjs:144"
+            ]
+          },
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic readFileSync argument at 40-checker/src/flow-evidence.mjs:83 could not be statically resolved",
+            "evidence": [
+              "40-checker/src/flow-evidence.mjs:83"
+            ]
+          },
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic readdirSync argument at 40-checker/src/flow-evidence.mjs:147 could not be statically resolved",
+            "evidence": [
+              "40-checker/src/flow-evidence.mjs:147"
+            ]
+          },
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic readFileSync argument at 40-checker/src/flow-evidence.mjs:162 could not be statically resolved",
+            "evidence": [
+              "40-checker/src/flow-evidence.mjs:162"
+            ]
+          },
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic readFileSync argument at 40-checker/src/flow-evidence.mjs:191 could not be statically resolved",
+            "evidence": [
+              "40-checker/src/flow-evidence.mjs:191"
+            ]
+          },
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic readFileSync argument at 40-checker/src/remediation.mjs:69 could not be statically resolved",
+            "evidence": [
+              "40-checker/src/remediation.mjs:69"
+            ]
+          },
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic readFileSync argument at 40-checker/src/sandbox-run.mjs:101 could not be statically resolved",
+            "evidence": [
+              "40-checker/src/sandbox-run.mjs:101"
+            ]
+          },
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic readFileSync argument at 40-checker/src/security.mjs:456 could not be statically resolved",
+            "evidence": [
+              "40-checker/src/security.mjs:456"
+            ]
+          }
+        ],
+        "method": "M",
+        "advisory": false
+      },
+      {
+        "id": "DSC-18",
+        "clause": "C-18",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": "",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-18.3",
+            "result": "PASS",
+            "reason": "no fetch/http request call site found",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": true
+      },
+      {
+        "id": "DSC-19",
+        "clause": "C-19",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": "",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-19.1",
+            "result": "PASS",
+            "reason": "no opaque text or binary artifact above the advisory thresholds",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": true
+      },
+      {
+        "id": "DSC-20",
+        "clause": "C-20",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": "",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-20.1",
+            "result": "PASS",
+            "reason": "no prompt-surface clue found (instruction-like literal or external systemPrompt argument)",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": true
+      },
+      {
+        "id": "DSC-21",
+        "clause": "C-21",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": "",
+        "evidence": [
+          "package.json#dependencies"
+        ],
+        "details": [
+          {
+            "item": "C-21.1",
+            "result": "PASS",
+            "reason": "no dependencies declared (dependencies/devDependencies/optional/peer)",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": false
+      },
+      {
+        "id": "DSC-22",
+        "clause": "C-22",
+        "layer": "L0",
+        "result": "NA",
+        "coverage": "not-run",
+        "reason": "no registry metadata/attestation input; not-run",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-22.1",
+            "result": "NA",
+            "reason": "not-run: no registry metadata or attestation supplied; provenance is not judged",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": true
+      }
+    ],
+    "blocking": [],
+    "warn": [
+      "DSC-16"
+    ],
+    "advisory": [],
+    "partial": [
+      {
+        "id": "DSC-16",
+        "reason": "2 subprocess site(s) in the server entry closure"
+      },
+      {
+        "id": "DSC-17",
+        "reason": "partial: 15 read argument(s) are dynamic and could not be statically resolved"
+      }
+    ],
+    "notRun": [
+      "DSC-22"
+    ]
+  },
+  "notChecked": [
+    {
+      "id": "DSC-04",
+      "clause": "C-4",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+    },
+    {
+      "id": "DSC-05",
+      "clause": "C-5",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+    },
+    {
+      "id": "DSC-06",
+      "clause": "C-6",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+    },
+    {
+      "id": "DSC-07",
+      "clause": "C-7",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+    },
+    {
+      "id": "DSC-08",
+      "clause": "C-8",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+    },
+    {
+      "id": "DSC-09",
+      "clause": "C-9",
+      "result": "ERROR",
+      "coverage": "not-run",
+      "reason": "no --runtime supplied; L1-L3 not run",
+      "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+    },
+    {
+      "id": "DSC-14",
+      "clause": "C-14",
+      "result": "NA",
+      "coverage": "not-run",
+      "reason": "entry static claim: no runtime evidence",
+      "howToEnable": "pass --host <app-boot/lib/index.js> for bundle G0-G3, or --runtime <path> for a plugin; omit --no-exec and --entry-claim static"
+    }
+  ],
+  "metrics": {
+    "checked": 7,
+    "total": 14,
+    "declaredFields": 0
+  },
+  "conclusion": {
+    "headline": "entry/package · runtime 0.2.2-rc.3 host · blocking 0 (prereq 5/6) · hygiene 5 · partial 0 · not checked 7/14",
+    "level": "DSH-ENTRY recognized (warnings)",
+    "status": "warn",
+    "exitCode": 0,
+    "profile": "package",
+    "scope": "entry",
+    "subset": null,
+    "staticOnly": false,
+    "entryRuntime": "require",
+    "entryClaim": "static",
+    "reason": "WARN: DSC-01, DSC-02, DSC-12; advisory: DSC-11, DSC-13"
+  },
+  "runtimeChecks": {
+    "schema": "dsh-runtime-checks/1",
+    "executed": false,
+    "modes": [],
+    "durationMs": 0,
+    "isolation": {
+      "isolatedHome": false,
+      "env": "allowlist",
+      "timeoutMs": 10000
+    },
+    "reason": "no --runtime/--host supplied; nothing executed",
+    "failure": null,
+    "checks": [
+      {
+        "id": "DSC-04",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-05",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-06",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-07",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-08",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-09",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      }
+    ],
+    "entry": {
+      "id": "DSC-14",
+      "result": "NA",
+      "coverage": "not-run",
+      "reason": "entry static claim: no runtime evidence",
+      "durationMs": null
+    }
+  },
+  "advice": [
+    {
+      "key": "C-1.3",
+      "gate": "WARN",
+      "severity": "WARN",
+      "title": "导出形态要符合 Loader 约定",
+      "why": "Cordis Loader 只接受函数插件的 apply 或默认导出服务类，混用会让插件无法装载。",
+      "fix": "二选一：export function apply(ctx)（可带 name/inject/Config），或 export default class ... extends Service；不要在同一入口再混一个默认导出。",
+      "docsUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/v0.5.0/docs/entry.md#package-shape",
+      "source": "DSC-01",
+      "version": "1.6.10",
+      "evidence": [
+        "40-checker/src/index.mjs"
+      ],
+      "reason": "no apply/default-class shape found by static scan; L1 is authoritative",
+      "occurrences": 1,
+      "advisory": false
+    },
+    {
+      "key": "C-11.1",
+      "gate": "WARN",
+      "severity": "WARN",
+      "title": "capabilities 必须是闭集内的字符串数组",
+      "why": "未知 ID/非数组无法被市场/UI 解析，等于没声明。",
+      "fix": "用 \"capabilities\": [\"fs:read\", \"tools:register\"]；只从 15 个闭集 ID 里取，不要空数组占位。",
+      "docsUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/v0.5.0/docs/entry.md#capability-triggers",
+      "source": "DSC-11",
+      "version": "1.6.10",
+      "evidence": [
+        "package.json#dsh.capabilities"
+      ],
+      "reason": "dsh.capabilities is not declared (transitional WARN; host does not read it yet)",
+      "occurrences": 1,
+      "advisory": true
+    },
+    {
+      "key": "C-11.2",
+      "gate": "WARN",
+      "severity": "WARN",
+      "title": "高信号触发必须申报能力",
+      "why": "代码用了 ctx.tools.register/ctx.webServer 等却不声明，市场无法提示风险。",
+      "fix": "按 details 的 file:line 找到触发点，把对应能力加入 dsh.capabilities（如 tools:register、network:ingress）；字段缺失时先补字段。",
+      "docsUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/v0.5.0/docs/entry.md#capability-triggers",
+      "source": "DSC-11",
+      "version": "1.6.10",
+      "evidence": [
+        "40-checker/src/declarations.mjs:49",
+        "40-checker/src/declarations.mjs:698",
+        "40-checker/src/declarations.mjs:59",
+        "40-checker/src/declarations.mjs:719",
+        "40-checker/src/declarations.mjs:721"
+      ],
+      "reason": "trigger for remote:expose observed but dsh.capabilities is absent | trigger for credentials:read observed but dsh.capabilities is absent | trigger for fs:read observed but dsh.capabilities is absent",
+      "occurrences": 3,
+      "advisory": true
+    },
+    {
+      "key": "C-11.4",
+      "gate": "WARN",
+      "severity": "WARN",
+      "title": "danger-full-access 字面量要收敛",
+      "why": "真实授权/命令上下文里的 danger-full-access 会绕过沙箱；即使是文档字符串也会误导。",
+      "fix": "用最小权限 sandboxPolicy 替代；把 danger-full-access 从 .set()/.resolve()/spawn args 里删掉；只保留在文档字符串里的说明也要标注。",
+      "docsUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/v0.5.0/docs/entry.md#capability-triggers",
+      "source": "DSC-11",
+      "version": "1.6.10",
+      "evidence": [
+        "40-checker/src/declarations.mjs:739",
+        "40-checker/src/declarations.mjs:801"
+      ],
+      "reason": "danger-full-access literal in 2 execution context(s) | identical evidence to C-12.4 (DSC-12): danger-full-access/--add-dir literal in 3 execution context(s); merged into C-11.4",
+      "occurrences": 2,
+      "advisory": true
+    },
+    {
+      "key": "C-12.1",
+      "gate": "WARN",
+      "severity": "WARN",
+      "title": "不得绕过 credentials seam 直读 backing file",
+      "why": "直读 .credentials.yaml/credentials-local 绕过权限与审计，且格式可能变。",
+      "fix": "改用 ctx.credentials.resolve(...)；确需 provider 时声明 credentials:provider 并走公开接口。",
+      "docsUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/v0.5.0/docs/entry.md#credentials-and-seams",
+      "source": "DSC-12",
+      "version": "1.6.10",
+      "evidence": [
+        "40-checker/src/security.mjs:1633"
+      ],
+      "reason": "credential backing-file access near a file-read API without credentials:provider",
+      "occurrences": 1,
+      "advisory": false
+    },
+    {
+      "key": "C-13.1",
+      "gate": "WARN",
+      "severity": "WARN",
+      "title": "labels 必须是闭集内的字符串数组",
+      "why": "未知标签会被市场丢弃或误读，等于没标。",
+      "fix": "只用 prompt-modification、red-team、third-party-model-provider、remote-access、mirror；不要空数组占位。",
+      "docsUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/v0.5.0/docs/entry.md#labels-and-mirror",
+      "source": "DSC-13",
+      "version": "1.6.10",
+      "evidence": [
+        "package.json#dsh.labels"
+      ],
+      "reason": "dsh.labels is not declared",
+      "occurrences": 1,
+      "advisory": true
+    },
+    {
+      "key": "C-13.2",
+      "gate": "WARN",
+      "severity": "WARN",
+      "title": "能力触发必须补对应标签",
+      "why": "声明了 system-prompt:write 等能力却不打标签，用户看不到高风险类别。",
+      "fix": "按映射补标签：system-prompt:write→prompt-modification；llm:adapter+network:egress→third-party-model-provider；network:ingress→remote-access；dsh.upstream→mirror。",
+      "docsUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/v0.5.0/docs/entry.md#labels-and-mirror",
+      "source": "DSC-13",
+      "version": "1.6.10",
+      "evidence": [
+        "package.json#dsh.capabilities"
+      ],
+      "reason": "dsh.capabilities is absent; trigger-to-label mapping cannot be evaluated",
+      "occurrences": 1,
+      "advisory": true
+    },
+    {
+      "key": "C-2.1",
+      "gate": "WARN",
+      "severity": "WARN",
+      "title": "必须声明 engines.dsh 或 dsh peer 范围",
+      "why": "两者皆无时宿主无法阻止不兼容安装；只有 peer 时是较弱的替代声明。",
+      "fix": "加 \"engines\": { \"dsh\": \">=0.2.2-0 <0.3.0\" }；若只能用 peer，至少写 \"@deepseek-ai/dsh-tools\": \">=0.2.2-0 <0.3.0\"，不要留空。",
+      "docsUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/v0.5.0/docs/entry.md#package-shape",
+      "source": "DSC-02",
+      "version": "1.6.10",
+      "evidence": [
+        "package.json#engines",
+        "package.json:43",
+        "package.json#peerDependencies"
+      ],
+      "reason": "neither engines.dsh nor a @deepseek-ai/dsh* peer range is declared",
+      "occurrences": 1,
+      "advisory": false
+    }
+  ]
+}

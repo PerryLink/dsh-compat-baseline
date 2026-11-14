@@ -1,0 +1,649 @@
+{
+  "id": "dsh-fund-research@0.5.3",
+  "name": "dsh-fund-research",
+  "version": "0.5.3",
+  "size": 261491,
+  "unpackedSize": 1071849,
+  "shasum": "28cbfd2de9811bb5981dc438f8a3de62bf88c07d",
+  "integrity": "sha512-2MkEkzWTtAHcV88x6JHf250Wm5gq9YXQuTM/SxnTUhXYm4jglDEozmomAHKNKeBvDUna7Tktu7di5nvChM26/w==",
+  "filename": "dsh-fund-research-0.5.3.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 28909,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 29998,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 45501,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 29607,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 26330,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 28313,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1676,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 2266,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 154650,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 3469,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 1501,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.js",
+      "size": 4673,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.js.map",
+      "size": 3591,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/discovery.d.ts",
+      "size": 4368,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/discovery.d.ts.map",
+      "size": 1980,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/discovery.js",
+      "size": 8795,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/discovery.js.map",
+      "size": 6960,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts",
+      "size": 4325,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts.map",
+      "size": 1447,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.js",
+      "size": 2189,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.js.map",
+      "size": 571,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 5378,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 3029,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js",
+      "size": 9046,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js.map",
+      "size": 5407,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/benchmark.d.ts",
+      "size": 2626,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/benchmark.d.ts.map",
+      "size": 896,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/benchmark.js",
+      "size": 2378,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/benchmark.js.map",
+      "size": 1552,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/holdings.d.ts",
+      "size": 1448,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/holdings.d.ts.map",
+      "size": 507,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/holdings.js",
+      "size": 3429,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/holdings.js.map",
+      "size": 2905,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/manager.d.ts",
+      "size": 879,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/manager.d.ts.map",
+      "size": 301,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/manager.js",
+      "size": 1485,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/manager.js.map",
+      "size": 1003,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/performance.d.ts",
+      "size": 2434,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/performance.d.ts.map",
+      "size": 862,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/performance.js",
+      "size": 5448,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/performance.js.map",
+      "size": 4655,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/style.d.ts",
+      "size": 2137,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/style.d.ts.map",
+      "size": 629,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/style.js",
+      "size": 3794,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/metrics/style.js.map",
+      "size": 3139,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/model.d.ts",
+      "size": 16021,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/model.d.ts.map",
+      "size": 8248,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/model.js",
+      "size": 622,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/model.js.map",
+      "size": 176,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.d.ts",
+      "size": 5518,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.d.ts.map",
+      "size": 2121,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.js",
+      "size": 24381,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.js.map",
+      "size": 19211,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/review.d.ts",
+      "size": 1877,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/review.d.ts.map",
+      "size": 815,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/review.js",
+      "size": 4438,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/review.js.map",
+      "size": 3208,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/run-state.d.ts",
+      "size": 4029,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/run-state.d.ts.map",
+      "size": 2123,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/run-state.js",
+      "size": 4427,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/run-state.js.map",
+      "size": 3124,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources/eastmoney.d.ts",
+      "size": 7954,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources/eastmoney.d.ts.map",
+      "size": 3397,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources/eastmoney.js",
+      "size": 26874,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources/eastmoney.js.map",
+      "size": 22595,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources/snapshot.d.ts",
+      "size": 5568,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources/snapshot.d.ts.map",
+      "size": 2041,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources/snapshot.js",
+      "size": 10786,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources/snapshot.js.map",
+      "size": 7859,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.d.ts",
+      "size": 18323,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.d.ts.map",
+      "size": 888,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.js",
+      "size": 7277,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.js.map",
+      "size": 8115,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/research.d.ts",
+      "size": 2454,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/research.d.ts.map",
+      "size": 1408,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/research.js",
+      "size": 20901,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/research.js.map",
+      "size": 14956,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/shared.d.ts",
+      "size": 6870,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/shared.d.ts.map",
+      "size": 3466,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/shared.js",
+      "size": 20202,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/shared.js.map",
+      "size": 16425,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/snapshot.d.ts",
+      "size": 1808,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/snapshot.d.ts.map",
+      "size": 1062,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/snapshot.js",
+      "size": 7347,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/snapshot.js.map",
+      "size": 5969,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tracking.d.ts",
+      "size": 2860,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tracking.d.ts.map",
+      "size": 1558,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tracking.js",
+      "size": 6366,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tracking.js.map",
+      "size": 5467,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/verify-bridge.d.ts",
+      "size": 4356,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/verify-bridge.d.ts.map",
+      "size": 1484,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/verify-bridge.js",
+      "size": 5592,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/verify-bridge.js.map",
+      "size": 3639,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts",
+      "size": 145,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts.map",
+      "size": 153,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.js",
+      "size": 135,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.js.map",
+      "size": 161,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/walkforward.d.ts",
+      "size": 2143,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/walkforward.d.ts.map",
+      "size": 804,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/walkforward.js",
+      "size": 5113,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/walkforward.js.map",
+      "size": 4010,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 6634,
+      "mode": 420
+    },
+    {
+      "path": "skills/fund-research/SKILL.md",
+      "size": 5351,
+      "mode": 420
+    },
+    {
+      "path": "src/config.ts",
+      "size": 6947,
+      "mode": 420
+    },
+    {
+      "path": "src/discovery.ts",
+      "size": 11516,
+      "mode": 420
+    },
+    {
+      "path": "src/events.ts",
+      "size": 4261,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 10902,
+      "mode": 420
+    },
+    {
+      "path": "src/metrics/benchmark.ts",
+      "size": 3762,
+      "mode": 420
+    },
+    {
+      "path": "src/metrics/holdings.ts",
+      "size": 3511,
+      "mode": 420
+    },
+    {
+      "path": "src/metrics/manager.ts",
+      "size": 1532,
+      "mode": 420
+    },
+    {
+      "path": "src/metrics/performance.ts",
+      "size": 5559,
+      "mode": 420
+    },
+    {
+      "path": "src/metrics/style.ts",
+      "size": 3915,
+      "mode": 420
+    },
+    {
+      "path": "src/model.ts",
+      "size": 15164,
+      "mode": 420
+    },
+    {
+      "path": "src/report.ts",
+      "size": 26529,
+      "mode": 420
+    },
+    {
+      "path": "src/review.ts",
+      "size": 4785,
+      "mode": 420
+    },
+    {
+      "path": "src/run-state.ts",
+      "size": 6114,
+      "mode": 420
+    },
+    {
+      "path": "src/sources/eastmoney.ts",
+      "size": 28186,
+      "mode": 420
+    },
+    {
+      "path": "src/sources/snapshot.ts",
+      "size": 12122,
+      "mode": 420
+    },
+    {
+      "path": "src/store.ts",
+      "size": 6684,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/research.ts",
+      "size": 20196,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/shared.ts",
+      "size": 23278,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/snapshot.ts",
+      "size": 7650,
+      "mode": 420
+    },
+    {
+      "path": "src/tracking.ts",
+      "size": 7161,
+      "mode": 420
+    },
+    {
+      "path": "src/verify-bridge.ts",
+      "size": 7323,
+      "mode": 420
+    },
+    {
+      "path": "src/version.ts",
+      "size": 99,
+      "mode": 493
+    },
+    {
+      "path": "src/walkforward.ts",
+      "size": 5955,
+      "mode": 420
+    }
+  ],
+  "entryCount": 127,
+  "bundled": []
+}

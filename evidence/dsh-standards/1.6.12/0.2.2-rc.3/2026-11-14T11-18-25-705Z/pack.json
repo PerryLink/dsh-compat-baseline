@@ -1,0 +1,1804 @@
+{
+  "id": "dsh-standards@1.6.12",
+  "name": "dsh-standards",
+  "version": "1.6.12",
+  "size": 929420,
+  "unpackedSize": 3716789,
+  "shasum": "ad48c933a158730fa4050b3dc48d9683850cd2d9",
+  "integrity": "sha512-KyWIYV0GzfZiPOhppws65Bt9uFxEdIer6AUPfcnR4qu6YfS2sztzPu9XKUxo1THM/icc586BAfAZeqlfBfrgAg==",
+  "filename": "dsh-standards-1.6.12.tgz",
+  "files": [
+    {
+      "path": "31-DS-C条款.md",
+      "size": 111906,
+      "mode": 420
+    },
+    {
+      "path": "31-DSH-ENTRY入门规范.md",
+      "size": 5795,
+      "mode": 420
+    },
+    {
+      "path": "34-三层分级模型-GB-GBT-GBZ类比.md",
+      "size": 15440,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/bin/dsh-flow-collect.mjs",
+      "size": 126,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/bin/dsh-levels.mjs",
+      "size": 1328,
+      "mode": 493
+    },
+    {
+      "path": "40-checker/bin/dsh-plugin-verify.mjs",
+      "size": 309,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bad-manifest/index.js",
+      "size": 27,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bad-manifest/package.json",
+      "size": 77,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bad/index.mjs",
+      "size": 403,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bad/package.json",
+      "size": 283,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bundle-patch-only/cordis.patch.yml",
+      "size": 69,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bundle-patch-only/package.json",
+      "size": 272,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bundle-v0/cordis.patch.yml",
+      "size": 69,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bundle-v0/package.json",
+      "size": 379,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bundle-v0/server.mjs",
+      "size": 210,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bundle/cordis.patch.yml",
+      "size": 69,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bundle/package.json",
+      "size": 357,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/bundle/server.mjs",
+      "size": 210,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-command-arg/index.mjs",
+      "size": 265,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-command-arg/package.json",
+      "size": 307,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-comment/index.mjs",
+      "size": 109,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-comment/package.json",
+      "size": 303,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-compare/index.mjs",
+      "size": 130,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-compare/package.json",
+      "size": 303,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-doc-string/index.mjs",
+      "size": 362,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-doc-string/package.json",
+      "size": 306,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-grant/index.mjs",
+      "size": 98,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-grant/package.json",
+      "size": 301,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-string/index.mjs",
+      "size": 112,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/c12-string/package.json",
+      "size": 302,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/client-missing/client.js",
+      "size": 27,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/client-missing/index.js",
+      "size": 27,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/client-missing/package.json",
+      "size": 139,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/declaration-file/index.d.ts",
+      "size": 40,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/declaration-file/index.mjs",
+      "size": 324,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/declaration-file/package.json",
+      "size": 323,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/flow-config/index.js",
+      "size": 370,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/flow-config/package.json",
+      "size": 241,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/fs-write/index.mjs",
+      "size": 243,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/fs-write/package.json",
+      "size": 300,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/good/index.mjs",
+      "size": 362,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/good/package.json",
+      "size": 348,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/hang/index.mjs",
+      "size": 163,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/hang/package.json",
+      "size": 296,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-local-side-effect/index.mjs",
+      "size": 387,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-local-side-effect/package.json",
+      "size": 373,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-local-side-effect/side-effectful.mjs",
+      "size": 239,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-open-readonly/index.mjs",
+      "size": 494,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-open-readonly/package.json",
+      "size": 357,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-package-only/index.mjs",
+      "size": 396,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-package-only/package.json",
+      "size": 368,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-parse-error/index.mjs",
+      "size": 173,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-parse-error/package.json",
+      "size": 310,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-side-effect-nonentry/index.mjs",
+      "size": 368,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-side-effect-nonentry/package.json",
+      "size": 364,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-side-effect-nonentry/selfcheck.mjs",
+      "size": 378,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-side-effect/index.mjs",
+      "size": 497,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-side-effect/package.json",
+      "size": 355,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-void-main/index.mjs",
+      "size": 448,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/import-void-main/package.json",
+      "size": 353,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/known-answer/expected.json",
+      "size": 362,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/market-index-real.json",
+      "size": 441,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/market-index.json",
+      "size": 374,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/negative/bad-entry/package.json",
+      "size": 95,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/negative/no-entry/package.json",
+      "size": 72,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/negative/no-patch/package.json",
+      "size": 120,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/negative/root-missing/cordis.patch.yml",
+      "size": 35,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/negative/root-missing/package.json",
+      "size": 124,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/negative/workspace/package.json",
+      "size": 105,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/no-source/package.json",
+      "size": 346,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/parse-error-nonentry/index.mjs",
+      "size": 78,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/parse-error-nonentry/package.json",
+      "size": 312,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/parse-error-nonentry/references/broken.js",
+      "size": 24,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec11-cred-declared/index.mjs",
+      "size": 76,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec11-cred-declared/package.json",
+      "size": 371,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec11-cred-list/index.mjs",
+      "size": 69,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec11-cred-list/package.json",
+      "size": 367,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec11-cred-undeclared/index.mjs",
+      "size": 76,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec11-cred-undeclared/package.json",
+      "size": 343,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-clean/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-clean/package.json",
+      "size": 333,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-cred/index.mjs",
+      "size": 201,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-cred/install.js",
+      "size": 391,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-cred/package.json",
+      "size": 393,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-curl/index.mjs",
+      "size": 201,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-curl/package.json",
+      "size": 403,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-curl/scripts/install.sh",
+      "size": 136,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-danger/index.mjs",
+      "size": 209,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-danger/install.js",
+      "size": 227,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-danger/package.json",
+      "size": 399,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-download-safe/index.js",
+      "size": 64,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-download-safe/package.json",
+      "size": 414,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-download-safe/scripts/install.js",
+      "size": 385,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-download-safe/scripts/local-util.cjs",
+      "size": 36,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-dynamic/index.js",
+      "size": 64,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-dynamic/package.json",
+      "size": 408,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-dynamic/scripts/install.js",
+      "size": 368,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-remote-literal/index.js",
+      "size": 46,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-remote-literal/package.json",
+      "size": 225,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-remote-literal/scripts/install.js",
+      "size": 203,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-safe/index.mjs",
+      "size": 201,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-safe/install.js",
+      "size": 195,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-install-safe/package.json",
+      "size": 397,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-missing-ref/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-missing-ref/package.json",
+      "size": 402,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-node/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-node/package.json",
+      "size": 396,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-node/scripts/build.mjs",
+      "size": 21,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-pipe/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec15-pipe/package.json",
+      "size": 421,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-base64-clean/index.mjs",
+      "size": 114,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-base64-clean/package.json",
+      "size": 340,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-base64-eval/index.mjs",
+      "size": 134,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-base64-eval/package.json",
+      "size": 339,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-client/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-client/lib/client.js",
+      "size": 62,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-client/package.json",
+      "size": 387,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-declared/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-declared/package.json",
+      "size": 336,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-eval/index.mjs",
+      "size": 51,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-eval/package.json",
+      "size": 332,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-exec-curl/index.mjs",
+      "size": 159,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-exec-curl/package.json",
+      "size": 337,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-import-only/index.mjs",
+      "size": 110,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-import-only/package.json",
+      "size": 339,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-require/index.mjs",
+      "size": 100,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-require/package.json",
+      "size": 335,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-spawn-shell/index.mjs",
+      "size": 162,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-spawn-shell/package.json",
+      "size": 339,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-subprocess-safe/index.mjs",
+      "size": 157,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-subprocess-safe/package.json",
+      "size": 343,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-vendor-bundle/lib/index.js",
+      "size": 562,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-vendor-bundle/package.json",
+      "size": 414,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-vendor-decoy/lib/index.js",
+      "size": 224,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-vendor-decoy/package.json",
+      "size": 413,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-vendor-path/index.mjs",
+      "size": 51,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-vendor-path/package.json",
+      "size": 339,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec16-vendor-path/vendor/schemastery.mjs",
+      "size": 161,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-alias-clean/data.txt",
+      "size": 6,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-alias-clean/index.mjs",
+      "size": 121,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-alias-clean/package.json",
+      "size": 339,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-alias-read/index.mjs",
+      "size": 215,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-alias-read/package.json",
+      "size": 338,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-base64-path-clean/data/config.json",
+      "size": 3,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-base64-path-clean/index.mjs",
+      "size": 185,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-base64-path-clean/package.json",
+      "size": 345,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-base64-path/index.mjs",
+      "size": 417,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-base64-path/package.json",
+      "size": 339,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-cred-exfil/index.mjs",
+      "size": 748,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-cred-exfil/package.json",
+      "size": 338,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-env/index.mjs",
+      "size": 160,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-env/package.json",
+      "size": 331,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-home-env-clean/index.mjs",
+      "size": 208,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-home-env-clean/package.json",
+      "size": 342,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-home-env/index.js",
+      "size": 271,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-home-env/package.json",
+      "size": 336,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-seam/index.mjs",
+      "size": 80,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-seam/package.json",
+      "size": 332,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-ssh/index.mjs",
+      "size": 194,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec17-ssh/package.json",
+      "size": 331,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-bad/index.mjs",
+      "size": 88,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-bad/package.json",
+      "size": 359,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-good/index.mjs",
+      "size": 84,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-good/package.json",
+      "size": 458,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-split-fetch-clean/index.mjs",
+      "size": 154,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-split-fetch-clean/package.json",
+      "size": 443,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-split-fetch/index.mjs",
+      "size": 202,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-split-fetch/package.json",
+      "size": 339,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-undeclared/index.mjs",
+      "size": 84,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec18-undeclared/package.json",
+      "size": 461,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec19-blob/index.mjs",
+      "size": 5050,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec19-blob/package.json",
+      "size": 332,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec19-clean/index.mjs",
+      "size": 66,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec19-clean/package.json",
+      "size": 333,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec19-wasm/blob.wasm",
+      "size": 8,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec19-wasm/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec19-wasm/package.json",
+      "size": 332,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec20-unwrapped/index.mjs",
+      "size": 132,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec20-unwrapped/package.json",
+      "size": 403,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec20-wrapped/index.mjs",
+      "size": 97,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec20-wrapped/package.json",
+      "size": 401,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec21-known/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec21-known/package.json",
+      "size": 421,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec21-typosquat/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec21-typosquat/package.json",
+      "size": 401,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec22-attested/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec22-attested/package.json",
+      "size": 490,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec22-none/index.mjs",
+      "size": 44,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/fixtures/security/sec22-none/package.json",
+      "size": 332,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/package.json",
+      "size": 616,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/README.md",
+      "size": 18666,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/samples/entry18.json",
+      "size": 3591,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/samples/frame.json",
+      "size": 14539,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/samples/README.md",
+      "size": 445,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/apply-overlay.mjs",
+      "size": 2796,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/attestation-check.mjs",
+      "size": 7353,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/build-offline-kit.mjs",
+      "size": 11543,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/build-sidecar.mjs",
+      "size": 43040,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/bundle-smoke.mjs",
+      "size": 7480,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/claim-check.mjs",
+      "size": 5493,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/clause-map.mjs",
+      "size": 3668,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/collect-fixtures.mjs",
+      "size": 1959,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/dashboard.mjs",
+      "size": 3537,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/dco-check.mjs",
+      "size": 6328,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/dependabot-check.mjs",
+      "size": 1596,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/doc-commands-check.mjs",
+      "size": 3185,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/entry-scan.mjs",
+      "size": 7998,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/entry-validate.mjs",
+      "size": 14721,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/entry18-attribution.mjs",
+      "size": 2676,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/entry18-ci.mjs",
+      "size": 31458,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/entry18-realweb-summary.mjs",
+      "size": 3270,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/entry18-web.mjs",
+      "size": 14484,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/evidence-chain.mjs",
+      "size": 4486,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/flow-collect.mjs",
+      "size": 32282,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/flow-index.mjs",
+      "size": 3537,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/flow-sample-ci.mjs",
+      "size": 25465,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/governance-check.mjs",
+      "size": 10141,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/host-farm.mjs",
+      "size": 6716,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/journey-config-observe.mjs",
+      "size": 5513,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/journey-disclosure-shape.mjs",
+      "size": 4009,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/journey-runtime.mjs",
+      "size": 17447,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/journey.mjs",
+      "size": 4429,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/label-drift.mjs",
+      "size": 2675,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/label-sync.mjs",
+      "size": 3490,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/label-verify.mjs",
+      "size": 3410,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/land-runtime-artifacts.mjs",
+      "size": 8835,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/landlock-exec.c",
+      "size": 3821,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/level-audit.mjs",
+      "size": 22761,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/m1-sidecar.mjs",
+      "size": 5445,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/m2-runner.mjs",
+      "size": 10661,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/repo-anchor-check.mjs",
+      "size": 8133,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/round-robin.mjs",
+      "size": 4031,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/run-tests.mjs",
+      "size": 884,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/runtime-child.mjs",
+      "size": 765,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/sample-frame.mjs",
+      "size": 3240,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/sample20-ci.mjs",
+      "size": 2128,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/sample60-ci.mjs",
+      "size": 2126,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/sign-evidence.mjs",
+      "size": 6969,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/stale-check.mjs",
+      "size": 2850,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/surveillance.mjs",
+      "size": 4225,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/scripts/web-probe.mjs",
+      "size": 19293,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/author-cli.mjs",
+      "size": 17714,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/author-report.mjs",
+      "size": 16241,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/bundle-static.mjs",
+      "size": 9605,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/cli.mjs",
+      "size": 44364,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/client-shape.mjs",
+      "size": 2180,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/declarations.mjs",
+      "size": 39472,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/flow-evidence.mjs",
+      "size": 30924,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/index.mjs",
+      "size": 1628,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/install-spec.mjs",
+      "size": 2990,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/label.mjs",
+      "size": 7532,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/manifest.mjs",
+      "size": 31958,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/npm-command.mjs",
+      "size": 890,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/permissions.mjs",
+      "size": 2617,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/remediation.mjs",
+      "size": 9233,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/report.mjs",
+      "size": 31790,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/result.mjs",
+      "size": 1700,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/runtime-child.mjs",
+      "size": 2781,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/runtime.mjs",
+      "size": 14209,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/sandbox-env.mjs",
+      "size": 2969,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/sandbox-run.mjs",
+      "size": 31173,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/security.mjs",
+      "size": 85647,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/semver.mjs",
+      "size": 9846,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/signature.mjs",
+      "size": 8821,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/src/util.mjs",
+      "size": 7865,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/index.cjs",
+      "size": 193,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-string-parser/lib/index.d.ts",
+      "size": 1912,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-string-parser/lib/index.js",
+      "size": 7602,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-string-parser/LICENSE",
+      "size": 1106,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-string-parser/package.json",
+      "size": 769,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-string-parser/README.md",
+      "size": 335,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-validator-identifier/lib/identifier-browser.js",
+      "size": 12461,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-validator-identifier/lib/identifier.js",
+      "size": 2724,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-validator-identifier/lib/index.d.ts",
+      "size": 1148,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-validator-identifier/lib/index.js",
+      "size": 1408,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-validator-identifier/LICENSE",
+      "size": 1106,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-validator-identifier/package.json",
+      "size": 1147,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/helper-validator-identifier/README.md",
+      "size": 369,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/parser/bin/babel-parser.js",
+      "size": 317,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/parser/CHANGELOG.md",
+      "size": 38238,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/parser/lib/index.d.ts",
+      "size": 36214,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/parser/lib/index.js",
+      "size": 494963,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/parser/LICENSE",
+      "size": 1086,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/parser/package.json",
+      "size": 1518,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/parser/README.md",
+      "size": 412,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "size": 21153,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/types/lib/index-legacy.d.ts",
+      "size": 170980,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/types/lib/index.d.ts",
+      "size": 657791,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/types/lib/index.js",
+      "size": 331362,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/types/lib/index.js.flow",
+      "size": 180198,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/types/LICENSE",
+      "size": 1106,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/types/package.json",
+      "size": 1066,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/node_modules/@babel/types/README.md",
+      "size": 446,
+      "mode": 420
+    },
+    {
+      "path": "40-checker/vendor/babel/README.md",
+      "size": 588,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 32598,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 1183,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE-APACHE",
+      "size": 10785,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE-CC-BY",
+      "size": 885,
+      "mode": 420
+    },
+    {
+      "path": "NOTICE",
+      "size": 632,
+      "mode": 420
+    },
+    {
+      "path": "NOTICE.md",
+      "size": 473,
+      "mode": 420
+    },
+    {
+      "path": "README.en.md",
+      "size": 25204,
+      "mode": 420
+    },
+    {
+      "path": "README.es.md",
+      "size": 26024,
+      "mode": 420
+    },
+    {
+      "path": "README.hi.md",
+      "size": 40077,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 28357,
+      "mode": 420
+    },
+    {
+      "path": "README.pt.md",
+      "size": 25809,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 6564,
+      "mode": 420
+    },
+    {
+      "path": "bin/dsh-flow-collect.mjs",
+      "size": 176,
+      "mode": 420
+    },
+    {
+      "path": "bin/dsh-levels.mjs",
+      "size": 164,
+      "mode": 420
+    },
+    {
+      "path": "bin/dsh-standards.mjs",
+      "size": 1273,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-flow-dark.svg",
+      "size": 4345,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-flow-light.svg",
+      "size": 4345,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-flow-v3-dark.svg",
+      "size": 7465,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-flow-v3-light.svg",
+      "size": 7465,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-flow-v4-dark.svg",
+      "size": 7461,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-flow-v4-light.svg",
+      "size": 7461,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-hero-en-dark.webp",
+      "size": 61320,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-hero-en-light.webp",
+      "size": 61750,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-hero-zh-dark.webp",
+      "size": 56900,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-standards-hero-zh-light.webp",
+      "size": 57630,
+      "mode": 420
+    },
+    {
+      "path": "docs/BOOST-FIXTURES-2026-11-02.md",
+      "size": 1995,
+      "mode": 420
+    },
+    {
+      "path": "docs/coverage.md",
+      "size": 10879,
+      "mode": 420
+    },
+    {
+      "path": "docs/DEVELOPER-JOURNEY.md",
+      "size": 1869,
+      "mode": 420
+    },
+    {
+      "path": "docs/fork-policy.md",
+      "size": 615,
+      "mode": 420
+    },
+    {
+      "path": "docs/full-test-plan-2026-11-02.md",
+      "size": 15957,
+      "mode": 420
+    },
+    {
+      "path": "docs/HOST-J3-BUG-REPORT-DRAFT.md",
+      "size": 1689,
+      "mode": 420
+    },
+    {
+      "path": "docs/HOST-J3-CONFIG-REPRO-2026-11-02.md",
+      "size": 2003,
+      "mode": 420
+    },
+    {
+      "path": "docs/incident.md",
+      "size": 1185,
+      "mode": 420
+    },
+    {
+      "path": "docs/NAMING-FALLBACK.md",
+      "size": 665,
+      "mode": 420
+    },
+    {
+      "path": "docs/onboarding.md",
+      "size": 1099,
+      "mode": 420
+    },
+    {
+      "path": "docs/privacy.md",
+      "size": 668,
+      "mode": 420
+    },
+    {
+      "path": "docs/release.md",
+      "size": 736,
+      "mode": 420
+    },
+    {
+      "path": "docs/repo-anchors-rc3-2026-11-14.md",
+      "size": 2694,
+      "mode": 420
+    },
+    {
+      "path": "docs/scope-security.md",
+      "size": 2106,
+      "mode": 420
+    },
+    {
+      "path": "docs/SIGNING.md",
+      "size": 6237,
+      "mode": 420
+    },
+    {
+      "path": "docs/status-taxonomy.md",
+      "size": 2208,
+      "mode": 420
+    },
+    {
+      "path": "docs/sunset.md",
+      "size": 1675,
+      "mode": 420
+    },
+    {
+      "path": "docs/translating.md",
+      "size": 559,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 1716,
+      "mode": 420
+    },
+    {
+      "path": "spec/boost/README.md",
+      "size": 518,
+      "mode": 420
+    },
+    {
+      "path": "spec/clauses.json",
+      "size": 5848,
+      "mode": 420
+    },
+    {
+      "path": "spec/coverage-contract.md",
+      "size": 10940,
+      "mode": 420
+    },
+    {
+      "path": "spec/dsc-clauses.json",
+      "size": 33735,
+      "mode": 420
+    },
+    {
+      "path": "spec/entry/README.md",
+      "size": 588,
+      "mode": 420
+    },
+    {
+      "path": "spec/examples/boost-card.example.json",
+      "size": 780,
+      "mode": 420
+    },
+    {
+      "path": "spec/examples/flow-evidence.example.json",
+      "size": 2841,
+      "mode": 420
+    },
+    {
+      "path": "spec/flow-evidence.schema.json",
+      "size": 11304,
+      "mode": 420
+    },
+    {
+      "path": "spec/flow/README.md",
+      "size": 2795,
+      "mode": 420
+    },
+    {
+      "path": "spec/levels.json",
+      "size": 11715,
+      "mode": 420
+    },
+    {
+      "path": "spec/levels.schema.json",
+      "size": 1699,
+      "mode": 420
+    },
+    {
+      "path": "spec/README.md",
+      "size": 2551,
+      "mode": 420
+    },
+    {
+      "path": "spec/reference-suite.json",
+      "size": 3413,
+      "mode": 420
+    },
+    {
+      "path": "spec/remediation.json",
+      "size": 38245,
+      "mode": 420
+    },
+    {
+      "path": "spec/schemas/advice.schema.json",
+      "size": 3086,
+      "mode": 420
+    },
+    {
+      "path": "spec/schemas/attestation.schema.json",
+      "size": 5687,
+      "mode": 420
+    },
+    {
+      "path": "spec/schemas/boost-card.schema.json",
+      "size": 4333,
+      "mode": 420
+    },
+    {
+      "path": "spec/schemas/conformance.schema.json",
+      "size": 26154,
+      "mode": 420
+    },
+    {
+      "path": "spec/schemas/evidence.schema.json",
+      "size": 6530,
+      "mode": 420
+    },
+    {
+      "path": "spec/schemas/report.schema.json",
+      "size": 2258,
+      "mode": 420
+    }
+  ],
+  "entryCount": 358,
+  "bundled": []
+}

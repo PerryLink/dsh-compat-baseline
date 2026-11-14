@@ -1,0 +1,24 @@
+{
+  "id": "dsh-checkers@0.0.1",
+  "name": "dsh-checkers",
+  "version": "0.0.1",
+  "size": 782,
+  "unpackedSize": 1478,
+  "shasum": "a7d57bc31f7f71228d8e855792296acd0250b833",
+  "integrity": "sha512-5gAnK42gfg9jZIOMBDlURazGhlVRae3y8rZJM/vCRgYFsFinPTIDu+O92211/JnZ35Scxw0vSO7oMVxk7VWkfA==",
+  "filename": "dsh-checkers-0.0.1.tgz",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 899,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 579,
+      "mode": 420
+    }
+  ],
+  "entryCount": 2,
+  "bundled": []
+}

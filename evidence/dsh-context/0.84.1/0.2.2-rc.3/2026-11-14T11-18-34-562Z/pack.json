@@ -1,0 +1,129 @@
+{
+  "id": "dsh-context@0.84.1",
+  "name": "dsh-context",
+  "version": "0.84.1",
+  "size": 408039,
+  "unpackedSize": 1438139,
+  "shasum": "ba7b84b05775c3d4f9229d2b0a61924ceb16313e",
+  "integrity": "sha512-LK+4+cDgQ3Y1CuaOA2/86cy+8KMnKlnOTFnf1QK8TW7RXbzRq+8y4fiQodp4FG9yRahKbh6iuJX/+aO8Z6q6sw==",
+  "filename": "dsh-context-0.84.1.tgz",
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 11343,
+      "mode": 420
+    },
+    {
+      "path": "README_de.md",
+      "size": 28551,
+      "mode": 420
+    },
+    {
+      "path": "README_en.md",
+      "size": 24489,
+      "mode": 420
+    },
+    {
+      "path": "README_es.md",
+      "size": 29333,
+      "mode": 420
+    },
+    {
+      "path": "README_fr.md",
+      "size": 31110,
+      "mode": 420
+    },
+    {
+      "path": "README_ja.md",
+      "size": 33043,
+      "mode": 420
+    },
+    {
+      "path": "README_pt.md",
+      "size": 28584,
+      "mode": 420
+    },
+    {
+      "path": "README_ru.md",
+      "size": 43036,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 24431,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 256,
+      "mode": 420
+    },
+    {
+      "path": "icon.svg",
+      "size": 2180,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js",
+      "size": 968048,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.d.ts",
+      "size": 15397,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 191194,
+      "mode": 420
+    },
+    {
+      "path": "locale/de.json",
+      "size": 252,
+      "mode": 420
+    },
+    {
+      "path": "locale/en.json",
+      "size": 256,
+      "mode": 420
+    },
+    {
+      "path": "locale/es.json",
+      "size": 256,
+      "mode": 420
+    },
+    {
+      "path": "locale/fr.json",
+      "size": 259,
+      "mode": 420
+    },
+    {
+      "path": "locale/ja.json",
+      "size": 364,
+      "mode": 420
+    },
+    {
+      "path": "locale/pt.json",
+      "size": 250,
+      "mode": 420
+    },
+    {
+      "path": "locale/ru.json",
+      "size": 339,
+      "mode": 420
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 274,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 4894,
+      "mode": 420
+    }
+  ],
+  "entryCount": 23,
+  "bundled": []
+}

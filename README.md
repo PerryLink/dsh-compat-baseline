@@ -71,15 +71,15 @@ not produced by `audit-entry.mjs`; the script is intentionally static-only.
 See [`docs/EVIDENCE.md`](docs/EVIDENCE.md) for the field contract, failure /
 blocked semantics, and the exact re-run commands.
 
-## Current coverage (2026-11-14)
+## Current coverage (2026-11-14, v0.5.1)
 
 - **143 plugins** = the full 112-package dsh-kit family (34 mainline-default + 53 opt-in + 10 catalog-only + 15 domain) + 31 external
 - **123** declare `engines.dsh`; **20** are `unknown`
 - **3** declare `dsh.standards`; **140** are `not-declared`
-- ENTRY: **10 `recognized` (checked)**, 2 `not-run`, 131 `unknown` — **no plugin has runtime evidence yet**
-- Evidence: **133 `declared`, 10 `checked`, 0 `tested`** (10 merged from static checker; no boot)
+- ENTRY: **19 `recognized` + 1 `failed` (20 checked)**, 2 `not-run`, 121 `unknown` — **no plugin has runtime evidence yet**
+- Evidence: **123 `declared`, 20 `checked`, 0 `tested`** (20 merged from static checker; no boot)
 - Risk: 2 high, 62 medium, 79 unknown (no capability manifest)
-- Gate: 22 `review`, 121 `pilot`, 0 `production-candidate`
+- Gate: 1 `blocked` (the failed checked row), 21 `review`, 121 `pilot`, 0 `production-candidate`
 
 > The near-zero `dsh.standards` adoption is itself a finding. The gate is a **compatibility/risk heuristic**, not a quality grade.
 

@@ -1,0 +1,174 @@
+{
+  "id": "dsh-bili-scroll@2.5.2",
+  "name": "dsh-bili-scroll",
+  "version": "2.5.2",
+  "size": 220957,
+  "unpackedSize": 601323,
+  "shasum": "e068f3aaffe2bb85e20d2c63e813b55870455701",
+  "integrity": "sha512-DfXODk1PejGJm/HK4QZSqPNR2VFaP5Dee/d411YBvxYUqzyD2U+VB7w04S+C82SzvKmRy2R3JGHteRGHmNWrQw==",
+  "filename": "dsh-bili-scroll-2.5.2.tgz",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "size": 5846,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 72053,
+      "mode": 420
+    },
+    {
+      "path": "CONTRIBUTORS.md",
+      "size": 2182,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 1084,
+      "mode": 420
+    },
+    {
+      "path": "NOTICE.md",
+      "size": 651,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 15234,
+      "mode": 420
+    },
+    {
+      "path": "client.js",
+      "size": 79391,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 1101,
+      "mode": 420
+    },
+    {
+      "path": "index.js",
+      "size": 218840,
+      "mode": 420
+    },
+    {
+      "path": "lib/asr.py",
+      "size": 6450,
+      "mode": 420
+    },
+    {
+      "path": "lib/diagnose.mjs",
+      "size": 4488,
+      "mode": 420
+    },
+    {
+      "path": "lib/dm.mjs",
+      "size": 4467,
+      "mode": 420
+    },
+    {
+      "path": "lib/favops.py",
+      "size": 3951,
+      "mode": 420
+    },
+    {
+      "path": "lib/hostdeps.mjs",
+      "size": 7098,
+      "mode": 420
+    },
+    {
+      "path": "lib/login.mjs",
+      "size": 7221,
+      "mode": 420
+    },
+    {
+      "path": "lib/mcp.mjs",
+      "size": 5884,
+      "mode": 420
+    },
+    {
+      "path": "lib/model-select.mjs",
+      "size": 4348,
+      "mode": 420
+    },
+    {
+      "path": "lib/report-sect.mjs",
+      "size": 2302,
+      "mode": 420
+    },
+    {
+      "path": "lib/state.mjs",
+      "size": 12535,
+      "mode": 420
+    },
+    {
+      "path": "lib/uid.mjs",
+      "size": 2580,
+      "mode": 420
+    },
+    {
+      "path": "lib/uvfetch.mjs",
+      "size": 10460,
+      "mode": 420
+    },
+    {
+      "path": "lib/verify.mjs",
+      "size": 9238,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 1821,
+      "mode": 420
+    },
+    {
+      "path": "profile-template/bili-duty/cordis.patch.yml",
+      "size": 4705,
+      "mode": 420
+    },
+    {
+      "path": "profile-template/bili-duty/cordis.yml",
+      "size": 223,
+      "mode": 420
+    },
+    {
+      "path": "profile-template/bili-duty/package.json",
+      "size": 214,
+      "mode": 420
+    },
+    {
+      "path": "prompts/duty.md",
+      "size": 26079,
+      "mode": 420
+    },
+    {
+      "path": "selfcheck.mjs",
+      "size": 5841,
+      "mode": 420
+    },
+    {
+      "path": "vendor/bilibili-mcp/LICENSE",
+      "size": 1067,
+      "mode": 420
+    },
+    {
+      "path": "vendor/bilibili-mcp/mcp_server.py",
+      "size": 77529,
+      "mode": 420
+    },
+    {
+      "path": "vendor/bilibili-mcp/README.md",
+      "size": 5921,
+      "mode": 420
+    },
+    {
+      "path": "vendor/bilibili-mcp/requirements.txt",
+      "size": 519,
+      "mode": 420
+    }
+  ],
+  "entryCount": 32,
+  "bundled": []
+}

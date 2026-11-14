@@ -1,0 +1,744 @@
+{
+  "id": "jevcore@0.4.2",
+  "name": "jevcore",
+  "version": "0.4.2",
+  "size": 307841,
+  "unpackedSize": 1182470,
+  "shasum": "35ca60e85647e2d053239b3c6d58d1b7d657da96",
+  "integrity": "sha512-8VIWQVmVVpo9qUH5QjNQ3jQ0d7J8KHqOISofc3lsTW6e1PcWx0xR++spOjsEWMvzRuCjTfhp9D0iiiQ+LVOpMw==",
+  "filename": "jevcore-0.4.2.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 50562,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "NOTICE",
+      "size": 3541,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 5054,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 8207,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 5023,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 4680,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 4703,
+      "mode": 420
+    },
+    {
+      "path": "docs/approval.md",
+      "size": 14058,
+      "mode": 420
+    },
+    {
+      "path": "docs/hosts.md",
+      "size": 22223,
+      "mode": 420
+    },
+    {
+      "path": "docs/limits.md",
+      "size": 17236,
+      "mode": 420
+    },
+    {
+      "path": "docs/quickstart.md",
+      "size": 21387,
+      "mode": 420
+    },
+    {
+      "path": "lib/answers.d.ts",
+      "size": 1422,
+      "mode": 420
+    },
+    {
+      "path": "lib/answers.d.ts.map",
+      "size": 391,
+      "mode": 420
+    },
+    {
+      "path": "lib/answers.js",
+      "size": 3790,
+      "mode": 420
+    },
+    {
+      "path": "lib/answers.js.map",
+      "size": 2398,
+      "mode": 420
+    },
+    {
+      "path": "lib/check.d.ts",
+      "size": 5899,
+      "mode": 420
+    },
+    {
+      "path": "lib/check.d.ts.map",
+      "size": 948,
+      "mode": 420
+    },
+    {
+      "path": "lib/check.js",
+      "size": 5519,
+      "mode": 420
+    },
+    {
+      "path": "lib/check.js.map",
+      "size": 1810,
+      "mode": 420
+    },
+    {
+      "path": "lib/compose.d.ts",
+      "size": 3585,
+      "mode": 420
+    },
+    {
+      "path": "lib/compose.d.ts.map",
+      "size": 885,
+      "mode": 420
+    },
+    {
+      "path": "lib/compose.js",
+      "size": 4688,
+      "mode": 420
+    },
+    {
+      "path": "lib/compose.js.map",
+      "size": 2526,
+      "mode": 420
+    },
+    {
+      "path": "lib/config.d.ts",
+      "size": 10746,
+      "mode": 420
+    },
+    {
+      "path": "lib/config.d.ts.map",
+      "size": 2555,
+      "mode": 420
+    },
+    {
+      "path": "lib/config.js",
+      "size": 12300,
+      "mode": 420
+    },
+    {
+      "path": "lib/config.js.map",
+      "size": 6271,
+      "mode": 420
+    },
+    {
+      "path": "lib/consistency.d.ts",
+      "size": 7706,
+      "mode": 420
+    },
+    {
+      "path": "lib/consistency.d.ts.map",
+      "size": 1735,
+      "mode": 420
+    },
+    {
+      "path": "lib/consistency.js",
+      "size": 7766,
+      "mode": 420
+    },
+    {
+      "path": "lib/consistency.js.map",
+      "size": 4542,
+      "mode": 420
+    },
+    {
+      "path": "lib/credentials.d.ts",
+      "size": 1774,
+      "mode": 420
+    },
+    {
+      "path": "lib/credentials.d.ts.map",
+      "size": 838,
+      "mode": 420
+    },
+    {
+      "path": "lib/credentials.js",
+      "size": 1871,
+      "mode": 420
+    },
+    {
+      "path": "lib/credentials.js.map",
+      "size": 1119,
+      "mode": 420
+    },
+    {
+      "path": "lib/egress.d.ts",
+      "size": 13073,
+      "mode": 420
+    },
+    {
+      "path": "lib/egress.d.ts.map",
+      "size": 3551,
+      "mode": 420
+    },
+    {
+      "path": "lib/egress.js",
+      "size": 26353,
+      "mode": 420
+    },
+    {
+      "path": "lib/egress.js.map",
+      "size": 10700,
+      "mode": 420
+    },
+    {
+      "path": "lib/gates/context.d.ts",
+      "size": 5037,
+      "mode": 420
+    },
+    {
+      "path": "lib/gates/context.d.ts.map",
+      "size": 1575,
+      "mode": 420
+    },
+    {
+      "path": "lib/gates/context.js",
+      "size": 6129,
+      "mode": 420
+    },
+    {
+      "path": "lib/gates/context.js.map",
+      "size": 3406,
+      "mode": 420
+    },
+    {
+      "path": "lib/gates/safety.d.ts",
+      "size": 7874,
+      "mode": 420
+    },
+    {
+      "path": "lib/gates/safety.d.ts.map",
+      "size": 1959,
+      "mode": 420
+    },
+    {
+      "path": "lib/gates/safety.js",
+      "size": 17818,
+      "mode": 420
+    },
+    {
+      "path": "lib/gates/safety.js.map",
+      "size": 6873,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.d.ts",
+      "size": 5560,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.d.ts.map",
+      "size": 3567,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 5830,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js.map",
+      "size": 2658,
+      "mode": 420
+    },
+    {
+      "path": "lib/policy.d.ts",
+      "size": 5902,
+      "mode": 420
+    },
+    {
+      "path": "lib/policy.d.ts.map",
+      "size": 1439,
+      "mode": 420
+    },
+    {
+      "path": "lib/policy.js",
+      "size": 8412,
+      "mode": 420
+    },
+    {
+      "path": "lib/policy.js.map",
+      "size": 3982,
+      "mode": 420
+    },
+    {
+      "path": "lib/primitives.d.ts",
+      "size": 5144,
+      "mode": 420
+    },
+    {
+      "path": "lib/primitives.d.ts.map",
+      "size": 1198,
+      "mode": 420
+    },
+    {
+      "path": "lib/primitives.js",
+      "size": 9622,
+      "mode": 420
+    },
+    {
+      "path": "lib/primitives.js.map",
+      "size": 4662,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/classify.d.ts",
+      "size": 9884,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/classify.d.ts.map",
+      "size": 1685,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/classify.js",
+      "size": 13166,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/classify.js.map",
+      "size": 6083,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/live.d.ts",
+      "size": 15713,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/live.d.ts.map",
+      "size": 3569,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/live.js",
+      "size": 14738,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/live.js.map",
+      "size": 7387,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/mock.d.ts",
+      "size": 1420,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/mock.d.ts.map",
+      "size": 500,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/mock.js",
+      "size": 5463,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/mock.js.map",
+      "size": 4153,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/models.d.ts",
+      "size": 14397,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/models.d.ts.map",
+      "size": 2668,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/models.js",
+      "size": 16456,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/models.js.map",
+      "size": 6632,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/openrouter.d.ts",
+      "size": 6157,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/openrouter.d.ts.map",
+      "size": 1575,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/openrouter.js",
+      "size": 10834,
+      "mode": 420
+    },
+    {
+      "path": "lib/provider/openrouter.js.map",
+      "size": 5826,
+      "mode": 420
+    },
+    {
+      "path": "lib/redact.d.ts",
+      "size": 4419,
+      "mode": 420
+    },
+    {
+      "path": "lib/redact.d.ts.map",
+      "size": 1018,
+      "mode": 420
+    },
+    {
+      "path": "lib/redact.js",
+      "size": 10899,
+      "mode": 420
+    },
+    {
+      "path": "lib/redact.js.map",
+      "size": 5169,
+      "mode": 420
+    },
+    {
+      "path": "lib/render.d.ts",
+      "size": 6573,
+      "mode": 420
+    },
+    {
+      "path": "lib/render.d.ts.map",
+      "size": 1810,
+      "mode": 420
+    },
+    {
+      "path": "lib/render.js",
+      "size": 8594,
+      "mode": 420
+    },
+    {
+      "path": "lib/render.js.map",
+      "size": 5297,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/breaker.d.ts",
+      "size": 11625,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/breaker.d.ts.map",
+      "size": 2333,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/breaker.js",
+      "size": 13983,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/breaker.js.map",
+      "size": 5475,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/budget.d.ts",
+      "size": 15254,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/budget.d.ts.map",
+      "size": 2906,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/budget.js",
+      "size": 18256,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/budget.js.map",
+      "size": 7683,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/cache.d.ts",
+      "size": 14799,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/cache.d.ts.map",
+      "size": 2849,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/cache.js",
+      "size": 17052,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/cache.js.map",
+      "size": 6898,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/index.d.ts",
+      "size": 2129,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/index.d.ts.map",
+      "size": 597,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/index.js",
+      "size": 1864,
+      "mode": 420
+    },
+    {
+      "path": "lib/resilience/index.js.map",
+      "size": 384,
+      "mode": 420
+    },
+    {
+      "path": "lib/schema.d.ts",
+      "size": 1872,
+      "mode": 420
+    },
+    {
+      "path": "lib/schema.d.ts.map",
+      "size": 855,
+      "mode": 420
+    },
+    {
+      "path": "lib/schema.js",
+      "size": 1535,
+      "mode": 420
+    },
+    {
+      "path": "lib/schema.js.map",
+      "size": 700,
+      "mode": 420
+    },
+    {
+      "path": "lib/service.d.ts",
+      "size": 15660,
+      "mode": 420
+    },
+    {
+      "path": "lib/service.d.ts.map",
+      "size": 3166,
+      "mode": 420
+    },
+    {
+      "path": "lib/service.js",
+      "size": 21681,
+      "mode": 420
+    },
+    {
+      "path": "lib/service.js.map",
+      "size": 8597,
+      "mode": 420
+    },
+    {
+      "path": "lib/types.d.ts",
+      "size": 17147,
+      "mode": 420
+    },
+    {
+      "path": "lib/types.d.ts.map",
+      "size": 4657,
+      "mode": 420
+    },
+    {
+      "path": "lib/types.js",
+      "size": 1699,
+      "mode": 420
+    },
+    {
+      "path": "lib/types.js.map",
+      "size": 649,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 1667,
+      "mode": 420
+    },
+    {
+      "path": "scripts/probe-empty-level-render.mjs",
+      "size": 2473,
+      "mode": 420
+    },
+    {
+      "path": "scripts/probe-live.mjs",
+      "size": 6671,
+      "mode": 420
+    },
+    {
+      "path": "scripts/probe-openrouter-live.mjs",
+      "size": 2466,
+      "mode": 420
+    },
+    {
+      "path": "src/answers.ts",
+      "size": 3876,
+      "mode": 420
+    },
+    {
+      "path": "src/check.ts",
+      "size": 7298,
+      "mode": 420
+    },
+    {
+      "path": "src/compose.ts",
+      "size": 5792,
+      "mode": 420
+    },
+    {
+      "path": "src/config.ts",
+      "size": 18087,
+      "mode": 420
+    },
+    {
+      "path": "src/consistency.ts",
+      "size": 12760,
+      "mode": 420
+    },
+    {
+      "path": "src/credentials.ts",
+      "size": 2463,
+      "mode": 420
+    },
+    {
+      "path": "src/egress.ts",
+      "size": 29706,
+      "mode": 420
+    },
+    {
+      "path": "src/gates/context.ts",
+      "size": 8491,
+      "mode": 420
+    },
+    {
+      "path": "src/gates/safety.ts",
+      "size": 20359,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 7925,
+      "mode": 420
+    },
+    {
+      "path": "src/policy.ts",
+      "size": 11061,
+      "mode": 420
+    },
+    {
+      "path": "src/primitives.ts",
+      "size": 9881,
+      "mode": 420
+    },
+    {
+      "path": "src/provider/classify.ts",
+      "size": 15592,
+      "mode": 420
+    },
+    {
+      "path": "src/provider/live.ts",
+      "size": 24050,
+      "mode": 420
+    },
+    {
+      "path": "src/provider/mock.ts",
+      "size": 5550,
+      "mode": 420
+    },
+    {
+      "path": "src/provider/models.ts",
+      "size": 21942,
+      "mode": 420
+    },
+    {
+      "path": "src/provider/openrouter.ts",
+      "size": 12666,
+      "mode": 420
+    },
+    {
+      "path": "src/redact.ts",
+      "size": 12195,
+      "mode": 420
+    },
+    {
+      "path": "src/render.ts",
+      "size": 11466,
+      "mode": 420
+    },
+    {
+      "path": "src/resilience/breaker.ts",
+      "size": 16044,
+      "mode": 420
+    },
+    {
+      "path": "src/resilience/budget.ts",
+      "size": 21758,
+      "mode": 420
+    },
+    {
+      "path": "src/resilience/cache.ts",
+      "size": 22123,
+      "mode": 420
+    },
+    {
+      "path": "src/resilience/index.ts",
+      "size": 2144,
+      "mode": 420
+    },
+    {
+      "path": "src/schema.ts",
+      "size": 2167,
+      "mode": 420
+    },
+    {
+      "path": "src/service.ts",
+      "size": 28897,
+      "mode": 420
+    },
+    {
+      "path": "src/types.ts",
+      "size": 17071,
+      "mode": 420
+    }
+  ],
+  "entryCount": 146,
+  "bundled": []
+}
