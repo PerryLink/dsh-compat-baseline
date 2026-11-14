@@ -1,0 +1,54 @@
+{
+  "id": "dsh-laya@0.1.5",
+  "name": "dsh-laya",
+  "version": "0.1.5",
+  "size": 23658,
+  "unpackedSize": 69576,
+  "shasum": "dbb8c7053f9232eba4965f1819ab2391e69e8059",
+  "integrity": "sha512-B6OORy7NLM2Q8JH1epv5kMzkJ6TfUJMUkjuicmEPM8abJ/hItgGSi0wMgubJ3P+QYyN9rLyYnwxhgRvtvcDLhA==",
+  "filename": "dsh-laya-0.1.5.tgz",
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 11358,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 13521,
+      "mode": 420
+    },
+    {
+      "path": "SKILL.md",
+      "size": 3097,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 3064,
+      "mode": 420
+    },
+    {
+      "path": "index.js",
+      "size": 26300,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 1323,
+      "mode": 420
+    },
+    {
+      "path": "plan.js",
+      "size": 3645,
+      "mode": 420
+    },
+    {
+      "path": "sidecar.js",
+      "size": 7268,
+      "mode": 420
+    }
+  ],
+  "entryCount": 8,
+  "bundled": []
+}

@@ -1,0 +1,287 @@
+{
+  "schema": "hcb-evidence-patch/1",
+  "createdAt": "2026-11-14T12:03:26.448Z",
+  "package": "dsh-cert-mcp",
+  "version": "0.2.13",
+  "host": "0.2.2-rc.3",
+  "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+  "entryStatus": "recognized",
+  "checkerStatus": "pass",
+  "checkerLevel": "DSH-ENTRY recognized",
+  "exitCode": 0,
+  "rowFound": true,
+  "reportPath": "evidence/dsh-cert-mcp/0.2.13/0.2.2-rc.3/2026-11-14T12-03-26-448Z/report.json",
+  "reportSha256": "a219de4543fdb4677f075fb0f310c2638e1cc29bc0d0453e07e8b361f3c1c538",
+  "evidence": {
+    "source": "checked",
+    "checkedAt": "2026-11-14T12:03:26.448Z",
+    "host": "0.2.2-rc.3",
+    "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+    "reportPath": "evidence/dsh-cert-mcp/0.2.13/0.2.2-rc.3/2026-11-14T12-03-26-448Z/report.json"
+  },
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-zhI6XE/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-cert-mcp@0.2.13"
+  ],
+  "reproduce": [
+    "npm pack dsh-cert-mcp@0.2.13",
+    "tar -xzf dsh-cert-mcp-0.2.13.tgz -C ./unpacked --strip-components=1",
+    "npx -y dsh-standards@1.6.10 ./unpacked --scope entry --entry-claim static --format json --host-version 0.2.2-rc.3 --install-spec dsh-cert-mcp@0.2.13"
+  ],
+  "artifact": {
+    "filename": "dsh-cert-mcp-0.2.13.tgz",
+    "shasum": "6d2a023a41b877c67c113b01901e2281e2b27004",
+    "integrity": "sha512-UIsYcvWJEpCBUcVwJDdvODDlxpRNPxSbNrA284goHGDA/LrBVmoOk6d3c0N82uDaGlKa6bBs+DSlNRuFcfUF1g==",
+    "unpackedSize": 335481,
+    "entryCount": 22
+  },
+  "before": {
+    "version": "0.2.13",
+    "standardsEntry": {
+      "status": "not-run",
+      "evidence": false
+    },
+    "evidence": {
+      "source": "declared",
+      "checkedAt": null,
+      "host": null,
+      "checker": null,
+      "reportPath": null
+    },
+    "gate": {
+      "decision": "pilot",
+      "reasons": [
+        "compatible, but unverified",
+        "ENTRY not-run, FLOW not-run"
+      ]
+    }
+  },
+  "after": {
+    "version": "0.2.13",
+    "standardsEntry": {
+      "status": "recognized",
+      "evidence": false,
+      "declaredStatus": "not-run"
+    },
+    "evidence": {
+      "source": "checked",
+      "checkedAt": "2026-11-14T12:03:26.448Z",
+      "host": "0.2.2-rc.3",
+      "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+      "reportPath": "evidence/dsh-cert-mcp/0.2.13/0.2.2-rc.3/2026-11-14T12-03-26-448Z/report.json"
+    }
+  },
+  "report": {
+    "headline": "entry/package · runtime 0.2.2-rc.3 host · blocking 0 (prereq 5/6) · hygiene 2 · partial 6 · not checked 1/14",
+    "reason": "advisory: DSC-11, DSC-13",
+    "level": "DSH-ENTRY recognized",
+    "status": "pass",
+    "coverage": {
+      "total": 14,
+      "mandatory": 5,
+      "checked": 13,
+      "pass": 11,
+      "warn": 2,
+      "advisory": 2,
+      "fail": 0,
+      "na": 1,
+      "notRun": 0,
+      "partial": 6,
+      "error": 0,
+      "entryBlocking": {
+        "required": 6,
+        "checked": [
+          "C-1.1",
+          "C-1.2",
+          "C-1.4",
+          "C-3.1",
+          "C-3.2"
+        ],
+        "notChecked": [
+          "C-3.5"
+        ],
+        "failed": [],
+        "pass": false
+      }
+    },
+    "buckets": {
+      "blocking": [],
+      "hygiene": [
+        {
+          "id": "DSC-11",
+          "clause": "C-11",
+          "result": "WARN",
+          "coverage": "full",
+          "reason": "C-11.1: dsh.capabilities is not declared (transitional WARN; host does not read it yet) | C-11.2: trigger for tools:register observed but dsh.capabilities is absent | C-11.2: trigger for network:egress observed but dsh.capabilities is absent",
+          "declaration": true,
+          "advisory": true
+        },
+        {
+          "id": "DSC-13",
+          "clause": "C-13",
+          "result": "WARN",
+          "coverage": "full",
+          "reason": "C-13.1: dsh.labels is not declared | C-13.2: dsh.capabilities is absent; trigger-to-label mapping cannot be evaluated",
+          "declaration": true,
+          "advisory": true
+        }
+      ]
+    },
+    "checks": [
+      {
+        "id": "DSC-01",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": ""
+      },
+      {
+        "id": "DSC-02",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": ""
+      },
+      {
+        "id": "DSC-03",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": ""
+      },
+      {
+        "id": "DSC-04",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: entry/export/patch shape; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>"
+      },
+      {
+        "id": "DSC-05",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: provide declarations enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>"
+      },
+      {
+        "id": "DSC-06",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: no private-surface writes found; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>"
+      },
+      {
+        "id": "DSC-07",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: teardown references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>"
+      },
+      {
+        "id": "DSC-08",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: restart references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>"
+      },
+      {
+        "id": "DSC-09",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: declaration cross-check; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>"
+      },
+      {
+        "id": "DSC-14",
+        "result": "NA",
+        "coverage": "not-run",
+        "reason": "entry static claim: no runtime evidence"
+      },
+      {
+        "id": "DSC-10",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": ""
+      },
+      {
+        "id": "DSC-11",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "C-11.1: dsh.capabilities is not declared (transitional WARN; host does not read it yet) | C-11.2: trigger for tools:register observed but dsh.capabilities is absent | C-11.2: trigger for network:egress observed but dsh.capabilities is absent"
+      },
+      {
+        "id": "DSC-12",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": ""
+      },
+      {
+        "id": "DSC-13",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "C-13.1: dsh.labels is not declared | C-13.2: dsh.capabilities is absent; trigger-to-label mapping cannot be evaluated"
+      }
+    ],
+    "notChecked": [
+      {
+        "id": "DSC-14",
+        "clause": "C-14",
+        "result": "NA",
+        "coverage": "not-run",
+        "reason": "entry static claim: no runtime evidence",
+        "howToEnable": "pass --host <app-boot/lib/index.js> for bundle G0-G3, or --runtime <path> for a plugin; omit --no-exec and --entry-claim static"
+      },
+      {
+        "id": "DSC-04",
+        "clause": "C-4",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: entry/export/patch shape; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-05",
+        "clause": "C-5",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: provide declarations enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-06",
+        "clause": "C-6",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: no private-surface writes found; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-07",
+        "clause": "C-7",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: teardown references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-08",
+        "clause": "C-8",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: restart references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-09",
+        "clause": "C-9",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: declaration cross-check; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      }
+    ]
+  }
+}

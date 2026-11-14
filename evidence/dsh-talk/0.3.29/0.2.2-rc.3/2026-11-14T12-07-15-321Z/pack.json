@@ -1,0 +1,324 @@
+{
+  "id": "dsh-talk@0.3.29",
+  "name": "dsh-talk",
+  "version": "0.3.29",
+  "size": 266540,
+  "unpackedSize": 1237548,
+  "shasum": "817537fcce03c64105f6a2e72ecb80a7016d9ede",
+  "integrity": "sha512-NN3erfjH3YkLDcYxF8J6l2tjWCPot+ON7+xwZDFtIVxf831snDn/jzndRvBwBv5mMPIsZorsARvKvHLlMfbpwA==",
+  "filename": "dsh-talk-0.3.29.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 23796,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 31424,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 48686,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 30897,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 28888,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 30191,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 3567,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1518,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 4881,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js",
+      "size": 174975,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js.map",
+      "size": 455701,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 74141,
+      "mode": 420
+    },
+    {
+      "path": "lib/typert.host.js",
+      "size": 904,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/audio-export.d.ts",
+      "size": 6869,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/audio-export.d.ts.map",
+      "size": 1958,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/browserVoice.d.ts",
+      "size": 1010,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/browserVoice.d.ts.map",
+      "size": 383,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts",
+      "size": 1637,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts.map",
+      "size": 800,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts",
+      "size": 703,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts.map",
+      "size": 481,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/present.d.ts",
+      "size": 1713,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/present.d.ts.map",
+      "size": 1032,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts",
+      "size": 19712,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts.map",
+      "size": 1818,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/styles.d.ts",
+      "size": 430,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/styles.d.ts.map",
+      "size": 187,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TalkMicButton.d.ts",
+      "size": 2419,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TalkMicButton.d.ts.map",
+      "size": 1166,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TalkSettingsTab.d.ts",
+      "size": 1441,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TalkSettingsTab.d.ts.map",
+      "size": 714,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/vad.d.ts",
+      "size": 1381,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/vad.d.ts.map",
+      "size": 478,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 11852,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 5501,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/engine.d.ts",
+      "size": 5293,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/engine.d.ts.map",
+      "size": 1750,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 2887,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 1486,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/projection.d.ts",
+      "size": 2966,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/projection.d.ts.map",
+      "size": 860,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/provider.d.ts",
+      "size": 1440,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/provider.d.ts.map",
+      "size": 709,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts",
+      "size": 1662,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts.map",
+      "size": 353,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts",
+      "size": 9914,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts.map",
+      "size": 2918,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/settings-patch.d.ts",
+      "size": 4295,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/settings-patch.d.ts.map",
+      "size": 1396,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/speech.d.ts",
+      "size": 2562,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/speech.d.ts.map",
+      "size": 538,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tool.d.ts",
+      "size": 1957,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tool.d.ts.map",
+      "size": 649,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts",
+      "size": 18090,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts.map",
+      "size": 508,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vocabulary.d.ts",
+      "size": 3822,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vocabulary.d.ts.map",
+      "size": 1467,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts",
+      "size": 35944,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts.map",
+      "size": 5389,
+      "mode": 420
+    },
+    {
+      "path": "lib/wire-CbDHx9s_.js",
+      "size": 136234,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 7866,
+      "mode": 420
+    }
+  ],
+  "entryCount": 62,
+  "bundled": []
+}

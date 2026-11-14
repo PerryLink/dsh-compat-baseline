@@ -1,0 +1,234 @@
+{
+  "id": "dsh-library@0.3.0",
+  "name": "dsh-library",
+  "version": "0.3.0",
+  "size": 126603,
+  "unpackedSize": 508118,
+  "shasum": "fac25fdb1695578b3163ecb03e1ed81eab8a74d2",
+  "integrity": "sha512-eeKJaLVtiHhHejX73ScWcaiqttvg9quDhlcn8A2NmT74VPBX78AaOj0HGwFNUK5/+4pBiM189zTpPOwey5XVyw==",
+  "filename": "dsh-library-0.3.0.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 19845,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 493
+    },
+    {
+      "path": "README-es.md",
+      "size": 24917,
+      "mode": 493
+    },
+    {
+      "path": "README-hi.md",
+      "size": 35143,
+      "mode": 493
+    },
+    {
+      "path": "README-pt.md",
+      "size": 24828,
+      "mode": 493
+    },
+    {
+      "path": "README-zh.md",
+      "size": 23441,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 24260,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2336,
+      "mode": 493
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1872,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 3698,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.js",
+      "size": 231213,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 11955,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 5465,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/embedding.d.ts",
+      "size": 9092,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/embedding.d.ts.map",
+      "size": 3364,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/events.d.ts",
+      "size": 5113,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/events.d.ts.map",
+      "size": 1367,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/expand.d.ts",
+      "size": 1235,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/expand.d.ts.map",
+      "size": 489,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ids.d.ts",
+      "size": 1381,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ids.d.ts.map",
+      "size": 657,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 12696,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 6010,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/bm25.d.ts",
+      "size": 1219,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/bm25.d.ts.map",
+      "size": 600,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/chunk-visual.d.ts",
+      "size": 3792,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/chunk-visual.d.ts.map",
+      "size": 1785,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/citation.d.ts",
+      "size": 3356,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/citation.d.ts.map",
+      "size": 1203,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/diversity.d.ts",
+      "size": 2577,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/diversity.d.ts.map",
+      "size": 1005,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/few-shot.d.ts",
+      "size": 2501,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/few-shot.d.ts.map",
+      "size": 977,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/lost-middle.d.ts",
+      "size": 4278,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/lost-middle.d.ts.map",
+      "size": 1569,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/purge.d.ts",
+      "size": 2615,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/purge.d.ts.map",
+      "size": 951,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/reference.d.ts",
+      "size": 3405,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/reference.d.ts.map",
+      "size": 1351,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/relevance.d.ts",
+      "size": 2320,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/quality/relevance.d.ts.map",
+      "size": 619,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/text.d.ts",
+      "size": 2627,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/text.d.ts.map",
+      "size": 868,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 6766,
+      "mode": 493
+    }
+  ],
+  "entryCount": 44,
+  "bundled": []
+}

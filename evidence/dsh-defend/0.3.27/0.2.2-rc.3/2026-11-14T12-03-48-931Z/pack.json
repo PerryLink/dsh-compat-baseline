@@ -1,0 +1,314 @@
+{
+  "id": "dsh-defend@0.3.27",
+  "name": "dsh-defend",
+  "version": "0.3.27",
+  "size": 145025,
+  "unpackedSize": 522873,
+  "shasum": "f0ba6f608bf04751d6458650a75bda98789c73db",
+  "integrity": "sha512-HO+CNNsRAyV9UKjJ33jASYaeejcGaf9BohnTzVhE5EEi7/EeV0toGC4oSXFyjql2orXQZ1n9cr9vBa3+FggetQ==",
+  "filename": "dsh-defend-0.3.27.tgz",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "size": 9396,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 24166,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11558,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 27757,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 40253,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 27529,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 25843,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 26993,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2208,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 2043,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 2220,
+      "mode": 420
+    },
+    {
+      "path": "fixtures/attacks.json",
+      "size": 5083,
+      "mode": 420
+    },
+    {
+      "path": "fixtures/clean.txt",
+      "size": 809,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 54857,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/ac.d.ts",
+      "size": 2333,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/ac.d.ts.map",
+      "size": 781,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/ac.js",
+      "size": 3867,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/ac.js.map",
+      "size": 3448,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/entropy.d.ts",
+      "size": 1607,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/entropy.d.ts.map",
+      "size": 323,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/entropy.js",
+      "size": 2341,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/entropy.js.map",
+      "size": 1281,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/index.d.ts",
+      "size": 942,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/index.d.ts.map",
+      "size": 719,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/index.js",
+      "size": 729,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/index.js.map",
+      "size": 514,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/rules.d.ts",
+      "size": 1801,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/rules.d.ts.map",
+      "size": 377,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/rules.js",
+      "size": 12641,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/rules.js.map",
+      "size": 6936,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/scanner.d.ts",
+      "size": 3062,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/scanner.d.ts.map",
+      "size": 970,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/scanner.js",
+      "size": 7325,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/scanner.js.map",
+      "size": 5807,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/secrets.d.ts",
+      "size": 1257,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/secrets.d.ts.map",
+      "size": 329,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/secrets.js",
+      "size": 3479,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/secrets.js.map",
+      "size": 2105,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/types.d.ts",
+      "size": 4360,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/types.d.ts.map",
+      "size": 1695,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/types.js",
+      "size": 1348,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/detect/types.js.map",
+      "size": 814,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts",
+      "size": 5477,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts.map",
+      "size": 1450,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.js",
+      "size": 3082,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.js.map",
+      "size": 356,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 8848,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 2437,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js",
+      "size": 43158,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js.map",
+      "size": 29646,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 5926,
+      "mode": 420
+    },
+    {
+      "path": "src/detect/ac.ts",
+      "size": 5308,
+      "mode": 420
+    },
+    {
+      "path": "src/detect/entropy.ts",
+      "size": 2224,
+      "mode": 420
+    },
+    {
+      "path": "src/detect/index.ts",
+      "size": 965,
+      "mode": 420
+    },
+    {
+      "path": "src/detect/rules.ts",
+      "size": 12974,
+      "mode": 420
+    },
+    {
+      "path": "src/detect/scanner.ts",
+      "size": 8286,
+      "mode": 420
+    },
+    {
+      "path": "src/detect/secrets.ts",
+      "size": 3890,
+      "mode": 420
+    },
+    {
+      "path": "src/detect/types.ts",
+      "size": 4705,
+      "mode": 420
+    },
+    {
+      "path": "src/events.ts",
+      "size": 5477,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 44758,
+      "mode": 420
+    }
+  ],
+  "entryCount": 60,
+  "bundled": []
+}

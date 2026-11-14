@@ -1,0 +1,629 @@
+{
+  "id": "dsh-data-quality@0.3.26",
+  "name": "dsh-data-quality",
+  "version": "0.3.26",
+  "size": 212905,
+  "unpackedSize": 928663,
+  "shasum": "1eff3c26b153f5c8e15d290e87f45426c9f91f92",
+  "integrity": "sha512-4kKvUqo2cOSqbfPLTp2o48MUdVyJxtZTFX3tBKeWWXJgO06X1/2I9a00OHTaqoqib+J8wnoACGCpnWX7BHe/dQ==",
+  "filename": "dsh-data-quality-0.3.26.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 21090,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 28474,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 41974,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 28178,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 25531,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 28657,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2238,
+      "mode": 420
+    },
+    {
+      "path": "SUMMARY.md",
+      "size": 14812,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1571,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 2284,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 134707,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/clean.d.ts",
+      "size": 3155,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/clean.d.ts.map",
+      "size": 1998,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/clean.js",
+      "size": 14387,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/clean.js.map",
+      "size": 13905,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 2541,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 1364,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.js",
+      "size": 4321,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.js.map",
+      "size": 3690,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/contract.d.ts",
+      "size": 3859,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/contract.d.ts.map",
+      "size": 1898,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/contract.js",
+      "size": 5790,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/contract.js.map",
+      "size": 4818,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/dataset.d.ts",
+      "size": 9007,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/dataset.d.ts.map",
+      "size": 3102,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/dataset.js",
+      "size": 17927,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/dataset.js.map",
+      "size": 14016,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts",
+      "size": 4350,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts.map",
+      "size": 1171,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.js",
+      "size": 2899,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.js.map",
+      "size": 729,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 3762,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 2236,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js",
+      "size": 5568,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js.map",
+      "size": 3925,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/present.d.ts",
+      "size": 1000,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/present.d.ts.map",
+      "size": 400,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/present.js",
+      "size": 1120,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/present.js.map",
+      "size": 658,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/presets.d.ts",
+      "size": 1314,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/presets.d.ts.map",
+      "size": 595,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/presets.js",
+      "size": 3711,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/presets.js.map",
+      "size": 2385,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/profile.d.ts",
+      "size": 5548,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/profile.d.ts.map",
+      "size": 2967,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/profile.js",
+      "size": 10870,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/profile.js.map",
+      "size": 11018,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/provider-local.d.ts",
+      "size": 3131,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/provider-local.d.ts.map",
+      "size": 1828,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/provider-local.js",
+      "size": 11589,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/provider-local.js.map",
+      "size": 10059,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report-html.d.ts",
+      "size": 1818,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report-html.d.ts.map",
+      "size": 613,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report-html.js",
+      "size": 8545,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report-html.js.map",
+      "size": 4881,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/scorecard.d.ts",
+      "size": 2796,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/scorecard.d.ts.map",
+      "size": 1071,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/scorecard.js",
+      "size": 8726,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/scorecard.js.map",
+      "size": 7054,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts",
+      "size": 9073,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts.map",
+      "size": 4330,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.js",
+      "size": 957,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.js.map",
+      "size": 302,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.d.ts",
+      "size": 3202,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.d.ts.map",
+      "size": 1043,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.js",
+      "size": 2388,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.js.map",
+      "size": 1613,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/clean.d.ts",
+      "size": 634,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/clean.d.ts.map",
+      "size": 239,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/clean.js",
+      "size": 12227,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/clean.js.map",
+      "size": 7061,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/profile-report-schema.d.ts",
+      "size": 11973,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/profile-report-schema.d.ts.map",
+      "size": 561,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/profile-report-schema.js",
+      "size": 4191,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/profile-report-schema.js.map",
+      "size": 3694,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/profile.d.ts",
+      "size": 591,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/profile.d.ts.map",
+      "size": 242,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/profile.js",
+      "size": 2990,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/profile.js.map",
+      "size": 1396,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/report.d.ts",
+      "size": 671,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/report.d.ts.map",
+      "size": 242,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/report.js",
+      "size": 6065,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/report.js.map",
+      "size": 4328,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/shared.d.ts",
+      "size": 941,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/shared.d.ts.map",
+      "size": 360,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/shared.js",
+      "size": 3425,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/shared.js.map",
+      "size": 3020,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/verify.d.ts",
+      "size": 650,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/verify.d.ts.map",
+      "size": 243,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/verify.js",
+      "size": 10518,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/verify.js.map",
+      "size": 6330,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/verify.d.ts",
+      "size": 7238,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/verify.d.ts.map",
+      "size": 3932,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/verify.js",
+      "size": 23954,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/verify.js.map",
+      "size": 20331,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts",
+      "size": 649,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts.map",
+      "size": 213,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.js",
+      "size": 631,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.js.map",
+      "size": 231,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 5817,
+      "mode": 420
+    },
+    {
+      "path": "src/clean.ts",
+      "size": 15239,
+      "mode": 420
+    },
+    {
+      "path": "src/config.ts",
+      "size": 5955,
+      "mode": 420
+    },
+    {
+      "path": "src/contract.ts",
+      "size": 8068,
+      "mode": 420
+    },
+    {
+      "path": "src/dataset.ts",
+      "size": 19551,
+      "mode": 420
+    },
+    {
+      "path": "src/events.ts",
+      "size": 4857,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 6625,
+      "mode": 420
+    },
+    {
+      "path": "src/present.ts",
+      "size": 1226,
+      "mode": 420
+    },
+    {
+      "path": "src/presets.ts",
+      "size": 3637,
+      "mode": 420
+    },
+    {
+      "path": "src/profile.ts",
+      "size": 14060,
+      "mode": 420
+    },
+    {
+      "path": "src/provider-local.ts",
+      "size": 12218,
+      "mode": 420
+    },
+    {
+      "path": "src/report-html.ts",
+      "size": 8479,
+      "mode": 420
+    },
+    {
+      "path": "src/scorecard.ts",
+      "size": 10258,
+      "mode": 420
+    },
+    {
+      "path": "src/service.ts",
+      "size": 8685,
+      "mode": 420
+    },
+    {
+      "path": "src/store.ts",
+      "size": 3786,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/clean.ts",
+      "size": 10126,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/profile-report-schema.ts",
+      "size": 3651,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/profile.ts",
+      "size": 2927,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/report.ts",
+      "size": 6545,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/shared.ts",
+      "size": 3414,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/verify.ts",
+      "size": 9324,
+      "mode": 420
+    },
+    {
+      "path": "src/verify.ts",
+      "size": 25952,
+      "mode": 420
+    },
+    {
+      "path": "src/version.ts",
+      "size": 596,
+      "mode": 493
+    }
+  ],
+  "entryCount": 123,
+  "bundled": []
+}

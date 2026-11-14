@@ -1,0 +1,329 @@
+{
+  "id": "dsh-composer-history@0.8.16",
+  "name": "dsh-composer-history",
+  "version": "0.8.16",
+  "size": 333046,
+  "unpackedSize": 880206,
+  "shasum": "73b8ea9ddc06590a6237dc91aa8cd708e160ce64",
+  "integrity": "sha512-WBPAyHory2IyQBVVMh7dZRU1JkklRDVKc4CGtHmrUmZDci+Mnb1mWHDtrnutGXwF+olz1GVNZa4BbHrTyIDckA==",
+  "filename": "dsh-composer-history-0.8.16.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 27609,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 38691,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 60351,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 37961,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 33455,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 35416,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 319,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-composer-history-demo.gif",
+      "size": 63489,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-composer-history-demo.png",
+      "size": 95820,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-composer-history-flow.svg",
+      "size": 2361,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-composer-history-hero.png",
+      "size": 33527,
+      "mode": 420
+    },
+    {
+      "path": "docs/upstream-proposals.md",
+      "size": 8377,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js",
+      "size": 143841,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 39955,
+      "mode": 420
+    },
+    {
+      "path": "lib/invariant.js",
+      "size": 1296,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/backup.d.ts",
+      "size": 4842,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/compaction-notice.d.ts",
+      "size": 1443,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/compaction-watch.d.ts",
+      "size": 2214,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/composer-dom.d.ts",
+      "size": 3107,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/config.d.ts",
+      "size": 5388,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/history-extract.d.ts",
+      "size": 1485,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/history-store.d.ts",
+      "size": 2425,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts",
+      "size": 3130,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/insights.d.ts",
+      "size": 3399,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/interceptor.d.ts",
+      "size": 3935,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/keys.d.ts",
+      "size": 1552,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/node-views.d.ts",
+      "size": 3108,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/notice.d.ts",
+      "size": 1484,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/recall.d.ts",
+      "size": 9250,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/search-overlay.d.ts",
+      "size": 3344,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/search.d.ts",
+      "size": 2231,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/session-nodes.d.ts",
+      "size": 3504,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/snippets.d.ts",
+      "size": 4632,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/templates.d.ts",
+      "size": 4427,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/visual-edge.d.ts",
+      "size": 1448,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/visual-mirror.d.ts",
+      "size": 3729,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 2962,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/invariant.d.ts",
+      "size": 1334,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 5557,
+      "mode": 420
+    },
+    {
+      "path": "src/client/backup.ts",
+      "size": 12142,
+      "mode": 420
+    },
+    {
+      "path": "src/client/compaction-notice.ts",
+      "size": 5567,
+      "mode": 420
+    },
+    {
+      "path": "src/client/compaction-watch.ts",
+      "size": 3296,
+      "mode": 420
+    },
+    {
+      "path": "src/client/composer-dom.ts",
+      "size": 8186,
+      "mode": 420
+    },
+    {
+      "path": "src/client/config.ts",
+      "size": 7049,
+      "mode": 420
+    },
+    {
+      "path": "src/client/history-extract.ts",
+      "size": 1861,
+      "mode": 420
+    },
+    {
+      "path": "src/client/history-store.ts",
+      "size": 4118,
+      "mode": 420
+    },
+    {
+      "path": "src/client/index.ts",
+      "size": 29401,
+      "mode": 420
+    },
+    {
+      "path": "src/client/insights.ts",
+      "size": 5775,
+      "mode": 420
+    },
+    {
+      "path": "src/client/interceptor.ts",
+      "size": 10428,
+      "mode": 420
+    },
+    {
+      "path": "src/client/keys.ts",
+      "size": 3196,
+      "mode": 420
+    },
+    {
+      "path": "src/client/node-views.ts",
+      "size": 3970,
+      "mode": 420
+    },
+    {
+      "path": "src/client/notice.ts",
+      "size": 4058,
+      "mode": 420
+    },
+    {
+      "path": "src/client/recall.ts",
+      "size": 14217,
+      "mode": 420
+    },
+    {
+      "path": "src/client/search-overlay.ts",
+      "size": 13974,
+      "mode": 420
+    },
+    {
+      "path": "src/client/search.ts",
+      "size": 2972,
+      "mode": 420
+    },
+    {
+      "path": "src/client/session-nodes.ts",
+      "size": 3798,
+      "mode": 420
+    },
+    {
+      "path": "src/client/snippets.ts",
+      "size": 8432,
+      "mode": 420
+    },
+    {
+      "path": "src/client/templates.ts",
+      "size": 8840,
+      "mode": 420
+    },
+    {
+      "path": "src/client/visual-edge.ts",
+      "size": 1802,
+      "mode": 420
+    },
+    {
+      "path": "src/client/visual-mirror.ts",
+      "size": 8512,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 3578,
+      "mode": 420
+    },
+    {
+      "path": "src/invariant.ts",
+      "size": 1279,
+      "mode": 420
+    }
+  ],
+  "entryCount": 63,
+  "bundled": []
+}

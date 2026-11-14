@@ -1,0 +1,129 @@
+{
+  "id": "dsh-mask@0.2.24",
+  "name": "dsh-mask",
+  "version": "0.2.24",
+  "size": 76792,
+  "unpackedSize": 267197,
+  "shasum": "ae9ca15582de6e79f0e35f289582eed6d194aee5",
+  "integrity": "sha512-MVu0f24FpFPFpIlgDOPTvz7qmsY+vkuSc2nLTDHJTXDVPQwvCksbc7MQ4g3N3HJE31D91H4d1OzRtheEApsD+A==",
+  "filename": "dsh-mask-0.2.24.tgz",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 11931,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 22529,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 25286,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 36267,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 24981,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 25541,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 27425,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 3035,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 2368,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 3711,
+      "mode": 420
+    },
+    {
+      "path": "index.mjs",
+      "size": 24915,
+      "mode": 420
+    },
+    {
+      "path": "lib/constants.mjs",
+      "size": 3080,
+      "mode": 420
+    },
+    {
+      "path": "lib/deliver.mjs",
+      "size": 6054,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain.mjs",
+      "size": 1036,
+      "mode": 420
+    },
+    {
+      "path": "lib/errors.mjs",
+      "size": 2793,
+      "mode": 420
+    },
+    {
+      "path": "lib/gate.mjs",
+      "size": 2781,
+      "mode": 420
+    },
+    {
+      "path": "lib/mask.mjs",
+      "size": 2782,
+      "mode": 420
+    },
+    {
+      "path": "lib/sanitize.mjs",
+      "size": 2222,
+      "mode": 420
+    },
+    {
+      "path": "lib/store.mjs",
+      "size": 6023,
+      "mode": 420
+    },
+    {
+      "path": "lib/strip.mjs",
+      "size": 11851,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 6341,
+      "mode": 420
+    },
+    {
+      "path": "types.d.ts",
+      "size": 2888,
+      "mode": 420
+    }
+  ],
+  "entryCount": 23,
+  "bundled": []
+}

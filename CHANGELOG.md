@@ -1,5 +1,32 @@
 # Changelog
 
+## 0.6.0 — 2026-11-14
+
+- **Finish `mainline-default`: 34 / 34 rows now `checked`.** 21 rows were still
+  `declared` (not 14: the previous 20 checked included 7 `external` rows), so
+  this release audits and merges all 21. Total `checked` is **41** (34
+  mainline-default + 7 external); `declared` 123 -> 102; `tested` remains **0**.
+- New results: **20 `pass` + 1 `warn` -> all 21 map to `recognized`**; 0 blocking.
+  The warn is `dsh-output-styles@0.8.3` (DSC-11 capability/labels declaration).
+  Every new report is stored under `evidence/` with its SHA-256 checked against
+  `audit.json`.
+- **`dsh-checkers@0.0.1` stays `failed`, not `blocked`.** It is not a meta/tooling
+  package: it is a reserved-name placeholder for a checkers game plugin whose
+  tarball is only `README.md` + `package.json`. The checker completed and found
+  a blocking defect (DSC-01 / C-1.2: no resolvable runtime entry), so `failed`
+  is the correct package verdict; `blocked` would mean the checker could not
+  establish a verdict. `standards.entry.note` records this; the gate remains
+  `blocked` and no pass was manufactured.
+- ENTRY summary: `{recognized:40, failed:1, not-run:0, unknown:102}`;
+  gate `{blocked:1, review:21, pilot:121, production-candidate:0}` (the 21 new
+  rows were all `pilot` before and after). 143 rows and their order are unchanged;
+  coverage totals/missing/tracks/compat and every group's gate distribution are
+  unchanged.
+- Only `standards.entry` / `evidence` (and gate recomputation) changed; no
+  `tested`, no runtime claim. Checker pinned to `dsh-standards@1.6.10`, host
+  `0.2.2-rc.3`. Pre-merge matrix: `data/matrix.v0.6.0.pre-merge.json`.
+  Local only: no push, no publish.
+
 ## 0.5.1 — 2026-11-14
 
 - Expand ENTRY **`checked` from 10 to 20 rows** (seed positions 11–20):

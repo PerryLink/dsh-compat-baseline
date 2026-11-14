@@ -1,0 +1,324 @@
+{
+  "id": "dsh-budget@0.4.25",
+  "name": "dsh-budget",
+  "version": "0.4.25",
+  "size": 282666,
+  "unpackedSize": 1330926,
+  "shasum": "ccb708dd728cb33e0f8e836035e91185f7a2e91f",
+  "integrity": "sha512-yhtRWMKGN2fhXkiYPgchoyQTtfKal1ZOOaZnJ8wBxpex9MHGlMgll2oPtkZFst4xFqjQl4Dhy25CElpYUcGoqQ==",
+  "filename": "dsh-budget-0.4.25.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 17961,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 25377,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 36424,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 25167,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 23952,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 25694,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2038,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1523,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 4174,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js",
+      "size": 204670,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js.map",
+      "size": 528599,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 57235,
+      "mode": 420
+    },
+    {
+      "path": "lib/typert.host.js",
+      "size": 907,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/aggregate/usage.d.ts",
+      "size": 7567,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/aggregate/usage.d.ts.map",
+      "size": 3782,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/BudgetTab.d.ts",
+      "size": 1240,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/BudgetTab.d.ts.map",
+      "size": 841,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts",
+      "size": 1592,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts.map",
+      "size": 760,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts",
+      "size": 1944,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts.map",
+      "size": 357,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/present.d.ts",
+      "size": 936,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/present.d.ts.map",
+      "size": 584,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts",
+      "size": 25993,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts.map",
+      "size": 1413,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/styles.d.ts",
+      "size": 568,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/styles.d.ts.map",
+      "size": 188,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/command.d.ts",
+      "size": 1952,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/command.d.ts.map",
+      "size": 1237,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 5274,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 3579,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/carbon.d.ts",
+      "size": 5026,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/carbon.d.ts.map",
+      "size": 2090,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/cost.d.ts",
+      "size": 2703,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/cost.d.ts.map",
+      "size": 1061,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/latency-stats.d.ts",
+      "size": 4003,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/latency-stats.d.ts.map",
+      "size": 1810,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/models.d.ts",
+      "size": 1159,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/models.d.ts.map",
+      "size": 511,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/prices.d.ts",
+      "size": 3895,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/prices.d.ts.map",
+      "size": 1425,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/sanitize.d.ts",
+      "size": 2280,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/estimate/sanitize.d.ts.map",
+      "size": 637,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts",
+      "size": 3664,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts.map",
+      "size": 1447,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/governance.d.ts",
+      "size": 3797,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/governance.d.ts.map",
+      "size": 1561,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 3332,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 944,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts",
+      "size": 2940,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts.map",
+      "size": 1452,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.d.ts",
+      "size": 2641,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/store.d.ts.map",
+      "size": 346,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/thinking.d.ts",
+      "size": 1096,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/thinking.d.ts.map",
+      "size": 337,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts",
+      "size": 25230,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts.map",
+      "size": 660,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts",
+      "size": 41936,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts.map",
+      "size": 3191,
+      "mode": 420
+    },
+    {
+      "path": "lib/wire-BcrmZZ4G.js",
+      "size": 177061,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 7806,
+      "mode": 420
+    }
+  ],
+  "entryCount": 62,
+  "bundled": []
+}

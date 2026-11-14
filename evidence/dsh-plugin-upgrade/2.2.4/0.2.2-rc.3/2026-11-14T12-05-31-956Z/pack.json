@@ -1,0 +1,239 @@
+{
+  "id": "dsh-plugin-upgrade@2.2.4",
+  "name": "dsh-plugin-upgrade",
+  "version": "2.2.4",
+  "size": 385384,
+  "unpackedSize": 761591,
+  "shasum": "237f724b4626059c18753821d05f09aa93a3413e",
+  "integrity": "sha512-U6b7aG54VBB5rWHxlibMw+9y5fZEpPyGTGptusfU9QV0GDcqYTCzjb6ieK+aipYrAUugjsLa91iskhUMQ0u7xg==",
+  "filename": "dsh-plugin-upgrade-2.2.4.tgz",
+  "files": [
+    {
+      "path": "",
+      "size": 0,
+      "mode": 493
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 17997,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 24872,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 36185,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 54686,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 35943,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 33231,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 34803,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1896,
+      "mode": 420
+    },
+    {
+      "path": "STANDARDS.md",
+      "size": 496,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1361,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 1187,
+      "mode": 420
+    },
+    {
+      "path": "docs/",
+      "size": 0,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/",
+      "size": 0,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-plugin-upgrade-demo.gif",
+      "size": 63167,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-upgrade-demo.png",
+      "size": 122369,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-upgrade-evidence.png",
+      "size": 72140,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-upgrade-flow.svg",
+      "size": 2441,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-upgrade-hero.png",
+      "size": 29092,
+      "mode": 420
+    },
+    {
+      "path": "docs/EVIDENCE.md",
+      "size": 30250,
+      "mode": 420
+    },
+    {
+      "path": "index.mjs",
+      "size": 6057,
+      "mode": 420
+    },
+    {
+      "path": "lib/",
+      "size": 0,
+      "mode": 493
+    },
+    {
+      "path": "lib/route.mjs",
+      "size": 9388,
+      "mode": 420
+    },
+    {
+      "path": "lib/scan-0.1.6.mjs",
+      "size": 17201,
+      "mode": 420
+    },
+    {
+      "path": "lib/scan-0.2.mjs",
+      "size": 17204,
+      "mode": 384
+    },
+    {
+      "path": "lib/scan.mjs",
+      "size": 26759,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 4621,
+      "mode": 420
+    },
+    {
+      "path": "scripts/",
+      "size": 0,
+      "mode": 493
+    },
+    {
+      "path": "scripts/changelog-section.mjs",
+      "size": 934,
+      "mode": 420
+    },
+    {
+      "path": "scripts/check-readme-sync.mjs",
+      "size": 1693,
+      "mode": 420
+    },
+    {
+      "path": "scripts/scan-0.1.5.mjs",
+      "size": 1353,
+      "mode": 420
+    },
+    {
+      "path": "scripts/sweep-all.mjs",
+      "size": 2412,
+      "mode": 420
+    },
+    {
+      "path": "scripts/verify-artifacts.mjs",
+      "size": 8038,
+      "mode": 420
+    },
+    {
+      "path": "scripts/verify-self-contained.mjs",
+      "size": 3209,
+      "mode": 420
+    },
+    {
+      "path": "skills/",
+      "size": 0,
+      "mode": 493
+    },
+    {
+      "path": "skills/plugin-upgrade/",
+      "size": 0,
+      "mode": 493
+    },
+    {
+      "path": "skills/plugin-upgrade/references/",
+      "size": 0,
+      "mode": 493
+    },
+    {
+      "path": "skills/plugin-upgrade/references/v0.1.3-alpha.1-to-v0.1.5-rc.1.md",
+      "size": 43482,
+      "mode": 420
+    },
+    {
+      "path": "skills/plugin-upgrade/references/v0.1.5-rc.2-to-v0.1.6-alpha.2.md",
+      "size": 7608,
+      "mode": 420
+    },
+    {
+      "path": "skills/plugin-upgrade/references/v0.1.6-alpha.2-to-v0.2.x.md",
+      "size": 15417,
+      "mode": 384
+    },
+    {
+      "path": "skills/plugin-upgrade/scripts/",
+      "size": 0,
+      "mode": 493
+    },
+    {
+      "path": "skills/plugin-upgrade/scripts/scan-0.1.5.mjs",
+      "size": 1359,
+      "mode": 420
+    },
+    {
+      "path": "skills/plugin-upgrade/SKILL.md",
+      "size": 17699,
+      "mode": 420
+    },
+    {
+      "path": "types.d.ts",
+      "size": 3702,
+      "mode": 420
+    }
+  ],
+  "entryCount": 45,
+  "bundled": []
+}

@@ -1,0 +1,229 @@
+{
+  "id": "dsh-click@0.3.29",
+  "name": "dsh-click",
+  "version": "0.3.29",
+  "size": 131199,
+  "unpackedSize": 470213,
+  "shasum": "0031b94ac57d07a968a800df9c953f6ef105f0d4",
+  "integrity": "sha512-1uLQJ/CVtH4UMjsUffgYaj1fE74vuFELrppkikNHHFfZxemStYrSZDNXqmiwbAQ+FIAe7FqYtJtZ2PsOobW8Eg==",
+  "filename": "dsh-click-0.3.29.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 24308,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README.en.md",
+      "size": 34505,
+      "mode": 420
+    },
+    {
+      "path": "README.es.md",
+      "size": 37068,
+      "mode": 420
+    },
+    {
+      "path": "README.hi.md",
+      "size": 54810,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 33237,
+      "mode": 420
+    },
+    {
+      "path": "README.pt.md",
+      "size": 36755,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2282,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1397,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 3387,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 88868,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/actions.d.ts",
+      "size": 4290,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/actions.d.ts.map",
+      "size": 1405,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 7912,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 3137,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts",
+      "size": 6449,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts.map",
+      "size": 2335,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 2666,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 1315,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/observe.d.ts",
+      "size": 3405,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/observe.d.ts.map",
+      "size": 1539,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/platform/runner.d.ts",
+      "size": 2640,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/platform/runner.d.ts.map",
+      "size": 1807,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/platform/selection.d.ts",
+      "size": 2057,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/platform/selection.d.ts.map",
+      "size": 1119,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/platform/types.d.ts",
+      "size": 10563,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/platform/types.d.ts.map",
+      "size": 5954,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts",
+      "size": 1772,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts.map",
+      "size": 465,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools.d.ts",
+      "size": 5596,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools.d.ts.map",
+      "size": 1656,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts",
+      "size": 608,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts.map",
+      "size": 215,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vision.d.ts",
+      "size": 1013,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vision.d.ts.map",
+      "size": 363,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vision/grounding.d.ts",
+      "size": 1959,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vision/grounding.d.ts.map",
+      "size": 1112,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vision/index.d.ts",
+      "size": 1494,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vision/index.d.ts.map",
+      "size": 961,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vision/ocr.d.ts",
+      "size": 3708,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/vision/ocr.d.ts.map",
+      "size": 1732,
+      "mode": 420
+    },
+    {
+      "path": "native/win32/dsh-click-helper.ps1",
+      "size": 54816,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 6176,
+      "mode": 420
+    }
+  ],
+  "entryCount": 43,
+  "bundled": []
+}

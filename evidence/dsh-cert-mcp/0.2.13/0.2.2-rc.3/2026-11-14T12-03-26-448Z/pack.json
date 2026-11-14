@@ -1,0 +1,124 @@
+{
+  "id": "dsh-cert-mcp@0.2.13",
+  "name": "dsh-cert-mcp",
+  "version": "0.2.13",
+  "size": 177584,
+  "unpackedSize": 335481,
+  "shasum": "6d2a023a41b877c67c113b01901e2281e2b27004",
+  "integrity": "sha512-UIsYcvWJEpCBUcVwJDdvODDlxpRNPxSbNrA284goHGDA/LrBVmoOk6d3c0N82uDaGlKa6bBs+DSlNRuFcfUF1g==",
+  "filename": "dsh-cert-mcp-0.2.13.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3756,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "PRIVACY.md",
+      "size": 777,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 19866,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 27044,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 19720,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 18292,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 19147,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 758,
+      "mode": 420
+    },
+    {
+      "path": "STANDARDS.md",
+      "size": 496,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 371,
+      "mode": 420
+    },
+    {
+      "path": "data/attestations.json",
+      "size": 2478,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-cert-mcp-demo.gif",
+      "size": 56827,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-cert-mcp-demo.png",
+      "size": 107097,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-cert-mcp-flow.svg",
+      "size": 2337,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-cert-mcp-hero.png",
+      "size": 26781,
+      "mode": 420
+    },
+    {
+      "path": "icon.svg",
+      "size": 374,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 2516,
+      "mode": 420
+    },
+    {
+      "path": "server.json",
+      "size": 556,
+      "mode": 420
+    },
+    {
+      "path": "src/index.js",
+      "size": 730,
+      "mode": 420
+    },
+    {
+      "path": "src/plugin.js",
+      "size": 2384,
+      "mode": 420
+    },
+    {
+      "path": "src/server.js",
+      "size": 11817,
+      "mode": 420
+    }
+  ],
+  "entryCount": 22,
+  "bundled": []
+}

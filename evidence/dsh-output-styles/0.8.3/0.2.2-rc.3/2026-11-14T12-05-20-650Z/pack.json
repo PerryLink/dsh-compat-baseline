@@ -1,0 +1,344 @@
+{
+  "id": "dsh-output-styles@0.8.3",
+  "name": "dsh-output-styles",
+  "version": "0.8.3",
+  "size": 276929,
+  "unpackedSize": 708418,
+  "shasum": "485ae4ad9027e3f853da99549f588854bc2284f0",
+  "integrity": "sha512-RFZLtTOAA6UIx4iXTPrJ6uO1Ry4kKs1Ko+58U/1KEq9u16WEJGeq8rFjnY0QO5EnWnWZJH9L+rfRJBOVBL4HSA==",
+  "filename": "dsh-output-styles-0.8.3.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 37656,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 420
+    },
+    {
+      "path": "PRIVACY.md",
+      "size": 782,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 31919,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 46396,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 31539,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 29239,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 30384,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 2286,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-output-styles-demo.gif",
+      "size": 62150,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-output-styles-demo.png",
+      "size": 78808,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-output-styles-flow.svg",
+      "size": 2352,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-output-styles-hero.png",
+      "size": 32140,
+      "mode": 420
+    },
+    {
+      "path": "docs/COEXISTENCE.md",
+      "size": 3509,
+      "mode": 420
+    },
+    {
+      "path": "docs/renderer-protocol.md",
+      "size": 5484,
+      "mode": 420
+    },
+    {
+      "path": "docs/renderer-protocol.zh.md",
+      "size": 5267,
+      "mode": 420
+    },
+    {
+      "path": "docs/VERIFICATION.zh.md",
+      "size": 15241,
+      "mode": 420
+    },
+    {
+      "path": "icon.svg",
+      "size": 379,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js",
+      "size": 4441,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 47533,
+      "mode": 420
+    },
+    {
+      "path": "lib/invariant-32q86J4d.js",
+      "size": 23625,
+      "mode": 420
+    },
+    {
+      "path": "lib/invariant.js",
+      "size": 120,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts",
+      "size": 1400,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts.map",
+      "size": 534,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts",
+      "size": 824,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts.map",
+      "size": 277,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/coexist.d.ts",
+      "size": 2514,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/coexist.d.ts.map",
+      "size": 760,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 12600,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 2386,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/export.d.ts",
+      "size": 4475,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/export.d.ts.map",
+      "size": 1395,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 2550,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 1180,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/invariant.d.ts",
+      "size": 2983,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/invariant.d.ts.map",
+      "size": 1049,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/renderers.d.ts",
+      "size": 5939,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/renderers.d.ts.map",
+      "size": 2207,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/runtime.d.ts",
+      "size": 9511,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/runtime.d.ts.map",
+      "size": 3490,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/style-command.d.ts",
+      "size": 3010,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/style-command.d.ts.map",
+      "size": 868,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/style-library.d.ts",
+      "size": 4130,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/style-library.d.ts.map",
+      "size": 1077,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/types.d.ts",
+      "size": 6859,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/types.d.ts.map",
+      "size": 2142,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 9932,
+      "mode": 420
+    },
+    {
+      "path": "src/client/index.ts",
+      "size": 5481,
+      "mode": 420
+    },
+    {
+      "path": "src/client/locales.ts",
+      "size": 1044,
+      "mode": 420
+    },
+    {
+      "path": "src/coexist.ts",
+      "size": 2920,
+      "mode": 420
+    },
+    {
+      "path": "src/config.ts",
+      "size": 13187,
+      "mode": 420
+    },
+    {
+      "path": "src/export.ts",
+      "size": 11198,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 2693,
+      "mode": 420
+    },
+    {
+      "path": "src/invariant.ts",
+      "size": 6598,
+      "mode": 420
+    },
+    {
+      "path": "src/offload.d.ts",
+      "size": 1230,
+      "mode": 420
+    },
+    {
+      "path": "src/renderers.ts",
+      "size": 11773,
+      "mode": 420
+    },
+    {
+      "path": "src/runtime.ts",
+      "size": 33481,
+      "mode": 420
+    },
+    {
+      "path": "src/style-command.ts",
+      "size": 4144,
+      "mode": 420
+    },
+    {
+      "path": "src/style-library.ts",
+      "size": 15776,
+      "mode": 420
+    },
+    {
+      "path": "src/types.ts",
+      "size": 6679,
+      "mode": 420
+    },
+    {
+      "path": "styles/concise.md",
+      "size": 873,
+      "mode": 420
+    },
+    {
+      "path": "styles/explanatory.md",
+      "size": 844,
+      "mode": 420
+    },
+    {
+      "path": "styles/formal.md",
+      "size": 734,
+      "mode": 420
+    },
+    {
+      "path": "styles/learning.md",
+      "size": 1176,
+      "mode": 420
+    },
+    {
+      "path": "styles/proactive.md",
+      "size": 1071,
+      "mode": 420
+    },
+    {
+      "path": "styles/step-by-step.md",
+      "size": 835,
+      "mode": 420
+    }
+  ],
+  "entryCount": 66,
+  "bundled": []
+}

@@ -37,7 +37,7 @@ HCB follows the [dsh-standards](https://github.com/PerryLink/dsh-standards) mode
 
 Rules: **a skip is not a pass**; `static` is not `runtime`; **BOOST is not a gate**; compatibility is a claim by the package author, not a test result. See [docs/TRACKS.md](docs/TRACKS.md).
 
-## What is in v0.5
+## What is in v0.6 (schema v0.5)
 
 | File | Meaning |
 |---|---|
@@ -71,15 +71,15 @@ not produced by `audit-entry.mjs`; the script is intentionally static-only.
 See [`docs/EVIDENCE.md`](docs/EVIDENCE.md) for the field contract, failure /
 blocked semantics, and the exact re-run commands.
 
-## Current coverage (2026-11-14, v0.5.1)
+## Current coverage (2026-11-14, v0.6.0)
 
 - **143 plugins** = the full 112-package dsh-kit family (34 mainline-default + 53 opt-in + 10 catalog-only + 15 domain) + 31 external
 - **123** declare `engines.dsh`; **20** are `unknown`
 - **3** declare `dsh.standards`; **140** are `not-declared`
-- ENTRY: **19 `recognized` + 1 `failed` (20 checked)**, 2 `not-run`, 121 `unknown` — **no plugin has runtime evidence yet**
-- Evidence: **123 `declared`, 20 `checked`, 0 `tested`** (20 merged from static checker; no boot)
+- ENTRY: **40 `recognized` + 1 `failed` (41 checked)**, 0 `not-run`, 102 `unknown` — **no plugin has runtime evidence yet**
+- Evidence: **102 `declared`, 41 `checked`, 0 `tested`** (41 merged from static checker; no boot). **All 34 mainline-default rows are `checked`** (13 pre-existing + 21 new in v0.6.0); the other 7 checked rows are external.
 - Risk: 2 high, 62 medium, 79 unknown (no capability manifest)
-- Gate: 1 `blocked` (the failed checked row), 21 `review`, 121 `pilot`, 0 `production-candidate`
+- Gate: 1 `blocked` (gate decision from `dsh-checkers`' `failed` ENTRY, not an `entryStatus=blocked` row), 21 `review`, 121 `pilot`, 0 `production-candidate`
 
 > The near-zero `dsh.standards` adoption is itself a finding. The gate is a **compatibility/risk heuristic**, not a quality grade.
 
@@ -88,15 +88,15 @@ blocked semantics, and the exact re-run commands.
 
 HCB is measured against the canonical `dsh-kit` family roster (112 packages), not an ad-hoc list:
 
-| Group | Total | Covered by HCB | Missing | Declared tracks | Compat declared |
-|---|---:|---:|---:|---:|---:|
-| mainline-default | 34 | 34 | 0 | 3 | 34 |
-| mainline-opt-in | 53 | 53 | 0 | 0 | 53 |
-| catalog-only | 10 | 10 | 0 | 0 | 10 |
-| domain | 15 | 15 | 0 | 0 | 15 |
-| external | 31 | 31 | 0 | 0 | 11 |
+| Group | Total | Covered by HCB | Checked | Missing | Declared tracks | Compat declared |
+|---|---:|---:|---:|---:|---:|---:|
+| mainline-default | 34 | 34 | 34 | 0 | 3 | 34 |
+| mainline-opt-in | 53 | 53 | 0 | 0 | 0 | 53 |
+| catalog-only | 10 | 10 | 0 | 0 | 0 | 10 |
+| domain | 15 | 15 | 0 | 0 | 0 | 15 |
+| external | 31 | 31 | 7 | 0 | 0 | 11 |
 
-**112 / 112 family packages (100%) are covered**, plus 31 external plugins. Coverage is complete, but **evidence is not**: only 3 plugins declare tracks, and 0 have ENTRY runtime. v0.5 adds the evidence layer and the static check pipeline; a runtime `tested` matrix remains future work.
+**112 / 112 family packages (100%) are covered**, plus 31 external plugins. Coverage is complete, but **evidence is not**: only 3 plugins declare tracks, and 0 have ENTRY runtime. v0.6.0 adds the static `checked` pipeline for the whole mainline-default set (34/34); a runtime `tested` matrix remains future work.
 
 Run `npm run coverage` to reproduce; `data/coverage.json` is the machine-readable result.
 
@@ -152,8 +152,8 @@ It prints compatibility + tracks + gate; fails only on `declared-incompatible` b
 ## Roadmap
 
 - **v0.4** full 112-package family coverage + three tracks + risk/gate.
-- **v0.5** evidence layer: `declared` / `checked` / `tested`, static audit pipeline, patches (this).
-- **v0.6** runtime `tested` matrix for top plugins × hosts, with Docker repro; capability diff and stale alerts.
+- **v0.5** evidence layer: `declared` / `checked` / `tested`, static audit pipeline, patches.
+- **v0.6** full mainline-default static `checked` coverage (34/34; 41 checked overall); runtime `tested` matrix, capability diff and stale alerts remain future work.
 - **v1.0** stable schema + CI action + weekly refresh + DOI.
 
 ## License

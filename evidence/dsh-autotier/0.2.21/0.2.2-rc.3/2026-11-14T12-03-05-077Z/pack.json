@@ -1,0 +1,554 @@
+{
+  "id": "dsh-autotier@0.2.21",
+  "name": "dsh-autotier",
+  "version": "0.2.21",
+  "size": 535739,
+  "unpackedSize": 1870289,
+  "shasum": "a5c4c30f3827cb9de1a2b8bdc0c4c5b133afec4e",
+  "integrity": "sha512-Gfnu9jHq/DtipdyxQVPInr7I5CATrgJaI6C+tTeaetHWi0yo5Fh4lOYaF/lwHC1Y4AGlm+uPV25nm91gZQ7x2Q==",
+  "filename": "dsh-autotier-0.2.21.tgz",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "size": 8644,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 28212,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 29036,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 43333,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 28993,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 26440,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 29702,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2163,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 4485,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 5835,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-autotier-demo.gif",
+      "size": 58029,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-autotier-demo.png",
+      "size": 102596,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-autotier-flow.svg",
+      "size": 2423,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-autotier-hero.png",
+      "size": 31089,
+      "mode": 420
+    },
+    {
+      "path": "docs/preset-row.md",
+      "size": 2215,
+      "mode": 420
+    },
+    {
+      "path": "docs/roadmap-v0.2.md",
+      "size": 5510,
+      "mode": 420
+    },
+    {
+      "path": "docs/supporting-lanes.md",
+      "size": 1644,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js",
+      "size": 204719,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js.map",
+      "size": 534858,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 121427,
+      "mode": 420
+    },
+    {
+      "path": "lib/typert.host.js",
+      "size": 903,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts",
+      "size": 1698,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts.map",
+      "size": 763,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts",
+      "size": 2592,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts.map",
+      "size": 463,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/present.d.ts",
+      "size": 2980,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/present.d.ts.map",
+      "size": 1611,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts",
+      "size": 13484,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts.map",
+      "size": 1281,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/styles.d.ts",
+      "size": 590,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/styles.d.ts.map",
+      "size": 188,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TierPill.d.ts",
+      "size": 1242,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TierPill.d.ts.map",
+      "size": 745,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TierSettingsCard.d.ts",
+      "size": 1843,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TierSettingsCard.d.ts.map",
+      "size": 862,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/command.d.ts",
+      "size": 783,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/command.d.ts.map",
+      "size": 375,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 4037,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 2025,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/guard-rules.d.ts",
+      "size": 4725,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/guard-rules.d.ts.map",
+      "size": 1049,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/guard.d.ts",
+      "size": 2771,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/guard.d.ts.map",
+      "size": 1348,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 4549,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 2267,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/intent.d.ts",
+      "size": 7552,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/intent.d.ts.map",
+      "size": 3955,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/judge.d.ts",
+      "size": 2809,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/judge.d.ts.map",
+      "size": 1263,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/policy.d.ts",
+      "size": 5452,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/policy.d.ts.map",
+      "size": 2761,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/preflight.d.ts",
+      "size": 3239,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/preflight.d.ts.map",
+      "size": 973,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/routing.d.ts",
+      "size": 8084,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/routing.d.ts.map",
+      "size": 2619,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/schema.d.ts",
+      "size": 6566,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/schema.d.ts.map",
+      "size": 3134,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/selection.d.ts",
+      "size": 3567,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/selection.d.ts.map",
+      "size": 764,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts",
+      "size": 3075,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts.map",
+      "size": 1103,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/settings.d.ts",
+      "size": 2050,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/settings.d.ts.map",
+      "size": 532,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/state.d.ts",
+      "size": 2304,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/state.d.ts.map",
+      "size": 772,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tier-remote.d.ts",
+      "size": 3810,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tier-remote.d.ts.map",
+      "size": 1201,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tiers.d.ts",
+      "size": 5576,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tiers.d.ts.map",
+      "size": 1719,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools.d.ts",
+      "size": 1104,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools.d.ts.map",
+      "size": 671,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts",
+      "size": 12689,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts.map",
+      "size": 466,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/types.d.ts",
+      "size": 4118,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/types.d.ts.map",
+      "size": 1908,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts",
+      "size": 27729,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts.map",
+      "size": 2459,
+      "mode": 420
+    },
+    {
+      "path": "lib/wire-BxsY8BiN.js",
+      "size": 167387,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 9052,
+      "mode": 420
+    },
+    {
+      "path": "src/client/index.ts",
+      "size": 6870,
+      "mode": 420
+    },
+    {
+      "path": "src/client/locales.ts",
+      "size": 3791,
+      "mode": 420
+    },
+    {
+      "path": "src/client/present.ts",
+      "size": 4674,
+      "mode": 420
+    },
+    {
+      "path": "src/client/remote.ts",
+      "size": 1678,
+      "mode": 420
+    },
+    {
+      "path": "src/client/styles.ts",
+      "size": 4618,
+      "mode": 420
+    },
+    {
+      "path": "src/client/TierPill.tsx",
+      "size": 2920,
+      "mode": 420
+    },
+    {
+      "path": "src/client/TierSettingsCard.tsx",
+      "size": 8280,
+      "mode": 420
+    },
+    {
+      "path": "src/command.ts",
+      "size": 3785,
+      "mode": 420
+    },
+    {
+      "path": "src/config.ts",
+      "size": 16665,
+      "mode": 420
+    },
+    {
+      "path": "src/guard-rules.ts",
+      "size": 14126,
+      "mode": 420
+    },
+    {
+      "path": "src/guard.ts",
+      "size": 11537,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 7890,
+      "mode": 420
+    },
+    {
+      "path": "src/intent.ts",
+      "size": 18407,
+      "mode": 420
+    },
+    {
+      "path": "src/judge.ts",
+      "size": 6564,
+      "mode": 420
+    },
+    {
+      "path": "src/policy.ts",
+      "size": 10203,
+      "mode": 420
+    },
+    {
+      "path": "src/preflight.ts",
+      "size": 7386,
+      "mode": 420
+    },
+    {
+      "path": "src/routing.ts",
+      "size": 34269,
+      "mode": 420
+    },
+    {
+      "path": "src/schema.ts",
+      "size": 11806,
+      "mode": 420
+    },
+    {
+      "path": "src/selection.ts",
+      "size": 6446,
+      "mode": 420
+    },
+    {
+      "path": "src/service.ts",
+      "size": 4923,
+      "mode": 420
+    },
+    {
+      "path": "src/settings.ts",
+      "size": 3616,
+      "mode": 420
+    },
+    {
+      "path": "src/state.ts",
+      "size": 6047,
+      "mode": 420
+    },
+    {
+      "path": "src/tier-remote.ts",
+      "size": 5563,
+      "mode": 420
+    },
+    {
+      "path": "src/tiers.ts",
+      "size": 9238,
+      "mode": 420
+    },
+    {
+      "path": "src/tools.ts",
+      "size": 4874,
+      "mode": 420
+    },
+    {
+      "path": "src/typert.host.ts",
+      "size": 858,
+      "mode": 420
+    },
+    {
+      "path": "src/types.ts",
+      "size": 3959,
+      "mode": 420
+    },
+    {
+      "path": "src/wire.ts",
+      "size": 8949,
+      "mode": 420
+    }
+  ],
+  "entryCount": 108,
+  "bundled": []
+}

@@ -1,0 +1,474 @@
+{
+  "id": "dsh-observe@0.2.27",
+  "name": "dsh-observe",
+  "version": "0.2.27",
+  "size": 148666,
+  "unpackedSize": 648590,
+  "shasum": "2fb575a342d6814229954147355f6c72c5b789bb",
+  "integrity": "sha512-wJyFVTYCNCyhimHglb+3liuM/jEgCmRAUh741WGg2Vi0ejN3iJXg+mxJHmhwVAv/q1oKBzr/AWLPtq25EW3zCg==",
+  "filename": "dsh-observe-0.2.27.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 22576,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 25844,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 36604,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 25676,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 23386,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 24019,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1478,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 3649,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 76784,
+      "mode": 420
+    },
+    {
+      "path": "lib/typert.host.js",
+      "size": 3663,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/backoff.d.ts",
+      "size": 637,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/backoff.d.ts.map",
+      "size": 319,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/backoff.js",
+      "size": 684,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/backoff.js.map",
+      "size": 406,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/collector.d.ts",
+      "size": 4145,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/collector.d.ts.map",
+      "size": 1516,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/collector.js",
+      "size": 25899,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/collector.js.map",
+      "size": 20704,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 12048,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 6106,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.js",
+      "size": 14625,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.js.map",
+      "size": 12993,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/ids.d.ts",
+      "size": 1715,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/ids.d.ts.map",
+      "size": 612,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/ids.js",
+      "size": 2147,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/ids.js.map",
+      "size": 1170,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 2035,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 822,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js",
+      "size": 8923,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js.map",
+      "size": 6240,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/model.d.ts",
+      "size": 2925,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/model.d.ts.map",
+      "size": 1917,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/model.js",
+      "size": 1056,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/model.js.map",
+      "size": 521,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/pipeline.d.ts",
+      "size": 2754,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/pipeline.d.ts.map",
+      "size": 1295,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/pipeline.js",
+      "size": 7036,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/pipeline.js.map",
+      "size": 5833,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/pricing.d.ts",
+      "size": 1468,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/pricing.d.ts.map",
+      "size": 504,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/pricing.js",
+      "size": 1827,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/pricing.js.map",
+      "size": 978,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/project.d.ts",
+      "size": 4262,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/project.d.ts.map",
+      "size": 784,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/project.js",
+      "size": 4655,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/project.js.map",
+      "size": 1744,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/remote.d.ts",
+      "size": 1275,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/remote.d.ts.map",
+      "size": 418,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/remote.js",
+      "size": 1820,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/remote.js.map",
+      "size": 723,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts",
+      "size": 3659,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts.map",
+      "size": 883,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.js",
+      "size": 5007,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.js.map",
+      "size": 2664,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sinks.d.ts",
+      "size": 3542,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sinks.d.ts.map",
+      "size": 1516,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sinks.js",
+      "size": 19385,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sinks.js.map",
+      "size": 17567,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/spool.d.ts",
+      "size": 6330,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/spool.d.ts.map",
+      "size": 2513,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/spool.js",
+      "size": 7719,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/spool.js.map",
+      "size": 5246,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts",
+      "size": 4979,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts.map",
+      "size": 286,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.js",
+      "size": 882,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.js.map",
+      "size": 549,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts",
+      "size": 424,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts.map",
+      "size": 168,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.js",
+      "size": 414,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.js.map",
+      "size": 176,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts",
+      "size": 8556,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts.map",
+      "size": 1062,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.js",
+      "size": 3054,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.js.map",
+      "size": 2425,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 5752,
+      "mode": 420
+    },
+    {
+      "path": "src/backoff.ts",
+      "size": 752,
+      "mode": 420
+    },
+    {
+      "path": "src/collector.ts",
+      "size": 26335,
+      "mode": 420
+    },
+    {
+      "path": "src/config.ts",
+      "size": 23742,
+      "mode": 420
+    },
+    {
+      "path": "src/ids.ts",
+      "size": 2241,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 9586,
+      "mode": 420
+    },
+    {
+      "path": "src/model.ts",
+      "size": 3110,
+      "mode": 420
+    },
+    {
+      "path": "src/pipeline.ts",
+      "size": 6948,
+      "mode": 420
+    },
+    {
+      "path": "src/pricing.ts",
+      "size": 1983,
+      "mode": 420
+    },
+    {
+      "path": "src/project.ts",
+      "size": 5956,
+      "mode": 420
+    },
+    {
+      "path": "src/remote.ts",
+      "size": 2092,
+      "mode": 420
+    },
+    {
+      "path": "src/sanitize.ts",
+      "size": 5093,
+      "mode": 420
+    },
+    {
+      "path": "src/sinks.ts",
+      "size": 19393,
+      "mode": 420
+    },
+    {
+      "path": "src/spool.ts",
+      "size": 8939,
+      "mode": 420
+    },
+    {
+      "path": "src/typert.host.ts",
+      "size": 819,
+      "mode": 420
+    },
+    {
+      "path": "src/version.ts",
+      "size": 379,
+      "mode": 420
+    },
+    {
+      "path": "src/wire.ts",
+      "size": 3887,
+      "mode": 420
+    }
+  ],
+  "entryCount": 92,
+  "bundled": []
+}

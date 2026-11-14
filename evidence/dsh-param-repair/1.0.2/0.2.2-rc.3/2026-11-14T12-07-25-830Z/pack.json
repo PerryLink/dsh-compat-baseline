@@ -1,0 +1,109 @@
+{
+  "id": "dsh-param-repair@1.0.2",
+  "name": "dsh-param-repair",
+  "version": "1.0.2",
+  "size": 77130,
+  "unpackedSize": 305160,
+  "shasum": "91a567fd8daaa7a12b2f3555625f1693aea90c98",
+  "integrity": "sha512-Szl+BbzStQyjHkRwIT4h/RTP7u7eO9wWVuBq7XhuUr/umxCk3CUUjzp/aqOsCEfbnNg34qBKv+Fe2aoDkS/mYw==",
+  "filename": "dsh-param-repair-1.0.2.tgz",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 4953,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 17541,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README.en.md",
+      "size": 30448,
+      "mode": 420
+    },
+    {
+      "path": "README.es.md",
+      "size": 32230,
+      "mode": 420
+    },
+    {
+      "path": "README.hi.md",
+      "size": 47299,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 28964,
+      "mode": 420
+    },
+    {
+      "path": "README.pt.md",
+      "size": 31854,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2191,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1506,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 1762,
+      "mode": 420
+    },
+    {
+      "path": "index.mjs",
+      "size": 27753,
+      "mode": 420
+    },
+    {
+      "path": "lib/fix.mjs",
+      "size": 22514,
+      "mode": 420
+    },
+    {
+      "path": "lib/rosetta-data.json",
+      "size": 20494,
+      "mode": 420
+    },
+    {
+      "path": "lib/rosetta-data.schema.json",
+      "size": 2031,
+      "mode": 420
+    },
+    {
+      "path": "lib/rosetta.mjs",
+      "size": 10833,
+      "mode": 420
+    },
+    {
+      "path": "lib/sanitize.mjs",
+      "size": 2401,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 4943,
+      "mode": 420
+    },
+    {
+      "path": "types.d.ts",
+      "size": 4086,
+      "mode": 420
+    }
+  ],
+  "entryCount": 19,
+  "bundled": []
+}

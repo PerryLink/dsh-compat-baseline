@@ -1,0 +1,214 @@
+{
+  "id": "dsh-score@0.2.28",
+  "name": "dsh-score",
+  "version": "0.2.28",
+  "size": 79897,
+  "unpackedSize": 314475,
+  "shasum": "009247fdd23eb378c3f6214b7afc6877fc13aad8",
+  "integrity": "sha512-nRgM+vl6k9zm+KvEioiaap9iL7OraW1WXtj7Xdno/xEzXm45BDBMoILqBGRPQrG/19/1s95Wma0P4jfdDLYoEQ==",
+  "filename": "dsh-score-0.2.28.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 20116,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 21147,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 28810,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 20952,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 21834,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 23965,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2713,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 930,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 1439,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 85261,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/badge.d.ts",
+      "size": 5702,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/badge.d.ts.map",
+      "size": 2087,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/batch.d.ts",
+      "size": 2806,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/batch.d.ts.map",
+      "size": 1388,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/command.d.ts",
+      "size": 1042,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/command.d.ts.map",
+      "size": 394,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 4101,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 1966,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/dimensions.d.ts",
+      "size": 3463,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/dimensions.d.ts.map",
+      "size": 1693,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/domain.d.ts",
+      "size": 5360,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/domain.d.ts.map",
+      "size": 462,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 3842,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 1877,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/probe.d.ts",
+      "size": 6066,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/probe.d.ts.map",
+      "size": 3633,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.d.ts",
+      "size": 930,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.d.ts.map",
+      "size": 462,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/result.d.ts",
+      "size": 10361,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/result.d.ts.map",
+      "size": 1718,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts",
+      "size": 2868,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts.map",
+      "size": 862,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/score.d.ts",
+      "size": 2996,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/score.d.ts.map",
+      "size": 1230,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools.d.ts",
+      "size": 1259,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools.d.ts.map",
+      "size": 741,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts",
+      "size": 310,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts.map",
+      "size": 154,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 6178,
+      "mode": 420
+    }
+  ],
+  "entryCount": 40,
+  "bundled": []
+}
