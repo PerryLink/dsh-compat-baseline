@@ -11,6 +11,8 @@ if (!row) { console.log('::warning::' + pkg + ' is not in HCB; add it to data/pl
 const host = hostInput === 'latest' ? d.latestHost : hostInput;
 const status = row.hosts[host] || 'unknown';
 console.log(`${pkg}@${row.version} vs DSH ${host}: ${status} (range: ${row.declaredRange || 'none'})`);
+const t = row.standards || {}; const e = t.entry?.status || 'unknown'; const f = t.flow?.status || 'unknown'; const b = t.boost?.status || 'unknown';
+console.log(`tracks: ENTRY=${e} FLOW=${f} BOOST=${b}; risk=${row.risk?.level || 'unknown'}; gate=${row.gate?.decision || 'unknown'}`);
 if (failOn !== 'never' && status === failOn) {
   console.log(`::error::${pkg} is ${status} for DSH ${host}`);
   process.exit(1);
