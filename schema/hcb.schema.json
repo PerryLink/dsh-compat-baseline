@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Host Compatibility Baseline (HCB) v0.1",
+  "type": "object",
+  "required": [
+    "generatedAt",
+    "latestHost",
+    "rows"
+  ],
+  "properties": {
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "latestHost": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "version",
+          "declaredRange",
+          "hosts"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "version": {
+            "type": "string"
+          },
+          "declaredRange": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rangeValid": {
+            "type": "boolean"
+          },
+          "manifestVersion": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "capabilities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "downloadsLastWeek": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "hosts": {
+            "type": "object",
+            "additionalProperties": {
+              "enum": [
+                "declared-compatible",
+                "declared-incompatible",
+                "unknown"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
