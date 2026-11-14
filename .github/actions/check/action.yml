@@ -1,0 +1,23 @@
+name: HCB check
+description: Check a DSH plugin's declared compatibility against the HCB matrix
+inputs:
+  package:
+    description: npm package name
+    required: true
+  host:
+    description: DSH host version, or "latest"
+    required: false
+    default: latest
+  fail-on:
+    description: declared-compatible | declared-incompatible | never
+    required: false
+    default: declared-incompatible
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: node "${{ github.action_path }}/check.mjs"
+      env:
+        INPUT_PACKAGE: ${{ inputs.package }}
+        INPUT_HOST: ${{ inputs.host }}
+        INPUT_FAIL_ON: ${{ inputs.fail-on }}
