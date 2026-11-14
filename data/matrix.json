@@ -12,17 +12,17 @@
       "unknown": 20
     },
     "gate": {
-      "blocked": 2,
-      "review": 21,
+      "blocked": 1,
+      "review": 22,
       "pilot": 120,
       "production-candidate": 0
     },
     "standardsDeclared": 5,
     "entry": {
       "runtime": 0,
-      "recognized": 94,
+      "recognized": 95,
       "static": 0,
-      "blocked": 1,
+      "blocked": 0,
       "failed": 1,
       "not-run": 0,
       "stale": 0,
@@ -82,7 +82,7 @@
       "checked": 96,
       "tested": 0
     },
-    "evidenceUpdatedAt": "2026-11-14T14:00:13.152Z"
+    "evidenceUpdatedAt": "2026-11-14T14:31:16.008Z"
   },
   "rows": [
     {
@@ -174,9 +174,9 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "blocked",
+          "status": "recognized",
           "evidence": false,
-          "note": "npm 0.8.1 declares sessions:write, which is absent from dsh-standards@1.6.10's 15-ID capability closed set. The raw audit report (evidence/dsh-permission-rules/0.8.1/0.2.2-rc.3/2026-11-14T13-55-33-228Z/report.json) records DSC-11/C-11.1 \"unknown capability id: sessions:write\"; the ENTRY scope downgrades DSC-11 to WARN and the checker conclusion is warn/recognized. HCB keeps the checked evidence but does not launder this into recognized: ENTRY is held blocked until a 16-ID checker re-audit. This is an evidence gap, not a package defect.",
+          "note": "Re-audited with dsh-standards@1.7.0 (16-ID capability set, sessions:write); 13/14 checks, 0 blocking, recognized. The earlier 1.6.10 blocked note is superseded.",
           "declaredStatus": "not-run"
         },
         "flow": {
@@ -217,17 +217,17 @@
         "0.2.1-rc.1": "declared-compatible"
       },
       "gate": {
-        "decision": "blocked",
+        "decision": "review",
         "reasons": [
-          "ENTRY blocked"
+          "high-capability surface: fs:read, fs:write, network:egress, sessions:write"
         ]
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:55:33.228Z",
+        "checkedAt": "2026-11-14T14:31:15.980Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-permission-rules/0.8.1/0.2.2-rc.3/2026-11-14T13-55-33-228Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-permission-rules/0.8.1/0.2.2-rc.3/2026-11-14T14-31-15-980Z/report.json"
       }
     },
     {
@@ -9317,5 +9317,5 @@
     }
   ],
   "schemaVersion": "0.5",
-  "evidenceUpdatedAt": "2026-11-14T14:00:13.152Z"
+  "evidenceUpdatedAt": "2026-11-14T14:31:16.008Z"
 }
