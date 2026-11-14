@@ -52,6 +52,23 @@ Rules: **a skip is not a pass**; `static` is not `runtime`; **BOOST is not a gat
 
 > The near-zero `dsh.standards` adoption is itself a finding. The gate is a **compatibility/risk heuristic**, not a quality grade.
 
+
+## Coverage vs canonical roster (2026-11-14)
+
+HCB is measured against the canonical `dsh-kit` family roster (112 packages), not an ad-hoc list:
+
+| Group | Total | Covered by HCB | Missing | Declared tracks | Compat declared |
+|---|---:|---:|---:|---:|---:|
+| mainline-default | 34 | 13 | 21 | 1 | 13 |
+| mainline-opt-in | 53 | 0 | 53 | 0 | 0 |
+| catalog-only | 10 | 0 | 10 | 0 | 0 |
+| domain | 15 | 0 | 15 | 0 | 0 |
+| external | 31 | 31 | 0 | 0 | 11 |
+
+**13 / 112 family packages (11.6%) are in HCB.** The biggest gaps are the 53 opt-in compliance checkers and the 15 domain plugins. This is deliberate for v0.2: HCB started from top external plugins, not the family roster. v0.3 expands to the full roster.
+
+Run `npm run coverage` to reproduce; `data/coverage.json` is the machine-readable result.
+
 ## Quick start
 
 ```bash
