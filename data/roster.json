@@ -1,0 +1,721 @@
+{
+  "generatedAt": "2026-11-14T06:47:08.412Z",
+  "source": "https://github.com/PerryLink/dsh-kit/blob/main/family.txt",
+  "packages": [
+    {
+      "name": "dsh-auto-review",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-autotier",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-budget",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-cert-mcp",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-checkpoint-rewind",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-claude-move",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-click",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-composer-history",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-data-quality",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-defend",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-doublecheck",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-draw",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-fast",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-fund-research",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-industry-research",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-laya",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-library",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-local-ai",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-lsp-actions",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-mask",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-mcp-panel",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-memento",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-observe",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-output-styles",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-permission-rules",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-plugin-guide",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-plugin-upgrade",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-reach",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-research-report",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-score",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-session-sync",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-talk",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-test-drive",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-param-repair",
+      "scope": "family",
+      "group": "mainline-default"
+    },
+    {
+      "name": "dsh-aqua-input-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-archive-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-bid-ca-precheck",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-bid-qual-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-contract-stance",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-customs-doc-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-demurrage-ledger",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-drill-script-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-eia-guide-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-emergency-plan",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-essay-rubric-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-evidence-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-export-ctl-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-fmea-table-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-forecast-penalty",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-gongwen-flow-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-gongwen-word-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-guard-plan-qc",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-hazchem-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-hazplan-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-hidden-risk-map",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-hs-classify",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-icd-rule-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-lawcite-adapter",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-lc-doc-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-learning-gap-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-medrec-qc",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-nsfc-form-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-nurse-record-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-origin-rvc-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-ota-review-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-paper-doc-adapter",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-permit-report-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-pipeline-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-pleading-draft",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-policy-brief-draft",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-power-loss-split",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-power-ticket-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-ppap-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-protest-deadline",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-railway-window",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-repair-order-qc",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-review-reply-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-rulefile-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-safety-brief-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-site-log-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-soe-decision-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-soilwater-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-sop-sync-check",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-spc-gbt-adapter",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-tender-extract",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-tender-matrix",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-warranty-calc",
+      "scope": "family",
+      "group": "mainline-opt-in"
+    },
+    {
+      "name": "dsh-bid-health-check",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-canteen-retention-check",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-community-bench",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-construction-doc-check",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-excel-reconcile",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-invoice-ledger",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-payroll-audit",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-safety-ledger-check",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-table-ingest",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-tender-requirements",
+      "scope": "family",
+      "group": "catalog-only"
+    },
+    {
+      "name": "dsh-ap-three-way",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-bankrec",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-docx-redline",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-einvoice",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-eval-pack",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-freight-audit",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-ghg",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-hs-candidate",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-ifc-qto",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-legal-clause",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-legal-intake",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-pim-lint",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-policy-ledger",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-qms-capa",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "dsh-travel-recon",
+      "scope": "family",
+      "group": "domain"
+    },
+    {
+      "name": "jevcore",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-standards",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-checkers",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-github-bot",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-context",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-bili-scroll",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-to-figma",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-compat-check",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-gate",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-offline-updater",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-where-did-my-tokens-go",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-message-history",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-lark-agent",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-browser-control",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-session-fork",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-observatory",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-error-radar",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-shop-catalog",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-upgrader",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-debugging",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-share",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-appshot",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-book-deconstruct",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-health",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-ops-core",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-release-probe",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-find-plugin",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-studio",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-ops-bundle",
+      "scope": "external",
+      "group": "external"
+    },
+    {
+      "name": "dsh-plugin-mgr",
+      "scope": "external",
+      "group": "external"
+    }
+  ]
+}
