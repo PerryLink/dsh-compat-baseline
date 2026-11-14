@@ -1,7 +1,6 @@
 {
   "name": "dsh-hcb",
   "version": "0.4.0",
-  "private": true,
   "type": "module",
   "scripts": {
     "collect": "node scripts/collect.mjs",
@@ -13,5 +12,18 @@
   "dependencies": {
     "semver": "^7.7.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "hcb": "scripts/hcb-cli.mjs"
+  },
+  "files": [
+    "scripts/hcb-cli.mjs",
+    "data/matrix.json",
+    "data/hosts.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
 }
