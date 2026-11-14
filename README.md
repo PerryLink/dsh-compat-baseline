@@ -24,7 +24,7 @@ HCB follows the [dsh-standards](https://github.com/PerryLink/dsh-standards) mode
 
 Rules: **a skip is not a pass**; `static` is not `runtime`; **BOOST is not a gate**; compatibility is a claim by the package author, not a test result. See [docs/TRACKS.md](docs/TRACKS.md).
 
-## What is in v0.2
+## What is in v0.3
 
 | File | Meaning |
 |---|---|
@@ -33,22 +33,25 @@ Rules: **a skip is not a pass**; `static` is not `runtime`; **BOOST is not a gat
 | `data/tracks.json` | counts per ENTRY/FLOW/BOOST state and gate decision |
 | `data/capabilities.json` | capability / risk aggregation |
 | `spec/tracks.json` | HCB's consumer mapping of `dsh-levels/1` |
-| `schema/hcb.schema.json` | JSON schema for v0.2 |
+| `schema/hcb.schema.json` | JSON schema for the data format |
+| `data/roster.json` | canonical dsh-kit family roster (112) + external |
+| `data/coverage.json` | coverage vs roster |
+| `scripts/coverage.mjs` | reproducibility check |
 | `scripts/collect.mjs` | reproducible collector |
 | `scripts/validate.mjs` | validates the matrix |
 | `.github/actions/check` | drop-in CI check |
 | `index.html` | static viewer (GitHub Pages) |
 
-**Evidence levels**: `declared` (from package metadata), `tested` (a human ran it), `unknown`. v0.2 only covers `declared`. Tested rows are v0.3 and must include a repro script.
+**Evidence levels**: `declared` (from package metadata), `tested` (a human ran it), `unknown`. v0.3 still covers `declared` only. Tested rows are v0.4 and must include a repro script.
 
 ## Current coverage (2026-11-14)
 
-- **44 plugins** (20 first-party/seed + 24 from npm search / external additions)
-- **24** declare `engines.dsh`; **20** are `unknown`
-- **1** declares `dsh.standards`; **43** are `not-declared`
-- ENTRY: 1 `not-run`, 43 `unknown` — **no plugin has runtime evidence yet**
-- Risk: 2 high, 4 medium, 38 unknown (no capability manifest)
-- Gate: 22 `review`, 22 `pilot`, 0 `production-candidate`
+- **65 plugins** (34 mainline-default + 31 external)
+- **45** declare `engines.dsh`; **20** are `unknown`
+- **3** declare `dsh.standards`; **62** are `not-declared`
+- ENTRY: 3 `not-run`, 62 `unknown` — **no plugin has runtime evidence yet**
+- Risk: 2 high, 5 medium, 58 unknown (no capability manifest)
+- Gate: 22 `review`, 43 `pilot`, 0 `production-candidate`
 
 > The near-zero `dsh.standards` adoption is itself a finding. The gate is a **compatibility/risk heuristic**, not a quality grade.
 
@@ -59,13 +62,13 @@ HCB is measured against the canonical `dsh-kit` family roster (112 packages), no
 
 | Group | Total | Covered by HCB | Missing | Declared tracks | Compat declared |
 |---|---:|---:|---:|---:|---:|
-| mainline-default | 34 | 13 | 21 | 1 | 13 |
+| mainline-default | 34 | 34 | 0 | 3 | 34 |
 | mainline-opt-in | 53 | 0 | 53 | 0 | 0 |
 | catalog-only | 10 | 0 | 10 | 0 | 0 |
 | domain | 15 | 0 | 15 | 0 | 0 |
 | external | 31 | 31 | 0 | 0 | 11 |
 
-**13 / 112 family packages (11.6%) are in HCB.** The biggest gaps are the 53 opt-in compliance checkers and the 15 domain plugins. This is deliberate for v0.2: HCB started from top external plugins, not the family roster. v0.3 expands to the full roster.
+**34 / 112 family packages (30.4%) are in HCB; all 34 mainline-default plugins are covered.** The remaining gaps are the 53 opt-in compliance checkers, 10 catalog-only research plugins and 15 domain plugins. v0.3 completes the mainline-default layer; v0.4 expands to opt-in/domain and adds tested rows.
 
 Run `npm run coverage` to reproduce; `data/coverage.json` is the machine-readable result.
 
@@ -103,9 +106,9 @@ It prints compatibility + tracks + gate; fails only on `declared-incompatible` b
 
 ## Roadmap
 
-- **v0.2** declared compatibility + three tracks + risk/gate (this).
-- **v0.3** tested matrix for top 20 plugins × 5 hosts, with Docker repro.
-- **v0.4** capability diff between versions and stale alerts.
+- **v0.3** declared compatibility + three tracks + risk/gate + full mainline-default coverage (this).
+- **v0.4** tested matrix for top 20 plugins × 5 hosts, with Docker repro.
+- **v0.5** capability diff between versions and stale alerts.
 - **v1.0** stable schema + CI action + weekly refresh + DOI.
 
 ## License
