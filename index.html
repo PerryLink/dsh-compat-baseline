@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><title>HCB — DSH plugin compatibility</title>
+<style>body{font:14px/1.5 system-ui,sans-serif;margin:24px;color:#111}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:6px 8px;text-align:left}th{background:#f6f6f6;position:sticky;top:0}.ok{color:#0a7a2f}.no{color:#b00020}.unk{color:#888}code{background:#f3f3f3;padding:1px 4px}</style></head>
+<body><h1>HCB — Host Compatibility Baseline</h1><p id="meta">Loading…</p><p><b>Declared</b>, not tested. Not affiliated with DeepSeek.</p>
+<table><thead><tr><th>plugin</th><th>version</th><th>range</th><th>capabilities</th><th>latest host</th></tr></thead><tbody id="rows"></tbody></table>
+<script>
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch('data/matrix.json').then(r=>r.json()).then(d=>{
+  document.getElementById('meta').textContent = 'latest host '+d.latestHost+' · '+d.rows.length+' plugins · generated '+d.generatedAt;
+  document.getElementById('rows').innerHTML = d.rows.map(r=>{
+    const s=r.hosts[d.latestHost]||'unknown'; const cls=s==='declared-compatible'?'ok':s==='declared-incompatible'?'no':'unk';
+    return '<tr><td><code>'+esc(r.name)+'</code></td><td>'+esc(r.version)+'</td><td>'+esc(r.declaredRange||'—')+'</td><td>'+esc((r.capabilities||[]).join(', ')||'—')+'</td><td class="'+cls+'">'+esc(s)+'</td></tr>';
+  }).join('');
+}).catch(e=>document.getElementById('meta').textContent='Failed to load data: '+e);
+</script></body></html>
