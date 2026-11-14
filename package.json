@@ -1,12 +1,14 @@
 {
-  "name": "hcb",
+  "name": "dsh-hcb",
   "version": "0.4.0",
   "private": true,
   "type": "module",
   "scripts": {
     "collect": "node scripts/collect.mjs",
     "validate": "node scripts/validate.mjs",
-    "coverage": "node scripts/coverage.mjs"
+    "coverage": "node scripts/coverage.mjs",
+    "check": "node scripts/hcb-cli.mjs",
+    "badge": "node scripts/badge.mjs"
   },
   "dependencies": {
     "semver": "^7.7.0"
