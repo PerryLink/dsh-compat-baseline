@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: PerryLink/dsh-compat-baseline/.github/actions/check@main
+      - uses: PerryLink/hcb/.github/actions/check@main
         with:
           package: your-npm-package
           # host: 0.2.2-rc.3   # optional; default = latest in HCB
