@@ -1,0 +1,174 @@
+{
+  "id": "dsh-ota-review-check@0.2.13",
+  "name": "dsh-ota-review-check",
+  "version": "0.2.13",
+  "size": 560617,
+  "unpackedSize": 831675,
+  "shasum": "4cdcc3ec3735a740697c255a36263de4e125a4d1",
+  "integrity": "sha512-n03em9l5jBgYHazDcxR1rGhnZHNttg2kPiCRd7f4AlYxLmw7ONbqGycuLbPzmyTLFgx/xphZ7ZzNOQXf+yqpzQ==",
+  "filename": "dsh-ota-review-check-0.2.13.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4290,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36110,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 34068,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1293,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1602,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 467,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ota-review-check-demo.gif",
+      "size": 96669,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ota-review-check-demo.png",
+      "size": 96541,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ota-review-check-flow-v5-dark.svg",
+      "size": 22908,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ota-review-check-flow-v5-light.svg",
+      "size": 22908,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ota-review-check-hero-en-dark.webp",
+      "size": 72118,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ota-review-check-hero-en-light.webp",
+      "size": 75226,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ota-review-check-hero-zh-dark.webp",
+      "size": 75732,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ota-review-check-hero-zh-light.webp",
+      "size": 78898,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ota-review-check-hero.png",
+      "size": 43249,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 102,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10457,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 441,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2046,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120163,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 222,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 218,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3052,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 6376,
+      "mode": 493
+    },
+    {
+      "path": "rules/ota-review-check.yaml",
+      "size": 12332,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 138,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/OT-001-unsafe.json",
+      "size": 513,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 418,
+      "mode": 493
+    }
+  ],
+  "entryCount": 32,
+  "bundled": []
+}

@@ -1,0 +1,199 @@
+{
+  "id": "dsh-soilwater-check@0.2.10",
+  "name": "dsh-soilwater-check",
+  "version": "0.2.10",
+  "size": 593377,
+  "unpackedSize": 880796,
+  "shasum": "9ec36a31aa0a62999d1214116c38806f844f2861",
+  "integrity": "sha512-runPohIE7ilC6YQmaKVMO+oumted0MQdbwBxrjweLC0/thF9QtBCdoGCcyX/dDUTf6xEegjZ7Kg4zLlGPhKZpQ==",
+  "filename": "dsh-soilwater-check-0.2.10.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36075,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33473,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1292,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1599,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 464,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-demo.gif",
+      "size": 96634,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-demo.png",
+      "size": 163236,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-flow-dark.svg",
+      "size": 3959,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-flow-light.svg",
+      "size": 3959,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-flow-v5-dark.svg",
+      "size": 23900,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-flow-v5-light.svg",
+      "size": 23900,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-flow.svg",
+      "size": 2555,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-hero-en-dark.webp",
+      "size": 62662,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-hero-en-light.webp",
+      "size": 64614,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-hero-zh-dark.webp",
+      "size": 64606,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-hero-zh-light.webp",
+      "size": 65442,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soilwater-check-hero.png",
+      "size": 43007,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 101,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10343,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 456,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2044,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120277,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 246,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 236,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 2979,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-standard-currency.md",
+      "size": 7313,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-standards.md",
+      "size": 7212,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 7033,
+      "mode": 493
+    },
+    {
+      "path": "rules/soilwater-check.yaml",
+      "size": 13224,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 137,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/SW-001-unsafe.json",
+      "size": 600,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 413,
+      "mode": 493
+    }
+  ],
+  "entryCount": 37,
+  "bundled": []
+}

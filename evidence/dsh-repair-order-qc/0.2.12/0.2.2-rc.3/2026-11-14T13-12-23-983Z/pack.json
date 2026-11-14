@@ -1,0 +1,194 @@
+{
+  "id": "dsh-repair-order-qc@0.2.12",
+  "name": "dsh-repair-order-qc",
+  "version": "0.2.12",
+  "size": 569445,
+  "unpackedSize": 839698,
+  "shasum": "d82a57273fcabbc943eca15a430e64b9a2c6754c",
+  "integrity": "sha512-sOXu2G8SBPtabfIP6O4oBIJed7+OsypQnUx7T1Hm3Whu9aXFaLBcOPPTpHy53PR34BLukvrN11tWr4z57NqTSw==",
+  "filename": "dsh-repair-order-qc-0.2.12.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4385,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 33550,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 30150,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1292,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1599,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 464,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-demo.gif",
+      "size": 95571,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-demo.png",
+      "size": 156947,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-flow-dark.svg",
+      "size": 4090,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-flow-light.svg",
+      "size": 4090,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-flow-v5-dark.svg",
+      "size": 16450,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-flow-v5-light.svg",
+      "size": 16450,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-flow.svg",
+      "size": 2555,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-hero-en-dark.webp",
+      "size": 61236,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-hero-en-light.webp",
+      "size": 61374,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-hero-zh-dark.webp",
+      "size": 63570,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-hero-zh-light.webp",
+      "size": 63442,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-repair-order-qc-hero.png",
+      "size": 42022,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 101,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10547,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 437,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2044,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120533,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 218,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 218,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 2958,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-jdcwxgd.md",
+      "size": 4412,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-repair-regulation.md",
+      "size": 9480,
+      "mode": 493
+    },
+    {
+      "path": "rules/repair-order-qc.yaml",
+      "size": 15322,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 137,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/RO-001-unsafe.json",
+      "size": 523,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 413,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

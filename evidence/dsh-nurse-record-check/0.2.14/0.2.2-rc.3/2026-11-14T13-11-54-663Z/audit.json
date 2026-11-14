@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T13:11:54.663Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-rn8rjh/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-nurse-record-check@0.2.14"
+  ],
+  "cwd": "/tmp/hcb-audit-rn8rjh",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 850,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-nurse-record-check",
+  "version": "0.2.14",
+  "reportSha256": "58e6afa0a6f09fd89eea8d070541bbdea0a813f30f05cf30fa4d2c2d828292f9",
+  "subjectPathInReport": "/tmp/hcb-audit-rn8rjh/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}

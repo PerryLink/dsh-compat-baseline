@@ -1,0 +1,199 @@
+{
+  "id": "dsh-protest-deadline@0.2.12",
+  "name": "dsh-protest-deadline",
+  "version": "0.2.12",
+  "size": 644445,
+  "unpackedSize": 928533,
+  "shasum": "3c022f6f2d2174642b00efb4f0595e1136ab181b",
+  "integrity": "sha512-gbn4JnHZPz9U1UMw2/UEY3du8LUyz9FjFb7av+EQHGx0ZTBh51gKkyGa6NsOvkJPOPsKhg80CU9L0wGXSg5GsA==",
+  "filename": "dsh-protest-deadline-0.2.12.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4175,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 37213,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 35314,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1293,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1602,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 467,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-demo.gif",
+      "size": 98353,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-demo.png",
+      "size": 156048,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-flow-dark.svg",
+      "size": 4016,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-flow-light.svg",
+      "size": 4016,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-flow-v5-dark.svg",
+      "size": 14611,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-flow-v5-light.svg",
+      "size": 14611,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-flow.svg",
+      "size": 2558,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-hero-en-dark.webp",
+      "size": 81370,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-hero-en-light.webp",
+      "size": 82320,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-hero-zh-dark.webp",
+      "size": 76740,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-hero-zh-light.webp",
+      "size": 77572,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-protest-deadline-hero.png",
+      "size": 42790,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 102,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 9944,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 441,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2046,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120096,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 225,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 227,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 2991,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-law.md",
+      "size": 10498,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-zfcg-94.md",
+      "size": 4948,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 8282,
+      "mode": 493
+    },
+    {
+      "path": "rules/protest-deadline.yaml",
+      "size": 19516,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 138,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/PD-001-unsafe.json",
+      "size": 474,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 418,
+      "mode": 493
+    }
+  ],
+  "entryCount": 37,
+  "bundled": []
+}

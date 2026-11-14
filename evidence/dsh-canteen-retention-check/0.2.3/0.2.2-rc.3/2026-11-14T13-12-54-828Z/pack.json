@@ -1,0 +1,144 @@
+{
+  "id": "dsh-canteen-retention-check@0.2.3",
+  "name": "dsh-canteen-retention-check",
+  "version": "0.2.3",
+  "size": 164754,
+  "unpackedSize": 358044,
+  "shasum": "399f2a6bd08173b4ea4388492f4a887983095752",
+  "integrity": "sha512-sx4GsEFNsp2DA87reSRpVjJDBLDxpjbfYYbCHNnds8DkhP4VB73tW0wvKCJBIQczCyfAQyq3U+2xJoS8FDGjaQ==",
+  "filename": "dsh-canteen-retention-check-0.2.3.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 2143,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 34490,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 32625,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1300,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1623,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 324,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 488,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-canteen-retention-check-demo.gif",
+      "size": 81914,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-canteen-retention-check-flow.svg",
+      "size": 2579,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-canteen-retention-check-hero.png",
+      "size": 27509,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 109,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10268,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 442,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2038,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120070,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 220,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 215,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3095,
+      "mode": 493
+    },
+    {
+      "path": "rules/canteen-retention.yaml",
+      "size": 15050,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 313,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-school-food-safety.md",
+      "size": 7798,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 145,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/CF-001-unsafe.yaml",
+      "size": 238,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 482,
+      "mode": 493
+    }
+  ],
+  "entryCount": 26,
+  "bundled": []
+}

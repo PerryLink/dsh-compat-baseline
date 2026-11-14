@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T13:12:37.031Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-GrKEGG/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-soilwater-check@0.2.10"
+  ],
+  "cwd": "/tmp/hcb-audit-GrKEGG",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 835,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-soilwater-check",
+  "version": "0.2.10",
+  "reportSha256": "3982ae6f12586f64a160d9c2e09ce7c8525e3d92f26359de66409be3d0466e03",
+  "subjectPathInReport": "/tmp/hcb-audit-GrKEGG/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T13:12:13.743Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-1JQVzf/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-power-loss-split@0.3.0"
+  ],
+  "cwd": "/tmp/hcb-audit-1JQVzf",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 825,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-power-loss-split",
+  "version": "0.3.0",
+  "reportSha256": "5fd48966f572e2812f2f2cc7a1aad38ff00f0e13bda27fa4a89601c5d816ccca",
+  "subjectPathInReport": "/tmp/hcb-audit-1JQVzf/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}

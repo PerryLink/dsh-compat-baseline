@@ -1,0 +1,194 @@
+{
+  "id": "dsh-tender-matrix@0.2.16",
+  "name": "dsh-tender-matrix",
+  "version": "0.2.16",
+  "size": 539617,
+  "unpackedSize": 856893,
+  "shasum": "04e2ba4d3a40a01f7ed2f1702cfb3cc93d5b8c84",
+  "integrity": "sha512-LoQ2kWDrkwUOYsS11HkHHgDD33DaI01v39laZ9IFEA/4uCzXrQafL8VmsXSJWCl/HASm29rQEGQGD9VzkKj1yw==",
+  "filename": "dsh-tender-matrix-0.2.16.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 7331,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36087,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33861,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1290,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1593,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 655,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 458,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-demo.gif",
+      "size": 94517,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-demo.png",
+      "size": 103341,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-flow-dark.svg",
+      "size": 3537,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-flow-light.svg",
+      "size": 3537,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-flow-v5-dark.svg",
+      "size": 16203,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-flow-v5-light.svg",
+      "size": 16203,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-flow.svg",
+      "size": 2549,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-hero-en-dark.webp",
+      "size": 60848,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-hero-en-light.webp",
+      "size": 61816,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-hero-zh-dark.webp",
+      "size": 65252,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-hero-zh-light.webp",
+      "size": 66234,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-tender-matrix-hero.png",
+      "size": 41466,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 99,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10072,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 438,
+      "mode": 493
+    },
+    {
+      "path": "lib/api-BB_mqSV-.mjs",
+      "size": 63753,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2018,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 126554,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 198,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 197,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 2964,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-zbtbf.md",
+      "size": 4616,
+      "mode": 493
+    },
+    {
+      "path": "rules/tender-matrix.yaml",
+      "size": 15486,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 135,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/TM-001-unsafe.json",
+      "size": 369,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 403,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

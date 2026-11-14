@@ -1,0 +1,194 @@
+{
+  "id": "dsh-pleading-draft@0.2.12",
+  "name": "dsh-pleading-draft",
+  "version": "0.2.12",
+  "size": 573862,
+  "unpackedSize": 852852,
+  "shasum": "8429cef0685e87158e299058609bc0d97cded3d2",
+  "integrity": "sha512-cvx/1yYYSFbQYudDyMWNERuNAc4HbXk4gXL4t7RrsWuUWHJI3EAY0H3kW2ooAMkM+KTda40BoZg00zkxWrdjCg==",
+  "filename": "dsh-pleading-draft-0.2.12.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4387,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 35078,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33414,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1291,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1596,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 461,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-demo.gif",
+      "size": 95971,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-demo.png",
+      "size": 99554,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-flow-dark.svg",
+      "size": 3900,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-flow-light.svg",
+      "size": 3900,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-flow-v5-dark.svg",
+      "size": 20017,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-flow-v5-light.svg",
+      "size": 20017,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-flow.svg",
+      "size": 2552,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-hero-en-dark.webp",
+      "size": 74336,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-hero-en-light.webp",
+      "size": 77146,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-hero-zh-dark.webp",
+      "size": 76800,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-hero-zh-light.webp",
+      "size": 77360,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-pleading-draft-hero.png",
+      "size": 41884,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 100,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10361,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 441,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2042,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 119984,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 222,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 218,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 2978,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-civil-procedure-versions.md",
+      "size": 6990,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 10344,
+      "mode": 493
+    },
+    {
+      "path": "rules/pleading-draft.yaml",
+      "size": 15228,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 136,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/PL-001-unsafe.json",
+      "size": 618,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 408,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

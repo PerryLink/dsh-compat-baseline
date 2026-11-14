@@ -1,0 +1,194 @@
+{
+  "id": "dsh-warranty-calc@0.2.12",
+  "name": "dsh-warranty-calc",
+  "version": "0.2.12",
+  "size": 617555,
+  "unpackedSize": 902283,
+  "shasum": "c0747ff2c10c6c220d3bd1cff6afb0c3b075d358",
+  "integrity": "sha512-0h5ENNNkngalyUEmERLrcTwjQokMWw/SQE3iAYaQGzqJZOQDpCOG8l4E7NKZSad53DsNvUrY4g+0Xrbwp8ctCw==",
+  "filename": "dsh-warranty-calc-0.2.12.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4399,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 35421,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33111,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1290,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1593,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 458,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-demo.gif",
+      "size": 95298,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-demo.png",
+      "size": 190915,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-flow-dark.svg",
+      "size": 3753,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-flow-light.svg",
+      "size": 3753,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-flow-v5-dark.svg",
+      "size": 22589,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-flow-v5-light.svg",
+      "size": 22589,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-flow.svg",
+      "size": 2549,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-hero-en-dark.webp",
+      "size": 62566,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-hero-en-light.webp",
+      "size": 64542,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-hero-zh-dark.webp",
+      "size": 66920,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-hero-zh-light.webp",
+      "size": 68000,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-warranty-calc-hero.png",
+      "size": 41556,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 99,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 9888,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 439,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2018,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120804,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 217,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 215,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 2970,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-sanbao-43.md",
+      "size": 5542,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-warranty-regulation.md",
+      "size": 8925,
+      "mode": 493
+    },
+    {
+      "path": "rules/warranty-calc.yaml",
+      "size": 15586,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 135,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/WC-001-unsafe.json",
+      "size": 622,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 403,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

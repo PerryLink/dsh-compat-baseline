@@ -20,13 +20,13 @@
     "standardsDeclared": 3,
     "entry": {
       "runtime": 0,
-      "recognized": 59,
+      "recognized": 95,
       "static": 0,
       "blocked": 0,
       "failed": 1,
       "not-run": 0,
       "stale": 0,
-      "unknown": 83
+      "unknown": 47
     },
     "flow": {
       "runtime": 0,
@@ -78,11 +78,11 @@
     },
     "latestHost": "0.2.2-rc.3",
     "evidence": {
-      "declared": 83,
-      "checked": 60,
+      "declared": 47,
+      "checked": 96,
       "tested": 0
     },
-    "evidenceUpdatedAt": "2026-11-14T12:48:04.239Z"
+    "evidenceUpdatedAt": "2026-11-14T13:12:54.896Z"
   },
   "rows": [
     {
@@ -5462,8 +5462,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -5501,15 +5502,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:36.071Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-hazplan-check/0.2.13/0.2.2-rc.3/2026-11-14T13-11-36-071Z/report.json"
       }
     },
     {
@@ -5528,8 +5529,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -5567,15 +5569,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:37.873Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-hidden-risk-map/0.2.11/0.2.2-rc.3/2026-11-14T13-11-37-873Z/report.json"
       }
     },
     {
@@ -5594,8 +5596,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -5633,15 +5636,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:39.778Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-hs-classify/0.2.13/0.2.2-rc.3/2026-11-14T13-11-39-778Z/report.json"
       }
     },
     {
@@ -5660,8 +5663,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -5699,15 +5703,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:42.847Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-icd-rule-check/0.2.13/0.2.2-rc.3/2026-11-14T13-11-42-847Z/report.json"
       }
     },
     {
@@ -5726,8 +5730,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -5765,15 +5770,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:44.739Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-lawcite-adapter/0.2.13/0.2.2-rc.3/2026-11-14T13-11-44-739Z/report.json"
       }
     },
     {
@@ -5792,8 +5797,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -5831,15 +5837,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:46.699Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-lc-doc-check/0.2.12/0.2.2-rc.3/2026-11-14T13-11-46-699Z/report.json"
       }
     },
     {
@@ -5858,8 +5864,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -5897,15 +5904,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:48.778Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-learning-gap-check/0.2.11/0.2.2-rc.3/2026-11-14T13-11-48-778Z/report.json"
       }
     },
     {
@@ -5924,8 +5931,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -5963,15 +5971,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:50.819Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-medrec-qc/0.2.14/0.2.2-rc.3/2026-11-14T13-11-50-819Z/report.json"
       }
     },
     {
@@ -5990,8 +5998,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6029,15 +6038,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:52.647Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-nsfc-form-check/0.2.13/0.2.2-rc.3/2026-11-14T13-11-52-647Z/report.json"
       }
     },
     {
@@ -6056,8 +6065,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6095,15 +6105,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:54.663Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-nurse-record-check/0.2.14/0.2.2-rc.3/2026-11-14T13-11-54-663Z/report.json"
       }
     },
     {
@@ -6122,8 +6132,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6161,15 +6172,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:57.816Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-origin-rvc-check/0.2.12/0.2.2-rc.3/2026-11-14T13-11-57-816Z/report.json"
       }
     },
     {
@@ -6188,8 +6199,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6227,15 +6239,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:11:59.868Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-ota-review-check/0.2.13/0.2.2-rc.3/2026-11-14T13-11-59-868Z/report.json"
       }
     },
     {
@@ -6254,8 +6266,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6293,15 +6306,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:02.068Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-paper-doc-adapter/0.2.11/0.2.2-rc.3/2026-11-14T13-12-02-068Z/report.json"
       }
     },
     {
@@ -6320,8 +6333,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6359,15 +6373,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:04.201Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-permit-report-check/0.2.13/0.2.2-rc.3/2026-11-14T13-12-04-201Z/report.json"
       }
     },
     {
@@ -6384,8 +6398,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6421,15 +6436,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:06.061Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-pipeline-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-06-061Z/report.json"
       }
     },
     {
@@ -6446,8 +6461,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6483,15 +6499,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:08.979Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-pleading-draft/0.2.12/0.2.2-rc.3/2026-11-14T13-12-08-979Z/report.json"
       }
     },
     {
@@ -6508,8 +6524,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6545,15 +6562,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:10.883Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-policy-brief-draft/0.2.12/0.2.2-rc.3/2026-11-14T13-12-10-883Z/report.json"
       }
     },
     {
@@ -6570,8 +6587,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6607,15 +6625,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:13.743Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-power-loss-split/0.3.0/0.2.2-rc.3/2026-11-14T13-12-13-743Z/report.json"
       }
     },
     {
@@ -6632,8 +6650,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6669,15 +6688,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:15.920Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-power-ticket-check/0.2.11/0.2.2-rc.3/2026-11-14T13-12-15-920Z/report.json"
       }
     },
     {
@@ -6696,8 +6715,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6735,15 +6755,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:17.959Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-ppap-check/0.2.11/0.2.2-rc.3/2026-11-14T13-12-17-959Z/report.json"
       }
     },
     {
@@ -6760,8 +6780,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6797,15 +6818,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:19.907Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-protest-deadline/0.2.12/0.2.2-rc.3/2026-11-14T13-12-19-907Z/report.json"
       }
     },
     {
@@ -6822,8 +6843,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6859,15 +6881,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:21.870Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-railway-window/0.2.10/0.2.2-rc.3/2026-11-14T13-12-21-870Z/report.json"
       }
     },
     {
@@ -6884,8 +6906,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6921,15 +6944,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:23.983Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-repair-order-qc/0.2.12/0.2.2-rc.3/2026-11-14T13-12-23-983Z/report.json"
       }
     },
     {
@@ -6946,8 +6969,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -6983,15 +7007,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:26.827Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-review-reply-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-26-827Z/report.json"
       }
     },
     {
@@ -7008,8 +7032,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7045,15 +7070,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:28.891Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-rulefile-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-28-891Z/report.json"
       }
     },
     {
@@ -7070,8 +7095,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7107,15 +7133,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:30.824Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-safety-brief-check/0.2.11/0.2.2-rc.3/2026-11-14T13-12-30-824Z/report.json"
       }
     },
     {
@@ -7132,8 +7158,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7169,15 +7196,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:32.951Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-site-log-check/0.3.2/0.2.2-rc.3/2026-11-14T13-12-32-951Z/report.json"
       }
     },
     {
@@ -7194,8 +7221,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7231,15 +7259,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:34.913Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-soe-decision-check/0.2.16/0.2.2-rc.3/2026-11-14T13-12-34-913Z/report.json"
       }
     },
     {
@@ -7256,8 +7284,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7293,15 +7322,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:37.031Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-soilwater-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-37-031Z/report.json"
       }
     },
     {
@@ -7318,8 +7347,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7355,15 +7385,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:39.156Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-sop-sync-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-39-156Z/report.json"
       }
     },
     {
@@ -7380,8 +7410,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7417,15 +7448,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:43.256Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-spc-gbt-adapter/0.2.10/0.2.2-rc.3/2026-11-14T13-12-43-256Z/report.json"
       }
     },
     {
@@ -7442,8 +7473,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7479,15 +7511,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:46.317Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-tender-extract/0.2.13/0.2.2-rc.3/2026-11-14T13-12-46-317Z/report.json"
       }
     },
     {
@@ -7504,8 +7536,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7541,15 +7574,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:48.387Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-tender-matrix/0.2.16/0.2.2-rc.3/2026-11-14T13-12-48-387Z/report.json"
       }
     },
     {
@@ -7566,8 +7599,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7603,15 +7637,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:51.234Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-warranty-calc/0.2.12/0.2.2-rc.3/2026-11-14T13-12-51-234Z/report.json"
       }
     },
     {
@@ -7630,8 +7664,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7669,15 +7704,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:53.067Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-bid-health-check/0.1.4/0.2.2-rc.3/2026-11-14T13-12-53-067Z/report.json"
       }
     },
     {
@@ -7696,8 +7731,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -7735,15 +7771,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
       },
       "evidence": {
-        "source": "declared",
-        "checkedAt": null,
-        "host": null,
-        "checker": null,
-        "reportPath": null
+        "source": "checked",
+        "checkedAt": "2026-11-14T13:12:54.828Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-canteen-retention-check/0.2.3/0.2.2-rc.3/2026-11-14T13-12-54-828Z/report.json"
       }
     },
     {
@@ -9264,5 +9300,5 @@
     }
   ],
   "schemaVersion": "0.5",
-  "evidenceUpdatedAt": "2026-11-14T12:48:04.239Z"
+  "evidenceUpdatedAt": "2026-11-14T13:12:54.896Z"
 }

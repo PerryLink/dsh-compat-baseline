@@ -1,0 +1,194 @@
+{
+  "id": "dsh-hidden-risk-map@0.2.11",
+  "name": "dsh-hidden-risk-map",
+  "version": "0.2.11",
+  "size": 647809,
+  "unpackedSize": 868151,
+  "shasum": "ec49f8aafe305287cc315f80b9250b60f06d6b83",
+  "integrity": "sha512-hUiTT+8rn7lEpytCStQHGqE3v6uFfVYobUejAosJAlFkwVJCbTwssWsw9XxoAVwuI9pAoRyn6ITZAZumR8Pgsw==",
+  "filename": "dsh-hidden-risk-map-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 39776,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 37876,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1292,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1599,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 326,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 464,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-demo.gif",
+      "size": 96942,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-demo.png",
+      "size": 206053,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-flow-dark.svg",
+      "size": 3962,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-flow-light.svg",
+      "size": 3962,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-flow-v5-dark.svg",
+      "size": 15466,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-flow-v5-light.svg",
+      "size": 15469,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-flow.svg",
+      "size": 2555,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-hero-en-dark.webp",
+      "size": 74102,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-hero-en-light.webp",
+      "size": 74356,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-hero-zh-dark.webp",
+      "size": 71692,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-hero-zh-light.webp",
+      "size": 72148,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hidden-risk-map-hero.png",
+      "size": 41007,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 101,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10296,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 446,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2022,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 49823,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 250,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3083,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-major-hazard.md",
+      "size": 8043,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-yingjibuling10.md",
+      "size": 6707,
+      "mode": 493
+    },
+    {
+      "path": "rules/hidden-risk-map.yaml",
+      "size": 10936,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 137,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/HR-001-unsafe.json",
+      "size": 118,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 413,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

@@ -1,0 +1,189 @@
+{
+  "id": "dsh-safety-brief-check@0.2.11",
+  "name": "dsh-safety-brief-check",
+  "version": "0.2.11",
+  "size": 548076,
+  "unpackedSize": 778322,
+  "shasum": "7b9c73a38a1eac99f4b7b5bd5197aa071f33f9ad",
+  "integrity": "sha512-2ZvujA1u2WY6MxX39Eb1W8AkrDqgvXlNlc4jIdVBOYS0KILPohB7nV/CaqL/b9TM7+mr22+usIwt0j2Yiw3oyg==",
+  "filename": "dsh-safety-brief-check-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4282,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 42698,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 40578,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1295,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1608,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 332,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 473,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-demo.gif",
+      "size": 99304,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-demo.png",
+      "size": 115608,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-flow-dark.svg",
+      "size": 3965,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-flow-light.svg",
+      "size": 3965,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-flow-v5-dark.svg",
+      "size": 22705,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-flow-v5-light.svg",
+      "size": 22705,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-flow.svg",
+      "size": 2564,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-hero-en-dark.webp",
+      "size": 65684,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-hero-en-light.webp",
+      "size": 67898,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-hero-zh-dark.webp",
+      "size": 67966,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-hero-zh-light.webp",
+      "size": 69982,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-safety-brief-check-hero.png",
+      "size": 43610,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 104,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10877,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 444,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2050,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 54117,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 240,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 239,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3007,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 2548,
+      "mode": 493
+    },
+    {
+      "path": "rules/safety-brief-check.yaml",
+      "size": 13667,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 140,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/SB-001-unsafe.json",
+      "size": 444,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 428,
+      "mode": 493
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

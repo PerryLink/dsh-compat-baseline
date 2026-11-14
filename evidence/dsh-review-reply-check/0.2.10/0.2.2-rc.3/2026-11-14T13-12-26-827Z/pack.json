@@ -1,0 +1,184 @@
+{
+  "id": "dsh-review-reply-check@0.2.10",
+  "name": "dsh-review-reply-check",
+  "version": "0.2.10",
+  "size": 484853,
+  "unpackedSize": 750311,
+  "shasum": "0a028c85a09ffaa5fc409e10089256f3d1aac8a0",
+  "integrity": "sha512-ZCy8+wbENQEDdNQzBVEsQhalelv9Fi4J/m2t+WJhPUkdP0zqfENIDUGDE93W9InejV4kxE/1ZUFpC++ZKypCwg==",
+  "filename": "dsh-review-reply-check-0.2.10.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3749,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 33916,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 32458,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1295,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1608,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 473,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-demo.gif",
+      "size": 98672,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-demo.png",
+      "size": 102282,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-flow-dark.svg",
+      "size": 3763,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-flow-light.svg",
+      "size": 3763,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-flow-v5-dark.svg",
+      "size": 21744,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-flow-v5-light.svg",
+      "size": 21744,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-flow.svg",
+      "size": 2564,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-hero-en-dark.webp",
+      "size": 52702,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-hero-en-light.webp",
+      "size": 54254,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-hero-zh-dark.webp",
+      "size": 54654,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-hero-zh-light.webp",
+      "size": 56130,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-review-reply-check-hero.png",
+      "size": 43077,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 104,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10931,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 437,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2028,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120239,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 212,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 212,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 2986,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/review-reply-check.yaml",
+      "size": 9850,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 140,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/RR-001-unsafe.json",
+      "size": 778,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 428,
+      "mode": 493
+    }
+  ],
+  "entryCount": 34,
+  "bundled": []
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T13:12:54.828Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-whpC9k/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-canteen-retention-check@0.2.3"
+  ],
+  "cwd": "/tmp/hcb-audit-whpC9k",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 839,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-canteen-retention-check",
+  "version": "0.2.3",
+  "reportSha256": "da3610ead2505846e5036ce444040a6ee4691d52f391c3a593e46e9431bd30a8",
+  "subjectPathInReport": "/tmp/hcb-audit-whpC9k/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}

@@ -1,0 +1,189 @@
+{
+  "id": "dsh-spc-gbt-adapter@0.2.10",
+  "name": "dsh-spc-gbt-adapter",
+  "version": "0.2.10",
+  "size": 593598,
+  "unpackedSize": 848459,
+  "shasum": "49ae445278838fa22c600d3f7cb9337d6e023f13",
+  "integrity": "sha512-nlE7QATlu2+SxbG1CmdjHcs9l2WzKncRoMLOjT4IO4223zz+nOSOW/Ph0glqiuZ8r9JVJC2WOQpSqgTkGTTucw==",
+  "filename": "dsh-spc-gbt-adapter-0.2.10.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36414,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33870,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1292,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1599,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 326,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 464,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-demo.gif",
+      "size": 97399,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-demo.png",
+      "size": 160147,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-flow-dark.svg",
+      "size": 4190,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-flow-light.svg",
+      "size": 4190,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-flow-v5-dark.svg",
+      "size": 9870,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-flow-v5-light.svg",
+      "size": 9870,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-flow.svg",
+      "size": 2555,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-hero-en-dark.webp",
+      "size": 64704,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-hero-en-light.webp",
+      "size": 66478,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-hero-zh-dark.webp",
+      "size": 68278,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-hero-zh-light.webp",
+      "size": 69314,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-spc-gbt-adapter-hero.png",
+      "size": 42218,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 101,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10596,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 437,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2044,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120477,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 246,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 249,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3003,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-gbt17989.md",
+      "size": 7268,
+      "mode": 493
+    },
+    {
+      "path": "rules/spc-gbt-adapter.yaml",
+      "size": 13314,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 137,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/SP-001-unsafe.json",
+      "size": 514,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 413,
+      "mode": 493
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

@@ -1,0 +1,194 @@
+{
+  "id": "dsh-nsfc-form-check@0.2.13",
+  "name": "dsh-nsfc-form-check",
+  "version": "0.2.13",
+  "size": 556465,
+  "unpackedSize": 800764,
+  "shasum": "4dc1ed228825a73e1dcb98bb49f04cd78b7201e7",
+  "integrity": "sha512-jXcCtaJ8sQh6wwuxy/aua4MTSj8hTYdBcjiuIx7DBGXRMUOLGFauM2NnGg/mdVf/bm6bTMUY1acKo0o7Q5d8sQ==",
+  "filename": "dsh-nsfc-form-check-0.2.13.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4305,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36108,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 34310,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1292,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1599,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 321,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 464,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-demo.gif",
+      "size": 96897,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-demo.png",
+      "size": 153608,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-flow-dark.svg",
+      "size": 3920,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-flow-light.svg",
+      "size": 3920,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-flow-v5-dark.svg",
+      "size": 20053,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-flow-v5-light.svg",
+      "size": 20052,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-flow.svg",
+      "size": 2555,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-hero-en-dark.webp",
+      "size": 56116,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-hero-en-light.webp",
+      "size": 60068,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-hero-zh-dark.webp",
+      "size": 60378,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-hero-zh-light.webp",
+      "size": 64954,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nsfc-form-check-hero.png",
+      "size": 43056,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 102,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10164,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 443,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 4193,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 67905,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 269,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 272,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3112,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-nsfc-regulation.md",
+      "size": 7644,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 8928,
+      "mode": 493
+    },
+    {
+      "path": "rules/nsfc-form-check.yaml",
+      "size": 18224,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 138,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/NF-002-unsafe.json",
+      "size": 939,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 2456,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 413,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

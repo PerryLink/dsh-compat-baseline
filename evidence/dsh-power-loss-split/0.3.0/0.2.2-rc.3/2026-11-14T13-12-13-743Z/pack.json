@@ -1,0 +1,184 @@
+{
+  "id": "dsh-power-loss-split@0.3.0",
+  "name": "dsh-power-loss-split",
+  "version": "0.3.0",
+  "size": 659481,
+  "unpackedSize": 973063,
+  "shasum": "5eb177554445f24d0ef342da8a77e1078bb0c501",
+  "integrity": "sha512-RRz3oZ/RY8GzVuY1UwdrrvtcqaxYY7RG0UigF8eat0E+3uOJfOAhtmWxSsA3IBupRvyfTdj2WzTRo5OAGckLHg==",
+  "filename": "dsh-power-loss-split-0.3.0.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 6255,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 420
+    },
+    {
+      "path": "README.en.md",
+      "size": 36697,
+      "mode": 420
+    },
+    {
+      "path": "README.es.md",
+      "size": 39254,
+      "mode": 420
+    },
+    {
+      "path": "README.hi.md",
+      "size": 62401,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 35057,
+      "mode": 420
+    },
+    {
+      "path": "README.pt.md",
+      "size": 39061,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1293,
+      "mode": 420
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1602,
+      "mode": 420
+    },
+    {
+      "path": "capability.json",
+      "size": 336,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 467,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-power-loss-split-demo.gif",
+      "size": 97081,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-power-loss-split-demo.png",
+      "size": 173068,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-power-loss-split-flow-v5-dark.svg",
+      "size": 25157,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-power-loss-split-flow-v5-light.svg",
+      "size": 25157,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-power-loss-split-hero-en-dark.webp",
+      "size": 69340,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-power-loss-split-hero-en-light.webp",
+      "size": 71330,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-power-loss-split-hero-zh-dark.webp",
+      "size": 79190,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-power-loss-split-hero-zh-light.webp",
+      "size": 82028,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-power-loss-split-hero.png",
+      "size": 41858,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 102,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10182,
+      "mode": 420
+    },
+    {
+      "path": "icon.svg",
+      "size": 440,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 1947,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 48790,
+      "mode": 420
+    },
+    {
+      "path": "locale/en.json",
+      "size": 197,
+      "mode": 420
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 194,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 3115,
+      "mode": 420
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 420
+    },
+    {
+      "path": "rules/power-loss-split.yaml",
+      "size": 8009,
+      "mode": 420
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 138,
+      "mode": 420
+    },
+    {
+      "path": "samples/quickstart/input/PL-001-unsafe.json",
+      "size": 104,
+      "mode": 420
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 420
+    },
+    {
+      "path": "screenshots.json",
+      "size": 418,
+      "mode": 420
+    }
+  ],
+  "entryCount": 34,
+  "bundled": []
+}

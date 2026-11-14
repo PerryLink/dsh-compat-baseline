@@ -1,0 +1,204 @@
+{
+  "id": "dsh-hazplan-check@0.2.13",
+  "name": "dsh-hazplan-check",
+  "version": "0.2.13",
+  "size": 654144,
+  "unpackedSize": 1003345,
+  "shasum": "1367960f8a235e4ddbdf2f8bc489c1aa70a2276d",
+  "integrity": "sha512-keXNs1jTVAIxi1CR84/y6Gqs/whP/STpIr9F8LmmpneZaS3w+FCg2okq9a4YefI/GRi3UqORqFiGq+5SR0VQZg==",
+  "filename": "dsh-hazplan-check-0.2.13.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4414,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 37203,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 34564,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1290,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1593,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 830,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 458,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-demo.gif",
+      "size": 95873,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-demo.png",
+      "size": 164985,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-flow-dark.svg",
+      "size": 3826,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-flow-light.svg",
+      "size": 3826,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-flow-v5-dark.svg",
+      "size": 26887,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-flow-v5-light.svg",
+      "size": 26887,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-flow.svg",
+      "size": 2549,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-hero-en-dark.webp",
+      "size": 72408,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-hero-en-light.webp",
+      "size": 72462,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-hero-zh-dark.webp",
+      "size": 71614,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-hero-zh-light.webp",
+      "size": 71690,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazplan-check-hero.png",
+      "size": 42373,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 99,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10353,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 440,
+      "mode": 493
+    },
+    {
+      "path": "lib/api-DfxcxPfY.mjs",
+      "size": 63621,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2231,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 52796,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 236,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 236,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3045,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 330,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-blocked-aqt3049.md",
+      "size": 3959,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-hazop.md",
+      "size": 8362,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 95482,
+      "mode": 493
+    },
+    {
+      "path": "rules/hazplan-check.yaml",
+      "size": 12874,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 135,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/HZ-001-unsafe.json",
+      "size": 463,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 403,
+      "mode": 493
+    }
+  ],
+  "entryCount": 38,
+  "bundled": []
+}

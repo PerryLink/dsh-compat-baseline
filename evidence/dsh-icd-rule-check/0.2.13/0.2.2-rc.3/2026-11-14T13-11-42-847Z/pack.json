@@ -1,0 +1,204 @@
+{
+  "id": "dsh-icd-rule-check@0.2.13",
+  "name": "dsh-icd-rule-check",
+  "version": "0.2.13",
+  "size": 637211,
+  "unpackedSize": 920895,
+  "shasum": "f5e2d1a2c9a0ebc60ec1bc7e007dd7a97e52a7a5",
+  "integrity": "sha512-kOZfy8e4FbMXvcld/XmLLYM0C70HKKQmItfj3BS+WeriQb5fGPLPi9jk7RlRkF+Xqkm3bHVGypahHAec1wo6qg==",
+  "filename": "dsh-icd-rule-check-0.2.13.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4180,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 35777,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33158,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1291,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1596,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 849,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 461,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-demo.gif",
+      "size": 94906,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-demo.png",
+      "size": 190666,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-flow-dark.svg",
+      "size": 3907,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-flow-light.svg",
+      "size": 3907,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-flow-v5-dark.svg",
+      "size": 20876,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-flow-v5-light.svg",
+      "size": 20876,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-flow.svg",
+      "size": 2552,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-hero-en-dark.webp",
+      "size": 67538,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-hero-en-light.webp",
+      "size": 69032,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-hero-zh-dark.webp",
+      "size": 68644,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-hero-zh-light.webp",
+      "size": 69822,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-icd-rule-check-hero.png",
+      "size": 41874,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 101,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10067,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 440,
+      "mode": 493
+    },
+    {
+      "path": "lib/api-DfxcxPfY.mjs",
+      "size": 63621,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2042,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 62640,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 220,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 221,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3041,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 438,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/authority-class-audit.md",
+      "size": 7626,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-yibao-settlement.md",
+      "size": 7045,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 639,
+      "mode": 493
+    },
+    {
+      "path": "rules/icd-rule-check.yaml",
+      "size": 17346,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 137,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/IC-001-unsafe.json",
+      "size": 403,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 408,
+      "mode": 493
+    }
+  ],
+  "entryCount": 38,
+  "bundled": []
+}

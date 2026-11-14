@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.8.0 — 2026-11-14
+
+- **Finish `mainline-opt-in` and start `catalog-only`: 36 more rows are now
+  `checked`.** Total `checked` is **60 -> 96** (34 mainline-default + 53
+  mainline-opt-in + 2 catalog-only + 7 external); `declared` 83 -> 47;
+  `tested` remains **0**.
+- New results: **36 `pass` -> all 36 map to `recognized`**; 0 blocking, 0 failed,
+  0 blocked. All 36 carry the DSC-03 hygiene warning; 19 of them also carry
+  DSC-11 and DSC-13. Every new report is stored under `evidence/` with its
+  SHA-256 checked against `audit.json` and `patch.json`.
+- ENTRY summary: `{recognized:95, failed:1, not-run:0, unknown:47}`; gate
+  `{blocked:1, review:21, pilot:121, production-candidate:0}`. The 36 new rows
+  were all `pilot` before and after; only their gate reasons changed from
+  "no dsh.standards declaration" to "ENTRY recognized, FLOW unknown".
+- 143 rows and their order are unchanged; only the 36 rows changed
+  `standards.entry` / `evidence` / `gate`. Coverage totals/missing/tracks/compat
+  and every group's gate distribution are unchanged from the pre-merge matrix.
+- Only static ENTRY (`--entry-claim static`) was run; no `tested`, no runtime
+  claim. Checker pinned to `dsh-standards@1.6.10`, host `0.2.2-rc.3`.
+  Pre-merge matrix: `data/matrix.v0.8.0.pre-merge.json`. Local only: no push,
+  no publish.
+
 ## 0.7.0 — 2026-11-14
 
 - **Start `mainline-opt-in`: the first 19 of 53 rows are now `checked`.**

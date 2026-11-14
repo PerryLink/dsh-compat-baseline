@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T13:12:51.234Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-InbV4S/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-warranty-calc@0.2.12"
+  ],
+  "cwd": "/tmp/hcb-audit-InbV4S",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 855,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-warranty-calc",
+  "version": "0.2.12",
+  "reportSha256": "1ed3286e5aa07151cdc20bb4a99702700c5f527f8e16c0c9faf96d34b9eea33e",
+  "subjectPathInReport": "/tmp/hcb-audit-InbV4S/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}

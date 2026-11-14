@@ -1,0 +1,219 @@
+{
+  "id": "dsh-nurse-record-check@0.2.14",
+  "name": "dsh-nurse-record-check",
+  "version": "0.2.14",
+  "size": 560220,
+  "unpackedSize": 895467,
+  "shasum": "ab5308af60781faf615dfcb7d71df911583e1ba5",
+  "integrity": "sha512-DLsA7GuiuOA+xYuala9Jka4RJ4vogbCRT9wSBEyBpNm2ktl47bX8aEj0xotGDc8bvgKjJ66ULagPFlg7jaVLWQ==",
+  "filename": "dsh-nurse-record-check-0.2.14.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4425,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 37795,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 34963,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1295,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1608,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 285,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 639,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-demo.gif",
+      "size": 99337,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-demo.png",
+      "size": 141532,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-flow-dark.svg",
+      "size": 3939,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-flow-light.svg",
+      "size": 3939,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-flow-v5-dark.svg",
+      "size": 28020,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-flow-v5-light.svg",
+      "size": 28021,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-flow.svg",
+      "size": 2564,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-hero-en-dark.webp",
+      "size": 54114,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-hero-en-light.webp",
+      "size": 55530,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-hero-zh-dark.webp",
+      "size": 54612,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-hero-zh-light.webp",
+      "size": 55826,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-nurse-record-check-hero.png",
+      "size": 43285,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 105,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10559,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 267,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2160,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 70294,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 232,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 230,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3074,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/authority-class-audit.md",
+      "size": 7626,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-civilcode.md",
+      "size": 8902,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-emr-2017.md",
+      "size": 8247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-medical-record-rules.md",
+      "size": 9430,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-nursing-levels.md",
+      "size": 7009,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-wst431.md",
+      "size": 8517,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 75741,
+      "mode": 493
+    },
+    {
+      "path": "rules/nurse-record.yaml",
+      "size": 17576,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 141,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/NR-001-unsafe.yaml",
+      "size": 387,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 428,
+      "mode": 493
+    }
+  ],
+  "entryCount": 41,
+  "bundled": []
+}

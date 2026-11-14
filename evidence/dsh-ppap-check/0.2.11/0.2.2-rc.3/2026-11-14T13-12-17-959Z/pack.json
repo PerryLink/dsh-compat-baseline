@@ -1,0 +1,194 @@
+{
+  "id": "dsh-ppap-check@0.2.11",
+  "name": "dsh-ppap-check",
+  "version": "0.2.11",
+  "size": 515140,
+  "unpackedSize": 832167,
+  "shasum": "59b55b1e1b2527318e31e223305ef73a4e1619ca",
+  "integrity": "sha512-sXm88Irzyx9J603pjOuGopR18tX4Nl4zr4nOV2RcZtJPvQ4xSEc16Q1RFaJrtIK32gKcfSS/Ja23LQihVlDKMA==",
+  "filename": "dsh-ppap-check-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 34055,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 31901,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1287,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1584,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 662,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 449,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-demo.gif",
+      "size": 93554,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-demo.png",
+      "size": 99344,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-flow-dark.svg",
+      "size": 3990,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-flow-light.svg",
+      "size": 3990,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-flow-v5-dark.svg",
+      "size": 21057,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-flow-v5-light.svg",
+      "size": 21057,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-flow.svg",
+      "size": 2540,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-hero-en-dark.webp",
+      "size": 57772,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-hero-en-light.webp",
+      "size": 58162,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-hero-zh-dark.webp",
+      "size": 58426,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-hero-zh-light.webp",
+      "size": 58906,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-ppap-check-hero.png",
+      "size": 40590,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 96,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 9865,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 437,
+      "mode": 493
+    },
+    {
+      "path": "lib/api-BB_mqSV-.mjs",
+      "size": 63753,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2012,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 126705,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 229,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 228,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3026,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-source-availability.md",
+      "size": 7468,
+      "mode": 493
+    },
+    {
+      "path": "rules/ppap-check.yaml",
+      "size": 11454,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 132,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/PP-001-unsafe.json",
+      "size": 566,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 388,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

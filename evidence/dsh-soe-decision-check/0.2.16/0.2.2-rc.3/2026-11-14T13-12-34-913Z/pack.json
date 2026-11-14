@@ -1,0 +1,189 @@
+{
+  "id": "dsh-soe-decision-check@0.2.16",
+  "name": "dsh-soe-decision-check",
+  "version": "0.2.16",
+  "size": 503828,
+  "unpackedSize": 783523,
+  "shasum": "f2bb263fef948a94c13a02192807bd99cdc65118",
+  "integrity": "sha512-4bpJZ6mPruNygZ13iOxYdhELqX6O08qJUaAnF5qyvUuhg5QbhtK5lEQnKupTpXCIpSXJgIoqNkKOjAApRS45Qg==",
+  "filename": "dsh-soe-decision-check-0.2.16.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 6562,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36309,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33589,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1295,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1608,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 473,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-demo.gif",
+      "size": 98495,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-demo.png",
+      "size": 108675,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-flow-dark.svg",
+      "size": 3905,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-flow-light.svg",
+      "size": 3905,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-flow-v5-dark.svg",
+      "size": 19916,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-flow-v5-light.svg",
+      "size": 19916,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-flow.svg",
+      "size": 2564,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-hero-en-dark.webp",
+      "size": 55890,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-hero-en-light.webp",
+      "size": 55858,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-hero-zh-dark.webp",
+      "size": 55516,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-hero-zh-light.webp",
+      "size": 55724,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-soe-decision-check-hero.png",
+      "size": 43799,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 104,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 9962,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 437,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2028,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120238,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 218,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 218,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3004,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-soe-17.md",
+      "size": 6987,
+      "mode": 493
+    },
+    {
+      "path": "rules/soe-decision-check.yaml",
+      "size": 21965,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 140,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/SD-001-unsafe.json",
+      "size": 659,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 428,
+      "mode": 493
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

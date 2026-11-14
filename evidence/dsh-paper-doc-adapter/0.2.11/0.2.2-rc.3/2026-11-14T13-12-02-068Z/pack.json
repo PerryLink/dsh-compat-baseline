@@ -1,0 +1,184 @@
+{
+  "id": "dsh-paper-doc-adapter@0.2.11",
+  "name": "dsh-paper-doc-adapter",
+  "version": "0.2.11",
+  "size": 610660,
+  "unpackedSize": 874445,
+  "shasum": "ed7de2e287ac4b9a5cb5a9760aef515139e6d990",
+  "integrity": "sha512-d8A+7cQTE+5VbB1cEPZbCR8/USP8VbVOC3U4oqor4xnYiyfcirV1ttXRlaLst/QhIuj9OdSUS5rup8E2Srj0ZA==",
+  "filename": "dsh-paper-doc-adapter-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36811,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 34112,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1294,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1605,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 470,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-demo.gif",
+      "size": 99282,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-demo.png",
+      "size": 149001,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-flow-dark.svg",
+      "size": 3951,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-flow-light.svg",
+      "size": 3951,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-flow-v5-dark.svg",
+      "size": 17864,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-flow-v5-light.svg",
+      "size": 17863,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-flow.svg",
+      "size": 2561,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-hero-en-dark.webp",
+      "size": 74300,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-hero-en-light.webp",
+      "size": 75550,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-hero-zh-dark.webp",
+      "size": 73342,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-hero-zh-light.webp",
+      "size": 74250,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-paper-doc-adapter-hero.png",
+      "size": 42744,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 103,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10238,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 439,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2026,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120708,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 218,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 216,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3053,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/paper-doc-adapter.yaml",
+      "size": 10466,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 139,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/PD-001-unsafe.json",
+      "size": 660,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 423,
+      "mode": 493
+    }
+  ],
+  "entryCount": 34,
+  "bundled": []
+}

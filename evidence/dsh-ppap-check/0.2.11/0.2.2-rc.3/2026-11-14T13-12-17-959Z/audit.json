@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T13:12:17.959Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-ciMus1/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-ppap-check@0.2.11"
+  ],
+  "cwd": "/tmp/hcb-audit-ciMus1",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 928,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-ppap-check",
+  "version": "0.2.11",
+  "reportSha256": "5a918a49fc102af19eaeef24f80d8926ca945b88d9208a0e495c204e9a0071b3",
+  "subjectPathInReport": "/tmp/hcb-audit-ciMus1/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}

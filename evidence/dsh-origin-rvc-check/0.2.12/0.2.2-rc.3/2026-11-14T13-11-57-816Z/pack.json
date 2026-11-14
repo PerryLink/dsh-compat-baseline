@@ -1,0 +1,189 @@
+{
+  "id": "dsh-origin-rvc-check@0.2.12",
+  "name": "dsh-origin-rvc-check",
+  "version": "0.2.12",
+  "size": 521448,
+  "unpackedSize": 842323,
+  "shasum": "894024aa6e2780f19f3cca95156b9ccf02a9d3d3",
+  "integrity": "sha512-BLhP6bpjqxKVvQ4BgPoycw10YpHgKKMobDP8Mf0JqkFsm75jZFHaMyDCj+EddbHQsWoBxXZ32tEaxGC+TNCSVQ==",
+  "filename": "dsh-origin-rvc-check-0.2.12.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3964,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 33742,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 32097,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1293,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1602,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 649,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 467,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-demo.gif",
+      "size": 96258,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-demo.png",
+      "size": 119492,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-flow-dark.svg",
+      "size": 3947,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-flow-light.svg",
+      "size": 3947,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-flow-v5-dark.svg",
+      "size": 23562,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-flow-v5-light.svg",
+      "size": 23562,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-flow.svg",
+      "size": 2558,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-hero-en-dark.webp",
+      "size": 54966,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-hero-en-light.webp",
+      "size": 55654,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-hero-zh-dark.webp",
+      "size": 55204,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-hero-zh-light.webp",
+      "size": 55742,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-origin-rvc-check-hero.png",
+      "size": 41689,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 102,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10522,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 435,
+      "mode": 493
+    },
+    {
+      "path": "lib/api-BB_mqSV-.mjs",
+      "size": 63753,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2024,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 127579,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 209,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 213,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3045,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/origin-rvc-check.yaml",
+      "size": 10214,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 138,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/OR-001-unsafe.json",
+      "size": 481,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 418,
+      "mode": 493
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

@@ -1,0 +1,184 @@
+{
+  "id": "dsh-railway-window@0.2.10",
+  "name": "dsh-railway-window",
+  "version": "0.2.10",
+  "size": 615877,
+  "unpackedSize": 891350,
+  "shasum": "8f79c56d16678131f35a7087a05bb00781e43e65",
+  "integrity": "sha512-bEowLtW81e+gCmh3LL8AE3RBrBzeEtxwIReWoDN/ZwufVNkOu7BJldBHJng7RZ8nEFKLyofvzgoB2iyPnq6yeQ==",
+  "filename": "dsh-railway-window-0.2.10.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 39525,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 37070,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1291,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1596,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 461,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-demo.gif",
+      "size": 96876,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-demo.png",
+      "size": 174172,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-flow-dark.svg",
+      "size": 3964,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-flow-light.svg",
+      "size": 3964,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-flow-v5-dark.svg",
+      "size": 23398,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-flow-v5-light.svg",
+      "size": 23398,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-flow.svg",
+      "size": 2552,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-hero-en-dark.webp",
+      "size": 66400,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-hero-en-light.webp",
+      "size": 68868,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-hero-zh-dark.webp",
+      "size": 69646,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-hero-zh-light.webp",
+      "size": 71958,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-railway-window-hero.png",
+      "size": 42055,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 100,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 9870,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 444,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2042,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120228,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 219,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 212,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 2972,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/railway-window.yaml",
+      "size": 10172,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 136,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/RW-001-unsafe.json",
+      "size": 548,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 408,
+      "mode": 493
+    }
+  ],
+  "entryCount": 34,
+  "bundled": []
+}

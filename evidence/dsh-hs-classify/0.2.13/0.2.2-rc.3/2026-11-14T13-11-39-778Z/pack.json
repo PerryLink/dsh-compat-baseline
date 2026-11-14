@@ -1,0 +1,189 @@
+{
+  "id": "dsh-hs-classify@0.2.13",
+  "name": "dsh-hs-classify",
+  "version": "0.2.13",
+  "size": 548093,
+  "unpackedSize": 815134,
+  "shasum": "96c47f81e00d6c3893770244aea56079e8b13b41",
+  "integrity": "sha512-05qe9Ne4Wyr+rpChqK6x9rs46h5bQQZAgZe6mcgNH9rowSU7NJOMm72D8JnCAP5xBEjuSP4jhyS1ABQ+WTQ5rw==",
+  "filename": "dsh-hs-classify-0.2.13.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4193,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 34191,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 32018,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1288,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1587,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 604,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 452,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-demo.gif",
+      "size": 92566,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-demo.png",
+      "size": 153145,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-flow-dark.svg",
+      "size": 5562,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-flow-light.svg",
+      "size": 5562,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-flow-v5-dark.svg",
+      "size": 18876,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-flow-v5-light.svg",
+      "size": 18876,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-flow.svg",
+      "size": 2543,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-hero-en-dark.webp",
+      "size": 59750,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-hero-en-light.webp",
+      "size": 61554,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-hero-zh-dark.webp",
+      "size": 58866,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-hero-zh-light.webp",
+      "size": 60244,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hs-classify-hero.png",
+      "size": 39984,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 97,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 9934,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 442,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2014,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 119873,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 229,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 224,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3029,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-tariff-regulation.md",
+      "size": 3556,
+      "mode": 493
+    },
+    {
+      "path": "rules/hs-classify.yaml",
+      "size": 10033,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 133,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/HC-001-unsafe.json",
+      "size": 521,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 393,
+      "mode": 493
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

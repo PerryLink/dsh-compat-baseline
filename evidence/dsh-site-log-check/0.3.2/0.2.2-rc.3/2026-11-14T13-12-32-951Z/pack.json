@@ -1,0 +1,384 @@
+{
+  "id": "dsh-site-log-check@0.3.2",
+  "name": "dsh-site-log-check",
+  "version": "0.3.2",
+  "size": 638760,
+  "unpackedSize": 971044,
+  "shasum": "ff6d7bfe58c15a018c1d14417f1c0675ad1d6687",
+  "integrity": "sha512-bQK4hO1PJlWRbl6UkK9xgZ4yibePCw5cYim8Y3PiBg5DKLWNCugqAtepsYd/dqjb2q9olWS7V2cMTsT+FT4Qag==",
+  "filename": "dsh-site-log-check-0.3.2.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 5601,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 41735,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 38470,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1291,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1596,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-001-difference-present.yaml",
+      "size": 627,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-001-expected-state.yaml",
+      "size": 627,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-002-difference-present.yaml",
+      "size": 813,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-002-expected-state.yaml",
+      "size": 1803,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-003-difference-present.yaml",
+      "size": 412,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-003-expected-state.yaml",
+      "size": 483,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-004-difference-present.yaml",
+      "size": 413,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-004-expected-state.yaml",
+      "size": 483,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-005-difference-present.yaml",
+      "size": 432,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-005-expected-state.yaml",
+      "size": 483,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-006-difference-present.yaml",
+      "size": 413,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-006-expected-state.yaml",
+      "size": 483,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-007-difference-present.yaml",
+      "size": 459,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-007-expected-state.yaml",
+      "size": 483,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-008-difference-present.yaml",
+      "size": 765,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-008-expected-state.yaml",
+      "size": 554,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-009-difference-present.yaml",
+      "size": 363,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-009-expected-state.yaml",
+      "size": 429,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-010-difference-present.yaml",
+      "size": 368,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-010-expected-state.yaml",
+      "size": 429,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-011-difference-present.yaml",
+      "size": 359,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-011-expected-state.yaml",
+      "size": 429,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-012-difference-present.yaml",
+      "size": 561,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-012-expected-state.yaml",
+      "size": 835,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-013-difference-present.yaml",
+      "size": 795,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-013-expected-state.yaml",
+      "size": 795,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-014-difference-present.yaml",
+      "size": 335,
+      "mode": 493
+    },
+    {
+      "path": "bench/corpus/SL-014-expected-state.yaml",
+      "size": 396,
+      "mode": 493
+    },
+    {
+      "path": "bench/labels.json",
+      "size": 2957,
+      "mode": 493
+    },
+    {
+      "path": "bench/run.mjs",
+      "size": 2631,
+      "mode": 493
+    },
+    {
+      "path": "bin/site-log-batch.mjs",
+      "size": 856,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 872,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 461,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-demo.gif",
+      "size": 95790,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-demo.png",
+      "size": 185653,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-flow-dark.svg",
+      "size": 3912,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-flow-light.svg",
+      "size": 3912,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-flow-v5-dark.svg",
+      "size": 20174,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-flow-v5-light.svg",
+      "size": 20174,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-flow.svg",
+      "size": 2552,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-hero-en-dark.webp",
+      "size": 63380,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-hero-en-light.webp",
+      "size": 65940,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-hero-zh-dark.webp",
+      "size": 63204,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-hero-zh-light.webp",
+      "size": 65736,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-site-log-check-hero.png",
+      "size": 42703,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 101,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10687,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 445,
+      "mode": 493
+    },
+    {
+      "path": "lib/api-DfxcxPfY.mjs",
+      "size": 63621,
+      "mode": 493
+    },
+    {
+      "path": "lib/batch.d.mts",
+      "size": 1258,
+      "mode": 493
+    },
+    {
+      "path": "lib/batch.mjs",
+      "size": 3771,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2020,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 127,
+      "mode": 493
+    },
+    {
+      "path": "lib/src-DFCkGMk4.mjs",
+      "size": 78872,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 219,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 211,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3226,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 303,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-blocked-jlgb50319.md",
+      "size": 3746,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-effectiveness.md",
+      "size": 6716,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-pangzhan-189.md",
+      "size": 3967,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-qa-regulation.md",
+      "size": 7057,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 9344,
+      "mode": 493
+    },
+    {
+      "path": "rules/site-log-check.yaml",
+      "size": 16206,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 137,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/SL-001-unsafe.yaml",
+      "size": 627,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 408,
+      "mode": 493
+    }
+  ],
+  "entryCount": 74,
+  "bundled": []
+}
