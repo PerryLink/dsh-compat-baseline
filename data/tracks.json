@@ -1,35 +1,35 @@
 {
-  "generatedAt": "2026-11-14T08:25:14.752Z",
-  "declared": 3,
+  "generatedAt": "2026-11-14T14:44:15.878Z",
+  "declared": 5,
   "entry": {
     "runtime": 0,
-    "recognized": 0,
+    "recognized": 118,
     "static": 0,
     "blocked": 0,
-    "failed": 0,
-    "not-run": 3,
+    "failed": 1,
+    "not-run": 0,
     "stale": 0,
-    "unknown": 140
+    "unknown": 24
   },
   "flow": {
     "runtime": 0,
-    "manual": 0,
+    "manual": 2,
     "not-run": 3,
     "failed": 0,
     "stale": 0,
-    "unknown": 140
+    "unknown": 138
   },
   "boost": {
     "measured": 0,
-    "not-measured": 3,
+    "not-measured": 5,
     "failed": 0,
     "stale": 0,
-    "unknown": 140
+    "unknown": 138
   },
   "gate": {
-    "blocked": 0,
+    "blocked": 1,
     "review": 22,
-    "pilot": 121,
+    "pilot": 120,
     "production-candidate": 0
   }
 }
