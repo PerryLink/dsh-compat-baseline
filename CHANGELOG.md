@@ -1,5 +1,56 @@
 # Changelog
 
+## 0.8.1 — 2026-11-14
+
+- **Refresh three changed package rows to the latest npm release without a full
+  collect**: `dsh-auto-review` 0.15.1 -> **0.15.2**,
+  `dsh-permission-rules` 0.8.0 -> **0.8.1**, `dsh-plugin-guide` 0.5.8 ->
+  **0.5.9**. Version, capabilities, `dsh.standards`, range, repository and
+  download metadata were read directly from `registry.npmjs.org`; the 140
+  other rows were not touched. `data/matrix.v0.8.1.pre-refresh.json` is the
+  pre-refresh backup (sha256 `b5edca20...54348aee`).
+- **New declarations absorbed**: `dsh-auto-review` and
+  `dsh-permission-rules` now declare `dsh.standards` (`dsh-levels/1`,
+  entry/flow/boost = `not-run`/`not-run`/`not-measured`), so
+  `standardsDeclared` is **3 -> 5**. `dsh-permission-rules` now declares
+  `[fs:read, fs:write, network:egress, sessions:write]` (risk
+  `unknown -> high`, gate `pilot -> review`); `dsh-plugin-guide` now declares
+  `[fs:read]` (risk `unknown -> medium`, gate stays `pilot`);
+  `dsh-auto-review` keeps `[network:egress, sessions:read]` (medium, `pilot`).
+- **`checked` stays 96**: all three new versions were re-audited with
+  `dsh-standards@1.6.10` at host `0.2.2-rc.3`. Results: auto-review `pass`,
+  permission-rules `warn`, guide `pass`. Auto-review and guide map to
+  `recognized`; permission-rules keeps its `checked` report but is held ENTRY
+  `blocked` (see next bullet). `declared` stays 47 and `tested` stays 0.
+  Old-version reports remain under `evidence/<name>/<old-version>/`; the new
+  reports are under `evidence/<name>/<new-version>/0.2.2-rc.3/`.
+- **Checker vocabulary gap recorded, not faked**: `sessions:write` is not in
+  checker 1.6.10's 15-ID capability closed set, so DSC-11/C-11.1 emits
+  `unknown capability id: sessions:write`; the ENTRY scope downgrades DSC-11
+  to WARN and the raw checker conclusion is `warn`/`recognized`. HCB does not
+  launder that into a clean pass: the `checked` report is retained, but
+  `standards.entry.status` is held **`blocked`** with `declaredStatus:
+  "not-run"` until a 16-ID checker re-audit. The row note records the gap; this
+  is an evidence gap, not a package defect.
+- **DSH-FLOW `manual` for two rows, not runtime**: `dsh-auto-review` and
+  `dsh-permission-rules` carry `flow.status = "manual"`, `flow.evidence = true`
+  and a note citing the flow-harness J3/J5/J7/J8 results on `0.2.2-rc.3`.
+  `dsh-plugin-guide` stays `not-run`. No `runtime` claim was written; J7 start
+  line and J8 browser/console remain unproven.
+- Fresh summary: ENTRY `{recognized:94, blocked:1, failed:1, not-run:0,
+  unknown:47}`; FLOW `{manual:2, not-run:3, unknown:138}`; BOOST
+  `{not-measured:5, unknown:138}`; risk `{medium:63, high:3, unknown:77}`
+  (was 62/2/79); gate `{blocked:2, review:21, pilot:120,
+  production-candidate:0}` (was 1 blocked / 21 review / 121 pilot). 143 rows
+  and their order are unchanged.
+- Coverage totals/covered/missing/compat are unchanged (143 rows, 112/112
+  family + 31 external, 0 missing). The mainline-default "declared tracks"
+  count moves 3 -> 5 and its gate split moves from 32 pilot / 2 review to
+  31 pilot / 2 review / 1 blocked, direct consequences of the new declarations
+  and the `sessions:write` hold; `data/coverage.json` was not rewritten.
+- Version files bumped `0.8.0 -> 0.8.1`; `npm run validate`, `npm run coverage`
+  and `npm test` pass (10/10). Local only: no push, no publish.
+
 ## 0.8.0 — 2026-11-14
 
 - **Finish `mainline-opt-in` and start `catalog-only`: 36 more rows are now
