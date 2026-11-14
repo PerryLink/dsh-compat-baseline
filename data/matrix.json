@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T08:25:14.752Z",
+  "generatedAt": "2026-11-14T13:55:12.338Z",
   "latestHost": "0.2.2-rc.3",
   "summary": {
-    "generatedAt": "2026-11-14T08:25:14.752Z",
+    "generatedAt": "2026-11-14T13:55:12.338Z",
     "hosts": 39,
     "hostsRecent": 10,
     "plugins": 143,
@@ -12,17 +12,17 @@
       "unknown": 20
     },
     "gate": {
-      "blocked": 1,
+      "blocked": 2,
       "review": 21,
-      "pilot": 121,
+      "pilot": 120,
       "production-candidate": 0
     },
-    "standardsDeclared": 3,
+    "standardsDeclared": 5,
     "entry": {
       "runtime": 0,
-      "recognized": 95,
+      "recognized": 94,
       "static": 0,
-      "blocked": 0,
+      "blocked": 1,
       "failed": 1,
       "not-run": 0,
       "stale": 0,
@@ -30,30 +30,30 @@
     },
     "flow": {
       "runtime": 0,
-      "manual": 0,
+      "manual": 2,
       "not-run": 3,
       "failed": 0,
       "stale": 0,
-      "unknown": 140
+      "unknown": 138
     },
     "boost": {
       "measured": 0,
-      "not-measured": 3,
+      "not-measured": 5,
       "failed": 0,
       "stale": 0,
-      "unknown": 140
+      "unknown": 138
     },
     "risk": {
       "low": 0,
-      "medium": 62,
-      "high": 2,
-      "unknown": 79
+      "medium": 63,
+      "high": 3,
+      "unknown": 77
     },
     "byGroup": {
       "mainline-default": {
         "plugins": 34,
         "compat": 34,
-        "tracks": 3
+        "tracks": 5
       },
       "mainline-opt-in": {
         "plugins": 53,
@@ -82,13 +82,13 @@
       "checked": 96,
       "tested": 0
     },
-    "evidenceUpdatedAt": "2026-11-14T13:12:54.896Z"
+    "evidenceUpdatedAt": "2026-11-14T14:00:13.152Z"
   },
   "rows": [
     {
       "name": "dsh-auto-review",
-      "version": "0.15.1",
-      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "version": "0.15.2",
+      "declaredRange": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
       "rangeValid": true,
       "manifestVersion": 1,
       "capabilities": [
@@ -96,22 +96,23 @@
         "sessions:read"
       ],
       "repository": "git+https://github.com/PerryLink/dsh-auto-review.git",
-      "publishedAt": "2026-11-13T04:48:06.703Z",
-      "downloadsLastWeek": 1667,
+      "publishedAt": "2026-11-14T12:53:02.689Z",
+      "downloadsLastWeek": 1866,
       "standards": {
-        "schema": null,
-        "source": "not-declared",
+        "schema": "dsh-levels/1",
+        "source": "package.json#dsh.standards",
         "entry": {
           "status": "recognized",
           "evidence": false,
-          "declaredStatus": "unknown"
+          "declaredStatus": "not-run"
         },
         "flow": {
-          "status": "unknown",
-          "evidence": false
+          "status": "manual",
+          "evidence": true,
+          "note": "DSH-FLOW manual per flow-harness J3/J5/J7/J8 on host 0.2.2-rc.3: J3 manual (no volatile config field), J5 manual (0 asserted claims), J7 manual (success start line absent; loaded-marker substitute), J8 manual (headless + web HTTP 200; browser/console not run). Harness measured 0.15.1; 0.15.2 is the patch release under refresh. No runtime claim. Evidence: deepseek-community-hub/artifacts/flow-harness.md."
         },
         "boost": {
-          "status": "unknown",
+          "status": "not-measured",
           "evidence": false
         }
       },
@@ -143,49 +144,62 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "ENTRY recognized, FLOW unknown"
+          "ENTRY recognized, FLOW manual"
         ]
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:12:58.006Z",
+        "checkedAt": "2026-11-14T13:55:27.135Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-auto-review/0.15.1/0.2.2-rc.3/2026-11-14T10-12-58-006Z/report.json"
+        "reportPath": "evidence/dsh-auto-review/0.15.2/0.2.2-rc.3/2026-11-14T13-55-27-135Z/report.json"
       }
     },
     {
       "name": "dsh-permission-rules",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
       "rangeValid": true,
       "manifestVersion": 1,
-      "capabilities": [],
+      "capabilities": [
+        "fs:read",
+        "fs:write",
+        "network:egress",
+        "sessions:write"
+      ],
       "repository": "git+https://github.com/PerryLink/dsh-permission-rules.git",
-      "publishedAt": "2026-11-13T04:55:41.571Z",
-      "downloadsLastWeek": 1791,
+      "publishedAt": "2026-11-14T13:30:02.905Z",
+      "downloadsLastWeek": 2115,
       "standards": {
-        "schema": null,
-        "source": "not-declared",
+        "schema": "dsh-levels/1",
+        "source": "package.json#dsh.standards",
         "entry": {
-          "status": "recognized",
+          "status": "blocked",
           "evidence": false,
-          "declaredStatus": "unknown"
+          "note": "npm 0.8.1 declares sessions:write, which is absent from dsh-standards@1.6.10's 15-ID capability closed set. The raw audit report (evidence/dsh-permission-rules/0.8.1/0.2.2-rc.3/2026-11-14T13-55-33-228Z/report.json) records DSC-11/C-11.1 \"unknown capability id: sessions:write\"; the ENTRY scope downgrades DSC-11 to WARN and the checker conclusion is warn/recognized. HCB keeps the checked evidence but does not launder this into recognized: ENTRY is held blocked until a 16-ID checker re-audit. This is an evidence gap, not a package defect.",
+          "declaredStatus": "not-run"
         },
         "flow": {
-          "status": "unknown",
-          "evidence": false
+          "status": "manual",
+          "evidence": true,
+          "note": "DSH-FLOW manual per flow-harness J3/J5/J7/J8 on host 0.2.2-rc.3: J3 pass (volatile hot change, same PID, 0 remounts), J5 manual (0 asserted claims), J7 manual (success start line absent; loaded-marker substitute), J8 manual (headless + web HTTP 200; browser/console not run). Harness measured 0.8.0; 0.8.1 is the patch release under refresh. No runtime claim. Evidence: deepseek-community-hub/artifacts/flow-harness.md."
         },
         "boost": {
-          "status": "unknown",
+          "status": "not-measured",
           "evidence": false
         }
       },
       "risk": {
-        "level": "unknown",
-        "capabilities": [],
+        "level": "high",
+        "capabilities": [
+          "fs:read",
+          "fs:write",
+          "network:egress",
+          "sessions:write"
+        ],
         "reasons": [
-          "no capability manifest"
+          "high-capability: fs:write",
+          "medium-capability: fs:read, network:egress"
         ]
       },
       "scope": "family",
@@ -203,18 +217,17 @@
         "0.2.1-rc.1": "declared-compatible"
       },
       "gate": {
-        "decision": "pilot",
+        "decision": "blocked",
         "reasons": [
-          "compatible, but unverified",
-          "ENTRY recognized, FLOW unknown"
+          "ENTRY blocked"
         ]
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:13:04.211Z",
+        "checkedAt": "2026-11-14T13:55:33.228Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-permission-rules/0.8.0/0.2.2-rc.3/2026-11-14T10-13-04-211Z/report.json"
+        "reportPath": "evidence/dsh-permission-rules/0.8.1/0.2.2-rc.3/2026-11-14T13-55-33-228Z/report.json"
       }
     },
     {
@@ -477,14 +490,16 @@
     },
     {
       "name": "dsh-plugin-guide",
-      "version": "0.5.8",
+      "version": "0.5.9",
       "declaredRange": ">=0.2.2-0 <0.3.0",
       "rangeValid": true,
       "manifestVersion": null,
-      "capabilities": [],
+      "capabilities": [
+        "fs:read"
+      ],
       "repository": "git+https://github.com/PerryLink/dsh-plugin-guide.git",
-      "publishedAt": "2026-11-14T06:40:11.766Z",
-      "downloadsLastWeek": 4210,
+      "publishedAt": "2026-11-14T13:30:42.244Z",
+      "downloadsLastWeek": 2991,
       "standards": {
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
@@ -503,10 +518,12 @@
         }
       },
       "risk": {
-        "level": "unknown",
-        "capabilities": [],
+        "level": "medium",
+        "capabilities": [
+          "fs:read"
+        ],
         "reasons": [
-          "no capability manifest"
+          "medium-capability: fs:read"
         ]
       },
       "scope": "family",
@@ -532,10 +549,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:13:15.755Z",
+        "checkedAt": "2026-11-14T13:55:39.045Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-plugin-guide/0.5.8/0.2.2-rc.3/2026-11-14T10-13-15-755Z/report.json"
+        "reportPath": "evidence/dsh-plugin-guide/0.5.9/0.2.2-rc.3/2026-11-14T13-55-39-045Z/report.json"
       }
     },
     {
@@ -9300,5 +9317,5 @@
     }
   ],
   "schemaVersion": "0.5",
-  "evidenceUpdatedAt": "2026-11-14T13:12:54.896Z"
+  "evidenceUpdatedAt": "2026-11-14T14:00:13.152Z"
 }
