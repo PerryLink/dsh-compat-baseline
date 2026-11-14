@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.2 — 2026-11-14
+
+- Re-audit `dsh-permission-rules@0.8.1` with `dsh-standards@1.7.0` (16-ID
+  capability set, `sessions:write`): 13/14 checks, 0 blocking, ENTRY
+  `recognized`; the previous 1.6.10 `blocked` note is superseded.
+- Gate returns to **1 blocked / 22 review / 120 pilot / 0 production-candidate**.
+- `scripts/audit-entry.mjs` accepts `HCB_CHECKER_VERSION` (default stays 1.6.10)
+  so a single row can be re-audited with a newer checker without rewriting all
+  historical evidence.
+
 ## 0.8.1 — 2026-11-14
 
 - **Refresh three changed package rows to the latest npm release without a full
