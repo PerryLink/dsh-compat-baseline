@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T12:47:30.830Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-I1Ouhz/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-gongwen-flow-check@0.2.12"
+  ],
+  "cwd": "/tmp/hcb-audit-I1Ouhz",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 1722,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-gongwen-flow-check",
+  "version": "0.2.12",
+  "reportSha256": "bd3f91b01106d4a00a69dcfcfbef466278fd9cc789d70676040a99c85f70cb93",
+  "subjectPathInReport": "/tmp/hcb-audit-I1Ouhz/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}

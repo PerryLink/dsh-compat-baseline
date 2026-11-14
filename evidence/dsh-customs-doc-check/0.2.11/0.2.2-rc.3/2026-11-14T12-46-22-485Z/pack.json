@@ -1,0 +1,194 @@
+{
+  "id": "dsh-customs-doc-check@0.2.11",
+  "name": "dsh-customs-doc-check",
+  "version": "0.2.11",
+  "size": 591218,
+  "unpackedSize": 906060,
+  "shasum": "23a449c5ce9792519a8b29303888f85d2f3d7186",
+  "integrity": "sha512-yoCC1A1l6AW4lzLC/+q4v3uQSJ/NpCep9W8ZaMwYaYMcYIY7FkTZJkrjVWMfiKskk+IcRSp65R6GaSlW629xlQ==",
+  "filename": "dsh-customs-doc-check-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 37212,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 34303,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1294,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1605,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 784,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 470,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-demo.gif",
+      "size": 97434,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-demo.png",
+      "size": 110326,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-flow-dark.svg",
+      "size": 3947,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-flow-light.svg",
+      "size": 3947,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-flow-v5-dark.svg",
+      "size": 16653,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-flow-v5-light.svg",
+      "size": 16653,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-flow.svg",
+      "size": 2561,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-hero-en-dark.webp",
+      "size": 68474,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-hero-en-light.webp",
+      "size": 70376,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-hero-zh-dark.webp",
+      "size": 72240,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-hero-zh-light.webp",
+      "size": 74148,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-customs-doc-check-hero.png",
+      "size": 42850,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 103,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10499,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 441,
+      "mode": 493
+    },
+    {
+      "path": "lib/api-BB_mqSV-.mjs",
+      "size": 63753,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2026,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 127214,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 219,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 215,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3054,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/customs-doc-check.yaml",
+      "size": 12649,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 12934,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 139,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/CD-001-unsafe.json",
+      "size": 632,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 423,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

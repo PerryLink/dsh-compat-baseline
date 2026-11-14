@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T12:42:49.811Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-nMt9Ur/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-aqua-input-check@0.2.15"
+  ],
+  "cwd": "/tmp/hcb-audit-nMt9Ur",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 3412,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-aqua-input-check",
+  "version": "0.2.15",
+  "reportSha256": "64985e597e3cbfb3a058767c84b98bb51963e720679e66885abcbee7e8b32a8e",
+  "subjectPathInReport": "/tmp/hcb-audit-nMt9Ur/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}

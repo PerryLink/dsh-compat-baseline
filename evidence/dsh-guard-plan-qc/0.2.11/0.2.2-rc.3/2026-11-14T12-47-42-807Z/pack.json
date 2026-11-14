@@ -1,0 +1,189 @@
+{
+  "id": "dsh-guard-plan-qc@0.2.11",
+  "name": "dsh-guard-plan-qc",
+  "version": "0.2.11",
+  "size": 537594,
+  "unpackedSize": 802159,
+  "shasum": "f01c1e1ed1b959ccd0fa899e4c28c4bdebf63d0b",
+  "integrity": "sha512-OmTuU5UEAzpUQ21Y3W9AibMH6U7fuXRnTk0/LAl7B5WKNyl8MXXXx0rED9WX+32lyh5v54c7xYAs2VAj7hhJtg==",
+  "filename": "dsh-guard-plan-qc-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 35871,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33584,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1290,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1593,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 853,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 458,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-demo.gif",
+      "size": 95644,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-demo.png",
+      "size": 107370,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-flow-dark.svg",
+      "size": 3936,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-flow-light.svg",
+      "size": 3936,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-flow-v5-dark.svg",
+      "size": 23086,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-flow-v5-light.svg",
+      "size": 23086,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-flow.svg",
+      "size": 2549,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-hero-en-dark.webp",
+      "size": 64336,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-hero-en-light.webp",
+      "size": 65496,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-hero-zh-dark.webp",
+      "size": 67386,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-hero-zh-light.webp",
+      "size": 68444,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-guard-plan-qc-hero.png",
+      "size": 41257,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 99,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10404,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 450,
+      "mode": 493
+    },
+    {
+      "path": "lib/api-DfxcxPfY.mjs",
+      "size": 63621,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2018,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 54732,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 243,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 236,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3052,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/guard-plan-qc.yaml",
+      "size": 9824,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 135,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/GP-001-unsafe.json",
+      "size": 285,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 403,
+      "mode": 493
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

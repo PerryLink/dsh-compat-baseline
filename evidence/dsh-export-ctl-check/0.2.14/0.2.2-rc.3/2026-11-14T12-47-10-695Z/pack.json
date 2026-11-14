@@ -1,0 +1,194 @@
+{
+  "id": "dsh-export-ctl-check@0.2.14",
+  "name": "dsh-export-ctl-check",
+  "version": "0.2.14",
+  "size": 567872,
+  "unpackedSize": 850238,
+  "shasum": "059ab53ff64344e1cc5b529cb251399764b377e6",
+  "integrity": "sha512-8txr9qSXrBnk0fDREcdzW7k4jz2iNUhrPnyIBtbDq23vT09b0KRrIwE1/Qo+L4nblQrsNHNFcVvjTba4c63lMQ==",
+  "filename": "dsh-export-ctl-check-0.2.14.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4368,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 35740,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33579,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1293,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1602,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 467,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-demo.gif",
+      "size": 97224,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-demo.png",
+      "size": 110293,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-flow-dark.svg",
+      "size": 3348,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-flow-light.svg",
+      "size": 3348,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-flow-v5-dark.svg",
+      "size": 20919,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-flow-v5-light.svg",
+      "size": 20919,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-flow.svg",
+      "size": 2558,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-hero-en-dark.webp",
+      "size": 67914,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-hero-en-light.webp",
+      "size": 70350,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-hero-zh-dark.webp",
+      "size": 72938,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-hero-zh-light.webp",
+      "size": 75542,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-export-ctl-check-hero.png",
+      "size": 43465,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 102,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10550,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 439,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2372,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120580,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 211,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 209,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3043,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-export-control-law.md",
+      "size": 5968,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 7957,
+      "mode": 493
+    },
+    {
+      "path": "rules/export-ctl-check.yaml",
+      "size": 18639,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 138,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/EC-001-unsafe.json",
+      "size": 627,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 418,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

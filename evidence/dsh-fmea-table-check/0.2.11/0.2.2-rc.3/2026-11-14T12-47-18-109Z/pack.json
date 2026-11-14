@@ -1,0 +1,194 @@
+{
+  "id": "dsh-fmea-table-check@0.2.11",
+  "name": "dsh-fmea-table-check",
+  "version": "0.2.11",
+  "size": 630792,
+  "unpackedSize": 950927,
+  "shasum": "17bda437db6dd4b2c7695350e5769026767c1a68",
+  "integrity": "sha512-XAji+KRKyoFESSMxO90LUW9BX0SRld34e9rNW4l73uMClyniWtQ3KaupYvNo0XzrydOGpyZl6W0A6ZJEaTbPTA==",
+  "filename": "dsh-fmea-table-check-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 38587,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 36158,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1293,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1602,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 418,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 467,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-demo.gif",
+      "size": 97500,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-demo.png",
+      "size": 168343,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-flow-dark.svg",
+      "size": 3371,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-flow-light.svg",
+      "size": 3371,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-flow-v5-dark.svg",
+      "size": 19420,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-flow-v5-light.svg",
+      "size": 19420,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-flow.svg",
+      "size": 2558,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-hero-en-dark.webp",
+      "size": 65744,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-hero-en-light.webp",
+      "size": 67846,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-hero-zh-dark.webp",
+      "size": 68366,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-hero-zh-light.webp",
+      "size": 70436,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-fmea-table-check-hero.png",
+      "size": 42232,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 102,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10485,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 435,
+      "mode": 493
+    },
+    {
+      "path": "lib/api-BB_mqSV-.mjs",
+      "size": 63753,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2024,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 127158,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 233,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 231,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3069,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-gbt7826-identity.md",
+      "size": 6593,
+      "mode": 493
+    },
+    {
+      "path": "rules/fmea-table-check.yaml",
+      "size": 12086,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 138,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/FM-001-unsafe.json",
+      "size": 588,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 418,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

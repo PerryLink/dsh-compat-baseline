@@ -1,0 +1,199 @@
+{
+  "id": "dsh-contract-stance@0.2.12",
+  "name": "dsh-contract-stance",
+  "version": "0.2.12",
+  "size": 514161,
+  "unpackedSize": 781146,
+  "shasum": "2cfc93f278be5a73f3f25f5c388f7ade202163c0",
+  "integrity": "sha512-oE/PplXCCRUxqC/2auQi1P+F079MxtwLWEm+C393CE/FelDZEMtwWqKrXlhoFVECNnccBpGjztXcEe9ST3eKrQ==",
+  "filename": "dsh-contract-stance-0.2.12.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4180,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 34231,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 32576,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1292,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1599,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 589,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 464,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-demo.gif",
+      "size": 95947,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-demo.png",
+      "size": 96321,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-flow-dark.svg",
+      "size": 3314,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-flow-light.svg",
+      "size": 3314,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-flow-v5-dark.svg",
+      "size": 14081,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-flow-v5-light.svg",
+      "size": 14081,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-flow.svg",
+      "size": 2555,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-hero-en-dark.webp",
+      "size": 60694,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-hero-en-light.webp",
+      "size": 61214,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-hero-zh-dark.webp",
+      "size": 63448,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-hero-zh-light.webp",
+      "size": 63734,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-contract-stance-hero.png",
+      "size": 41852,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 101,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 9865,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 440,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2022,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120024,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 215,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 212,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3047,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/contract-stance.yaml",
+      "size": 14033,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-civilcode-contract-book.md",
+      "size": 8679,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-civilcode-contract.md",
+      "size": 5353,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 7682,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 137,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/CS-001-unsafe.json",
+      "size": 642,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 413,
+      "mode": 493
+    }
+  ],
+  "entryCount": 37,
+  "bundled": []
+}

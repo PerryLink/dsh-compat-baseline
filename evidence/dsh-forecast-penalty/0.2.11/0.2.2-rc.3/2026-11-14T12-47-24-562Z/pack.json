@@ -1,0 +1,184 @@
+{
+  "id": "dsh-forecast-penalty@0.2.11",
+  "name": "dsh-forecast-penalty",
+  "version": "0.2.11",
+  "size": 585575,
+  "unpackedSize": 842990,
+  "shasum": "239abdf83724a21867263059517e7210d4e20375",
+  "integrity": "sha512-WvzdFbLtPvlh0e0JOGtD8Oa0dg2WvLOE9zUjCgKtNRCLAC6Nw5I/C9FlADmxSa5mMUMCo3mP97o/j1TfwlSGPg==",
+  "filename": "dsh-forecast-penalty-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36310,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 34270,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1293,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1602,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 467,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-demo.gif",
+      "size": 96797,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-demo.png",
+      "size": 206753,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-flow-dark.svg",
+      "size": 3920,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-flow-light.svg",
+      "size": 3920,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-flow-v5-dark.svg",
+      "size": 15028,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-flow-v5-light.svg",
+      "size": 15027,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-flow.svg",
+      "size": 2558,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-hero-en-dark.webp",
+      "size": 51704,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-hero-en-light.webp",
+      "size": 53822,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-hero-zh-dark.webp",
+      "size": 54858,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-hero-zh-light.webp",
+      "size": 55812,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-forecast-penalty-hero.png",
+      "size": 42685,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 102,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10588,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 441,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2046,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120468,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 225,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 221,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3061,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/forecast-penalty.yaml",
+      "size": 11301,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 138,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/FP-001-unsafe.json",
+      "size": 350,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 418,
+      "mode": 493
+    }
+  ],
+  "entryCount": 34,
+  "bundled": []
+}

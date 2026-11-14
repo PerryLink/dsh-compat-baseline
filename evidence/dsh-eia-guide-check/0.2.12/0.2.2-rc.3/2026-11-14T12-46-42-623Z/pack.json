@@ -1,0 +1,184 @@
+{
+  "id": "dsh-eia-guide-check@0.2.12",
+  "name": "dsh-eia-guide-check",
+  "version": "0.2.12",
+  "size": 497366,
+  "unpackedSize": 764607,
+  "shasum": "cd076e860807a79253316ae692e3fda32c16fdc8",
+  "integrity": "sha512-bctdXjoh+aSqubXBsQ4WRRQwaeDiTG+t+0SGQaDj6IDYhD5YWb8JHM92YNvUz+MkTBZwWx4Q/Q0S5bjvO4zSSA==",
+  "filename": "dsh-eia-guide-check-0.2.12.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3921,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 35402,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33458,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1292,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1599,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 464,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-demo.gif",
+      "size": 96389,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-demo.png",
+      "size": 98595,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-flow-dark.svg",
+      "size": 3979,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-flow-light.svg",
+      "size": 3979,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-flow-v5-dark.svg",
+      "size": 18994,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-flow-v5-light.svg",
+      "size": 18995,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-flow.svg",
+      "size": 2555,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-hero-en-dark.webp",
+      "size": 59516,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-hero-en-light.webp",
+      "size": 61380,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-hero-zh-dark.webp",
+      "size": 59634,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-hero-zh-light.webp",
+      "size": 61466,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-eia-guide-check-hero.png",
+      "size": 42174,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 101,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10226,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 438,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2044,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120119,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 210,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 209,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3038,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/eia-guide-check.yaml",
+      "size": 10073,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 137,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/EG-001-unsafe.json",
+      "size": 689,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 413,
+      "mode": 493
+    }
+  ],
+  "entryCount": 34,
+  "bundled": []
+}

@@ -1,0 +1,184 @@
+{
+  "id": "dsh-essay-rubric-check@0.2.11",
+  "name": "dsh-essay-rubric-check",
+  "version": "0.2.11",
+  "size": 527812,
+  "unpackedSize": 791258,
+  "shasum": "a57b2b099d5518b15fc58a8ac51f694763b082af",
+  "integrity": "sha512-/EmroBYQjWJQa5i3UA9l2kDjOZqFK2TRxCwYrsJ7qGlMcxfbitDen/ZkWR56c89Fic9mYf2jHI9uIqd13iwFkg==",
+  "filename": "dsh-essay-rubric-check-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 33321,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 31446,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1295,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1608,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 473,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-demo.gif",
+      "size": 98564,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-demo.png",
+      "size": 106593,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-flow-dark.svg",
+      "size": 4182,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-flow-light.svg",
+      "size": 4182,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-flow-v5-dark.svg",
+      "size": 20442,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-flow-v5-light.svg",
+      "size": 20442,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-flow.svg",
+      "size": 2564,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-hero-en-dark.webp",
+      "size": 62946,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-hero-en-light.webp",
+      "size": 64414,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-hero-zh-dark.webp",
+      "size": 65462,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-hero-zh-light.webp",
+      "size": 65834,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-essay-rubric-check-hero.png",
+      "size": 43654,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 104,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10460,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 437,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2126,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120647,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 209,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 209,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3025,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/essay-rubric-check.yaml",
+      "size": 8581,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 140,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/ER-001-unsafe.json",
+      "size": 665,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 428,
+      "mode": 493
+    }
+  ],
+  "entryCount": 34,
+  "bundled": []
+}

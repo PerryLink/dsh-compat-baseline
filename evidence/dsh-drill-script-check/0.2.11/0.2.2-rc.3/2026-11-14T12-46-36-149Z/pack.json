@@ -1,0 +1,189 @@
+{
+  "id": "dsh-drill-script-check@0.2.11",
+  "name": "dsh-drill-script-check",
+  "version": "0.2.11",
+  "size": 565180,
+  "unpackedSize": 839325,
+  "shasum": "a6d2e27af610f345321c7c49128d696b95a5edb1",
+  "integrity": "sha512-q8/YBzbNJd6xxVNH2/JRJFGeRK0Vj9Nf1YfKxsrJvtEBMkwPkjFzl4HKQJCDvOzdlEUNODonBfKU9xA+F3CTHQ==",
+  "filename": "dsh-drill-script-check-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3687,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 32880,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 31110,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1295,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1608,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 473,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-demo.gif",
+      "size": 97492,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-demo.png",
+      "size": 151647,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-flow-dark.svg",
+      "size": 3981,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-flow-light.svg",
+      "size": 3981,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-flow-v5-dark.svg",
+      "size": 21828,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-flow-v5-light.svg",
+      "size": 21828,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-flow.svg",
+      "size": 2564,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-hero-en-dark.webp",
+      "size": 60824,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-hero-en-light.webp",
+      "size": 60888,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-hero-zh-dark.webp",
+      "size": 66348,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-hero-zh-light.webp",
+      "size": 66144,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-drill-script-check-hero.png",
+      "size": 41605,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 104,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10302,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 437,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2028,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120288,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 215,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 215,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3059,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/drill-script-check.yaml",
+      "size": 11580,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-yj9007.md",
+      "size": 6508,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 140,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/DR-001-unsafe.json",
+      "size": 720,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 428,
+      "mode": 493
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

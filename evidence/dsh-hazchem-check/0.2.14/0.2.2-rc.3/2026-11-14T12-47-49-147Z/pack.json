@@ -1,0 +1,194 @@
+{
+  "id": "dsh-hazchem-check@0.2.14",
+  "name": "dsh-hazchem-check",
+  "version": "0.2.14",
+  "size": 628656,
+  "unpackedSize": 900132,
+  "shasum": "a1bf7418da948dacb477f31b52e03c1dc7447b01",
+  "integrity": "sha512-LUlpFqPk1X9DuR/FGU9WiVXLRbUo/I6VY124uY/KYaMfLACwGqKUB8bA+RdA5qkFHSwhs2MTei3+RvzU/p2THw==",
+  "filename": "dsh-hazchem-check-0.2.14.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 5228,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 35515,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 33106,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1290,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1593,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 332,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 458,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-demo.gif",
+      "size": 95764,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-demo.png",
+      "size": 163870,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-flow-dark.svg",
+      "size": 3949,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-flow-light.svg",
+      "size": 3949,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-flow-v5-dark.svg",
+      "size": 11605,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-flow-v5-light.svg",
+      "size": 11605,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-flow.svg",
+      "size": 2549,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-hero-en-dark.webp",
+      "size": 74488,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-hero-en-light.webp",
+      "size": 77994,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-hero-zh-dark.webp",
+      "size": 71432,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-hero-zh-light.webp",
+      "size": 74338,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-hazchem-check-hero.png",
+      "size": 41735,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 99,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10276,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 453,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2040,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120361,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 237,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 227,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3033,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-tables.md",
+      "size": 10804,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 10690,
+      "mode": 493
+    },
+    {
+      "path": "rules/hazchem-check.yaml",
+      "size": 17092,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 135,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/HZ-001-unsafe.json",
+      "size": 669,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 403,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

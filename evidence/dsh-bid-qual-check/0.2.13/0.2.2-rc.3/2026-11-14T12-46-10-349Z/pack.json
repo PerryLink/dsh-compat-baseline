@@ -1,0 +1,194 @@
+{
+  "id": "dsh-bid-qual-check@0.2.13",
+  "name": "dsh-bid-qual-check",
+  "version": "0.2.13",
+  "size": 544710,
+  "unpackedSize": 817939,
+  "shasum": "27f406f1818b1fe1b21c94e41ace2be5c11e25ab",
+  "integrity": "sha512-I4ep9wmLTN0SN2YFIMcvZiFVwXjWmic+7jElstU+0HtyPZh365mchUV5gqxDWBYZ3Kc6hLlwHqufLRgFHLuiPQ==",
+  "filename": "dsh-bid-qual-check-0.2.13.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4570,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36728,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 34590,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1291,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1596,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 461,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-demo.gif",
+      "size": 96737,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-demo.png",
+      "size": 149672,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-flow-dark.svg",
+      "size": 3118,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-flow-light.svg",
+      "size": 3118,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-flow-v5-dark.svg",
+      "size": 18915,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-flow-v5-light.svg",
+      "size": 18915,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-flow.svg",
+      "size": 2552,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-hero-en-dark.webp",
+      "size": 57672,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-hero-en-light.webp",
+      "size": 58428,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-hero-zh-dark.webp",
+      "size": 55728,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-hero-zh-light.webp",
+      "size": 56948,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-qual-check-hero.png",
+      "size": 41899,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 100,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10319,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 442,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2020,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 119955,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 205,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 200,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3024,
+      "mode": 493
+    },
+    {
+      "path": "rules/bid-qual-check.yaml",
+      "size": 16940,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-zbtb-tiaoli.md",
+      "size": 3374,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-zbtbf.md",
+      "size": 4251,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 136,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/BQ-001-unsafe.json",
+      "size": 509,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 408,
+      "mode": 493
+    }
+  ],
+  "entryCount": 36,
+  "bundled": []
+}

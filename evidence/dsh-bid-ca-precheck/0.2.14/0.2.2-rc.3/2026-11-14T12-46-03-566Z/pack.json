@@ -1,0 +1,189 @@
+{
+  "id": "dsh-bid-ca-precheck@0.2.14",
+  "name": "dsh-bid-ca-precheck",
+  "version": "0.2.14",
+  "size": 547027,
+  "unpackedSize": 814767,
+  "shasum": "3bc72bf794aefa06fe974ba0ff08bd2070a0f962",
+  "integrity": "sha512-W3iGnQ4yiTz5BTO/cY/FevwlaoIgmPwRjb2dwocHL4xyC/GM8eA7XKPD5HHC5HuX0zxa2AWkB+/an+u9HnTLFQ==",
+  "filename": "dsh-bid-ca-precheck-0.2.14.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4727,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 38109,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 36342,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1292,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1599,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 598,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 464,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-demo.gif",
+      "size": 96095,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-demo.png",
+      "size": 100318,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-flow-dark.svg",
+      "size": 3950,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-flow-light.svg",
+      "size": 3950,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-flow-v5-dark.svg",
+      "size": 17594,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-flow-v5-light.svg",
+      "size": 17594,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-flow.svg",
+      "size": 2555,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-hero-en-dark.webp",
+      "size": 67194,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-hero-en-light.webp",
+      "size": 69006,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-hero-zh-dark.webp",
+      "size": 70190,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-hero-zh-light.webp",
+      "size": 71544,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-bid-ca-precheck-hero.png",
+      "size": 41602,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 101,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10403,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 442,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2044,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 120438,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 196,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 194,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3023,
+      "mode": 493
+    },
+    {
+      "path": "rules/bid-ca-precheck.yaml",
+      "size": 14653,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-zbtbf.md",
+      "size": 4875,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 137,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/BC-001-unsafe.json",
+      "size": 330,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 413,
+      "mode": 493
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

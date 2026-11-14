@@ -1,0 +1,199 @@
+{
+  "id": "dsh-emergency-plan@0.2.11",
+  "name": "dsh-emergency-plan",
+  "version": "0.2.11",
+  "size": 643270,
+  "unpackedSize": 858058,
+  "shasum": "08db935284ae02404959c494f8ef7512dc4e0015",
+  "integrity": "sha512-nJthSiaAsUm+E1SI/o1ZI6l/F9Gc+POqg3as6EA5qV7phbQ5qVqvnRnaj1vd4Ivthxn5+ugJk1URXXV7enoV3Q==",
+  "filename": "dsh-emergency-plan-0.2.11.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3983,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 38960,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 35953,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1291,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1596,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 267,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 461,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-demo.gif",
+      "size": 104595,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-demo.png",
+      "size": 155457,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-flow-dark.svg",
+      "size": 3117,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-flow-light.svg",
+      "size": 3117,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-flow-v5-dark.svg",
+      "size": 19607,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-flow-v5-light.svg",
+      "size": 19607,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-flow.svg",
+      "size": 2552,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-hero-en-dark.webp",
+      "size": 66518,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-hero-en-light.webp",
+      "size": 67396,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-hero-zh-dark.webp",
+      "size": 71772,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-hero-zh-light.webp",
+      "size": 71634,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-emergency-plan-hero.png",
+      "size": 55854,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 100,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10865,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 447,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2020,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 55143,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 224,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 220,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3022,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/emergency-plan.yaml",
+      "size": 15809,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-emergency-measures.md",
+      "size": 10958,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-gbt29639.md",
+      "size": 7973,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 13532,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 136,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/EP-001-unsafe.json",
+      "size": 641,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 436,
+      "mode": 493
+    }
+  ],
+  "entryCount": 37,
+  "bundled": []
+}

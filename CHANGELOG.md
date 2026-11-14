@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.7.0 — 2026-11-14
+
+- **Start `mainline-opt-in`: the first 19 of 53 rows are now `checked`.**
+  Total `checked` is **41 -> 60** (34 mainline-default + 19 opt-in + 7 external);
+  `declared` 102 -> 83; `tested` remains **0**.
+- New results: **18 `pass` + 1 `warn` -> all 19 map to `recognized`**; 0 blocking,
+  0 failed, 0 blocked. The warn is `dsh-essay-rubric-check@0.2.11` (DSC-11
+  safety/brand fields, plus the DSC-03 warning shared by all 19 rows).
+  Every new report is stored under `evidence/` with its SHA-256 checked against
+  `audit.json` and `patch.json`.
+- ENTRY summary: `{recognized:59, failed:1, not-run:0, unknown:83}`;
+  gate `{blocked:1, review:21, pilot:121, production-candidate:0}`. The 19 new
+  rows were all `pilot` before and after; only their gate reasons changed from
+  "no dsh.standards declaration" to "ENTRY recognized, FLOW unknown".
+- 143 rows and their order are unchanged; only the 19 rows changed
+  `standards.entry` / `evidence` / `gate`. Coverage totals/missing/tracks/compat
+  and every group's gate distribution are unchanged.
+- Only static ENTRY (`--entry-claim static`) was run; no `tested`, no runtime
+  claim. Checker pinned to `dsh-standards@1.6.10`, host `0.2.2-rc.3`.
+  Pre-merge matrix: `data/matrix.v0.7.0.pre-merge.json`. Local only: no push,
+  no publish.
+
 ## 0.6.0 — 2026-11-14
 
 - **Finish `mainline-default`: 34 / 34 rows now `checked`.** 21 rows were still

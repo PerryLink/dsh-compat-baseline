@@ -1,0 +1,204 @@
+{
+  "id": "dsh-gongwen-word-check@0.2.13",
+  "name": "dsh-gongwen-word-check",
+  "version": "0.2.13",
+  "size": 581379,
+  "unpackedSize": 867276,
+  "shasum": "f57d972d5169a6103dd1b4792d4f1550148a605a",
+  "integrity": "sha512-Vo+BrUP1NwBXRwsKnQoM2IcTFwJ8C+/6+UFqGTqq7P0bnSkUYd0rMnwvXBnJ88ZqLdpsYzhK0EB2TFjioSfBHA==",
+  "filename": "dsh-gongwen-word-check-0.2.13.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 4408,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 39662,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 37105,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1295,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1608,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 323,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 473,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-demo.gif",
+      "size": 99747,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-demo.png",
+      "size": 157824,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-flow-dark.svg",
+      "size": 4139,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-flow-light.svg",
+      "size": 4139,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-flow-v5-dark.svg",
+      "size": 16133,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-flow-v5-light.svg",
+      "size": 16133,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-flow.svg",
+      "size": 2564,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-hero-en-dark.webp",
+      "size": 58042,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-hero-en-light.webp",
+      "size": 59464,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-hero-zh-dark.webp",
+      "size": 61034,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-hero-zh-light.webp",
+      "size": 62630,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-word-check-hero.png",
+      "size": 44516,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 104,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10608,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 449,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2028,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 119805,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 230,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 218,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3062,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-gbt9704.md",
+      "size": 10940,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-gongwen-articles.md",
+      "size": 8573,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-gongwen-tiaoli.md",
+      "size": 4954,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 7098,
+      "mode": 493
+    },
+    {
+      "path": "rules/gongwen-word-check.yaml",
+      "size": 14144,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 140,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/GW-001-unsafe.json",
+      "size": 461,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 428,
+      "mode": 493
+    }
+  ],
+  "entryCount": 38,
+  "bundled": []
+}

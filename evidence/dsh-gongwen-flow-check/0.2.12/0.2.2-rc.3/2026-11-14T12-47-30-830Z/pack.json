@@ -1,0 +1,199 @@
+{
+  "id": "dsh-gongwen-flow-check@0.2.12",
+  "name": "dsh-gongwen-flow-check",
+  "version": "0.2.12",
+  "size": 614349,
+  "unpackedSize": 915788,
+  "shasum": "75e2f9fd1ae653cbbd90bf0d2ffbc0df4c4f9452",
+  "integrity": "sha512-Pm3wlccf4iOeJTh9w5iNix7Chg+i7/5Hi52QjDiykMzURr+I85WuQwbHwk1qA4rfDPl6yrYjuvjYYLLhqDU8rg==",
+  "filename": "dsh-gongwen-flow-check-0.2.12.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 3993,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 34942,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 32416,
+      "mode": 493
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1295,
+      "mode": 493
+    },
+    {
+      "path": "TROUBLESHOOTING.md",
+      "size": 1608,
+      "mode": 493
+    },
+    {
+      "path": "capability.json",
+      "size": 583,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 473,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-demo.gif",
+      "size": 100244,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-demo.png",
+      "size": 156218,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-flow-dark.svg",
+      "size": 3929,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-flow-light.svg",
+      "size": 3929,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-flow-v5-dark.svg",
+      "size": 29392,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-flow-v5-light.svg",
+      "size": 29392,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-flow.svg",
+      "size": 2564,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-hero-en-dark.webp",
+      "size": 70468,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-hero-en-light.webp",
+      "size": 71686,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-hero-zh-dark.webp",
+      "size": 72406,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-hero-zh-light.webp",
+      "size": 73730,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/dsh-gongwen-flow-check-hero.png",
+      "size": 45036,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.log",
+      "size": 104,
+      "mode": 493
+    },
+    {
+      "path": "docs/assets/quickstart.png",
+      "size": 10499,
+      "mode": 493
+    },
+    {
+      "path": "icon.svg",
+      "size": 447,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.d.mts",
+      "size": 2028,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.mjs",
+      "size": 119933,
+      "mode": 493
+    },
+    {
+      "path": "locale/en.json",
+      "size": 228,
+      "mode": 493
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 218,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 3062,
+      "mode": 493
+    },
+    {
+      "path": "rules/citations-baseline.json",
+      "size": 247,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-gongwen-articles.md",
+      "size": 8573,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification-gongwen-tiaoli.md",
+      "size": 4360,
+      "mode": 493
+    },
+    {
+      "path": "rules/evidence/clause-verification.md",
+      "size": 6698,
+      "mode": 493
+    },
+    {
+      "path": "rules/gongwen-flow-check.yaml",
+      "size": 11562,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/expected/result.json",
+      "size": 140,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/input/GF-001-unsafe.json",
+      "size": 409,
+      "mode": 493
+    },
+    {
+      "path": "samples/quickstart/run.mjs",
+      "size": 1209,
+      "mode": 493
+    },
+    {
+      "path": "screenshots.json",
+      "size": 428,
+      "mode": 493
+    }
+  ],
+  "entryCount": 37,
+  "bundled": []
+}

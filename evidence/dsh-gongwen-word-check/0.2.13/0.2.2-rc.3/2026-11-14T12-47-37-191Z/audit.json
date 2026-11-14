@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T12:47:37.191Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-CIuvu4/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-gongwen-word-check@0.2.13"
+  ],
+  "cwd": "/tmp/hcb-audit-CIuvu4",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 2575,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-gongwen-word-check",
+  "version": "0.2.13",
+  "reportSha256": "5b938c8dbc7ccec1749079d2f79d981c371e9d7de06d7863856eb04fc847dc4c",
+  "subjectPathInReport": "/tmp/hcb-audit-CIuvu4/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}
