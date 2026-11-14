@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-11-14T05:44:58.991Z",
+  "capabilityCounts": {
+    "tools:register": 4,
+    "network:egress": 3,
+    "subprocess": 2,
+    "sessions:read": 1,
+    "fs:read": 1
+  }
+}
