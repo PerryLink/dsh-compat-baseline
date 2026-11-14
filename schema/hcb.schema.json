@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Host Compatibility Baseline (HCB) v0.1",
+  "title": "Host Compatibility Baseline (HCB) v0.2",
   "type": "object",
   "required": [
     "generatedAt",
@@ -22,8 +22,10 @@
         "required": [
           "name",
           "version",
-          "declaredRange",
-          "hosts"
+          "hosts",
+          "standards",
+          "risk",
+          "gate"
         ],
         "properties": {
           "name": {
@@ -67,6 +69,142 @@
                 "declared-incompatible",
                 "unknown"
               ]
+            }
+          },
+          "standards": {
+            "type": "object",
+            "required": [
+              "source",
+              "entry",
+              "flow",
+              "boost"
+            ],
+            "properties": {
+              "schema": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source": {
+                "enum": [
+                  "package.json#dsh.standards",
+                  "not-declared"
+                ]
+              },
+              "entry": {
+                "type": "object",
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "runtime",
+                      "recognized",
+                      "static",
+                      "blocked",
+                      "failed",
+                      "not-run",
+                      "stale",
+                      "unknown"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "flow": {
+                "type": "object",
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "runtime",
+                      "manual",
+                      "not-run",
+                      "failed",
+                      "stale",
+                      "unknown"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "boost": {
+                "type": "object",
+                "required": [
+                  "status",
+                  "evidence"
+                ],
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "measured",
+                      "not-measured",
+                      "failed",
+                      "stale",
+                      "unknown"
+                    ]
+                  },
+                  "evidence": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            }
+          },
+          "risk": {
+            "type": "object",
+            "required": [
+              "level",
+              "reasons"
+            ],
+            "properties": {
+              "level": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "unknown"
+                ]
+              },
+              "reasons": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "gate": {
+            "type": "object",
+            "required": [
+              "decision",
+              "reasons"
+            ],
+            "properties": {
+              "decision": {
+                "enum": [
+                  "blocked",
+                  "review",
+                  "pilot",
+                  "production-candidate"
+                ]
+              },
+              "reasons": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
             }
           }
         }
