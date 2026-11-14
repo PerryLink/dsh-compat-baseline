@@ -1,14 +1,43 @@
-<!doctype html><html><head><meta charset="utf-8"><title>HCB — DSH plugin compatibility</title>
-<style>body{font:14px/1.5 system-ui,sans-serif;margin:24px;color:#111}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:6px 8px;text-align:left}th{background:#f6f6f6;position:sticky;top:0}.ok{color:#0a7a2f}.no{color:#b00020}.unk{color:#888}code{background:#f3f3f3;padding:1px 4px}</style></head>
-<body><h1>HCB — Host Compatibility Baseline</h1><p id="meta">Loading…</p><p><b>Declared</b>, not tested. Not affiliated with DeepSeek.</p>
-<table><thead><tr><th>plugin</th><th>version</th><th>range</th><th>capabilities</th><th>latest host</th></tr></thead><tbody id="rows"></tbody></table>
+<!doctype html><html><head><meta charset="utf-8"><title>HCB — DSH plugin compatibility & tracks</title>
+<style>
+body{font:14px/1.5 system-ui,sans-serif;margin:24px;color:#111}
+table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#f6f6f6;position:sticky;top:0}
+code{background:#f3f3f3;padding:1px 4px}
+.cards{display:flex;flex-wrap:wrap;gap:12px;margin:12px 0}
+.card{border:1px solid #e3e3e3;border-radius:8px;padding:10px 14px;min-width:120px}
+.m{font-size:26px;font-weight:700}
+.ok{color:#0a7a2f}.no{color:#b00020}.warn{color:#9a6700}.unk{color:#777}.gate{font-weight:600}
+.badge{display:inline-block;border-radius:999px;padding:1px 8px;font-size:12px;border:1px solid #ddd}
+</style></head>
+<body>
+<h1>HCB — Host Compatibility Baseline</h1>
+<p><b>Declared</b>, not tested. Three tracks are independent; <b>no total score</b>; BOOST is not a gate. Not affiliated with DeepSeek.</p>
+<div class="cards" id="cards"></div>
+<p>Filter gate: <select id="filter"><option value="">all</option><option>review</option><option>pilot</option><option>blocked</option><option>production-candidate</option></select></p>
+<table><thead><tr><th>plugin</th><th>version</th><th>DSH range</th><th>compat</th><th>ENTRY</th><th>FLOW</th><th>BOOST</th><th>risk</th><th>gate</th></tr></thead><tbody id="rows"></tbody></table>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-fetch('data/matrix.json').then(r=>r.json()).then(d=>{
-  document.getElementById('meta').textContent = 'latest host '+d.latestHost+' · '+d.rows.length+' plugins · generated '+d.generatedAt;
-  document.getElementById('rows').innerHTML = d.rows.map(r=>{
-    const s=r.hosts[d.latestHost]||'unknown'; const cls=s==='declared-compatible'?'ok':s==='declared-incompatible'?'no':'unk';
-    return '<tr><td><code>'+esc(r.name)+'</code></td><td>'+esc(r.version)+'</td><td>'+esc(r.declaredRange||'—')+'</td><td>'+esc((r.capabilities||[]).join(', ')||'—')+'</td><td class="'+cls+'">'+esc(s)+'</td></tr>';
+const cls=s=>/compatible|runtime|measured|low|pilot|production/.test(s)?'ok':/incompatible|failed|blocked|high/.test(s)?'no':/review|medium|not-run|not-measured|stale/.test(s)?'warn':'unk';
+let data=null;
+function render(){
+  const f=document.getElementById('filter').value;
+  const rows=(data.rows||[]).filter(r=>!f||r.gate.decision===f);
+  document.getElementById('rows').innerHTML=rows.map(r=>{
+    const c=r.hosts[data.latestHost]||'unknown';
+    return '<tr><td><code>'+esc(r.name)+'</code></td><td>'+esc(r.version)+'</td><td>'+esc(r.declaredRange||'—')+'</td>'
+      +'<td class="'+cls(c)+'">'+esc(c)+'</td>'
+      +'<td class="'+cls(r.standards.entry.status)+'">'+esc(r.standards.entry.status)+'</td>'
+      +'<td class="'+cls(r.standards.flow.status)+'">'+esc(r.standards.flow.status)+'</td>'
+      +'<td class="'+cls(r.standards.boost.status)+'">'+esc(r.standards.boost.status)+'</td>'
+      +'<td class="'+cls(r.risk.level)+'">'+esc(r.risk.level)+'</td>'
+      +'<td class="'+cls(r.gate.decision)+' gate">'+esc(r.gate.decision)+'</td></tr>';
   }).join('');
-}).catch(e=>document.getElementById('meta').textContent='Failed to load data: '+e);
+}
+fetch('data/matrix.json').then(r=>r.json()).then(d=>{
+  data=d; const s=d.summary;
+  const cards=[['plugins',s.plugins],['compat declared',s.compat.compatible],['tracks declared',s.standardsDeclared],['review',s.gate.review],['pilot',s.gate.pilot],['production-candidate',s.gate['production-candidate']]];
+  document.getElementById('cards').innerHTML=cards.map(([k,v])=>'<div class="card"><div class="m">'+v+'</div><div>'+k+'</div></div>').join('');
+  document.getElementById('filter').onchange=render; render();
+}).catch(e=>document.body.insertAdjacentHTML('beforeend','<p>Failed to load data: '+e+'</p>'));
 </script></body></html>
