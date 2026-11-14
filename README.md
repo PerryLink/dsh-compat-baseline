@@ -37,7 +37,7 @@ HCB follows the [dsh-standards](https://github.com/PerryLink/dsh-standards) mode
 
 Rules: **a skip is not a pass**; `static` is not `runtime`; **BOOST is not a gate**; compatibility is a claim by the package author, not a test result. See [docs/TRACKS.md](docs/TRACKS.md).
 
-## What is in v0.8.1 (schema v0.5)
+## What is in v0.8.2 (schema v0.5)
 
 | File | Meaning |
 |---|---|
@@ -71,16 +71,16 @@ not produced by `audit-entry.mjs`; the script is intentionally static-only.
 See [`docs/EVIDENCE.md`](docs/EVIDENCE.md) for the field contract, failure /
 blocked semantics, and the exact re-run commands.
 
-## Current coverage (2026-11-14, v0.8.1)
+## Current coverage (2026-11-14, v0.8.2)
 
 - **143 plugins** = the full 112-package dsh-kit family (34 mainline-default + 53 opt-in + 10 catalog-only + 15 domain) + 31 external
 - **123** declare `engines.dsh`; **20** are `unknown`
 - **5** declare `dsh.standards`; **138** are `not-declared`
-- ENTRY: **94 `recognized` + 1 `blocked` + 1 `failed` (96 checked)**, 0 `not-run`, 47 `unknown` — **no plugin has runtime evidence yet**
+- ENTRY: **95 `recognized` + 1 `failed` (96 checked)**, 0 `not-run`, 47 `unknown` — **no plugin has runtime evidence yet**
 - FLOW: **2 `manual` + 3 `not-run` + 138 `unknown`** — `manual` is not `runtime`; no plugin has a runtime FLOW claim
 - Evidence: **47 `declared`, 96 `checked`, 0 `tested`** (96 merged from static checker; no boot). **All 34 mainline-default rows are `checked`**, plus **all 53 mainline-opt-in** (finished in v0.8.0), **2 of 10 catalog-only** (new in v0.8.0) and 7 external rows.
 - Risk: 3 high, 63 medium, 77 unknown (no capability manifest)
-- Gate: 2 `blocked` (`dsh-checkers`' `failed` ENTRY, plus `dsh-permission-rules` held ENTRY `blocked` because checker 1.6.10 cannot validate its new `sessions:write` capability), 21 `review`, 120 `pilot`, 0 `production-candidate`
+- Gate: 1 `blocked` (`dsh-checkers`' `failed` ENTRY), 22 `review`, 120 `pilot`, 0 `production-candidate`
 
 > The near-zero `dsh.standards` adoption is itself a finding. The gate is a **compatibility/risk heuristic**, not a quality grade.
 
@@ -97,7 +97,7 @@ HCB is measured against the canonical `dsh-kit` family roster (112 packages), no
 | domain | 15 | 15 | 0 | 0 | 0 | 15 |
 | external | 31 | 31 | 7 | 0 | 0 | 11 |
 
-**112 / 112 family packages (100%) are covered**, plus 31 external plugins. Coverage is complete, but **evidence is not**: only 5 plugins declare tracks, and 0 have ENTRY runtime. v0.6.0 added the static `checked` pipeline for the whole mainline-default set (34/34); v0.7.0 started mainline-opt-in (19/53); v0.8.0 finishes all 53 opt-in rows and adds the first 2 catalog-only rows (96 checked overall); v0.8.1 refreshes three changed package versions, keeps `checked` at 96 (one row is conservatively held ENTRY `blocked` pending a 16-ID checker) and adds FLOW `manual` evidence for two of them. The remaining 8 catalog-only, 15 domain and 24 external rows, plus a runtime `tested` matrix, remain future work.
+**112 / 112 family packages (100%) are covered**, plus 31 external plugins. Coverage is complete, but **evidence is not**: only 5 plugins declare tracks, and 0 have ENTRY runtime. v0.6.0 added the static `checked` pipeline for the whole mainline-default set (34/34); v0.7.0 started mainline-opt-in (19/53); v0.8.0 finishes all 53 opt-in rows and adds the first 2 catalog-only rows (96 checked overall); v0.8.2 refreshes three changed package versions, keeps `checked` at 96, re-audits `dsh-permission-rules` with the 16-ID checker 1.7.0 (restoring `recognized`), and adds FLOW `manual` evidence for two of them. The remaining 8 catalog-only, 15 domain and 24 external rows, plus a runtime `tested` matrix, remain future work.
 
 Run `npm run coverage` to reproduce; `data/coverage.json` is the machine-readable result.
 
