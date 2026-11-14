@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-11-14T06:32:06.555Z",
+  "declared": 1,
+  "entry": {
+    "runtime": 0,
+    "recognized": 0,
+    "static": 0,
+    "blocked": 0,
+    "failed": 0,
+    "not-run": 1,
+    "stale": 0,
+    "unknown": 43
+  },
+  "flow": {
+    "runtime": 0,
+    "manual": 0,
+    "not-run": 1,
+    "failed": 0,
+    "stale": 0,
+    "unknown": 43
+  },
+  "boost": {
+    "measured": 0,
+    "not-measured": 1,
+    "failed": 0,
+    "stale": 0,
+    "unknown": 43
+  },
+  "gate": {
+    "blocked": 0,
+    "review": 22,
+    "pilot": 22,
+    "production-candidate": 0
+  }
+}
