@@ -1,11 +1,12 @@
 {
   "name": "dsh-compat-baseline",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "type": "module",
   "scripts": {
     "collect": "node scripts/collect.mjs",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "coverage": "node scripts/coverage.mjs"
   },
   "dependencies": {
     "semver": "^7.7.0"
