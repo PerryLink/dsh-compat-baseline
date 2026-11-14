@@ -44,6 +44,27 @@
     "dsh-find-plugin",
     "dsh-plugin-studio",
     "dsh-plugin-ops-bundle",
-    "dsh-plugin-mgr"
+    "dsh-plugin-mgr",
+    "dsh-autotier",
+    "dsh-budget",
+    "dsh-cert-mcp",
+    "dsh-click",
+    "dsh-composer-history",
+    "dsh-data-quality",
+    "dsh-defend",
+    "dsh-draw",
+    "dsh-fast",
+    "dsh-laya",
+    "dsh-library",
+    "dsh-local-ai",
+    "dsh-mask",
+    "dsh-observe",
+    "dsh-output-styles",
+    "dsh-plugin-upgrade",
+    "dsh-reach",
+    "dsh-score",
+    "dsh-talk",
+    "dsh-test-drive",
+    "dsh-param-repair"
   ]
 }
