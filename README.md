@@ -2,6 +2,12 @@
 > Rules, checker and ENTRY/FLOW/BOOST definitions live in dsh-standards. This repo only holds the compatibility matrix, tracks data, risk and `hcb-gate/1`.
 > Independent community project. **Not affiliated with DeepSeek.**
 
+**Official:** [GitHub (canonical)](https://github.com/PerryLink/dsh-hcb) · [npm](https://www.npmjs.com/package/dsh-hcb) · [Gitee mirror](https://gitee.com/perrylink/dsh-hcb) · [GitCode mirror](https://gitcode.com/PerryLink/dsh-hcb)
+
+```bash
+npx dsh-hcb check dsh-auto-review
+```
+
 # HCB — Host Compatibility Baseline for DeepSeek Harness plugins
 
 > **Declared** compatibility + **declared** adoption tracks, not tested compatibility and not a score.
