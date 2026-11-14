@@ -84,7 +84,7 @@ python3 -m http.server 8080   # open index.html
 ## Use in CI
 
 ```yaml
-- uses: PerryLink/dsh-compat-baseline/.github/actions/check@main
+- uses: PerryLink/hcb/.github/actions/check@main
   with:
     package: your-npm-package
 ```
