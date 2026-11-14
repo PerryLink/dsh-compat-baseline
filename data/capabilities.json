@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-11-14T06:17:56.571Z",
-  "capabilityCounts": {
-    "tools:register": 4,
-    "network:egress": 3,
-    "subprocess": 2,
-    "sessions:read": 1,
-    "fs:read": 1
+  "generatedAt": "2026-11-14T06:32:06.555Z",
+  "summary": {
+    "risk": {
+      "low": 0,
+      "medium": 4,
+      "high": 2,
+      "unknown": 38
+    },
+    "capabilities": {
+      "tools:register": 4,
+      "network:egress": 3,
+      "subprocess": 2,
+      "sessions:read": 1,
+      "fs:read": 1
+    }
   }
 }
