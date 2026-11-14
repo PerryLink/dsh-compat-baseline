@@ -1,3 +1,7 @@
+> **HCB is the data/gate subproject of [dsh-standards](https://github.com/PerryLink/dsh-standards).**
+> Rules, checker and ENTRY/FLOW/BOOST definitions live in dsh-standards. This repo only holds the compatibility matrix, tracks data, risk and `hcb-gate/1`.
+> Independent community project. **Not affiliated with DeepSeek.**
+
 # HCB — Host Compatibility Baseline for DeepSeek Harness plugins
 
 > **Declared** compatibility + **declared** adoption tracks, not tested compatibility and not a score.
@@ -72,6 +76,13 @@ HCB is measured against the canonical `dsh-kit` family roster (112 packages), no
 
 Run `npm run coverage` to reproduce; `data/coverage.json` is the machine-readable result.
 
+## CLI
+
+```bash
+node scripts/hcb-cli.mjs check dsh-auto-review
+node scripts/badge.mjs dsh-auto-review > badge.svg
+```
+
 ## Quick start
 
 ```bash
@@ -84,7 +95,7 @@ python3 -m http.server 8080   # open index.html
 ## Use in CI
 
 ```yaml
-- uses: PerryLink/hcb/.github/actions/check@main
+- uses: PerryLink/dsh-hcb/.github/actions/check@main
   with:
     package: your-npm-package
 ```
