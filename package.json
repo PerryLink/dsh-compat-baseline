@@ -1,0 +1,14 @@
+{
+  "name": "dsh-compat-baseline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "semver": "^7.7.0"
+  },
+  "license": "MIT"
+}
