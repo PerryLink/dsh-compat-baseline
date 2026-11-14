@@ -20,13 +20,13 @@
     "standardsDeclared": 3,
     "entry": {
       "runtime": 0,
-      "recognized": 0,
+      "recognized": 10,
       "static": 0,
       "blocked": 0,
       "failed": 0,
-      "not-run": 3,
+      "not-run": 2,
       "stale": 0,
-      "unknown": 140
+      "unknown": 131
     },
     "flow": {
       "runtime": 0,
@@ -76,7 +76,13 @@
         "tracks": 0
       }
     },
-    "latestHost": "0.2.2-rc.3"
+    "latestHost": "0.2.2-rc.3",
+    "evidence": {
+      "declared": 133,
+      "checked": 10,
+      "tested": 0
+    },
+    "evidenceUpdatedAt": "2026-11-14T10:13:25.675Z"
   },
   "rows": [
     {
@@ -96,8 +102,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -136,8 +143,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:12:58.006Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-auto-review/0.15.1/0.2.2-rc.3/2026-11-14T10-12-58-006Z/report.json"
       }
     },
     {
@@ -154,8 +168,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -191,8 +206,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:13:04.211Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-permission-rules/0.8.0/0.2.2-rc.3/2026-11-14T10-13-04-211Z/report.json"
       }
     },
     {
@@ -212,8 +234,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -252,8 +275,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:13:07.102Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-memento/0.5.30/0.2.2-rc.3/2026-11-14T10-13-07-102Z/report.json"
       }
     },
     {
@@ -270,8 +300,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -307,8 +338,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:13:09.587Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-research-report/0.4.1/0.2.2-rc.3/2026-11-14T10-13-09-587Z/report.json"
       }
     },
     {
@@ -325,8 +363,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -362,8 +401,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:13:12.196Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-industry-research/0.3.25/0.2.2-rc.3/2026-11-14T10-13-12-196Z/report.json"
       }
     },
     {
@@ -380,8 +426,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -417,8 +464,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:13:13.996Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-mcp-panel/0.6.31/0.2.2-rc.3/2026-11-14T10-13-13-996Z/report.json"
       }
     },
     {
@@ -435,8 +489,9 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "not-run",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "not-run"
         },
         "flow": {
           "status": "not-run",
@@ -472,8 +527,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "ENTRY not-run, FLOW not-run"
+          "ENTRY recognized, FLOW not-run"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:13:15.755Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-plugin-guide/0.5.8/0.2.2-rc.3/2026-11-14T10-13-15-755Z/report.json"
       }
     },
     {
@@ -492,8 +554,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -531,8 +594,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "no dsh.standards declaration"
+          "ENTRY recognized, FLOW unknown"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:13:18.103Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-doublecheck/0.9.31/0.2.2-rc.3/2026-11-14T10-13-18-103Z/report.json"
       }
     },
     {
@@ -553,8 +623,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -596,6 +667,13 @@
         "reasons": [
           "high-capability surface: fs:read, subprocess, tools:register"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:13:23.199Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-lsp-actions/0.5.20/0.2.2-rc.3/2026-11-14T10-13-23-199Z/report.json"
       }
     },
     {
@@ -615,8 +693,9 @@
         "schema": null,
         "source": "not-declared",
         "entry": {
-          "status": "unknown",
-          "evidence": false
+          "status": "recognized",
+          "evidence": false,
+          "declaredStatus": "unknown"
         },
         "flow": {
           "status": "unknown",
@@ -657,6 +736,13 @@
         "reasons": [
           "high-capability surface: network:egress, subprocess"
         ]
+      },
+      "evidence": {
+        "source": "checked",
+        "checkedAt": "2026-11-14T10:13:25.643Z",
+        "host": "0.2.2-rc.3",
+        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-session-sync/0.3.0/0.2.2-rc.3/2026-11-14T10-13-25-643Z/report.json"
       }
     },
     {
@@ -712,6 +798,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -767,6 +860,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -822,6 +922,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -876,6 +983,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -930,6 +1044,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -984,6 +1105,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1043,6 +1171,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1098,6 +1233,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1153,6 +1295,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1208,6 +1357,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1263,6 +1419,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1317,6 +1480,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1371,6 +1541,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1425,6 +1602,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1479,6 +1663,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1534,6 +1725,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1588,6 +1786,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1642,6 +1847,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1696,6 +1908,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1750,6 +1969,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1804,6 +2030,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1858,6 +2091,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1913,6 +2153,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -1968,6 +2215,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2022,6 +2276,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2076,6 +2337,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2131,6 +2399,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2186,6 +2461,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2240,6 +2522,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2295,6 +2584,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2349,6 +2645,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2403,6 +2706,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2457,6 +2767,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2511,6 +2828,13 @@
         "reasons": [
           "no declared DSH range"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2566,6 +2890,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2621,6 +2952,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2676,6 +3014,13 @@
           "compatible, but unverified",
           "ENTRY not-run, FLOW not-run"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2731,6 +3076,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2786,6 +3138,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2841,6 +3200,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2896,6 +3262,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -2951,6 +3324,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3012,6 +3392,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3067,6 +3454,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3122,6 +3516,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3177,6 +3578,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3232,6 +3640,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3287,6 +3702,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3342,6 +3764,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3397,6 +3826,13 @@
           "compatible, but unverified",
           "ENTRY not-run, FLOW not-run"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3452,6 +3888,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3507,6 +3950,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3562,6 +4012,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3617,6 +4074,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3672,6 +4136,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3731,6 +4202,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3790,6 +4268,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3849,6 +4334,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3908,6 +4400,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -3967,6 +4466,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4026,6 +4532,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4085,6 +4598,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4144,6 +4664,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4203,6 +4730,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4262,6 +4796,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4317,6 +4858,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4376,6 +4924,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4435,6 +4990,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4494,6 +5056,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4553,6 +5122,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4612,6 +5188,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4671,6 +5254,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4730,6 +5320,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4789,6 +5386,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4848,6 +5452,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4907,6 +5518,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -4966,6 +5584,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5025,6 +5650,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5084,6 +5716,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5143,6 +5782,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5202,6 +5848,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5261,6 +5914,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5320,6 +5980,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5379,6 +6046,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5438,6 +6112,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5497,6 +6178,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5556,6 +6244,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5615,6 +6310,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5670,6 +6372,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5725,6 +6434,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5780,6 +6496,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5835,6 +6558,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5890,6 +6620,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -5949,6 +6686,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6004,6 +6748,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6059,6 +6810,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6114,6 +6872,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6169,6 +6934,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6224,6 +6996,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6279,6 +7058,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6334,6 +7120,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6389,6 +7182,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6444,6 +7244,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6499,6 +7306,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6554,6 +7368,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6609,6 +7430,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6664,6 +7492,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6719,6 +7554,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6778,6 +7620,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6837,6 +7686,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6892,6 +7748,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -6951,6 +7814,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7010,6 +7880,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7069,6 +7946,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7128,6 +8012,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7187,6 +8078,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7246,6 +8144,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7305,6 +8210,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7364,6 +8276,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7423,6 +8342,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7482,6 +8408,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7541,6 +8474,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7600,6 +8540,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7659,6 +8606,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7718,6 +8672,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7777,6 +8738,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7836,6 +8804,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7895,6 +8870,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -7954,6 +8936,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -8013,6 +9002,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -8074,6 +9070,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -8133,6 +9136,13 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     },
     {
@@ -8192,7 +9202,16 @@
           "compatible, but unverified",
           "no dsh.standards declaration"
         ]
+      },
+      "evidence": {
+        "source": "declared",
+        "checkedAt": null,
+        "host": null,
+        "checker": null,
+        "reportPath": null
       }
     }
-  ]
+  ],
+  "schemaVersion": "0.5",
+  "evidenceUpdatedAt": "2026-11-14T10:13:25.675Z"
 }

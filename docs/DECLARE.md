@@ -1,6 +1,6 @@
 # Declare your tracks in `package.json`
 
-HCB reads `dsh.standards` from your published package. **Only 1 of 44 plugins currently declares it.** Adding it is a one-line investment; it lets users and CI see which tracks you actually ran.
+HCB reads `dsh.standards` from your published package. **Only 3 of 143 plugins currently declare it (2026-11-14).** Adding it is a one-line investment; it lets users and CI see which tracks you actually ran.
 
 ## Template
 
@@ -35,9 +35,13 @@ npx -y dsh-standards@1.6.10 ./my-plugin --scope entry --entry-claim static --for
 
 The checker writes `not-run` for anything it did not run; HCB preserves that. **A skip is not a pass.**
 
+Adding this declaration makes your row `declared`, not `checked`. To get
+independent `checked` evidence, HCB must run `scripts/audit-entry.mjs` against
+the published tarball; see [`EVIDENCE.md`](EVIDENCE.md).
+
 ## What HCB does with it
 
-- Shows `entry` / `flow` / `boost` as separate columns.
+- Shows `entry` / `flow` / `boost` as separate columns, plus the row's `evidence.source`.
 - Never sums them into a score.
 - Never uses `boost` as a gate.
 - Adds compatibility + capability risk + a `review` recommendation.

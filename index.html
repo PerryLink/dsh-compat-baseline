@@ -12,13 +12,13 @@ code{background:#f3f3f3;padding:1px 4px}
 </style></head>
 <body>
 <h1>HCB — Host Compatibility Baseline</h1>
-<p><b>Declared</b>, not tested. Three tracks are independent; <b>no total score</b>; BOOST is not a gate. Not affiliated with DeepSeek.</p>
+<p>Rows are <b>declared</b> unless the evidence column says <code>checked</code> or <code>tested</code>. Three tracks are independent; <b>no total score</b>; BOOST is not a gate. Not affiliated with DeepSeek.</p>
 <div class="cards" id="cards"></div>
 <p>Filter gate: <select id="filter"><option value="">all</option><option>review</option><option>pilot</option><option>blocked</option><option>production-candidate</option></select></p>
-<table><thead><tr><th>plugin</th><th>version</th><th>DSH range</th><th>compat</th><th>ENTRY</th><th>FLOW</th><th>BOOST</th><th>risk</th><th>gate</th></tr></thead><tbody id="rows"></tbody></table>
+<table><thead><tr><th>plugin</th><th>version</th><th>DSH range</th><th>compat</th><th>ENTRY</th><th>evidence</th><th>FLOW</th><th>BOOST</th><th>risk</th><th>gate</th></tr></thead><tbody id="rows"></tbody></table>
 <script>
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const cls=s=>/compatible|runtime|measured|low|pilot|production/.test(s)?'ok':/incompatible|failed|blocked|high/.test(s)?'no':/review|medium|not-run|not-measured|stale/.test(s)?'warn':'unk';
+const cls=s=>/compatible|runtime|measured|low|pilot|production|checked|tested/.test(s)?'ok':/incompatible|failed|blocked|high/.test(s)?'no':/review|medium|not-run|not-measured|stale/.test(s)?'warn':'unk';
 let data=null;
 function render(){
   const f=document.getElementById('filter').value;
@@ -28,6 +28,7 @@ function render(){
     return '<tr><td><code>'+esc(r.name)+'</code></td><td>'+esc(r.version)+'</td><td>'+esc(r.declaredRange||'—')+'</td>'
       +'<td class="'+cls(c)+'">'+esc(c)+'</td>'
       +'<td class="'+cls(r.standards.entry.status)+'">'+esc(r.standards.entry.status)+'</td>'
+      +'<td class="'+cls(r.evidence?.source)+'" title="'+esc((r.evidence?.host||'')+' '+(r.evidence?.checker||''))+'">'+esc(r.evidence?.source||'—')+'</td>'
       +'<td class="'+cls(r.standards.flow.status)+'">'+esc(r.standards.flow.status)+'</td>'
       +'<td class="'+cls(r.standards.boost.status)+'">'+esc(r.standards.boost.status)+'</td>'
       +'<td class="'+cls(r.risk.level)+'">'+esc(r.risk.level)+'</td>'
@@ -36,7 +37,7 @@ function render(){
 }
 fetch('data/matrix.json').then(r=>r.json()).then(d=>{
   data=d; const s=d.summary;
-  const cards=[['plugins',s.plugins],['compat declared',s.compat.compatible],['tracks declared',s.standardsDeclared],['review',s.gate.review],['pilot',s.gate.pilot],['production-candidate',s.gate['production-candidate']]];
+  const cards=[['plugins',s.plugins],['compat declared',s.compat.compatible],['tracks declared',s.standardsDeclared],['checked',s.evidence?.checked??0],['review',s.gate.review],['pilot',s.gate.pilot],['production-candidate',s.gate['production-candidate']]];
   document.getElementById('cards').innerHTML=cards.map(([k,v])=>'<div class="card"><div class="m">'+v+'</div><div>'+k+'</div></div>').join('');
   document.getElementById('filter').onchange=render; render();
 }).catch(e=>document.body.insertAdjacentHTML('beforeend','<p>Failed to load data: '+e+'</p>'));

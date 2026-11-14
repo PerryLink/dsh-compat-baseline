@@ -1,0 +1,304 @@
+{
+  "id": "dsh-doublecheck@0.9.31",
+  "name": "dsh-doublecheck",
+  "version": "0.9.31",
+  "size": 194425,
+  "unpackedSize": 683317,
+  "shasum": "6bb9e09172daf2631f716bc3d76328b0daca54b1",
+  "integrity": "sha512-QbS1nVBwPRQ3nPilE3NVexM4B8MGpk94OrQEVm/Szb9Ln9pEw5WWDBNWwLatfb23IlZgw2suS2C4SKCTRlvHOQ==",
+  "filename": "dsh-doublecheck-0.9.31.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 47283,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "PRIVACY.md",
+      "size": 780,
+      "mode": 420
+    },
+    {
+      "path": "README.en.md",
+      "size": 45792,
+      "mode": 420
+    },
+    {
+      "path": "README.es.md",
+      "size": 50101,
+      "mode": 420
+    },
+    {
+      "path": "README.hi.md",
+      "size": 77973,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 44602,
+      "mode": 420
+    },
+    {
+      "path": "README.pt.md",
+      "size": 49504,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 1033,
+      "mode": 420
+    },
+    {
+      "path": "icon.svg",
+      "size": 376,
+      "mode": 420
+    },
+    {
+      "path": "lib/ci.d.ts",
+      "size": 691,
+      "mode": 420
+    },
+    {
+      "path": "lib/ci.js",
+      "size": 2739,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/evidence.d.ts",
+      "size": 6893,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/evidence.js",
+      "size": 8997,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/gate.d.ts",
+      "size": 18175,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/gate.js",
+      "size": 36075,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/projection.d.ts",
+      "size": 6130,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/projection.js",
+      "size": 12612,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/report.d.ts",
+      "size": 4330,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/report.js",
+      "size": 12648,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/stages.d.ts",
+      "size": 5447,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/stages.js",
+      "size": 8500,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/vagueness.d.ts",
+      "size": 1118,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/vagueness.js",
+      "size": 2856,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/vocabulary.d.ts",
+      "size": 2414,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain/vocabulary.js",
+      "size": 642,
+      "mode": 420
+    },
+    {
+      "path": "lib/events.d.ts",
+      "size": 12755,
+      "mode": 420
+    },
+    {
+      "path": "lib/events.js",
+      "size": 2431,
+      "mode": 420
+    },
+    {
+      "path": "lib/grill/index.d.ts",
+      "size": 2449,
+      "mode": 420
+    },
+    {
+      "path": "lib/grill/index.js",
+      "size": 28103,
+      "mode": 420
+    },
+    {
+      "path": "lib/grill/provider.d.ts",
+      "size": 2477,
+      "mode": 420
+    },
+    {
+      "path": "lib/grill/provider.js",
+      "size": 8027,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/activation.d.ts",
+      "size": 1003,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/activation.js",
+      "size": 11,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/command.d.ts",
+      "size": 2816,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/command.js",
+      "size": 6616,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/gate.d.ts",
+      "size": 9407,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/gate.js",
+      "size": 31756,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/index.d.ts",
+      "size": 10352,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/index.js",
+      "size": 34154,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/prose.d.ts",
+      "size": 3833,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/prose.js",
+      "size": 15972,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/review.d.ts",
+      "size": 3818,
+      "mode": 420
+    },
+    {
+      "path": "lib/guard/review.js",
+      "size": 8605,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.d.ts",
+      "size": 824,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 964,
+      "mode": 420
+    },
+    {
+      "path": "lib/invariant.d.ts",
+      "size": 3052,
+      "mode": 420
+    },
+    {
+      "path": "lib/invariant.js",
+      "size": 6532,
+      "mode": 420
+    },
+    {
+      "path": "lib/session-events.d.ts",
+      "size": 1093,
+      "mode": 420
+    },
+    {
+      "path": "lib/session-events.js",
+      "size": 1250,
+      "mode": 420
+    },
+    {
+      "path": "lib/types.d.ts",
+      "size": 2340,
+      "mode": 420
+    },
+    {
+      "path": "lib/types.js",
+      "size": 1424,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 6294,
+      "mode": 420
+    },
+    {
+      "path": "skills/delivery-proof/SKILL.md",
+      "size": 2987,
+      "mode": 420
+    },
+    {
+      "path": "skills/delivery-review/SKILL.md",
+      "size": 2313,
+      "mode": 420
+    },
+    {
+      "path": "skills/grill-requirements/SKILL.md",
+      "size": 4899,
+      "mode": 420
+    },
+    {
+      "path": "skills/red-green-tdd/SKILL.md",
+      "size": 2641,
+      "mode": 420
+    },
+    {
+      "path": "strict.patch.yml",
+      "size": 3051,
+      "mode": 420
+    }
+  ],
+  "entryCount": 58,
+  "bundled": []
+}

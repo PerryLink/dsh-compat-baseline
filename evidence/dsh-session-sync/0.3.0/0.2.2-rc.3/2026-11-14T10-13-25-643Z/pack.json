@@ -1,0 +1,184 @@
+{
+  "id": "dsh-session-sync@0.3.0",
+  "name": "dsh-session-sync",
+  "version": "0.3.0",
+  "size": 143895,
+  "unpackedSize": 483373,
+  "shasum": "a56c9f1be8f8e2da241a7dfef2c99155e110e92e",
+  "integrity": "sha512-W+GxaQ2df5+B+KkCQFP7mOak+yWij6/3zKzfv4xq4lVHEQxsOuR+sx9VwRpxOYh5WdWH3Dz4GPZBx7hN65IUAg==",
+  "filename": "dsh-session-sync-0.3.0.tgz",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 11510,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 31292,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 420
+    },
+    {
+      "path": "PRIVACY.md",
+      "size": 781,
+      "mode": 420
+    },
+    {
+      "path": "README.en.md",
+      "size": 34486,
+      "mode": 420
+    },
+    {
+      "path": "README.es.md",
+      "size": 37343,
+      "mode": 420
+    },
+    {
+      "path": "README.hi.md",
+      "size": 57764,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 32963,
+      "mode": 420
+    },
+    {
+      "path": "README.pt.md",
+      "size": 37266,
+      "mode": 420
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 2816,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1686,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 3306,
+      "mode": 420
+    },
+    {
+      "path": "icon.svg",
+      "size": 378,
+      "mode": 420
+    },
+    {
+      "path": "index.mjs",
+      "size": 44338,
+      "mode": 420
+    },
+    {
+      "path": "lib/age.mjs",
+      "size": 3932,
+      "mode": 420
+    },
+    {
+      "path": "lib/backend.mjs",
+      "size": 2843,
+      "mode": 420
+    },
+    {
+      "path": "lib/constants.mjs",
+      "size": 6109,
+      "mode": 420
+    },
+    {
+      "path": "lib/cwdmap.mjs",
+      "size": 11368,
+      "mode": 420
+    },
+    {
+      "path": "lib/domain.mjs",
+      "size": 1255,
+      "mode": 420
+    },
+    {
+      "path": "lib/encrypted.mjs",
+      "size": 21501,
+      "mode": 420
+    },
+    {
+      "path": "lib/engine.mjs",
+      "size": 18830,
+      "mode": 420
+    },
+    {
+      "path": "lib/errors.mjs",
+      "size": 3851,
+      "mode": 420
+    },
+    {
+      "path": "lib/gate.mjs",
+      "size": 9416,
+      "mode": 420
+    },
+    {
+      "path": "lib/git.mjs",
+      "size": 17844,
+      "mode": 420
+    },
+    {
+      "path": "lib/merge.mjs",
+      "size": 4437,
+      "mode": 420
+    },
+    {
+      "path": "lib/mirror.mjs",
+      "size": 23180,
+      "mode": 420
+    },
+    {
+      "path": "lib/paths.mjs",
+      "size": 7443,
+      "mode": 420
+    },
+    {
+      "path": "lib/projection.mjs",
+      "size": 8329,
+      "mode": 420
+    },
+    {
+      "path": "lib/render.mjs",
+      "size": 6891,
+      "mode": 420
+    },
+    {
+      "path": "lib/sanitize.mjs",
+      "size": 6130,
+      "mode": 420
+    },
+    {
+      "path": "lib/sessionlog.mjs",
+      "size": 6030,
+      "mode": 420
+    },
+    {
+      "path": "lib/status.mjs",
+      "size": 2453,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 6893,
+      "mode": 420
+    },
+    {
+      "path": "types.d.ts",
+      "size": 7370,
+      "mode": 420
+    }
+  ],
+  "entryCount": 34,
+  "bundled": []
+}

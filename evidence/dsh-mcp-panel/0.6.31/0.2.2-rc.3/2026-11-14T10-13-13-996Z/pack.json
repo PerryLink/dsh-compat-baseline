@@ -1,0 +1,509 @@
+{
+  "id": "dsh-mcp-panel@0.6.31",
+  "name": "dsh-mcp-panel",
+  "version": "0.6.31",
+  "size": 569534,
+  "unpackedSize": 2125324,
+  "shasum": "7732aad8699d7aea686060d4d9e420f76bb61be1",
+  "integrity": "sha512-f3VlFNePwUqEaqBhIQjoeXLosT7ISDhOCgBCl7tre/MB6k8LUXGnyxW9xXPOi/BLXKxZsKaz+n1iYy7pVQ6QsQ==",
+  "filename": "dsh-mcp-panel-0.6.31.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 33497,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 26989,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 37682,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 26821,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 25084,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 26703,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 369,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 2067,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-mcp-panel-demo.gif",
+      "size": 59381,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-mcp-panel-demo.png",
+      "size": 68800,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-mcp-panel-flow.svg",
+      "size": 2340,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-mcp-panel-hero.png",
+      "size": 31509,
+      "mode": 420
+    },
+    {
+      "path": "docs/canary-alpha2-errors.md",
+      "size": 1422,
+      "mode": 420
+    },
+    {
+      "path": "docs/optimization-plan-v2.zh.md",
+      "size": 31673,
+      "mode": 420
+    },
+    {
+      "path": "docs/optimization-plan.zh.md",
+      "size": 12259,
+      "mode": 420
+    },
+    {
+      "path": "docs/research-notes.zh.md",
+      "size": 7601,
+      "mode": 420
+    },
+    {
+      "path": "docs/upstream-proposal.md",
+      "size": 10482,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js",
+      "size": 278508,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js.map",
+      "size": 658891,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 126855,
+      "mode": 420
+    },
+    {
+      "path": "lib/schemas-Bc0dJzRm.js",
+      "size": 170748,
+      "mode": 420
+    },
+    {
+      "path": "lib/typert.host.js",
+      "size": 10438,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/aggregate.d.ts",
+      "size": 5489,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/aggregate.d.ts.map",
+      "size": 2075,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/catalog.d.ts",
+      "size": 3533,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/catalog.d.ts.map",
+      "size": 1243,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts",
+      "size": 1810,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts.map",
+      "size": 799,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts",
+      "size": 7057,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts.map",
+      "size": 547,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/McpPanelTab.d.ts",
+      "size": 1565,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/McpPanelTab.d.ts.map",
+      "size": 1049,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/present.d.ts",
+      "size": 4984,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/present.d.ts.map",
+      "size": 2303,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts",
+      "size": 7064,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts.map",
+      "size": 1591,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/ServerEditor.d.ts",
+      "size": 1218,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/ServerEditor.d.ts.map",
+      "size": 959,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/styles.d.ts",
+      "size": 838,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/styles.d.ts.map",
+      "size": 191,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TrialConsole.d.ts",
+      "size": 910,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/TrialConsole.d.ts.map",
+      "size": 736,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/command.d.ts",
+      "size": 6728,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/command.d.ts.map",
+      "size": 3395,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config-io.d.ts",
+      "size": 2402,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config-io.d.ts.map",
+      "size": 766,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 5828,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 2349,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/diagnostics.d.ts",
+      "size": 2656,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/diagnostics.d.ts.map",
+      "size": 1022,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/grouping.d.ts",
+      "size": 2353,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/grouping.d.ts.map",
+      "size": 749,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 3885,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 1671,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/patch.d.ts",
+      "size": 8230,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/patch.d.ts.map",
+      "size": 3540,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/probe.d.ts",
+      "size": 4670,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/probe.d.ts.map",
+      "size": 1630,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts",
+      "size": 1769,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sanitize.d.ts.map",
+      "size": 385,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts",
+      "size": 11627,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/service.d.ts.map",
+      "size": 2775,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/trial.d.ts",
+      "size": 3940,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/trial.d.ts.map",
+      "size": 1124,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts",
+      "size": 5606,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts.map",
+      "size": 329,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/upstream.d.ts",
+      "size": 5058,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/upstream.d.ts.map",
+      "size": 1303,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts",
+      "size": 25126,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts.map",
+      "size": 6490,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/write.d.ts",
+      "size": 1441,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/write.d.ts.map",
+      "size": 332,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 7685,
+      "mode": 420
+    },
+    {
+      "path": "src/aggregate.ts",
+      "size": 13882,
+      "mode": 420
+    },
+    {
+      "path": "src/catalog.ts",
+      "size": 8430,
+      "mode": 420
+    },
+    {
+      "path": "src/client/index.ts",
+      "size": 7032,
+      "mode": 420
+    },
+    {
+      "path": "src/client/locales.ts",
+      "size": 14881,
+      "mode": 420
+    },
+    {
+      "path": "src/client/McpPanelTab.tsx",
+      "size": 27044,
+      "mode": 420
+    },
+    {
+      "path": "src/client/present.ts",
+      "size": 7471,
+      "mode": 420
+    },
+    {
+      "path": "src/client/remote.ts",
+      "size": 2337,
+      "mode": 420
+    },
+    {
+      "path": "src/client/ServerEditor.tsx",
+      "size": 12888,
+      "mode": 420
+    },
+    {
+      "path": "src/client/styles.ts",
+      "size": 12388,
+      "mode": 420
+    },
+    {
+      "path": "src/client/TrialConsole.tsx",
+      "size": 5870,
+      "mode": 420
+    },
+    {
+      "path": "src/command.ts",
+      "size": 30457,
+      "mode": 420
+    },
+    {
+      "path": "src/config-io.ts",
+      "size": 4765,
+      "mode": 420
+    },
+    {
+      "path": "src/config.ts",
+      "size": 11159,
+      "mode": 420
+    },
+    {
+      "path": "src/diagnostics.ts",
+      "size": 6161,
+      "mode": 420
+    },
+    {
+      "path": "src/grouping.ts",
+      "size": 4366,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 6966,
+      "mode": 420
+    },
+    {
+      "path": "src/patch.ts",
+      "size": 23647,
+      "mode": 420
+    },
+    {
+      "path": "src/probe.ts",
+      "size": 12965,
+      "mode": 420
+    },
+    {
+      "path": "src/sanitize.ts",
+      "size": 5006,
+      "mode": 420
+    },
+    {
+      "path": "src/service.ts",
+      "size": 32430,
+      "mode": 420
+    },
+    {
+      "path": "src/trial.ts",
+      "size": 9590,
+      "mode": 420
+    },
+    {
+      "path": "src/typert.host.ts",
+      "size": 869,
+      "mode": 420
+    },
+    {
+      "path": "src/upstream.ts",
+      "size": 4896,
+      "mode": 420
+    },
+    {
+      "path": "src/wire.ts",
+      "size": 20493,
+      "mode": 420
+    },
+    {
+      "path": "src/write.ts",
+      "size": 5048,
+      "mode": 420
+    }
+  ],
+  "entryCount": 99,
+  "bundled": []
+}

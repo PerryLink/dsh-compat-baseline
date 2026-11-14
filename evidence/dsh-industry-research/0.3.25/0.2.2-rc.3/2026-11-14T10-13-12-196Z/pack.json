@@ -1,0 +1,709 @@
+{
+  "id": "dsh-industry-research@0.3.25",
+  "name": "dsh-industry-research",
+  "version": "0.3.25",
+  "size": 239569,
+  "unpackedSize": 959400,
+  "shasum": "095d92ba5aaa74c6910766446e42a45fb7a14511",
+  "integrity": "sha512-g95G4jT7i0ZvmQwK8u1VPqVh+EgjKpUY+YgHHpVveoIifLOEuywmuHHkahxR6cB37bwO9+/+JFsyg3WLic1teA==",
+  "filename": "dsh-industry-research-0.3.25.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 29575,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 28216,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 40352,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 27979,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 26651,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 28635,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1847,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 2396,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 144411,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/adversarial.d.ts",
+      "size": 1799,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/adversarial.d.ts.map",
+      "size": 472,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/adversarial.js",
+      "size": 4099,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/adversarial.js.map",
+      "size": 2629,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/chain-svg.d.ts",
+      "size": 2186,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/chain-svg.d.ts.map",
+      "size": 643,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/chain-svg.js",
+      "size": 8021,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/chain-svg.js.map",
+      "size": 7565,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/chain.d.ts",
+      "size": 4580,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/chain.d.ts.map",
+      "size": 1660,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/chain.js",
+      "size": 6897,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/chain.js.map",
+      "size": 4877,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/company.d.ts",
+      "size": 7404,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/company.d.ts.map",
+      "size": 2858,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/company.js",
+      "size": 11305,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/company.js.map",
+      "size": 9042,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 3343,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 1674,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.js",
+      "size": 4166,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.js.map",
+      "size": 3451,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/depth.d.ts",
+      "size": 1934,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/depth.d.ts.map",
+      "size": 623,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/depth.js",
+      "size": 1827,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/depth.js.map",
+      "size": 907,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/engine-bridge.d.ts",
+      "size": 1781,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/engine-bridge.d.ts.map",
+      "size": 546,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/engine-bridge.js",
+      "size": 1902,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/engine-bridge.js.map",
+      "size": 508,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts",
+      "size": 2953,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts.map",
+      "size": 1083,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.js",
+      "size": 527,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.js.map",
+      "size": 123,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 5292,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 3305,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js",
+      "size": 7050,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.js.map",
+      "size": 4419,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/jobs.d.ts",
+      "size": 1550,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/jobs.d.ts.map",
+      "size": 827,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/jobs.js",
+      "size": 1344,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/jobs.js.map",
+      "size": 477,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/paths.d.ts",
+      "size": 2258,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/paths.d.ts.map",
+      "size": 485,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/paths.js",
+      "size": 4379,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/paths.js.map",
+      "size": 2691,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/perspectives.d.ts",
+      "size": 2396,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/perspectives.d.ts.map",
+      "size": 864,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/perspectives.js",
+      "size": 5816,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/perspectives.js.map",
+      "size": 3841,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.d.ts",
+      "size": 7235,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.d.ts.map",
+      "size": 2859,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.js",
+      "size": 20202,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/report.js.map",
+      "size": 16646,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/research-state.d.ts",
+      "size": 3498,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/research-state.d.ts.map",
+      "size": 1282,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/research-state.js",
+      "size": 4423,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/research-state.js.map",
+      "size": 2886,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources.d.ts",
+      "size": 2450,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources.d.ts.map",
+      "size": 895,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources.js",
+      "size": 2968,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/sources.js.map",
+      "size": 1996,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/taxonomy.d.ts",
+      "size": 1110,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/taxonomy.d.ts.map",
+      "size": 429,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/taxonomy.js",
+      "size": 4988,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/taxonomy.js.map",
+      "size": 4501,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/timeline.d.ts",
+      "size": 4447,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/timeline.d.ts.map",
+      "size": 1453,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/timeline.js",
+      "size": 5917,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/timeline.js.map",
+      "size": 4482,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/toolkit.d.ts",
+      "size": 3149,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/toolkit.d.ts.map",
+      "size": 1192,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/toolkit.js",
+      "size": 3652,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/toolkit.js.map",
+      "size": 1915,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/company.d.ts",
+      "size": 2433,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/company.d.ts.map",
+      "size": 1040,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/company.js",
+      "size": 18645,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/company.js.map",
+      "size": 15414,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/map.d.ts",
+      "size": 2507,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/map.d.ts.map",
+      "size": 1140,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/map.js",
+      "size": 14751,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/map.js.map",
+      "size": 11217,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/report.d.ts",
+      "size": 3357,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/report.d.ts.map",
+      "size": 1430,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/report.js",
+      "size": 19723,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/report.js.map",
+      "size": 15010,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/track.d.ts",
+      "size": 2170,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/track.d.ts.map",
+      "size": 932,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/track.js",
+      "size": 12230,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/tools/track.js.map",
+      "size": 9533,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts",
+      "size": 285,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.d.ts.map",
+      "size": 166,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.js",
+      "size": 275,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/version.js.map",
+      "size": 174,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/versions.d.ts",
+      "size": 2429,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/versions.d.ts.map",
+      "size": 981,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/versions.js",
+      "size": 4685,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/versions.js.map",
+      "size": 3145,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/web.d.ts",
+      "size": 2973,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/web.d.ts.map",
+      "size": 1471,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/web.js",
+      "size": 3446,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/web.js.map",
+      "size": 1364,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 5884,
+      "mode": 420
+    },
+    {
+      "path": "skills/company-research-method/SKILL.md",
+      "size": 3828,
+      "mode": 420
+    },
+    {
+      "path": "skills/industry-research-method/references/frameworks.md",
+      "size": 2037,
+      "mode": 420
+    },
+    {
+      "path": "skills/industry-research-method/SKILL.md",
+      "size": 4977,
+      "mode": 420
+    },
+    {
+      "path": "src/adversarial.ts",
+      "size": 4011,
+      "mode": 420
+    },
+    {
+      "path": "src/chain-svg.ts",
+      "size": 8327,
+      "mode": 420
+    },
+    {
+      "path": "src/chain.ts",
+      "size": 8430,
+      "mode": 420
+    },
+    {
+      "path": "src/company.ts",
+      "size": 14115,
+      "mode": 420
+    },
+    {
+      "path": "src/config.ts",
+      "size": 6379,
+      "mode": 420
+    },
+    {
+      "path": "src/depth.ts",
+      "size": 2489,
+      "mode": 420
+    },
+    {
+      "path": "src/engine-bridge.ts",
+      "size": 2651,
+      "mode": 420
+    },
+    {
+      "path": "src/events.ts",
+      "size": 2743,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 8744,
+      "mode": 420
+    },
+    {
+      "path": "src/jobs.ts",
+      "size": 2215,
+      "mode": 420
+    },
+    {
+      "path": "src/paths.ts",
+      "size": 4314,
+      "mode": 420
+    },
+    {
+      "path": "src/perspectives.ts",
+      "size": 6365,
+      "mode": 420
+    },
+    {
+      "path": "src/report.ts",
+      "size": 21353,
+      "mode": 420
+    },
+    {
+      "path": "src/research-state.ts",
+      "size": 5563,
+      "mode": 420
+    },
+    {
+      "path": "src/sources.ts",
+      "size": 3592,
+      "mode": 420
+    },
+    {
+      "path": "src/taxonomy.ts",
+      "size": 5226,
+      "mode": 420
+    },
+    {
+      "path": "src/timeline.ts",
+      "size": 7240,
+      "mode": 420
+    },
+    {
+      "path": "src/toolkit.ts",
+      "size": 3987,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/company.ts",
+      "size": 18798,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/map.ts",
+      "size": 14717,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/report.ts",
+      "size": 19532,
+      "mode": 420
+    },
+    {
+      "path": "src/tools/track.ts",
+      "size": 12441,
+      "mode": 420
+    },
+    {
+      "path": "src/version.ts",
+      "size": 240,
+      "mode": 420
+    },
+    {
+      "path": "src/versions.ts",
+      "size": 5305,
+      "mode": 420
+    },
+    {
+      "path": "src/web.ts",
+      "size": 4598,
+      "mode": 420
+    }
+  ],
+  "entryCount": 139,
+  "bundled": []
+}

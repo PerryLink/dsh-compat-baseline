@@ -13,6 +13,8 @@ const t = row.standards || {};
 console.log(pkg + '@' + row.version + ' vs DSH ' + host);
 console.log('  compat : ' + compat + ' (range: ' + (row.declaredRange || 'none') + ')');
 console.log('  tracks : ENTRY=' + (t.entry?.status || 'unknown') + ' FLOW=' + (t.flow?.status || 'unknown') + ' BOOST=' + (t.boost?.status || 'unknown'));
+const ev = row.evidence;
+if (ev) console.log('  evidence: ' + (ev.source || 'unknown') + (ev.source && ev.source !== 'declared' ? ' @ ' + (ev.host || '?') + ' (' + (ev.checker || '?') + ')' : ' (package metadata)'));
 console.log('  risk   : ' + (row.risk?.level || 'unknown'));
 console.log('  gate   : ' + (row.gate?.decision || 'unknown'));
 process.exit(compat === 'declared-incompatible' ? 1 : 0);

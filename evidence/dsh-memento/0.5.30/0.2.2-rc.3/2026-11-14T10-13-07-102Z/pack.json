@@ -1,0 +1,244 @@
+{
+  "id": "dsh-memento@0.5.30",
+  "name": "dsh-memento",
+  "version": "0.5.30",
+  "size": 229685,
+  "unpackedSize": 730932,
+  "shasum": "c76a26e658d4083c6b36bc55074bc9731a7c6466",
+  "integrity": "sha512-HUsY7ZWPAbCdcaJhMB4quFBxNjqgg7nnXsFtPZSWzyis3u4Y4G1BLUECQQkRMel7nOySaN7pRwzGw3/W2OSmlA==",
+  "filename": "dsh-memento-0.5.30.tgz",
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 26230,
+      "mode": 420
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 43532,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 420
+    },
+    {
+      "path": "PRIVACY.md",
+      "size": 776,
+      "mode": 420
+    },
+    {
+      "path": "README-es.md",
+      "size": 39782,
+      "mode": 420
+    },
+    {
+      "path": "README-hi.md",
+      "size": 58778,
+      "mode": 420
+    },
+    {
+      "path": "README-pt.md",
+      "size": 39391,
+      "mode": 420
+    },
+    {
+      "path": "README-zh.md",
+      "size": 35284,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 36855,
+      "mode": 420
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 697,
+      "mode": 420
+    },
+    {
+      "path": "bin/mcp-server.mjs",
+      "size": 948,
+      "mode": 420
+    },
+    {
+      "path": "client/client.d.ts",
+      "size": 343,
+      "mode": 420
+    },
+    {
+      "path": "client/client.js",
+      "size": 57255,
+      "mode": 420
+    },
+    {
+      "path": "client/globals.d.ts",
+      "size": 1262,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 121,
+      "mode": 420
+    },
+    {
+      "path": "docs/adapters-guide.md",
+      "size": 4620,
+      "mode": 420
+    },
+    {
+      "path": "docs/adapters-guide.zh.md",
+      "size": 4229,
+      "mode": 420
+    },
+    {
+      "path": "docs/protocol-v1.md",
+      "size": 11685,
+      "mode": 420
+    },
+    {
+      "path": "docs/protocol-v1.zh.md",
+      "size": 10447,
+      "mode": 420
+    },
+    {
+      "path": "docs/schemas/dsh-memory-protocol-v1.schema.json",
+      "size": 5422,
+      "mode": 420
+    },
+    {
+      "path": "docs/upstream-proposal.md",
+      "size": 10876,
+      "mode": 420
+    },
+    {
+      "path": "docs/upstream-proposal.zh.md",
+      "size": 4422,
+      "mode": 420
+    },
+    {
+      "path": "icon.svg",
+      "size": 372,
+      "mode": 420
+    },
+    {
+      "path": "index.mjs",
+      "size": 123116,
+      "mode": 420
+    },
+    {
+      "path": "lib/adapters.mjs",
+      "size": 11455,
+      "mode": 420
+    },
+    {
+      "path": "lib/budget.mjs",
+      "size": 4669,
+      "mode": 420
+    },
+    {
+      "path": "lib/constants.mjs",
+      "size": 3385,
+      "mode": 420
+    },
+    {
+      "path": "lib/embedding.mjs",
+      "size": 8508,
+      "mode": 420
+    },
+    {
+      "path": "lib/errors.mjs",
+      "size": 7209,
+      "mode": 420
+    },
+    {
+      "path": "lib/extract.mjs",
+      "size": 2612,
+      "mode": 420
+    },
+    {
+      "path": "lib/gate.mjs",
+      "size": 6337,
+      "mode": 420
+    },
+    {
+      "path": "lib/match.mjs",
+      "size": 2404,
+      "mode": 420
+    },
+    {
+      "path": "lib/mcp.mjs",
+      "size": 12187,
+      "mode": 420
+    },
+    {
+      "path": "lib/protocol.mjs",
+      "size": 37348,
+      "mode": 420
+    },
+    {
+      "path": "lib/registry.mjs",
+      "size": 6060,
+      "mode": 420
+    },
+    {
+      "path": "lib/retrieval.mjs",
+      "size": 9297,
+      "mode": 420
+    },
+    {
+      "path": "lib/snapshot.mjs",
+      "size": 5255,
+      "mode": 420
+    },
+    {
+      "path": "lib/store.mjs",
+      "size": 32912,
+      "mode": 420
+    },
+    {
+      "path": "lib/strings.mjs",
+      "size": 2099,
+      "mode": 420
+    },
+    {
+      "path": "lib/workspace.mjs",
+      "size": 1399,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 6035,
+      "mode": 420
+    },
+    {
+      "path": "test/protocol-conformance/golden.mjs",
+      "size": 2331,
+      "mode": 420
+    },
+    {
+      "path": "test/protocol-conformance/README.md",
+      "size": 2726,
+      "mode": 420
+    },
+    {
+      "path": "test/protocol-conformance/run.mjs",
+      "size": 4828,
+      "mode": 420
+    },
+    {
+      "path": "test/protocol-conformance/suite.mjs",
+      "size": 19259,
+      "mode": 420
+    },
+    {
+      "path": "types.d.ts",
+      "size": 14835,
+      "mode": 420
+    }
+  ],
+  "entryCount": 46,
+  "bundled": []
+}

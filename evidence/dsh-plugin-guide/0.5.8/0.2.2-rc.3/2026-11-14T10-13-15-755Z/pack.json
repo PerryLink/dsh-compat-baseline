@@ -1,0 +1,189 @@
+{
+  "id": "dsh-plugin-guide@0.5.8",
+  "name": "dsh-plugin-guide",
+  "version": "0.5.8",
+  "size": 283277,
+  "unpackedSize": 512298,
+  "shasum": "dc61544554bf0fdf23618d88ada73612d6138cf9",
+  "integrity": "sha512-EaWhDZO4GhU9AUOTX2yZMpWaEyzehSI7BDiqwN+DDeJbzea0x14/RiD8Z19CNlZhEPiGnQshYPgzBZ82Ql8ezg==",
+  "filename": "dsh-plugin-guide-0.5.8.tgz",
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 11358,
+      "mode": 420
+    },
+    {
+      "path": "NOTICE.md",
+      "size": 523,
+      "mode": 420
+    },
+    {
+      "path": "PRIVACY.md",
+      "size": 781,
+      "mode": 420
+    },
+    {
+      "path": "README.en.md",
+      "size": 27881,
+      "mode": 420
+    },
+    {
+      "path": "README.es.md",
+      "size": 28485,
+      "mode": 420
+    },
+    {
+      "path": "README.hi.md",
+      "size": 41553,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 26566,
+      "mode": 420
+    },
+    {
+      "path": "README.pt.md",
+      "size": 28288,
+      "mode": 420
+    },
+    {
+      "path": "SKILL.md",
+      "size": 3203,
+      "mode": 420
+    },
+    {
+      "path": "STANDARDS.md",
+      "size": 708,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 589,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-flow-dark.svg",
+      "size": 3905,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-flow-light.svg",
+      "size": 3905,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-flow-v3-dark.svg",
+      "size": 7223,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-flow-v3-light.svg",
+      "size": 7223,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-flow-v4-dark.svg",
+      "size": 5610,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-flow-v4-light.svg",
+      "size": 5610,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-hero-en-dark.webp",
+      "size": 50326,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-hero-en-light.webp",
+      "size": 49762,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-hero-zh-dark.webp",
+      "size": 48080,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-plugin-guide-hero-zh-light.webp",
+      "size": 48592,
+      "mode": 420
+    },
+    {
+      "path": "docs/boost.md",
+      "size": 8415,
+      "mode": 420
+    },
+    {
+      "path": "docs/entry.md",
+      "size": 21983,
+      "mode": 420
+    },
+    {
+      "path": "docs/flow.md",
+      "size": 13704,
+      "mode": 420
+    },
+    {
+      "path": "docs/levels.md",
+      "size": 6750,
+      "mode": 420
+    },
+    {
+      "path": "docs/rc3-notes.md",
+      "size": 5356,
+      "mode": 420
+    },
+    {
+      "path": "docs/recipes.md",
+      "size": 10053,
+      "mode": 420
+    },
+    {
+      "path": "docs/release-checklist.md",
+      "size": 4505,
+      "mode": 420
+    },
+    {
+      "path": "docs/rules.md",
+      "size": 13312,
+      "mode": 420
+    },
+    {
+      "path": "docs/security.md",
+      "size": 22163,
+      "mode": 420
+    },
+    {
+      "path": "icon.svg",
+      "size": 315,
+      "mode": 420
+    },
+    {
+      "path": "index.js",
+      "size": 2256,
+      "mode": 420
+    },
+    {
+      "path": "locale/en.json",
+      "size": 229,
+      "mode": 420
+    },
+    {
+      "path": "locale/zh.json",
+      "size": 209,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 2877,
+      "mode": 420
+    }
+  ],
+  "entryCount": 35,
+  "bundled": []
+}

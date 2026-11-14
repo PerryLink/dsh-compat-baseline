@@ -1,19 +1,54 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Host Compatibility Baseline (HCB) v0.2",
+  "title": "Host Compatibility Baseline (HCB) v0.5",
   "type": "object",
   "required": [
+    "schemaVersion",
     "generatedAt",
     "latestHost",
     "rows"
   ],
   "properties": {
+    "schemaVersion": {
+      "const": "0.5"
+    },
     "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "evidenceUpdatedAt": {
       "type": "string",
       "format": "date-time"
     },
     "latestHost": {
       "type": "string"
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "evidence": {
+          "type": "object",
+          "required": [
+            "declared",
+            "checked",
+            "tested"
+          ],
+          "properties": {
+            "declared": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "checked": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "tested": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
     },
     "rows": {
       "type": "array",
@@ -24,6 +59,7 @@
           "version",
           "hosts",
           "standards",
+          "evidence",
           "risk",
           "gate"
         ],
@@ -111,6 +147,18 @@
                       "unknown"
                     ]
                   },
+                  "declaredStatus": {
+                    "enum": [
+                      "runtime",
+                      "recognized",
+                      "static",
+                      "blocked",
+                      "failed",
+                      "not-run",
+                      "stale",
+                      "unknown"
+                    ]
+                  },
                   "evidence": {
                     "type": "boolean"
                   }
@@ -160,6 +208,116 @@
                 }
               }
             }
+          },
+          "evidence": {
+            "type": "object",
+            "required": [
+              "source",
+              "checkedAt",
+              "host",
+              "checker",
+              "reportPath"
+            ],
+            "properties": {
+              "source": {
+                "enum": [
+                  "declared",
+                  "checked",
+                  "tested"
+                ]
+              },
+              "checkedAt": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "format": "date-time"
+              },
+              "host": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "checker": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "reportPath": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "allOf": [
+              {
+                "if": {
+                  "properties": {
+                    "source": {
+                      "const": "declared"
+                    }
+                  },
+                  "required": [
+                    "source"
+                  ]
+                },
+                "then": {
+                  "properties": {
+                    "checkedAt": {
+                      "type": "null"
+                    },
+                    "host": {
+                      "type": "null"
+                    },
+                    "checker": {
+                      "type": "null"
+                    },
+                    "reportPath": {
+                      "type": "null"
+                    }
+                  }
+                }
+              },
+              {
+                "if": {
+                  "properties": {
+                    "source": {
+                      "enum": [
+                        "checked",
+                        "tested"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "source"
+                  ]
+                },
+                "then": {
+                  "properties": {
+                    "checkedAt": {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    "host": {
+                      "type": "string",
+                      "pattern": "^\\d+\\.\\d+\\.\\d+([-+][0-9A-Za-z.-]+)?$"
+                    },
+                    "checker": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "reportPath": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^(?!/)(?!.*(^|/)\\.\\.(/|$)).+"
+                    }
+                  }
+                }
+              }
+            ]
           },
           "risk": {
             "type": "object",

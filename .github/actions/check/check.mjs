@@ -21,6 +21,13 @@ const status = row.hosts[host] || 'unknown';
 console.log(`${pkg}@${row.version} vs DSH ${host}: ${status} (range: ${row.declaredRange || 'none'})`);
 const t = row.standards || {}; const e = t.entry?.status || 'unknown'; const f = t.flow?.status || 'unknown'; const b = t.boost?.status || 'unknown';
 console.log(`tracks: ENTRY=${e} FLOW=${f} BOOST=${b}; risk=${row.risk?.level || 'unknown'}; gate=${row.gate?.decision || 'unknown'}`);
+const ev = row.evidence;
+if (ev) {
+  console.log(`evidence: ${ev.source}${ev.source === 'declared' ? ' (package metadata)' : ' @ DSH ' + (ev.host || '?') + ' via ' + (ev.checker || '?')}`);
+  if (ev.source !== 'declared' && ev.host && ev.host !== host) {
+    console.log(`::warning::evidence for ${pkg} is anchored on DSH ${ev.host}, not ${host}; treat it as stale for this host`);
+  }
+}
 if (failOn !== 'never' && status === failOn) {
   console.log(`::error::${pkg} is ${status} for DSH ${host}`);
   process.exit(1);

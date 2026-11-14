@@ -1,0 +1,31 @@
+{
+  "schema": "hcb-audit-run/1",
+  "createdAt": "2026-11-14T10:13:09.587Z",
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.6.10",
+    "/tmp/hcb-audit-xf34pq/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "dsh-research-report@0.4.1"
+  ],
+  "cwd": "/tmp/hcb-audit-xf34pq",
+  "node": "24.22.1",
+  "platform": "linux-x64",
+  "checkerExit": 0,
+  "elapsedMs": 857,
+  "hostVersion": "0.2.2-rc.3",
+  "package": "dsh-research-report",
+  "version": "0.4.1",
+  "reportSha256": "6f19d26509317460be2ce5803b7b2e5b703261e7a7d367401f991446df5d47c3",
+  "subjectPathInReport": "/tmp/hcb-audit-xf34pq/unpacked",
+  "note": "subject.path is the throwaway unpack directory and is expected to disappear; the report bytes are the evidence."
+}

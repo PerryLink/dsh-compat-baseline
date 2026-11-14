@@ -8,7 +8,7 @@ There are several projects with "quality" in the name. They do different jobs. T
 | Checker / audit | [dsh-standards](https://github.com/PerryLink/dsh-standards) | does this plugin pass ENTRY/FLOW/BOOST? | `dsh-levels/1` report |
 | Static precheck | [dsh-plugin-ready](https://github.com/PerryLink/dsh-plugin-ready) | can it be recognized without booting? | static ENTRY |
 | Dynamic check | [dsh-clinic](https://github.com/PerryLink/dsh-clinic) | does it load and behave? | 4-layer detection |
-| **Data / gate** | **HCB (this repo)** | which hosts does it declare, which tracks does it claim, what risk, pilot or review? | matrix + `hcb-gate/1` |
+| **Data / gate** | **HCB (this repo)** | which hosts does it declare, which tracks does it claim, is that claim declared or checked, what risk, pilot or review? | matrix + evidence + `hcb-gate/1` |
 | Quality score | [dsh-score](https://github.com/PerryLink/dsh-score) | how good is it across five dimensions? | score + risk card |
 | Certification / registry | [dsh-certification](https://github.com/PerryLink/dsh-certification) | what is publicly registered and reproducible? | badge + registry |
 | Vertical compliance | [dsh-check-pack](https://github.com/PerryLink/dsh-check-pack) | does it meet a specific industry rule set? | 53 checkers |
@@ -32,6 +32,6 @@ Do you need an industry-specific document check?
 ## Boundaries (do not blur)
 
 - **HCB does not score or certify.** It records declared data and recommends `review / pilot / production-candidate`.
-- **HCB does not replace the checker.** It consumes `dsh.standards`; in v0.5 it will ingest checker output as `checked` evidence.
+- **HCB does not replace the checker.** It consumes `dsh.standards` and, from v0.5, ingests checker output as `checked` evidence (`scripts/audit-entry.mjs`). `checked` is static; `tested` still requires a runtime harness.
 - **dsh-score / dsh-certification should read HCB** for compatibility/risk instead of maintaining their own host matrix.
 - **ENTRY / FLOW / BOOST are not levels.** No total score; BOOST is not a gate.

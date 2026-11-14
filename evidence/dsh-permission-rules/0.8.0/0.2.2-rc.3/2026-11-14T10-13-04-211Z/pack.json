@@ -1,0 +1,504 @@
+{
+  "id": "dsh-permission-rules@0.8.0",
+  "name": "dsh-permission-rules",
+  "version": "0.8.0",
+  "size": 938397,
+  "unpackedSize": 2542397,
+  "shasum": "f98f5d5391c47fcdfffb5041a112c7cdc9c8c5f6",
+  "integrity": "sha512-jPtnyIS6XMaoBCTieSnjjx2vrFIF0JW0yiAqGFkz8lk4vA0vz+P8Ee7D1EUc61KMqeNk2Yr6Kviuh5NW4GfCJQ==",
+  "filename": "dsh-permission-rules-0.8.0.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 66884,
+      "mode": 420
+    },
+    {
+      "path": "LICENSE",
+      "size": 11339,
+      "mode": 420
+    },
+    {
+      "path": "README.en.md",
+      "size": 46836,
+      "mode": 420
+    },
+    {
+      "path": "README.es.md",
+      "size": 51069,
+      "mode": 420
+    },
+    {
+      "path": "README.hi.md",
+      "size": 75390,
+      "mode": 420
+    },
+    {
+      "path": "README.md",
+      "size": 44494,
+      "mode": 420
+    },
+    {
+      "path": "README.pt.md",
+      "size": 50540,
+      "mode": 420
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 929,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-demo.gif",
+      "size": 100227,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-demo.png",
+      "size": 83808,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-flow-dark.svg",
+      "size": 6533,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-flow-light.svg",
+      "size": 6533,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-flow-v5-dark.svg",
+      "size": 15958,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-flow-v5-light.svg",
+      "size": 15959,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-flow.svg",
+      "size": 2623,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-hero-en-dark.webp",
+      "size": 67610,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-hero-en-light.webp",
+      "size": 69162,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-hero-zh-dark.webp",
+      "size": 72474,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-hero-zh-light.webp",
+      "size": 73550,
+      "mode": 420
+    },
+    {
+      "path": "docs/assets/dsh-permission-rules-hero.png",
+      "size": 48789,
+      "mode": 420
+    },
+    {
+      "path": "docs/rule-test-vectors/corpus.json",
+      "size": 6056,
+      "mode": 420
+    },
+    {
+      "path": "docs/rule-test-vectors/README.md",
+      "size": 1744,
+      "mode": 420
+    },
+    {
+      "path": "docs/rules-format.en.md",
+      "size": 19979,
+      "mode": 420
+    },
+    {
+      "path": "docs/rules-format.md",
+      "size": 18549,
+      "mode": 420
+    },
+    {
+      "path": "docs/rules-format.schema.json",
+      "size": 8524,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js",
+      "size": 166130,
+      "mode": 420
+    },
+    {
+      "path": "lib/client.js.map",
+      "size": 436454,
+      "mode": 420
+    },
+    {
+      "path": "lib/index.js",
+      "size": 230285,
+      "mode": 420
+    },
+    {
+      "path": "lib/typert.host.js",
+      "size": 136496,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/allow-host-notice.d.ts",
+      "size": 2986,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/allow-host-notice.d.ts.map",
+      "size": 651,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/allow-host.d.ts",
+      "size": 6578,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/allow-host.d.ts.map",
+      "size": 1310,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/builtin-rules.d.ts",
+      "size": 1294,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/builtin-rules.d.ts.map",
+      "size": 319,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/call-id.d.ts",
+      "size": 468,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/call-id.d.ts.map",
+      "size": 223,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts",
+      "size": 1358,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/index.d.ts.map",
+      "size": 406,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts",
+      "size": 1053,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/locales.d.ts.map",
+      "size": 722,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts",
+      "size": 11145,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/remote.d.ts.map",
+      "size": 1503,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/section.d.ts",
+      "size": 2010,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/client/section.d.ts.map",
+      "size": 1132,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 18799,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 3892,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts",
+      "size": 8701,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/events.d.ts.map",
+      "size": 2479,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/glob.d.ts",
+      "size": 2807,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/glob.d.ts.map",
+      "size": 564,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 1846,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 532,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/network.d.ts",
+      "size": 4965,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/network.d.ts.map",
+      "size": 1662,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/prose.d.ts",
+      "size": 5445,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/prose.d.ts.map",
+      "size": 3609,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/proxy.d.ts",
+      "size": 10407,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/proxy.d.ts.map",
+      "size": 3304,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/remote-service.d.ts",
+      "size": 2786,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/remote-service.d.ts.map",
+      "size": 1008,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/rules.d.ts",
+      "size": 25361,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/rules.d.ts.map",
+      "size": 8239,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/runtime.d.ts",
+      "size": 39009,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/runtime.d.ts.map",
+      "size": 6305,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/settings.d.ts",
+      "size": 1768,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/settings.d.ts.map",
+      "size": 396,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/shell.d.ts",
+      "size": 1987,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/shell.d.ts.map",
+      "size": 512,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts",
+      "size": 9675,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/typert.host.d.ts.map",
+      "size": 374,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts",
+      "size": 22627,
+      "mode": 420
+    },
+    {
+      "path": "lib/types/wire.d.ts.map",
+      "size": 3507,
+      "mode": 420
+    },
+    {
+      "path": "package.json",
+      "size": 8499,
+      "mode": 420
+    },
+    {
+      "path": "rules/builtin-high-risk.yaml",
+      "size": 6048,
+      "mode": 420
+    },
+    {
+      "path": "scripts/repair-session-logs.mjs",
+      "size": 15546,
+      "mode": 420
+    },
+    {
+      "path": "src/allow-host-notice.ts",
+      "size": 3614,
+      "mode": 420
+    },
+    {
+      "path": "src/allow-host.ts",
+      "size": 12951,
+      "mode": 420
+    },
+    {
+      "path": "src/builtin-rules.ts",
+      "size": 1528,
+      "mode": 420
+    },
+    {
+      "path": "src/call-id.ts",
+      "size": 431,
+      "mode": 420
+    },
+    {
+      "path": "src/client/index.ts",
+      "size": 5268,
+      "mode": 420
+    },
+    {
+      "path": "src/client/locales.ts",
+      "size": 4609,
+      "mode": 420
+    },
+    {
+      "path": "src/client/remote.ts",
+      "size": 2384,
+      "mode": 420
+    },
+    {
+      "path": "src/client/section.ts",
+      "size": 14244,
+      "mode": 420
+    },
+    {
+      "path": "src/config.ts",
+      "size": 23494,
+      "mode": 420
+    },
+    {
+      "path": "src/events.ts",
+      "size": 8364,
+      "mode": 420
+    },
+    {
+      "path": "src/glob.ts",
+      "size": 11124,
+      "mode": 420
+    },
+    {
+      "path": "src/index.ts",
+      "size": 1799,
+      "mode": 420
+    },
+    {
+      "path": "src/network.ts",
+      "size": 7836,
+      "mode": 420
+    },
+    {
+      "path": "src/prose.ts",
+      "size": 34606,
+      "mode": 420
+    },
+    {
+      "path": "src/proxy.ts",
+      "size": 26943,
+      "mode": 420
+    },
+    {
+      "path": "src/remote-service.ts",
+      "size": 5059,
+      "mode": 420
+    },
+    {
+      "path": "src/rules.ts",
+      "size": 71098,
+      "mode": 420
+    },
+    {
+      "path": "src/runtime.ts",
+      "size": 92954,
+      "mode": 420
+    },
+    {
+      "path": "src/settings.ts",
+      "size": 4639,
+      "mode": 420
+    },
+    {
+      "path": "src/shell.ts",
+      "size": 5277,
+      "mode": 420
+    },
+    {
+      "path": "src/typert.host.ts",
+      "size": 908,
+      "mode": 420
+    },
+    {
+      "path": "src/wire.ts",
+      "size": 12526,
+      "mode": 420
+    }
+  ],
+  "entryCount": 98,
+  "bundled": []
+}

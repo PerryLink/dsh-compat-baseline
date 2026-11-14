@@ -1,13 +1,16 @@
 {
   "name": "dsh-hcb",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "type": "module",
   "scripts": {
     "collect": "node scripts/collect.mjs",
     "validate": "node scripts/validate.mjs",
     "coverage": "node scripts/coverage.mjs",
     "check": "node scripts/hcb-cli.mjs",
-    "badge": "node scripts/badge.mjs"
+    "badge": "node scripts/badge.mjs",
+    "audit:entry": "node scripts/audit-entry.mjs",
+    "migrate:v0.5": "node scripts/migrate-v05.mjs",
+    "test": "node --test"
   },
   "dependencies": {
     "semver": "^7.7.0"
@@ -21,7 +24,17 @@
     "data/matrix.json",
     "data/hosts.json",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "scripts/audit-entry.mjs",
+    "scripts/migrate-v05.mjs",
+    "scripts/lib/evidence.mjs",
+    "scripts/lib/gate.mjs",
+    "schema/hcb.schema.json",
+    "docs/EVIDENCE.md",
+    "data/coverage.json",
+    "data/tracks.json",
+    "data/capabilities.json",
+    "data/roster.json"
   ],
   "engines": {
     "node": ">=20"
