@@ -62,3 +62,11 @@ MIT (code and data). See `LICENSE`.
 - [dsh-ecosystem-archive](https://github.com/PerryLink/dsh-ecosystem-archive) — monthly snapshots and timeline of the DSH plugin ecosystem.
 - [dsh-enterprise-reference](https://github.com/PerryLink/dsh-enterprise-reference) — enterprise reference architecture and 80-item checklist.
 - [dsh-standards](https://github.com/PerryLink/dsh-standards) — plugin quality/level rules (ENTRY/FLOW/BOOST).
+
+## Current coverage (2026-11-14)
+
+- 44 plugins (20 first-party/seed + 24 from npm search / external additions)
+- 24 declare `engines.dsh`; 20 are `unknown`
+- 24 declared-compatible with latest host `0.2.2-rc.3`
+
+> This is a **declared** snapshot, not a test run. External plugins often omit `engines.dsh`; that is itself a finding.
