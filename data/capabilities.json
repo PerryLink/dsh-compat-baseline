@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-14T06:32:06.555Z",
+  "generatedAt": "2026-11-14T07:09:05.086Z",
   "summary": {
     "risk": {
       "low": 0,
-      "medium": 4,
+      "medium": 5,
       "high": 2,
-      "unknown": 38
+      "unknown": 58
     },
     "capabilities": {
-      "tools:register": 4,
+      "tools:register": 5,
       "network:egress": 3,
+      "sessions:read": 2,
       "subprocess": 2,
-      "sessions:read": 1,
       "fs:read": 1
     }
   }
