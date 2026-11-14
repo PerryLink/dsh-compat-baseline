@@ -1,20 +1,53 @@
 {
-  "generatedAt": "2026-11-14T06:17:56.571Z",
+  "generatedAt": "2026-11-14T06:32:06.555Z",
   "latestHost": "0.2.2-rc.3",
   "summary": {
-    "generatedAt": "2026-11-14T06:17:56.571Z",
+    "generatedAt": "2026-11-14T06:32:06.555Z",
     "hosts": 39,
     "hostsRecent": 10,
     "plugins": 44,
-    "declaredRange": 24,
-    "unknownRange": 20,
-    "compatibleWithLatest": 24,
-    "capabilityCounts": {
-      "tools:register": 4,
-      "network:egress": 3,
-      "subprocess": 2,
-      "sessions:read": 1,
-      "fs:read": 1
+    "compat": {
+      "compatible": 24,
+      "incompatible": 0,
+      "unknown": 20
+    },
+    "gate": {
+      "blocked": 0,
+      "review": 22,
+      "pilot": 22,
+      "production-candidate": 0
+    },
+    "standardsDeclared": 1,
+    "entry": {
+      "runtime": 0,
+      "recognized": 0,
+      "static": 0,
+      "blocked": 0,
+      "failed": 0,
+      "not-run": 1,
+      "stale": 0,
+      "unknown": 43
+    },
+    "flow": {
+      "runtime": 0,
+      "manual": 0,
+      "not-run": 1,
+      "failed": 0,
+      "stale": 0,
+      "unknown": 43
+    },
+    "boost": {
+      "measured": 0,
+      "not-measured": 1,
+      "failed": 0,
+      "stale": 0,
+      "unknown": 43
+    },
+    "risk": {
+      "low": 0,
+      "medium": 4,
+      "high": 2,
+      "unknown": 38
     },
     "latestHost": "0.2.2-rc.3"
   },
@@ -32,6 +65,32 @@
       "repository": "git+https://github.com/PerryLink/dsh-auto-review.git",
       "publishedAt": "2026-11-13T04:48:06.703Z",
       "downloadsLastWeek": 1667,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "network:egress",
+          "sessions:read"
+        ],
+        "reasons": [
+          "medium-capability: network:egress, sessions:read"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -43,6 +102,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -55,6 +121,29 @@
       "repository": "git+https://github.com/PerryLink/dsh-permission-rules.git",
       "publishedAt": "2026-11-13T04:55:41.571Z",
       "downloadsLastWeek": 1791,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -66,6 +155,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -81,6 +177,32 @@
       "repository": "git+https://github.com/PerryLink/dsh-memento.git",
       "publishedAt": "2026-11-05T05:23:59.845Z",
       "downloadsLastWeek": 1618,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "network:egress",
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: network:egress, tools:register"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -92,6 +214,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -104,6 +233,29 @@
       "repository": "git+https://github.com/PerryLink/dsh-research-report.git",
       "publishedAt": "2026-11-13T00:44:47.413Z",
       "downloadsLastWeek": 1634,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -115,6 +267,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -127,6 +286,29 @@
       "repository": "git+https://github.com/PerryLink/dsh-industry-research.git",
       "publishedAt": "2026-11-05T05:10:36.052Z",
       "downloadsLastWeek": 1125,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -138,6 +320,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -150,6 +339,29 @@
       "repository": "git+https://github.com/PerryLink/dsh-mcp-panel.git",
       "publishedAt": "2026-11-05T05:55:33.834Z",
       "downloadsLastWeek": 2841,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -161,6 +373,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -173,6 +392,29 @@
       "repository": "git+https://github.com/PerryLink/dsh-plugin-guide.git",
       "publishedAt": "2026-11-14T05:08:51.068Z",
       "downloadsLastWeek": 4210,
+      "standards": {
+        "schema": "dsh-levels/1",
+        "source": "package.json#dsh.standards",
+        "entry": {
+          "status": "not-run",
+          "evidence": false
+        },
+        "flow": {
+          "status": "not-run",
+          "evidence": false
+        },
+        "boost": {
+          "status": "not-measured",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -184,6 +426,13 @@
         "0.2.1-rc.3": "declared-incompatible",
         "0.2.1-rc.2": "declared-incompatible",
         "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "ENTRY not-run, FLOW not-run"
+        ]
       }
     },
     {
@@ -198,6 +447,31 @@
       "repository": "git+https://github.com/PerryLink/dsh-doublecheck.git",
       "publishedAt": "2026-11-13T00:47:56.976Z",
       "downloadsLastWeek": 1832,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -209,6 +483,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -225,6 +506,34 @@
       "repository": "git+https://github.com/PerryLink/dsh-lsp-actions.git",
       "publishedAt": "2026-11-13T04:39:48.918Z",
       "downloadsLastWeek": 2199,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "high",
+        "capabilities": [
+          "fs:read",
+          "subprocess",
+          "tools:register"
+        ],
+        "reasons": [
+          "high-capability: subprocess",
+          "medium-capability: fs:read, tools:register"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -236,6 +545,12 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "high-capability surface: fs:read, subprocess, tools:register"
+        ]
       }
     },
     {
@@ -251,6 +566,33 @@
       "repository": "git+https://github.com/PerryLink/dsh-session-sync.git",
       "publishedAt": "2026-11-13T04:56:26.657Z",
       "downloadsLastWeek": 1011,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "high",
+        "capabilities": [
+          "network:egress",
+          "subprocess"
+        ],
+        "reasons": [
+          "high-capability: subprocess",
+          "medium-capability: network:egress"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -262,6 +604,12 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "high-capability surface: network:egress, subprocess"
+        ]
       }
     },
     {
@@ -274,6 +622,29 @@
       "repository": "git+https://github.com/PerryLink/dsh-claude-move.git",
       "publishedAt": "2026-11-05T05:54:34.076Z",
       "downloadsLastWeek": 859,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -285,6 +656,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -297,6 +675,29 @@
       "repository": "git+https://github.com/PerryLink/dsh-checkpoint-rewind.git",
       "publishedAt": "2026-10-24T12:34:43.051Z",
       "downloadsLastWeek": 1042,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -308,6 +709,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -320,6 +728,29 @@
       "repository": "git+https://github.com/PerryLink/dsh-fund-research.git",
       "publishedAt": "2026-11-05T04:54:39.190Z",
       "downloadsLastWeek": 753,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -331,6 +762,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -343,6 +781,29 @@
       "repository": "git+https://github.com/PerryLink/jevcore.git",
       "publishedAt": "2026-10-05T06:46:07.743Z",
       "downloadsLastWeek": 94,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -354,6 +815,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -366,6 +833,29 @@
       "repository": "git+https://github.com/PerryLink/dsh-standards.git",
       "publishedAt": "2026-11-14T05:05:07.569Z",
       "downloadsLastWeek": 3522,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -377,6 +867,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -389,6 +885,29 @@
       "repository": "git+https://github.com/dushaobindoudou/dsh-plugin.git",
       "publishedAt": "2026-09-10T01:36:22.917Z",
       "downloadsLastWeek": 5,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -400,6 +919,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -414,6 +939,31 @@
       "repository": "git+https://github.com/PerryLink/dsh-github-bot.git",
       "publishedAt": "2026-11-04T15:33:46.317Z",
       "downloadsLastWeek": 314,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -425,6 +975,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -437,6 +994,29 @@
       "repository": "git+https://github.com/bowenliang123/dsh-context.git",
       "publishedAt": "2026-11-13T03:25:14.002Z",
       "downloadsLastWeek": 142925,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -448,6 +1028,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -460,6 +1047,29 @@
       "repository": "git+https://github.com/c1overzz/dsh-bili-scroll.git",
       "publishedAt": "2026-11-12T16:20:23.366Z",
       "downloadsLastWeek": 11974,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -471,6 +1081,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -483,6 +1100,29 @@
       "repository": "git+https://github.com/Duoasa/DSH-to-Figma.git",
       "publishedAt": "2026-11-10T11:16:48.589Z",
       "downloadsLastWeek": 582,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -494,6 +1134,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -506,6 +1153,29 @@
       "repository": "git+https://github.com/lcy0121/dsh-plugin-compat-check.git",
       "publishedAt": "2026-11-07T05:00:18.439Z",
       "downloadsLastWeek": 670,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -517,6 +1187,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -529,6 +1206,29 @@
       "repository": "git+https://github.com/863683348/dsh-plugin-gate.git",
       "publishedAt": "2026-09-11T02:48:02.781Z",
       "downloadsLastWeek": 286,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -540,6 +1240,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -552,6 +1258,29 @@
       "repository": null,
       "publishedAt": "2026-10-31T22:02:25.958Z",
       "downloadsLastWeek": 81,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -563,6 +1292,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -575,6 +1310,29 @@
       "repository": "git+https://github.com/RevxZxCx/dsh-where-did-my-tokens-go.git",
       "publishedAt": "2026-10-29T11:29:34.974Z",
       "downloadsLastWeek": 435,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -586,6 +1344,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -598,6 +1362,29 @@
       "repository": "git+https://github.com/Domush/dsh-plugin-message-history.git",
       "publishedAt": "2026-11-12T20:31:18.196Z",
       "downloadsLastWeek": 817,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -609,6 +1396,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -621,6 +1414,29 @@
       "repository": "git+https://github.com/Nirvana-Jie/dsh-lark-agent.git",
       "publishedAt": "2026-11-07T07:28:05.566Z",
       "downloadsLastWeek": 537,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -632,6 +1448,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -644,6 +1467,29 @@
       "repository": null,
       "publishedAt": "2026-08-14T07:32:31.584Z",
       "downloadsLastWeek": 202,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -655,6 +1501,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -667,6 +1519,29 @@
       "repository": null,
       "publishedAt": "2026-10-23T08:38:12.597Z",
       "downloadsLastWeek": 201,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -678,6 +1553,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -690,6 +1571,29 @@
       "repository": "git+https://github.com/CMSKL/dsh-plugin-observatory.git",
       "publishedAt": "2026-08-19T08:16:04.154Z",
       "downloadsLastWeek": 85,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -701,6 +1605,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -713,6 +1623,29 @@
       "repository": "git+https://github.com/121212165/dsh-plugin-error-radar.git",
       "publishedAt": "2026-10-25T03:09:52.174Z",
       "downloadsLastWeek": 159,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -724,6 +1657,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -736,6 +1675,29 @@
       "repository": "git+https://github.com/dshplugin/dsh-plugin-hub.git",
       "publishedAt": "2026-11-11T07:12:24.924Z",
       "downloadsLastWeek": 13410,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -747,6 +1709,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -759,6 +1727,29 @@
       "repository": "git+https://github.com/LivXue/dsh-plugin-shop.git",
       "publishedAt": "2026-11-13T05:34:36.118Z",
       "downloadsLastWeek": 4687,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -770,6 +1761,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -782,6 +1779,29 @@
       "repository": "git+https://github.com/zuwenyin/dsh-plugin-upgrader.git",
       "publishedAt": "2026-11-12T07:04:21.105Z",
       "downloadsLastWeek": 1473,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -793,6 +1813,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-incompatible",
         "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -805,6 +1832,29 @@
       "repository": "git+https://github.com/dsh-plugin-lab/dsh-plugin-debugging.git",
       "publishedAt": "2026-11-11T05:20:00.815Z",
       "downloadsLastWeek": 1730,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -816,6 +1866,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -828,6 +1885,29 @@
       "repository": "git+https://github.com/HGT158/dsh-plugin-share.git",
       "publishedAt": "2026-10-22T15:17:50.302Z",
       "downloadsLastWeek": 469,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -839,6 +1919,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -851,6 +1937,29 @@
       "repository": "git+https://github.com/TaurusWood/dsh-plugin-appshot.git",
       "publishedAt": "2026-09-28T06:30:38.229Z",
       "downloadsLastWeek": 740,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -862,6 +1971,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -874,6 +1989,29 @@
       "repository": "git+https://github.com/zmz123612/dsh-plugin-book-deconstruct.git",
       "publishedAt": "2026-11-05T09:56:22.121Z",
       "downloadsLastWeek": 251,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -885,6 +2023,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -897,6 +2042,29 @@
       "repository": "git+https://github.com/EasonMWS/dsh-plugin-health.git",
       "publishedAt": "2026-11-14T06:07:16.658Z",
       "downloadsLastWeek": 5867,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -908,6 +2076,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -920,6 +2095,29 @@
       "repository": "git+https://github.com/f-infinite-z/dsh-plugin-ops.git",
       "publishedAt": "2026-11-08T10:34:06.473Z",
       "downloadsLastWeek": 716,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -931,6 +2129,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -943,6 +2147,29 @@
       "repository": null,
       "publishedAt": "2026-10-30T19:23:00.571Z",
       "downloadsLastWeek": 682,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -954,6 +2181,13 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
       }
     },
     {
@@ -966,6 +2200,29 @@
       "repository": "git+https://github.com/awesome-dsh-plugin/dsh-find-plugin.git",
       "publishedAt": "2026-09-25T14:59:44.271Z",
       "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -977,6 +2234,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -989,6 +2252,29 @@
       "repository": null,
       "publishedAt": "2026-08-18T16:33:48.163Z",
       "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1000,6 +2286,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -1012,6 +2304,29 @@
       "repository": "git+https://github.com/f-infinite-z/dsh-plugin-ops.git",
       "publishedAt": "2026-11-08T10:32:03.688Z",
       "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1023,6 +2338,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     },
     {
@@ -1035,6 +2356,29 @@
       "repository": "git+https://github.com/oxlyn/dsh-plugin-mgr.git",
       "publishedAt": "2026-11-08T11:30:24.717Z",
       "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1046,6 +2390,12 @@
         "0.2.1-rc.3": "unknown",
         "0.2.1-rc.2": "unknown",
         "0.2.1-rc.1": "unknown"
+      },
+      "gate": {
+        "decision": "review",
+        "reasons": [
+          "no declared DSH range"
+        ]
       }
     }
   ]
