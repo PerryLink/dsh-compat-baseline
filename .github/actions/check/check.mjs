@@ -3,8 +3,8 @@ const hostInput = process.env.INPUT_HOST || 'latest';
 const failOn = process.env.INPUT_FAIL_ON || 'declared-incompatible';
 if (!pkg) { console.log('::error::package input is required'); process.exit(1); }
 const urls = [
-  'https://raw.githubusercontent.com/PerryLink/dsh-compat-baseline/main/data/matrix.json',
-  'https://perrylink.github.io/dsh-compat-baseline/data/matrix.json'
+  'https://raw.githubusercontent.com/PerryLink/dsh-hcb/main/data/matrix.json',
+  'https://perrylink.github.io/dsh-hcb/data/matrix.json'
 ];
 let d = null;
 for (const url of urls) {
