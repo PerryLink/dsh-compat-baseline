@@ -1,40 +1,18 @@
 {
-  "generatedAt": "2026-11-14T06:47:20.896Z",
-  "matrix": 44,
+  "generatedAt": "2026-11-14T07:10:47.698Z",
+  "matrix": 65,
   "roster": 143,
   "groups": {
     "mainline-default": {
       "total": 34,
-      "covered": 13,
-      "declaredTracks": 1,
-      "compatDeclared": 13,
+      "covered": 34,
+      "declaredTracks": 3,
+      "compatDeclared": 34,
       "gate": {
-        "pilot": 11,
+        "pilot": 32,
         "review": 2
       },
-      "missing": [
-        "dsh-autotier",
-        "dsh-budget",
-        "dsh-cert-mcp",
-        "dsh-click",
-        "dsh-composer-history",
-        "dsh-data-quality",
-        "dsh-defend",
-        "dsh-draw",
-        "dsh-fast",
-        "dsh-laya",
-        "dsh-library",
-        "dsh-local-ai",
-        "dsh-mask",
-        "dsh-observe",
-        "dsh-output-styles",
-        "dsh-plugin-upgrade",
-        "dsh-reach",
-        "dsh-score",
-        "dsh-talk",
-        "dsh-test-drive",
-        "dsh-param-repair"
-      ]
+      "missing": []
     },
     "mainline-opt-in": {
       "total": 53,
