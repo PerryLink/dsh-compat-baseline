@@ -1,0 +1,13 @@
+name: self-check
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+jobs:
+  hcb:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/check
+        with:
+          package: dsh-auto-review
