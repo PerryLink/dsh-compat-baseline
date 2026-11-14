@@ -56,3 +56,9 @@ python3 -m http.server 8080   # open index.html
 ## License
 
 MIT (code and data). See `LICENSE`.
+
+## Related seeds
+
+- [dsh-ecosystem-archive](https://github.com/PerryLink/dsh-ecosystem-archive) — monthly snapshots and timeline of the DSH plugin ecosystem.
+- [dsh-enterprise-reference](https://github.com/PerryLink/dsh-enterprise-reference) — enterprise reference architecture and 80-item checklist.
+- [dsh-standards](https://github.com/PerryLink/dsh-standards) — plugin quality/level rules (ENTRY/FLOW/BOOST).
