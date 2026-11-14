@@ -1,5 +1,44 @@
 # Changelog
 
+## 0.9.0 — 2026-11-14
+
+- **The dsh-kit family is fully `checked`: 112/112** (34 mainline-default +
+  53 mainline-opt-in + 10 catalog-only + 15 domain). The remaining 8
+  catalog-only and all 15 domain rows move `declared -> checked`
+  (**23 new**); total `checked` **96 -> 119**, `declared` **47 -> 24** (all
+  external), `tested` stays **0**.
+- All 23 audits used `HCB_CHECKER_VERSION=1.7.0` (16-ID capability set,
+  `sessions:write`) and `npm_config_registry=https://registry.npmjs.org`
+  (npmmirror lags), host anchor `0.2.2-rc.3`, Node 24.22.1,
+  `--scope entry --entry-claim static`. Every package exists on npm at the
+  matrix version; **0 failed, 0 blocked, 0 audit errors**. All 23 checker
+  conclusions were `pass` -> ENTRY `recognized` (13/14 checks, 0 blocking).
+- Warnings recorded, not hidden: 7 of the 8 catalog-only rows carry DSC-03
+  (`install spec or supply-chain issue`); `dsh-community-bench` instead
+  carries DSC-11 (`dsh.capabilities` not declared) and DSC-13 (`dsh.labels`
+  not declared). The 15 domain rows carry no warnings. `DSC-14` and
+  `DSC-04..09` remain outside the static ENTRY scope on every row (unchanged
+  limitation), so `13/14` is the expected static coverage. Raw reports +
+  patches are under `evidence/<pkg>/<version>/0.2.2-rc.3/`; each report
+  SHA-256 matches both `audit.json` and `patch.json`.
+- ENTRY summary: `{recognized:118, failed:1, blocked:0, unknown:24, ...}`
+  (was 95/1/0/47). Gate is unchanged at **1 blocked / 22 review / 120 pilot /
+  0 production-candidate**; risk is unchanged at 3 high / 63 medium /
+  77 unknown. The 23 rows were ENTRY `unknown` and `pilot` before and after
+  the merge — no `runtime` claim was created, so no gate decision moved.
+- 143 rows and their order are unchanged. Coverage totals are unchanged
+  (112/112 family + 31 external, 0 missing; `engines.dsh` 123/20;
+  `dsh.standards` 5/138). `data/coverage.json` was **not rewritten**
+  (byte-identical; sha256 `fc60fa1f...6540d`); it already predates the
+  v0.8.1/v0.8.2 gate changes. `data/tracks.json` and `data/capabilities.json`
+  were recomputed from the final summary, fixing the 0.8.2 round's stale
+  `tracks.json` (which still showed the 0.8.1 `blocked:2`/`recognized:94`).
+- `data/matrix.v0.9.0.pre-merge.json` is the pre-merge backup (sha256
+  `b83849cf...a85da7`). Version files bumped `0.8.2 -> 0.9.0`; `package-lock.json`
+  and `CITATION.cff` had lagged at 0.8.1 and are now aligned.
+- `npm run validate`, `node scripts/coverage.mjs` and `npm test` (10/10) pass.
+  Local only: **no push, no publish**.
+
 ## 0.8.2 — 2026-11-14
 
 - Re-audit `dsh-permission-rules@0.8.1` with `dsh-standards@1.7.0` (16-ID
