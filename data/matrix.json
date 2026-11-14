@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-14T07:09:05.086Z",
+  "generatedAt": "2026-11-14T08:25:14.752Z",
   "latestHost": "0.2.2-rc.3",
   "summary": {
-    "generatedAt": "2026-11-14T07:09:05.086Z",
+    "generatedAt": "2026-11-14T08:25:14.752Z",
     "hosts": 39,
     "hostsRecent": 10,
-    "plugins": 65,
+    "plugins": 143,
     "compat": {
-      "compatible": 45,
+      "compatible": 123,
       "incompatible": 0,
       "unknown": 20
     },
     "gate": {
       "blocked": 0,
       "review": 22,
-      "pilot": 43,
+      "pilot": 121,
       "production-candidate": 0
     },
     "standardsDeclared": 3,
@@ -26,7 +26,7 @@
       "failed": 0,
       "not-run": 3,
       "stale": 0,
-      "unknown": 62
+      "unknown": 140
     },
     "flow": {
       "runtime": 0,
@@ -34,20 +34,47 @@
       "not-run": 3,
       "failed": 0,
       "stale": 0,
-      "unknown": 62
+      "unknown": 140
     },
     "boost": {
       "measured": 0,
       "not-measured": 3,
       "failed": 0,
       "stale": 0,
-      "unknown": 62
+      "unknown": 140
     },
     "risk": {
       "low": 0,
-      "medium": 5,
+      "medium": 62,
       "high": 2,
-      "unknown": 58
+      "unknown": 79
+    },
+    "byGroup": {
+      "mainline-default": {
+        "plugins": 34,
+        "compat": 34,
+        "tracks": 3
+      },
+      "mainline-opt-in": {
+        "plugins": 53,
+        "compat": 53,
+        "tracks": 0
+      },
+      "catalog-only": {
+        "plugins": 10,
+        "compat": 10,
+        "tracks": 0
+      },
+      "domain": {
+        "plugins": 15,
+        "compat": 15,
+        "tracks": 0
+      },
+      "external": {
+        "plugins": 31,
+        "compat": 11,
+        "tracks": 0
+      }
     },
     "latestHost": "0.2.2-rc.3"
   },
@@ -91,6 +118,8 @@
           "medium-capability: network:egress, sessions:read"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -144,6 +173,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -203,6 +234,8 @@
           "medium-capability: network:egress, tools:register"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -256,6 +289,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -309,6 +344,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -362,6 +399,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -415,6 +454,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -472,6 +513,8 @@
           "medium-capability: tools:register"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -534,6 +577,8 @@
           "medium-capability: fs:read, tools:register"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -593,6 +638,8 @@
           "medium-capability: network:egress"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -645,6 +692,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -698,6 +747,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -751,6 +802,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -804,6 +857,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -856,6 +911,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -908,6 +965,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -964,6 +1023,8 @@
           "medium-capability: tools:register"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -1017,6 +1078,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -1070,6 +1133,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -1123,6 +1188,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -1176,6 +1243,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -1229,6 +1298,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1281,6 +1352,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1333,6 +1406,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1385,6 +1460,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1437,6 +1514,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -1490,6 +1569,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1542,6 +1623,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1594,6 +1677,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1646,6 +1731,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1698,6 +1785,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1750,6 +1839,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1802,6 +1893,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -1855,6 +1948,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -1908,6 +2003,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -1960,6 +2057,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -2012,6 +2111,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2065,6 +2166,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2118,6 +2221,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -2170,6 +2275,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2223,6 +2330,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -2275,6 +2384,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -2327,6 +2438,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -2379,6 +2492,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "external",
+      "group": "external",
       "hosts": {
         "0.2.2-rc.3": "unknown",
         "0.2.2-rc.2": "unknown",
@@ -2431,6 +2546,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2484,6 +2601,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2537,6 +2656,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2590,6 +2711,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2619,7 +2742,7 @@
       "capabilities": [],
       "repository": "git+https://github.com/PerryLink/dsh-composer-history.git",
       "publishedAt": "2026-11-05T05:27:02.372Z",
-      "downloadsLastWeek": 898,
+      "downloadsLastWeek": null,
       "standards": {
         "schema": null,
         "source": "not-declared",
@@ -2643,6 +2766,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2696,6 +2821,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2749,6 +2876,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2778,7 +2907,7 @@
       "capabilities": [],
       "repository": "git+https://github.com/PerryLink/dsh-draw.git",
       "publishedAt": "2026-11-05T05:31:07.743Z",
-      "downloadsLastWeek": 882,
+      "downloadsLastWeek": null,
       "standards": {
         "schema": null,
         "source": "not-declared",
@@ -2802,6 +2931,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2861,6 +2992,8 @@
           "medium-capability: sessions:read, tools:register"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2890,7 +3023,7 @@
       "capabilities": [],
       "repository": "git+https://github.com/PerryLink/dsh-laya.git",
       "publishedAt": "2026-11-03T15:09:14.667Z",
-      "downloadsLastWeek": 314,
+      "downloadsLastWeek": null,
       "standards": {
         "schema": null,
         "source": "not-declared",
@@ -2914,6 +3047,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -2943,7 +3078,7 @@
       "capabilities": [],
       "repository": "git+https://github.com/PerryLink/dsh-library.git",
       "publishedAt": "2026-11-10T12:40:35.224Z",
-      "downloadsLastWeek": 1392,
+      "downloadsLastWeek": null,
       "standards": {
         "schema": null,
         "source": "not-declared",
@@ -2967,6 +3102,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3020,6 +3157,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3073,6 +3212,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3126,6 +3267,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3179,6 +3322,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3208,7 +3353,7 @@
       "capabilities": [],
       "repository": "git+https://github.com/PerryLink/dsh-codemod.git",
       "publishedAt": "2026-11-03T06:15:11.145Z",
-      "downloadsLastWeek": 309,
+      "downloadsLastWeek": null,
       "standards": {
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
@@ -3232,6 +3377,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3285,6 +3432,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3338,6 +3487,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3367,7 +3518,7 @@
       "capabilities": [],
       "repository": "git+https://github.com/PerryLink/dsh-talk.git",
       "publishedAt": "2026-11-05T05:06:31.749Z",
-      "downloadsLastWeek": 895,
+      "downloadsLastWeek": null,
       "standards": {
         "schema": null,
         "source": "not-declared",
@@ -3391,6 +3542,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3444,6 +3597,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3473,7 +3628,7 @@
       "capabilities": [],
       "repository": "git+https://github.com/PerryLink/dsh-param-repair.git",
       "publishedAt": "2026-11-09T11:19:41.941Z",
-      "downloadsLastWeek": 806,
+      "downloadsLastWeek": null,
       "standards": {
         "schema": null,
         "source": "not-declared",
@@ -3497,6 +3652,8 @@
           "no capability manifest"
         ]
       },
+      "scope": "family",
+      "group": "mainline-default",
       "hosts": {
         "0.2.2-rc.3": "declared-compatible",
         "0.2.2-rc.2": "declared-compatible",
@@ -3508,6 +3665,4526 @@
         "0.2.1-rc.3": "declared-compatible",
         "0.2.1-rc.2": "declared-compatible",
         "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-aqua-input-check",
+      "version": "0.2.15",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-aqua-input-check.git",
+      "publishedAt": "2026-11-10T04:47:34.953Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-archive-check",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-archive-check.git",
+      "publishedAt": "2026-11-10T02:17:39.867Z",
+      "downloadsLastWeek": 613,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-bid-ca-precheck",
+      "version": "0.2.14",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-bid-ca-precheck.git",
+      "publishedAt": "2026-11-10T02:23:29.393Z",
+      "downloadsLastWeek": 575,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-bid-qual-check",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-bid-qual-check.git",
+      "publishedAt": "2026-11-10T02:26:13.998Z",
+      "downloadsLastWeek": 581,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-contract-stance",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-contract-stance.git",
+      "publishedAt": "2026-11-10T02:28:26.512Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-customs-doc-check",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-customs-doc-check.git",
+      "publishedAt": "2026-11-10T02:28:39.611Z",
+      "downloadsLastWeek": 726,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-demurrage-ledger",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-demurrage-ledger.git",
+      "publishedAt": "2026-11-10T02:29:11.025Z",
+      "downloadsLastWeek": 604,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-drill-script-check",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-drill-script-check.git",
+      "publishedAt": "2026-11-10T02:29:38.697Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-eia-guide-check",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-eia-guide-check.git",
+      "publishedAt": "2026-11-10T02:30:04.149Z",
+      "downloadsLastWeek": 576,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-emergency-plan",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-emergency-plan.git",
+      "publishedAt": "2026-11-10T02:30:12.791Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-essay-rubric-check",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-essay-rubric-check.git",
+      "publishedAt": "2026-11-10T02:31:51.419Z",
+      "downloadsLastWeek": 606,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-evidence-check",
+      "version": "0.2.14",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-evidence-check.git",
+      "publishedAt": "2026-11-10T02:31:29.489Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-export-ctl-check",
+      "version": "0.2.14",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-export-ctl-check.git",
+      "publishedAt": "2026-11-10T02:31:58.528Z",
+      "downloadsLastWeek": 549,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-fmea-table-check",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-fmea-table-check.git",
+      "publishedAt": "2026-11-10T02:32:48.521Z",
+      "downloadsLastWeek": 712,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-forecast-penalty",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-forecast-penalty.git",
+      "publishedAt": "2026-11-10T02:33:17.525Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-gongwen-flow-check",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-gongwen-flow-check.git",
+      "publishedAt": "2026-11-10T02:36:36.853Z",
+      "downloadsLastWeek": 528,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-gongwen-word-check",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-gongwen-word-check.git",
+      "publishedAt": "2026-11-10T02:34:10.862Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-guard-plan-qc",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-guard-plan-qc.git",
+      "publishedAt": "2026-11-10T02:34:38.826Z",
+      "downloadsLastWeek": 540,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-hazchem-check",
+      "version": "0.2.14",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-hazchem-check.git",
+      "publishedAt": "2026-11-10T02:35:07.624Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-hazplan-check",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-hazplan-check.git",
+      "publishedAt": "2026-11-10T02:35:38.392Z",
+      "downloadsLastWeek": 645,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-hidden-risk-map",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-hidden-risk-map.git",
+      "publishedAt": "2026-11-10T02:36:06.229Z",
+      "downloadsLastWeek": 545,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-hs-classify",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-hs-classify.git",
+      "publishedAt": "2026-11-10T02:36:33.794Z",
+      "downloadsLastWeek": 615,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-icd-rule-check",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-icd-rule-check.git",
+      "publishedAt": "2026-11-10T02:37:50.309Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-lawcite-adapter",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-lawcite-adapter.git",
+      "publishedAt": "2026-11-10T02:40:27.945Z",
+      "downloadsLastWeek": 628,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-lc-doc-check",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-lc-doc-check.git",
+      "publishedAt": "2026-11-10T02:38:21.348Z",
+      "downloadsLastWeek": 578,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-learning-gap-check",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-learning-gap-check.git",
+      "publishedAt": "2026-11-10T02:40:27.393Z",
+      "downloadsLastWeek": 521,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-medrec-qc",
+      "version": "0.2.14",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-medrec-qc.git",
+      "publishedAt": "2026-11-10T02:39:08.362Z",
+      "downloadsLastWeek": 714,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-nsfc-form-check",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-nsfc-form-check.git",
+      "publishedAt": "2026-11-10T02:45:32.811Z",
+      "downloadsLastWeek": 671,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-nurse-record-check",
+      "version": "0.2.14",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-nurse-record-check.git",
+      "publishedAt": "2026-11-10T02:40:13.030Z",
+      "downloadsLastWeek": 703,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-origin-rvc-check",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-origin-rvc-check.git",
+      "publishedAt": "2026-11-10T02:41:37.116Z",
+      "downloadsLastWeek": 605,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-ota-review-check",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-ota-review-check.git",
+      "publishedAt": "2026-11-10T02:45:14.477Z",
+      "downloadsLastWeek": 631,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-paper-doc-adapter",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-paper-doc-adapter.git",
+      "publishedAt": "2026-11-10T02:42:49.992Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-permit-report-check",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-permit-report-check.git",
+      "publishedAt": "2026-11-10T02:42:54.912Z",
+      "downloadsLastWeek": 517,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-pipeline-check",
+      "version": "0.2.10",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-pipeline-check.git",
+      "publishedAt": "2026-11-10T02:43:42.817Z",
+      "downloadsLastWeek": 548,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-pleading-draft",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-pleading-draft.git",
+      "publishedAt": "2026-11-10T02:44:31.765Z",
+      "downloadsLastWeek": 530,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-policy-brief-draft",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-policy-brief-draft.git",
+      "publishedAt": "2026-11-10T02:45:59.344Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-power-loss-split",
+      "version": "0.3.0",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-power-loss-split.git",
+      "publishedAt": "2026-11-13T11:19:03.387Z",
+      "downloadsLastWeek": 532,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-power-ticket-check",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-power-ticket-check.git",
+      "publishedAt": "2026-11-10T02:47:00.554Z",
+      "downloadsLastWeek": 683,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-ppap-check",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-ppap-check.git",
+      "publishedAt": "2026-11-10T04:10:42.952Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-protest-deadline",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-protest-deadline.git",
+      "publishedAt": "2026-11-10T02:37:33.617Z",
+      "downloadsLastWeek": 492,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-railway-window",
+      "version": "0.2.10",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-railway-window.git",
+      "publishedAt": "2026-11-10T02:38:53.839Z",
+      "downloadsLastWeek": 514,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-repair-order-qc",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-repair-order-qc.git",
+      "publishedAt": "2026-11-10T02:39:53.784Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-review-reply-check",
+      "version": "0.2.10",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-review-reply-check.git",
+      "publishedAt": "2026-11-10T02:39:05.823Z",
+      "downloadsLastWeek": 563,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-rulefile-check",
+      "version": "0.2.10",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-rulefile-check.git",
+      "publishedAt": "2026-11-10T02:39:37.278Z",
+      "downloadsLastWeek": 487,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-safety-brief-check",
+      "version": "0.2.11",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-safety-brief-check.git",
+      "publishedAt": "2026-11-10T02:40:08.379Z",
+      "downloadsLastWeek": 503,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-site-log-check",
+      "version": "0.3.2",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-site-log-check.git",
+      "publishedAt": "2026-11-10T04:13:35.357Z",
+      "downloadsLastWeek": 819,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-soe-decision-check",
+      "version": "0.2.16",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-soe-decision-check.git",
+      "publishedAt": "2026-11-10T02:41:17.170Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-soilwater-check",
+      "version": "0.2.10",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-soilwater-check.git",
+      "publishedAt": "2026-11-10T02:41:53.693Z",
+      "downloadsLastWeek": 509,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-sop-sync-check",
+      "version": "0.2.10",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-sop-sync-check.git",
+      "publishedAt": "2026-11-10T02:42:23.947Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-spc-gbt-adapter",
+      "version": "0.2.10",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-spc-gbt-adapter.git",
+      "publishedAt": "2026-11-10T02:42:52.061Z",
+      "downloadsLastWeek": 518,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-tender-extract",
+      "version": "0.2.13",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-tender-extract.git",
+      "publishedAt": "2026-11-10T02:44:06.237Z",
+      "downloadsLastWeek": 589,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-tender-matrix",
+      "version": "0.2.16",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-tender-matrix.git",
+      "publishedAt": "2026-11-10T02:44:36.370Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-warranty-calc",
+      "version": "0.2.12",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-warranty-calc.git",
+      "publishedAt": "2026-11-10T02:45:30.955Z",
+      "downloadsLastWeek": 490,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "mainline-opt-in",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-bid-health-check",
+      "version": "0.1.4",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-bid-health-check.git",
+      "publishedAt": "2026-11-10T02:26:04.081Z",
+      "downloadsLastWeek": 789,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-canteen-retention-check",
+      "version": "0.2.3",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-canteen-retention-check.git",
+      "publishedAt": "2026-11-10T02:27:10.558Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-community-bench",
+      "version": "0.2.6",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [],
+      "repository": "git+https://github.com/PerryLink/dsh-community-bench.git",
+      "publishedAt": "2026-10-31T16:55:33.389Z",
+      "downloadsLastWeek": 292,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "unknown",
+        "capabilities": [],
+        "reasons": [
+          "no capability manifest"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-construction-doc-check",
+      "version": "0.1.4",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-construction-doc-check.git",
+      "publishedAt": "2026-11-10T02:30:25.597Z",
+      "downloadsLastWeek": 757,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-excel-reconcile",
+      "version": "0.1.5",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-excel-reconcile.git",
+      "publishedAt": "2026-11-10T02:31:52.604Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-invoice-ledger",
+      "version": "0.1.6",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-invoice-ledger.git",
+      "publishedAt": "2026-11-09T15:35:12.430Z",
+      "downloadsLastWeek": 635,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-payroll-audit",
+      "version": "0.1.4",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-payroll-audit.git",
+      "publishedAt": "2026-11-10T02:42:26.296Z",
+      "downloadsLastWeek": 740,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-safety-ledger-check",
+      "version": "0.1.3",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-safety-ledger-check.git",
+      "publishedAt": "2026-11-10T02:41:02.230Z",
+      "downloadsLastWeek": 717,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-table-ingest",
+      "version": "0.2.4",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-table-ingest.git",
+      "publishedAt": "2026-11-10T02:44:58.562Z",
+      "downloadsLastWeek": 1250,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-tender-requirements",
+      "version": "0.2.5",
+      "declaredRange": ">=0.2.1-0 <0.3.0",
+      "rangeValid": true,
+      "manifestVersion": 1,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-tender-requirements.git",
+      "publishedAt": "2026-11-10T04:10:32.865Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "catalog-only",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-compatible",
+        "0.2.1-rc.1": "declared-compatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-ap-three-way",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-ap-three-way.git",
+      "publishedAt": "2026-11-13T11:58:28.055Z",
+      "downloadsLastWeek": 453,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-bankrec",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-bankrec.git",
+      "publishedAt": "2026-11-13T11:18:43.338Z",
+      "downloadsLastWeek": 506,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-docx-redline",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-docx-redline.git",
+      "publishedAt": "2026-11-13T11:39:26.551Z",
+      "downloadsLastWeek": 355,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-einvoice",
+      "version": "0.3.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-einvoice.git",
+      "publishedAt": "2026-11-13T11:47:19.114Z",
+      "downloadsLastWeek": 489,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-eval-pack",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-eval-pack.git",
+      "publishedAt": "2026-11-13T11:39:18.382Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-freight-audit",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-freight-audit.git",
+      "publishedAt": "2026-11-13T12:05:32.596Z",
+      "downloadsLastWeek": 322,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-ghg",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-ghg.git",
+      "publishedAt": "2026-11-13T12:14:16.788Z",
+      "downloadsLastWeek": 332,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-hs-candidate",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-hs-candidate.git",
+      "publishedAt": "2026-11-13T12:11:29.880Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-ifc-qto",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-ifc-qto.git",
+      "publishedAt": "2026-11-13T12:06:17.512Z",
+      "downloadsLastWeek": 416,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-legal-clause",
+      "version": "0.2.1",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-legal-clause.git",
+      "publishedAt": "2026-11-13T04:42:36.287Z",
+      "downloadsLastWeek": 563,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-legal-intake",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-legal-intake.git",
+      "publishedAt": "2026-11-13T12:05:25.633Z",
+      "downloadsLastWeek": null,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-pim-lint",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-pim-lint.git",
+      "publishedAt": "2026-11-13T12:23:41.379Z",
+      "downloadsLastWeek": 325,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-policy-ledger",
+      "version": "0.3.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "network:egress",
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-policy-ledger.git",
+      "publishedAt": "2026-11-13T12:23:21.342Z",
+      "downloadsLastWeek": 333,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "network:egress",
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: network:egress, tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-qms-capa",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-qms-capa.git",
+      "publishedAt": "2026-11-13T12:23:07.232Z",
+      "downloadsLastWeek": 382,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
+      },
+      "gate": {
+        "decision": "pilot",
+        "reasons": [
+          "compatible, but unverified",
+          "no dsh.standards declaration"
+        ]
+      }
+    },
+    {
+      "name": "dsh-travel-recon",
+      "version": "0.2.0",
+      "declaredRange": ">=0.2.1-rc.3 <0.4.0",
+      "rangeValid": true,
+      "manifestVersion": null,
+      "capabilities": [
+        "tools:register"
+      ],
+      "repository": "git+https://github.com/PerryLink/dsh-travel-recon.git",
+      "publishedAt": "2026-11-13T12:44:08.244Z",
+      "downloadsLastWeek": 501,
+      "standards": {
+        "schema": null,
+        "source": "not-declared",
+        "entry": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "flow": {
+          "status": "unknown",
+          "evidence": false
+        },
+        "boost": {
+          "status": "unknown",
+          "evidence": false
+        }
+      },
+      "risk": {
+        "level": "medium",
+        "capabilities": [
+          "tools:register"
+        ],
+        "reasons": [
+          "medium-capability: tools:register"
+        ]
+      },
+      "scope": "family",
+      "group": "domain",
+      "hosts": {
+        "0.2.2-rc.3": "declared-compatible",
+        "0.2.2-rc.2": "declared-compatible",
+        "0.2.2-rc.1": "declared-compatible",
+        "0.2.2-alpha.3": "declared-compatible",
+        "0.2.2-alpha.2": "declared-compatible",
+        "0.2.1-rc.5": "declared-compatible",
+        "0.2.1-rc.4": "declared-compatible",
+        "0.2.1-rc.3": "declared-compatible",
+        "0.2.1-rc.2": "declared-incompatible",
+        "0.2.1-rc.1": "declared-incompatible"
       },
       "gate": {
         "decision": "pilot",
