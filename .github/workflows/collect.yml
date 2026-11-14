@@ -20,4 +20,4 @@ jobs:
           git add data
           git diff --quiet && exit 0
           git commit -m "chore: weekly HCB snapshot"
-          git push
+          git push origin HEAD:main
