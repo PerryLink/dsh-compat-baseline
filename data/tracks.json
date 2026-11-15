@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-14T14:44:15.878Z",
+  "generatedAt": "2026-11-15T01:39:08.103Z",
   "declared": 5,
   "entry": {
     "runtime": 0,
-    "recognized": 118,
+    "recognized": 141,
     "static": 0,
     "blocked": 0,
-    "failed": 1,
+    "failed": 2,
     "not-run": 0,
     "stale": 0,
-    "unknown": 24
+    "unknown": 0
   },
   "flow": {
     "runtime": 0,
@@ -27,8 +27,8 @@
     "unknown": 138
   },
   "gate": {
-    "blocked": 1,
-    "review": 22,
+    "blocked": 2,
+    "review": 21,
     "pilot": 120,
     "production-candidate": 0
   }
