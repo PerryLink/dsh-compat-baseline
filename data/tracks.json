@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-15T11:18:49.238Z",
+  "generatedAt": "2026-11-15T11:27:10.768Z",
   "declared": 9,
   "entry": {
-    "runtime": 0,
-    "recognized": 141,
+    "runtime": 1,
+    "recognized": 140,
     "static": 0,
     "blocked": 0,
     "failed": 2,
@@ -29,7 +29,7 @@
   "gate": {
     "blocked": 2,
     "review": 21,
-    "pilot": 120,
-    "production-candidate": 0
+    "pilot": 119,
+    "production-candidate": 1
   }
 }
