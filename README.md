@@ -37,7 +37,7 @@ HCB follows the [dsh-standards](https://github.com/PerryLink/dsh-standards) mode
 
 Rules: **a skip is not a pass**; `static` is not `runtime`; **BOOST is not a gate**; compatibility is a claim by the package author, not a test result. See [docs/TRACKS.md](docs/TRACKS.md).
 
-## What is in v0.13.0 (schema v0.5)
+## What is in v0.14.0 (schema v0.5)
 
 | File | Meaning |
 |---|---|
@@ -71,14 +71,14 @@ not produced by `audit-entry.mjs`; the script is intentionally static-only.
 See [`docs/EVIDENCE.md`](docs/EVIDENCE.md) for the field contract, failure /
 blocked semantics, and the exact re-run commands.
 
-## Current coverage (2026-11-15, v0.13.0)
+## Current coverage (2026-11-15, v0.14.0)
 
 - **143 plugins** = the full 112-package dsh-kit family (34 mainline-default + 53 opt-in + 10 catalog-only + 15 domain) + 31 external
 - **123** declare `engines.dsh`; **20** are `unknown`
 - **21** declare `dsh.standards`; **122** are `not-declared`
-- ENTRY: **12 `runtime` + 129 `recognized` + 2 `failed`** (131 checked + 12 tested), 0 `not-run`, 0 `unknown` — runtime rows: guide, budget, defend, mask, memento, observe, test-drive, checkpoint-rewind, claude-move, data-quality, doublecheck, session-sync (all G0–G3, host 0.2.2-rc.3)
+- ENTRY: **14 `runtime` + 127 `recognized` + 2 `failed`** (129 checked + 14 tested), 0 `not-run`, 0 `unknown` — runtime rows: guide, budget, defend, mask, memento, observe, test-drive, checkpoint-rewind, claude-move, data-quality, doublecheck, session-sync, auto-review, permission-rules (all G0–G3, host 0.2.2-rc.3)
 - FLOW: **3 `manual` + 18 `not-run` + 122 `unknown`** — `manual` is not `runtime`; no plugin has a runtime FLOW claim
-- Evidence: **0 `declared`, 131 `checked`, 12 `tested`**. The 12 tested rows passed a real G0–G3 boot on host 0.2.2-rc.3; the rest are static `checked`.
+- Evidence: **0 `declared`, 129 `checked`, 14 `tested`**. The 14 tested rows passed a real G0–G3 boot on host 0.2.2-rc.3; the rest are static `checked`.
 - Checker: **143/143 rows on `dsh-standards@1.7.0`** (0 rows still on `1.6.10`). v0.10.2 re-audited the 95 rows that still carried `1.6.10`; v0.10.3 re-audited the four bumped rows; v0.11.1 re-audited the 12 release refreshes. ENTRY is unchanged (**1 `runtime` + 140 `recognized` + 2 `failed`**) and every row is labeled by `row.evidence.checker`.
 - Risk: 12 high, 66 medium, 65 unknown (up from 3 / 63 / 77 — the 12 refreshed rows now declare capabilities)
 - Gate: 2 `blocked` (`dsh-checkers` and `dsh-session-fork`, both `failed` ENTRY), 30 `review`, 110 `pilot`, **1 `production-candidate`** (`dsh-plugin-guide`: ENTRY runtime + FLOW manual + risk medium). Nine of the refreshed high-capability rows moved `pilot` -> `review`.
