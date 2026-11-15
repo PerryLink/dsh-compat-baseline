@@ -1,5 +1,53 @@
 # Changelog
 
+## 0.10.3 — 2026-11-15
+
+- **Absorb four new releases and re-check them.** `dsh-lsp-actions`
+  0.5.20 -> 0.5.21, `dsh-doublecheck` 0.9.31 -> 0.9.32, `dsh-memento`
+  0.5.30 -> 0.5.31, `dsh-session-sync` 0.3.0 -> 0.3.2 (npm `latest`; 0.3.1
+  was never published). Each row was refreshed from the official registry
+  (`https://registry.npmjs.org`), its old `checked` evidence was reset to
+  `declared`, and it was re-audited with
+  `HCB_CHECKER_VERSION=1.7.0 node scripts/audit-entry.mjs <pkg> --version <v> --merge`.
+  All four completed: checker `pass`, ENTRY `recognized`, **13/14** static
+  checks, **0 blocking** findings. Warnings: `DSC-03` for `dsh-lsp-actions`
+  and `dsh-doublecheck`; none for `dsh-memento` and `dsh-session-sync`.
+- **Capability surface changed in three of the four.** `dsh-doublecheck`
+  adds `sessions:write`; `dsh-memento` adds `sessions:write` and
+  `system-prompt:write` (new to the matrix); `dsh-session-sync` adds
+  `sessions:read` and `sessions:write`. `dsh-lsp-actions` is unchanged.
+  Risk levels stay `high` / `medium` / `medium` / `high`; gate decisions stay
+  `review` / `pilot` / `pilot` / `review`, so the headline gate split is
+  unchanged.
+- **All four now declare `dsh.standards`** (`dsh-levels/1`, declared ENTRY
+  and FLOW `not-run`, BOOST `not-measured`). This moves
+  `summary.standardsDeclared` **5 -> 9**, FLOW `not-run` **2 -> 6**
+  (`unknown` 138 -> 134) and BOOST `not-measured` **5 -> 9**
+  (`unknown` 138 -> 134). The checker overrides the declared ENTRY
+  `not-run` with `recognized` and keeps `declaredStatus: "not-run"`; FLOW and
+  BOOST remain the authors' declarations, not HCB claims.
+- **Both failed rows were re-checked and stay failed.**
+  `dsh-checkers@0.0.1` and `dsh-session-fork@0.4.0` are still npm `latest`,
+  so no re-run was needed; the stored reports still conclude `fail`
+  (`DSC-01` C-1.2 for both, plus `DSC-04` for `dsh-session-fork`). Both keep
+  `evidence.source: "checked"` and gate `blocked`.
+- **Totals unchanged:** 143 rows; evidence **0 declared / 143 checked /
+  0 tested**; ENTRY **141 `recognized` + 2 `failed`**; gate **2 `blocked` /
+  21 `review` / 120 `pilot` / 0 `production-candidate`**; risk **3 high /
+  63 medium / 77 unknown**; compat **123 compatible / 0 incompatible /
+  20 unknown**.
+- Four new evidence directories under
+  `evidence/<pkg>/<version>/0.2.2-rc.3/<stamp>/` (`report.json`,
+  `patch.json`, `pack.json`, `checker.stdout.json`, `audit.json`); each
+  report's SHA-256 matches both `audit.json` and `patch.json`.
+- `data/tracks.json` and `data/capabilities.json` recomputed from the final
+  matrix. `sessions:write` **1 -> 4**, `sessions:read` **2 -> 3**,
+  `system-prompt:write` **0 -> 1**; tracks now also carries the v0.10.1
+  FLOW `manual` row (manual **2 -> 3**). `data/coverage.json` was not
+  rewritten (historical snapshot); `npm run coverage` prints the
+  matrix-derived result (mainline-default declared tracks **3 -> 9**).
+- Version **0.10.3**. Local only: no push, no publish.
+
 ## 0.10.2 — 2026-11-15
 
 - **Checker unified to `dsh-standards@1.7.0` (16-ID capability set).** Re-ran
