@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.11.0 — 2026-11-15
+
+- **First `tested` row**: `dsh-plugin-guide@0.5.9` / host `0.2.2-rc.3`
+  booted a real DSH host and passed ENTRY G0–G3 (`dsh-standards@1.7.0
+  --entry-claim runtime`, 1/1 ACTIVE). Evidence source is `tested`; ENTRY
+  moves from `recognized` to `runtime`.
+- Gate moves from `pilot` to **`production-candidate`** for that row
+  (ENTRY runtime + FLOW manual + risk medium); all other rows unchanged.
+- Summary: 0 declared / 142 checked / 1 tested; ENTRY 1 runtime + 140
+  recognized + 2 failed; gate 2 blocked / 21 review / 119 pilot / 1
+  production-candidate.
+- The test-kit keyless smoke is `partial` (missing model credential); HCB
+  `tested` is based on the G0–G3 boot, not on a model task.
+
 ## 0.10.3 — 2026-11-15
 
 - **Absorb four new releases and re-check them.** `dsh-lsp-actions`
