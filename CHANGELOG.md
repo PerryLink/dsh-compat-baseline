@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.13.0 — 2026-11-15
+
+- Add **5 more `tested` rows** from a second G0–G3 batch:
+  `dsh-checkpoint-rewind@0.6.35`, `dsh-claude-move@0.4.20`,
+  `dsh-data-quality@0.3.27`, `dsh-doublecheck@0.9.32`,
+  `dsh-session-sync@0.3.2`. All passed `DSH-ENTRY runtime` (1/1 ACTIVE).
+- Summary: 0 declared / 131 checked / 12 tested; ENTRY 12 runtime + 129
+  recognized + 2 failed; gate unchanged 2 blocked / 31 review / 109 pilot /
+  1 production-candidate.
+
 ## 0.12.0 — 2026-11-15
 
 - Add **6 more `tested` rows** from a G0–G3 batch: `dsh-budget@0.4.26`,
