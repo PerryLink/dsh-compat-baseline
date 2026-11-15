@@ -1,5 +1,59 @@
 # Changelog
 
+## 0.11.1 — 2026-11-15
+
+- **Absorb 12 published releases and re-check every one.** Each row was
+  refreshed from the official registry (`https://registry.npmjs.org`) and
+  re-audited with the published tarball, checker `dsh-standards@1.7.0`,
+  host anchor `0.2.2-rc.3` and `--scope entry --entry-claim static`:
+  `dsh-research-report` 0.4.1 -> 0.4.2, `dsh-local-ai` 0.2.26 -> 0.2.27,
+  `dsh-industry-research` 0.3.25 -> 0.3.26, `dsh-checkpoint-rewind`
+  0.6.34 -> 0.6.35, `dsh-defend` 0.3.27 -> 0.3.28, `dsh-claude-move`
+  0.4.19 -> 0.4.20, `dsh-budget` 0.4.25 -> 0.4.26, `dsh-data-quality`
+  0.3.26 -> 0.3.27, `dsh-mask` 0.2.24 -> 0.2.25, `dsh-fund-research`
+  0.5.3 -> 0.5.4, `dsh-observe` 0.2.27 -> 0.2.28, `dsh-test-drive`
+  0.3.25 -> 0.3.26. All 12: checker **`pass`**, ENTRY **`recognized`**,
+  **13/14** static checks, **0 blocking** findings.
+- **The capability surface was empty and is no longer.** The 12 rows carried
+  `capabilities: []`; their new versions declare **52** capability entries.
+  Totals move `tools:register` 62 -> 72, `network:egress` 5 -> 12,
+  `fs:read` 3 -> 11, `fs:write` 1 -> 9, `sessions:write` 4 -> 11,
+  `subprocess` 2 -> 6, `sessions:read` 3 -> 5, `system-prompt:write`
+  1 -> 5, and introduce `network:ingress` 0 -> 1 and `llm:adapter` 0 -> 1.
+- **All 12 now declare `dsh.standards`** (`dsh-levels/1`; ENTRY/FLOW
+  `not-run`, BOOST `not-measured`). `standardsDeclared` **9 -> 21**; FLOW
+  `not-run` **6 -> 18** (`unknown` 134 -> 122); BOOST `not-measured`
+  **9 -> 21** (`unknown` 134 -> 122). The checker still overrides the declared
+  ENTRY `not-run` with `recognized` and preserves `declaredStatus: "not-run"`;
+  FLOW and BOOST stay the authors' declarations, not HCB claims.
+- **Gate moves nine rows from `pilot` to `review`.** Risk moves from
+  **3 high / 63 medium / 77 unknown** to **12 high / 66 medium / 65 unknown**:
+  the nine packages declaring `fs:write` and/or `subprocess`
+  (`dsh-research-report`, `dsh-local-ai`, `dsh-industry-research`,
+  `dsh-checkpoint-rewind`, `dsh-claude-move`, `dsh-data-quality`, `dsh-mask`,
+  `dsh-fund-research`, `dsh-test-drive`) are high-capability and gate to
+  `review`. Headline gate: **2 blocked / 30 review / 110 pilot / 1
+  production-candidate** (was 2 / 21 / 119 / 1). The 3 remaining refreshed
+  rows (`dsh-defend`, `dsh-budget`, `dsh-observe`) are medium risk and stay
+  `pilot`.
+- **ENTRY and evidence shape unchanged.** All **143/143** rows still carry
+  independent evidence: **0 declared / 142 checked / 1 tested**; ENTRY is
+  **1 runtime + 140 recognized + 2 failed**. The `tested` row
+  `dsh-plugin-guide@0.5.9` and the two `failed` rows (`dsh-checkers@0.0.1`,
+  `dsh-session-fork@0.4.0`) are byte-identical to v0.11.0 and were **not**
+  re-run. All 143 rows still record `dsh-standards@1.7.0`.
+- **Not refreshed (kept at the old version):** `dsh-mcp-panel@0.6.31`
+  (`0.6.32` still 404 on the registry) and `dsh-click@0.3.29`. At
+  `declare-14` time click `0.3.30` was staged, not published; during this
+  round the registry began serving `0.3.30` (published `2026-11-15T11:47:02Z`),
+  but the row was deliberately left unchanged per the 12-package scope. It
+  should be absorbed in the next refresh.
+- Twelve new evidence directories under
+  `evidence/<pkg>/<version>/0.2.2-rc.3/<stamp>/`, each with `report.json`,
+  `patch.json`, `pack.json`, `checker.stdout.json` and `audit.json`; every
+  report SHA-256 matches both its `patch.json` and `audit.json`.
+- Version **0.11.1**. Local only: no push, no publish.
+
 ## 0.11.0 — 2026-11-15
 
 - **First `tested` row**: `dsh-plugin-guide@0.5.9` / host `0.2.2-rc.3`
