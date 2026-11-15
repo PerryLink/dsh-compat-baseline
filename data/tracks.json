@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T11:27:10.768Z",
-  "declared": 9,
+  "generatedAt": "2026-11-15T11:50:27.650Z",
+  "declared": 21,
   "entry": {
     "runtime": 1,
     "recognized": 140,
@@ -14,22 +14,22 @@
   "flow": {
     "runtime": 0,
     "manual": 3,
-    "not-run": 6,
+    "not-run": 18,
     "failed": 0,
     "stale": 0,
-    "unknown": 134
+    "unknown": 122
   },
   "boost": {
     "measured": 0,
-    "not-measured": 9,
+    "not-measured": 21,
     "failed": 0,
     "stale": 0,
-    "unknown": 134
+    "unknown": 122
   },
   "gate": {
     "blocked": 2,
-    "review": 21,
-    "pilot": 119,
+    "review": 30,
+    "pilot": 110,
     "production-candidate": 1
   }
 }
