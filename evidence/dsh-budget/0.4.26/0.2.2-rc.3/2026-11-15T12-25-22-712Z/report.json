@@ -1,0 +1,957 @@
+{
+  "schema": "dsh-conformance/1",
+  "standard": {
+    "id": "DS-C",
+    "version": "1.0.0"
+  },
+  "subject": {
+    "mode": "package",
+    "profile": "package",
+    "kind": "bundle",
+    "kindInferred": true,
+    "kindEvaluated": "bundle",
+    "name": "dsh-budget",
+    "version": "0.4.26",
+    "path": "/tmp/tested-batch/pkgs/dsh-budget/unpacked"
+  },
+  "anchor": {
+    "repo": "deepseek-ai/deepseek-harness",
+    "commit": "38a6a5c965aa99ab525161efb7cc5cf1fe62fced",
+    "scanner": "dsh-plugin-verify@0.1.0",
+    "dsh": "0.2.2-rc.3",
+    "cordis": "4.1.0",
+    "runtime": null,
+    "runtimeSource": "host",
+    "hostVersion": "0.2.2-rc.3",
+    "suspect": false
+  },
+  "g4": {
+    "hasClient": true,
+    "ok": true,
+    "result": "PASS",
+    "reason": "dsh.client + exports[\"./client\"] present and resolvable (static only)"
+  },
+  "checks": [
+    {
+      "id": "DSC-01",
+      "clause": "C-1",
+      "layer": "L0",
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "",
+      "evidence": [
+        "package.json"
+      ],
+      "details": [
+        {
+          "item": "C-1.1",
+          "result": "PASS",
+          "reason": "name=dsh-budget",
+          "evidence": []
+        },
+        {
+          "item": "C-1.1",
+          "result": "PASS",
+          "reason": "version=0.4.26",
+          "evidence": []
+        },
+        {
+          "item": "C-1.2",
+          "result": "PASS",
+          "reason": "entry resolves via exports[\".\"]: lib/index.js",
+          "evidence": [
+            "lib/index.js"
+          ]
+        },
+        {
+          "item": "C-1.3",
+          "result": "NA",
+          "reason": "not a directly loadable plugin entry",
+          "evidence": []
+        },
+        {
+          "item": "C-1.4",
+          "result": "PASS",
+          "reason": "bundle patch present (1 file(s))",
+          "evidence": [
+            "./cordis.patch.yml"
+          ]
+        },
+        {
+          "item": "C-1.5",
+          "result": "PASS",
+          "reason": "license=Apache-2.0",
+          "evidence": []
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-02",
+      "clause": "C-2",
+      "layer": "L0",
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "",
+      "evidence": [
+        "package.json#engines",
+        "package.json#peerDependencies"
+      ],
+      "details": [
+        {
+          "item": "C-2.1",
+          "result": "PASS",
+          "reason": "engines.dsh=>=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+          "evidence": []
+        },
+        {
+          "item": "C-2.2",
+          "result": "PASS",
+          "reason": "runtime 0.2.2-rc.3 satisfies >=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+          "evidence": []
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-03",
+      "clause": "C-3",
+      "layer": "L0",
+      "result": "WARN",
+      "coverage": "full",
+      "reason": "install spec or supply-chain issue",
+      "evidence": [
+        "package.json#dependencies",
+        "package.json#scripts",
+        "--install-spec"
+      ],
+      "details": [
+        {
+          "item": "C-3.4",
+          "result": "WARN",
+          "reason": "install-time build script present: scripts.prepare",
+          "evidence": [
+            "package.json#scripts.prepare"
+          ]
+        },
+        {
+          "item": "C-3.1",
+          "result": "PASS",
+          "reason": "parsed kind=registry",
+          "evidence": [
+            "--install-spec"
+          ]
+        },
+        {
+          "item": "C-3.2",
+          "result": "PASS",
+          "reason": "source is pinned",
+          "evidence": [
+            "--install-spec"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-04",
+      "clause": "C-4",
+      "layer": "L1",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: entry/export/patch shape; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "evidence": [
+        "lib/index.js"
+      ],
+      "details": [
+        {
+          "item": "C-4",
+          "result": "PASS",
+          "reason": "declared entry resolves: lib/index.js",
+          "evidence": [
+            "lib/index.js"
+          ]
+        },
+        {
+          "item": "C-4",
+          "result": "PASS",
+          "reason": "bundle patch parsed (1 file(s), 1 row(s))",
+          "evidence": []
+        },
+        {
+          "item": "C-4",
+          "result": "PASS",
+          "reason": "dsh.client + exports[\"./client\"] resolvable",
+          "evidence": []
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-05",
+      "clause": "C-5",
+      "layer": "L1",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: provide declarations enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "evidence": [],
+      "details": [
+        {
+          "item": "C-5.1",
+          "result": "NA",
+          "reason": "no static provide declaration or ctx.provide call found; service ownership needs runtime",
+          "evidence": []
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-06",
+      "clause": "C-6",
+      "layer": "L1+L2",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: no private-surface writes found; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "evidence": [
+        "lib/client.js:5935",
+        "lib/client.js:5939",
+        "lib/index.js:1515"
+      ],
+      "details": [
+        {
+          "item": "C-6.1",
+          "result": "PASS",
+          "reason": "no static write to a private registration surface",
+          "evidence": []
+        },
+        {
+          "item": "C-6.2",
+          "result": "PASS",
+          "reason": "7 static effect registration site(s); effect lifetime needs runtime",
+          "evidence": [
+            "lib/client.js:5935",
+            "lib/client.js:5939",
+            "lib/index.js:1515"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-07",
+      "clause": "C-7",
+      "layer": "L2",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: teardown references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "evidence": [],
+      "details": [
+        {
+          "item": "C-7.1",
+          "result": "NA",
+          "reason": "dispose/effect baseline needs runtime",
+          "evidence": []
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-08",
+      "clause": "C-8",
+      "layer": "L3",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: restart references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "evidence": [
+        "lib/index.js:807",
+        "lib/index.js:1379",
+        "lib/types/aggregate/usage.d.ts:59"
+      ],
+      "details": [
+        {
+          "item": "C-8.1",
+          "result": "PASS",
+          "reason": "5 static restart/revision site(s); repeatability needs runtime",
+          "evidence": [
+            "lib/index.js:807",
+            "lib/index.js:1379",
+            "lib/types/aggregate/usage.d.ts:59"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-09",
+      "clause": "C-9",
+      "layer": "L1",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: declaration cross-check; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "evidence": [],
+      "details": [
+        {
+          "item": "C-9.1",
+          "result": "PASS",
+          "reason": "patch mount targets match package.json declarations or host-provided @deepseek-ai packages",
+          "evidence": []
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-14",
+      "clause": "C-14",
+      "layer": "L1",
+      "method": "M",
+      "advisory": false,
+      "details": [
+        {
+          "item": "G0",
+          "result": "PASS",
+          "reason": "patch parsed"
+        },
+        {
+          "item": "G1",
+          "result": "PASS",
+          "reason": "rows 1"
+        },
+        {
+          "item": "G3",
+          "result": "PASS",
+          "reason": "rows 1/1 ACTIVE"
+        }
+      ],
+      "evidence": [
+        "lib/index.js"
+      ],
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "G0-G3 verified; rows=1/1; G4 static ok"
+    },
+    {
+      "id": "DSC-10",
+      "clause": "C-10",
+      "layer": "L0",
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "",
+      "evidence": [
+        "lib/index.js:2",
+        "lib/index.js:3",
+        "lib/index.js:4"
+      ],
+      "details": [
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:module' from lib/index.js:2 is outside the local closure",
+          "evidence": [
+            "lib/index.js:2"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:fs' from lib/index.js:3 is outside the local closure",
+          "evidence": [
+            "lib/index.js:3"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import 'node:path' from lib/index.js:4 is outside the local closure",
+          "evidence": [
+            "lib/index.js:4"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import '@deepseek-ai/schemastery' from lib/index.js:5 is outside the local closure",
+          "evidence": [
+            "lib/index.js:5"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import '@deepseek-ai/dsh-typert-protocol' from lib/index.js:6 is outside the local closure",
+          "evidence": [
+            "lib/index.js:6"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "NA",
+          "reason": "not-run: package import '@deepseek-ai/dsh-storage-domain' from lib/index.js:7 is outside the local closure",
+          "evidence": [
+            "lib/index.js:7"
+          ]
+        },
+        {
+          "item": "C-10.3",
+          "result": "PASS",
+          "reason": "local relative import closure analysed (2 module(s))",
+          "evidence": [
+            "lib/index.js",
+            "lib/wire-BcrmZZ4G.js"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": true
+    },
+    {
+      "id": "DSC-11",
+      "clause": "C-11",
+      "layer": "L0",
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "",
+      "evidence": [
+        "package.json#dsh.capabilities",
+        "dsh.bundle.patch"
+      ],
+      "details": [
+        {
+          "item": "C-11.1",
+          "result": "PASS",
+          "reason": "dsh.capabilities is declared and consistent with static triggers",
+          "evidence": []
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-12",
+      "clause": "C-12",
+      "layer": "L0",
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "",
+      "evidence": [
+        "package.json#dsh.capabilities"
+      ],
+      "details": [
+        {
+          "item": "C-12.1",
+          "result": "PASS",
+          "reason": "no credential backing-file reference found",
+          "evidence": []
+        },
+        {
+          "item": "C-12.2",
+          "result": "PASS",
+          "reason": "listRecords() not used",
+          "evidence": []
+        },
+        {
+          "item": "C-12.6",
+          "result": "NA",
+          "reason": "dsh.commitments is not declared (optional disclosure)",
+          "evidence": [
+            "package.json#dsh.commitments"
+          ]
+        },
+        {
+          "item": "C-12.7",
+          "result": "NA",
+          "reason": "dsh.disclosure is not declared (optional disclosure)",
+          "evidence": [
+            "package.json#dsh.commitments"
+          ]
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    },
+    {
+      "id": "DSC-13",
+      "clause": "C-13",
+      "layer": "L0",
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "",
+      "evidence": [
+        "package.json#dsh.labels",
+        "package.json#dsh.upstream"
+      ],
+      "details": [
+        {
+          "item": "C-13.1",
+          "result": "PASS",
+          "reason": "dsh.labels is declared and consistent with capability triggers",
+          "evidence": []
+        }
+      ],
+      "method": "M",
+      "advisory": false
+    }
+  ],
+  "coverage": {
+    "total": 14,
+    "mandatory": 6,
+    "checked": 14,
+    "pass": 13,
+    "warn": 1,
+    "advisory": 0,
+    "fail": 0,
+    "na": 0,
+    "notRun": 0,
+    "partial": 6,
+    "error": 0,
+    "entryBlocking": {
+      "required": 8,
+      "checked": [
+        "C-1.1",
+        "C-1.2",
+        "C-1.4",
+        "C-3.1",
+        "C-3.2",
+        "C-2.2",
+        "C-2.3"
+      ],
+      "notChecked": [
+        "C-3.5"
+      ],
+      "failed": [],
+      "pass": false
+    }
+  },
+  "buckets": {
+    "blocking": [],
+    "hygiene": [
+      {
+        "id": "DSC-03",
+        "clause": "C-3",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "install spec or supply-chain issue",
+        "declaration": false,
+        "advisory": false
+      }
+    ],
+    "partial": [
+      {
+        "id": "DSC-04",
+        "clause": "C-4",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: entry/export/patch shape; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-05",
+        "clause": "C-5",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: provide declarations enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-06",
+        "clause": "C-6",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: no private-surface writes found; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-07",
+        "clause": "C-7",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: teardown references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-08",
+        "clause": "C-8",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: restart references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      },
+      {
+        "id": "DSC-09",
+        "clause": "C-9",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "static subset passed: declaration cross-check; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+        "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+      }
+    ],
+    "notChecked": []
+  },
+  "security": {
+    "scope": "advisory",
+    "status": "incomplete",
+    "checks": [
+      {
+        "id": "DSC-15",
+        "clause": "C-15",
+        "layer": "L0",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "C-15.3: scripts.prepare references missing script(s): scripts/prepare.mjs (prepare is allowBuilds-gated)",
+        "evidence": [
+          "package.json#scripts"
+        ],
+        "details": [
+          {
+            "item": "C-15.3",
+            "result": "WARN",
+            "reason": "scripts.prepare references missing script(s): scripts/prepare.mjs (prepare is allowBuilds-gated)",
+            "evidence": [
+              "package.json#scripts.prepare"
+            ]
+          }
+        ],
+        "method": "M",
+        "advisory": false
+      },
+      {
+        "id": "DSC-16",
+        "clause": "C-16",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "partial: 6 package/unresolved import(s) were not scanned",
+        "evidence": [
+          "lib/index.js",
+          "lib/wire-BcrmZZ4G.js"
+        ],
+        "details": [
+          {
+            "item": "C-16.4",
+            "result": "NA",
+            "reason": "not-run: 6 package import(s) are outside the local closure (for example node:module)",
+            "evidence": [
+              "lib/index.js:2"
+            ]
+          }
+        ],
+        "method": "M",
+        "advisory": false
+      },
+      {
+        "id": "DSC-17",
+        "clause": "C-17",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "partial: 2 read argument(s) are dynamic and could not be statically resolved",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic readFileSync argument at lib/index.js:1440 could not be statically resolved",
+            "evidence": [
+              "lib/index.js:1440"
+            ]
+          },
+          {
+            "item": "C-17.4",
+            "result": "NA",
+            "reason": "not-run: dynamic open argument at lib/index.js:1517 could not be statically resolved",
+            "evidence": [
+              "lib/index.js:1517"
+            ]
+          }
+        ],
+        "method": "M",
+        "advisory": false
+      },
+      {
+        "id": "DSC-18",
+        "clause": "C-18",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-18.3",
+            "result": "NA",
+            "reason": "not-run: dynamic endpoint argument at lib/index.js:1056",
+            "evidence": [
+              "lib/index.js:1056"
+            ]
+          }
+        ],
+        "method": "M",
+        "advisory": true
+      },
+      {
+        "id": "DSC-19",
+        "clause": "C-19",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": "",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-19.1",
+            "result": "PASS",
+            "reason": "no opaque text or binary artifact above the advisory thresholds",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": true
+      },
+      {
+        "id": "DSC-20",
+        "clause": "C-20",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": "",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-20.1",
+            "result": "PASS",
+            "reason": "no prompt-surface clue found (instruction-like literal or external systemPrompt argument)",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": true
+      },
+      {
+        "id": "DSC-21",
+        "clause": "C-21",
+        "layer": "L0",
+        "result": "PASS",
+        "coverage": "partial",
+        "reason": "",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-21.3",
+            "result": "NA",
+            "reason": "not-run: dependency install scripts and transitive registry metadata need registry data; declared dependencies: zod, @deepseek-ai/cordis, @deepseek-ai/cordis-plugin-include, @deepseek-ai/cordis-plugin-loader, @deepseek-ai/dsh-agent, @deepseek-ai/dsh-api-remotes, @deepseek-ai/dsh-attachment, @deepseek-ai/dsh-client-connection, @deepseek-ai/dsh-client-locale, @deepseek-ai/dsh-client-ui-settings, @deepseek-ai/dsh-client-ui-slots, @deepseek-ai/dsh-commands, @deepseek-ai/dsh-llm, @deepseek-ai/dsh-session, @deepseek-ai/dsh-settings, @deepseek-ai/dsh-storage-domain, @deepseek-ai/dsh-token-meter, @deepseek-ai/dsh-tools, @deepseek-ai/dsh-typert-protocol, @deepseek-ai/schemastery (+10 more); a missing lockfile is not treated as a defect",
+            "evidence": []
+          },
+          {
+            "item": "C-21.1",
+            "result": "PASS",
+            "reason": "30 dependency name(s) checked; 3 exact known name(s)",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": false
+      },
+      {
+        "id": "DSC-22",
+        "clause": "C-22",
+        "layer": "L0",
+        "result": "NA",
+        "coverage": "not-run",
+        "reason": "no registry metadata/attestation input; not-run",
+        "evidence": [],
+        "details": [
+          {
+            "item": "C-22.1",
+            "result": "NA",
+            "reason": "not-run: no registry metadata or attestation supplied; provenance is not judged",
+            "evidence": []
+          }
+        ],
+        "method": "M",
+        "advisory": true
+      }
+    ],
+    "blocking": [],
+    "warn": [
+      "DSC-15"
+    ],
+    "advisory": [],
+    "partial": [
+      {
+        "id": "DSC-16",
+        "reason": "partial: 6 package/unresolved import(s) were not scanned"
+      },
+      {
+        "id": "DSC-17",
+        "reason": "partial: 2 read argument(s) are dynamic and could not be statically resolved"
+      },
+      {
+        "id": "DSC-18",
+        "reason": "not-run: dynamic endpoint argument at lib/index.js:1056"
+      },
+      {
+        "id": "DSC-21",
+        "reason": "not-run: dependency install scripts and transitive registry metadata need registry data; declared dependencies: zod, @deepseek-ai/cordis, @deepseek-ai/cordis-plugin-include, @deepseek-ai/cordis-plugin-loader, @deepseek-ai/dsh-agent, @deepseek-ai/dsh-api-remotes, @deepseek-ai/dsh-attachment, @deepseek-ai/dsh-client-connection, @deepseek-ai/dsh-client-locale, @deepseek-ai/dsh-client-ui-settings, @deepseek-ai/dsh-client-ui-slots, @deepseek-ai/dsh-commands, @deepseek-ai/dsh-llm, @deepseek-ai/dsh-session, @deepseek-ai/dsh-settings, @deepseek-ai/dsh-storage-domain, @deepseek-ai/dsh-token-meter, @deepseek-ai/dsh-tools, @deepseek-ai/dsh-typert-protocol, @deepseek-ai/schemastery (+10 more); a missing lockfile is not treated as a defect"
+      }
+    ],
+    "notRun": [
+      "DSC-22"
+    ]
+  },
+  "notChecked": [
+    {
+      "id": "DSC-04",
+      "clause": "C-4",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: entry/export/patch shape; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+    },
+    {
+      "id": "DSC-05",
+      "clause": "C-5",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: provide declarations enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+    },
+    {
+      "id": "DSC-06",
+      "clause": "C-6",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: no private-surface writes found; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+    },
+    {
+      "id": "DSC-07",
+      "clause": "C-7",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: teardown references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+    },
+    {
+      "id": "DSC-08",
+      "clause": "C-8",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: restart references enumerated; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+    },
+    {
+      "id": "DSC-09",
+      "clause": "C-9",
+      "result": "PASS",
+      "coverage": "partial",
+      "reason": "static subset passed: declaration cross-check; bundle G0-G3 needs --host <dir>; L1-L3 need --treat-as-plugin --runtime <path>",
+      "howToEnable": "omit --no-exec; pass --treat-as-plugin --runtime <path> for L1-L3, and --host <dir> for bundle G0-G3"
+    }
+  ],
+  "metrics": {
+    "checked": 14,
+    "total": 14,
+    "declaredFields": 2
+  },
+  "conclusion": {
+    "headline": "entry/package · runtime 0.2.2-rc.3 host · blocking 0 (prereq 7/8) · hygiene 1 · partial 6 · not checked 0/14",
+    "level": "DSH-ENTRY runtime",
+    "status": "pass",
+    "exitCode": 0,
+    "profile": "package",
+    "scope": "entry",
+    "subset": null,
+    "staticOnly": false,
+    "entryRuntime": "require",
+    "entryClaim": "runtime",
+    "reason": ""
+  },
+  "runtimeChecks": {
+    "schema": "dsh-runtime-checks/1",
+    "executed": true,
+    "modes": [
+      "bundle-host"
+    ],
+    "durationMs": 1097,
+    "isolation": {
+      "isolatedHome": true,
+      "env": "allowlist",
+      "timeoutMs": 90000
+    },
+    "reason": null,
+    "failure": null,
+    "checks": [
+      {
+        "id": "DSC-04",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-05",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-06",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-07",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-08",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-09",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      }
+    ],
+    "entry": {
+      "id": "DSC-14",
+      "result": "PASS",
+      "coverage": "full",
+      "reason": "G0-G3 verified; rows=1/1; G4 static ok",
+      "durationMs": 1097
+    }
+  },
+  "advice": [
+    {
+      "key": "C-3.4",
+      "gate": "WARN",
+      "severity": "WARN",
+      "title": "安装期构建脚本要可枚举",
+      "why": "preinstall/install/postinstall/prepare 会在用户机器上执行，profile 看不到就无法审批。",
+      "fix": "尽量去掉安装期脚本，改为显式构建；必须在 README/发布说明列出脚本与 allowBuilds 需求。",
+      "docsUrl": "https://github.com/PerryLink/dsh-plugin-guide/blob/v0.5.0/docs/entry.md#package-shape",
+      "source": "DSC-03",
+      "version": "1.7.0",
+      "evidence": [
+        "package.json#scripts.prepare",
+        "package.json:213"
+      ],
+      "reason": "install-time build script present: scripts.prepare",
+      "occurrences": 1,
+      "advisory": false
+    }
+  ]
+}
