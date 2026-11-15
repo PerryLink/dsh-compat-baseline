@@ -14,13 +14,13 @@
     "gate": {
       "blocked": 2,
       "review": 21,
-      "pilot": 120,
-      "production-candidate": 0
+      "pilot": 119,
+      "production-candidate": 1
     },
     "standardsDeclared": 9,
     "entry": {
-      "runtime": 0,
-      "recognized": 141,
+      "runtime": 1,
+      "recognized": 140,
       "static": 0,
       "blocked": 0,
       "failed": 2,
@@ -79,10 +79,10 @@
     "latestHost": "0.2.2-rc.3",
     "evidence": {
       "declared": 0,
-      "checked": 143,
-      "tested": 0
+      "checked": 142,
+      "tested": 1
     },
-    "evidenceUpdatedAt": "2026-11-15T11:18:20.019Z"
+    "evidenceUpdatedAt": "2026-11-15T11:26:50.167Z"
   },
   "rows": [
     {
@@ -508,7 +508,7 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "recognized",
+          "status": "runtime",
           "evidence": false,
           "declaredStatus": "not-run"
         },
@@ -546,18 +546,17 @@
         "0.2.1-rc.1": "declared-incompatible"
       },
       "gate": {
-        "decision": "pilot",
+        "decision": "production-candidate",
         "reasons": [
-          "compatible, but unverified",
-          "ENTRY recognized, FLOW manual"
+          "compat + ENTRY runtime + FLOW manual + risk medium"
         ]
       },
       "evidence": {
-        "source": "checked",
-        "checkedAt": "2026-11-15T10:41:29.163Z",
+        "source": "tested",
+        "checkedAt": "2026-11-15T11:19:58.026Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-plugin-guide/0.5.9/0.2.2-rc.3/2026-11-15T10-41-29-163Z/report.json"
+        "reportPath": "evidence/dsh-plugin-guide/0.5.9/0.2.2-rc.3/2026-11-15T11-19-58-026Z/report.json"
       }
     },
     {
@@ -9375,5 +9374,5 @@
     }
   ],
   "schemaVersion": "0.5",
-  "evidenceUpdatedAt": "2026-11-15T11:18:20.019Z"
+  "evidenceUpdatedAt": "2026-11-15T11:26:50.167Z"
 }
