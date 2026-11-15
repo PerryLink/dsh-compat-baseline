@@ -37,7 +37,7 @@ HCB follows the [dsh-standards](https://github.com/PerryLink/dsh-standards) mode
 
 Rules: **a skip is not a pass**; `static` is not `runtime`; **BOOST is not a gate**; compatibility is a claim by the package author, not a test result. See [docs/TRACKS.md](docs/TRACKS.md).
 
-## What is in v0.10.0 (schema v0.5)
+## What is in v0.10.1 (schema v0.5)
 
 | File | Meaning |
 |---|---|
@@ -71,13 +71,13 @@ not produced by `audit-entry.mjs`; the script is intentionally static-only.
 See [`docs/EVIDENCE.md`](docs/EVIDENCE.md) for the field contract, failure /
 blocked semantics, and the exact re-run commands.
 
-## Current coverage (2026-11-15, v0.10.0)
+## Current coverage (2026-11-15, v0.10.1)
 
 - **143 plugins** = the full 112-package dsh-kit family (34 mainline-default + 53 opt-in + 10 catalog-only + 15 domain) + 31 external
 - **123** declare `engines.dsh`; **20** are `unknown`
 - **5** declare `dsh.standards`; **138** are `not-declared`
 - ENTRY: **141 `recognized` + 2 `failed` (143 checked)**, 0 `not-run`, 0 `unknown` — **no plugin has runtime evidence yet**
-- FLOW: **2 `manual` + 3 `not-run` + 138 `unknown`** — `manual` is not `runtime`; no plugin has a runtime FLOW claim
+- FLOW: **3 `manual` + 2 `not-run` + 138 `unknown`** — `manual` is not `runtime`; no plugin has a runtime FLOW claim
 - Evidence: **0 `declared`, 143 `checked`, 0 `tested`** (all 143 merged from static checker; no boot). **Every row is `checked`**: all 112 family rows (34 mainline-default + 53 mainline-opt-in + 10 catalog-only + 15 domain) and all 31 external rows.
 - Risk: 3 high, 63 medium, 77 unknown (no capability manifest)
 - Gate: 2 `blocked` (`dsh-checkers` and `dsh-session-fork`, both `failed` ENTRY), 21 `review`, 120 `pilot`, 0 `production-candidate`
