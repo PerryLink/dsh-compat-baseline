@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.10.2 — 2026-11-15
+
+- **Checker unified to `dsh-standards@1.7.0` (16-ID capability set).** Re-ran
+  the 95 rows whose evidence still said `1.6.10`, pinned to each `row.version`
+  and the `0.2.2-rc.3` host anchor, with
+  `npm_config_registry=https://registry.npmjs.org HCB_CHECKER_VERSION=1.7.0`
+  and `--merge`. All 95 completed; **143/143 rows now record
+  `dsh-standards@1.7.0`** (`1.6.10` survives only as a historical label in
+  `row.evidence.checker`).
+- **No ENTRY or gate movement:** 141 `recognized` + 2 `failed` before and
+  after; gate stays 2 `blocked` / 21 `review` / 120 `pilot` /
+  0 `production-candidate`. Checker conclusions for the 95: **85 `pass`,
+  9 `warn`, 1 `fail`**. The only blocking re-audit is the pre-existing
+  `dsh-checkers@0.0.1` (`DSC-01`); `dsh-session-fork@0.4.0` keeps its earlier
+  `failed` and its gate stays `blocked`.
+- Make 1.7.0 the **default** in `scripts/audit-entry.mjs` and
+  `scripts/lib/evidence.mjs` (was 1.6.10); `HCB_CHECKER_VERSION` still
+  overrides it for historical reproduction. `jevcore@0.4.2` and
+  `dsh-standards@1.6.12` record 7/14 static checks, a coverage caveat rather
+  than a pass claim.
+- README/docs now state that the default checker is 1.7.0 and that historical
+  rows are labeled by `row.evidence.checker`.
+- Backfilled **292** missing `report.json`/`patch.json` files to
+  `PerryLink/dsh-hcb` with an add-only `git push` (102 files from the
+  0.10.0/0.10.1 gap, 190 from this re-audit). `pack.json`, `audit.json`,
+  `checker.stdout.json` and one `hcb-decision.md` were not uploaded in this
+  pass.
+
 ## 0.10.1 — 2026-11-15
 
 - Add FLOW `manual` evidence for `dsh-plugin-guide@0.5.9` (J5 negation-filtered
