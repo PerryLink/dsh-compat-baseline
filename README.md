@@ -37,7 +37,7 @@ HCB follows the [dsh-standards](https://github.com/PerryLink/dsh-standards) mode
 
 Rules: **a skip is not a pass**; `static` is not `runtime`; **BOOST is not a gate**; compatibility is a claim by the package author, not a test result. See [docs/TRACKS.md](docs/TRACKS.md).
 
-## What is in v0.10.2 (schema v0.5)
+## What is in v0.10.3 (schema v0.5)
 
 | File | Meaning |
 |---|---|
@@ -71,15 +71,15 @@ not produced by `audit-entry.mjs`; the script is intentionally static-only.
 See [`docs/EVIDENCE.md`](docs/EVIDENCE.md) for the field contract, failure /
 blocked semantics, and the exact re-run commands.
 
-## Current coverage (2026-11-15, v0.10.2)
+## Current coverage (2026-11-15, v0.10.3)
 
 - **143 plugins** = the full 112-package dsh-kit family (34 mainline-default + 53 opt-in + 10 catalog-only + 15 domain) + 31 external
 - **123** declare `engines.dsh`; **20** are `unknown`
-- **5** declare `dsh.standards`; **138** are `not-declared`
+- **9** declare `dsh.standards`; **134** are `not-declared`
 - ENTRY: **141 `recognized` + 2 `failed` (143 checked)**, 0 `not-run`, 0 `unknown` — **no plugin has runtime evidence yet**
-- FLOW: **3 `manual` + 2 `not-run` + 138 `unknown`** — `manual` is not `runtime`; no plugin has a runtime FLOW claim
+- FLOW: **3 `manual` + 6 `not-run` + 134 `unknown`** — `manual` is not `runtime`; no plugin has a runtime FLOW claim
 - Evidence: **0 `declared`, 143 `checked`, 0 `tested`** (all 143 merged from static checker; no boot). **Every row is `checked`**: all 112 family rows (34 mainline-default + 53 mainline-opt-in + 10 catalog-only + 15 domain) and all 31 external rows.
-- Checker: **143/143 rows on `dsh-standards@1.7.0`** (0 rows still on `1.6.10`). v0.10.2 re-audited the 95 rows that still carried `1.6.10`; ENTRY is unchanged (**141 `recognized` + 2 `failed`**) and every row is labeled by `row.evidence.checker`.
+- Checker: **143/143 rows on `dsh-standards@1.7.0`** (0 rows still on `1.6.10`). v0.10.2 re-audited the 95 rows that still carried `1.6.10`; v0.10.3 re-audited the four bumped rows. ENTRY is unchanged (**141 `recognized` + 2 `failed`**) and every row is labeled by `row.evidence.checker`.
 - Risk: 3 high, 63 medium, 77 unknown (no capability manifest)
 - Gate: 2 `blocked` (`dsh-checkers` and `dsh-session-fork`, both `failed` ENTRY), 21 `review`, 120 `pilot`, 0 `production-candidate`
 
@@ -92,15 +92,15 @@ HCB is measured against the canonical `dsh-kit` family roster (112 packages), no
 
 | Group | Total | Covered by HCB | Checked | Missing | Declared tracks | Compat declared |
 |---|---:|---:|---:|---:|---:|---:|
-| mainline-default | 34 | 34 | 34 | 0 | 5 | 34 |
+| mainline-default | 34 | 34 | 34 | 0 | 9 | 34 |
 | mainline-opt-in | 53 | 53 | 53 | 0 | 0 | 53 |
 | catalog-only | 10 | 10 | 10 | 0 | 0 | 10 |
 | domain | 15 | 15 | 15 | 0 | 0 | 15 |
 | external | 31 | 31 | 31 | 0 | 0 | 11 |
 
-**112 / 112 family packages (100%) are covered and `checked`**, and so are **all 31 external plugins**. Coverage is complete, but **evidence depth is not**: only 5 plugins declare tracks, and 0 have ENTRY runtime. v0.6.0 added the static `checked` pipeline for the whole mainline-default set (34/34); v0.7.0 started mainline-opt-in (19/53); v0.8.0 finishes all 53 opt-in rows and adds the first 2 catalog-only rows (96 checked overall); v0.8.2 refreshes three changed package versions, keeps `checked` at 96, and re-audits `dsh-permission-rules` with the 16-ID checker 1.7.0 (restoring `recognized`). v0.9.0 audits the last 8 catalog-only and all 15 domain rows with `dsh-standards@1.7.0` (23 new; 96 -> 119 checked) and closes the family at 112/112 `checked`. **v0.10.0 audits the last 24 external `declared` rows with `dsh-standards@1.7.0` (119 -> 143 checked): 23 `recognized`, 1 `failed` (`dsh-session-fork@0.4.0`, published tarball missing its declared `lib/index.js`).** **v0.10.2 re-audits the 95 rows still labeled `1.6.10` with `dsh-standards@1.7.0` (0 ENTRY/gate moves; all 143 rows now record 1.7.0), and 1.7.0 becomes the default checker.** The remaining work is a runtime `tested` matrix, not more static coverage.
+**112 / 112 family packages (100%) are covered and `checked`**, and so are **all 31 external plugins**. Coverage is complete, but **evidence depth is not**: only 9 plugins declare tracks, and 0 have ENTRY runtime. v0.6.0 added the static `checked` pipeline for the whole mainline-default set (34/34); v0.7.0 started mainline-opt-in (19/53); v0.8.0 finishes all 53 opt-in rows and adds the first 2 catalog-only rows (96 checked overall); v0.8.2 refreshes three changed package versions, keeps `checked` at 96, and re-audits `dsh-permission-rules` with the 16-ID checker 1.7.0 (restoring `recognized`). v0.9.0 audits the last 8 catalog-only and all 15 domain rows with `dsh-standards@1.7.0` (23 new; 96 -> 119 checked) and closes the family at 112/112 `checked`. **v0.10.0 audits the last 24 external `declared` rows with `dsh-standards@1.7.0` (119 -> 143 checked): 23 `recognized`, 1 `failed` (`dsh-session-fork@0.4.0`, published tarball missing its declared `lib/index.js`).** **v0.10.2 re-audits the 95 rows still labeled `1.6.10` with `dsh-standards@1.7.0` (0 ENTRY/gate moves; all 143 rows now record 1.7.0), and 1.7.0 becomes the default checker.** **v0.10.3 absorbs four new releases — `dsh-lsp-actions@0.5.21`, `dsh-doublecheck@0.9.32`, `dsh-memento@0.5.31`, `dsh-session-sync@0.3.2` — re-audits all four with `1.7.0` (all `recognized`, 13/14 checks, 0 blocking) and records their new `dsh.standards` declarations (declared tracks 5 -> 9; gate split unchanged).** The remaining work is a runtime `tested` matrix, not more static coverage.
 
-Run `npm run coverage` to reproduce; `data/coverage.json` is the machine-readable result.
+Run `npm run coverage` to reproduce; the matrix-derived output is authoritative (the committed `data/coverage.json` is a historical snapshot).
 
 ## CLI
 
@@ -162,6 +162,7 @@ It prints compatibility + tracks + gate; fails only on `declared-incompatible` b
 - **v0.9** finish the family: 8 remaining catalog-only + 15 domain rows statically `checked` with `dsh-standards@1.7.0` (23 new; 119 checked overall; 112/112 family `checked`); 24 external rows stay `declared`, runtime `tested` remains future work.
 - **v0.10** finish the matrix: all 24 remaining external rows statically `checked` with `dsh-standards@1.7.0` (119 -> 143 checked; **0 `declared`**), 23 `recognized` + 1 `failed` (`dsh-session-fork@0.4.0`, missing built entry). No `tested` evidence; runtime `tested`, capability diff and stale alerts remain future work.
 - **v0.10.2** unify the checker: re-audit the 95 rows still on `dsh-standards@1.6.10` with `1.7.0` (143/143 now 1.7.0; ENTRY stays 141 `recognized` + 2 `failed`), make 1.7.0 the default, and label historical rows by `row.evidence.checker`.
+- **v0.10.3** absorb `dsh-lsp-actions@0.5.21`, `dsh-doublecheck@0.9.32`, `dsh-memento@0.5.31` and `dsh-session-sync@0.3.2`: four `1.7.0` re-audits, all `recognized` (13/14, 0 blocking); declared tracks 5 -> 9; ENTRY/gate unchanged (141 `recognized` + 2 `failed`; 2 blocked / 21 review / 120 pilot).
 - **v1.0** stable schema + CI action + weekly refresh + DOI.
 
 ## License
