@@ -1,5 +1,63 @@
 # Changelog
 
+## 0.10.0 — 2026-11-15
+
+- **The last 24 external `declared` rows are now `checked`: the matrix is
+  143/143 `checked`, 0 `declared`.** All 24 audits used
+  `HCB_CHECKER_VERSION=1.7.0` and `npm_config_registry=https://registry.npmjs.org`
+  (npmmirror lags), host anchor `0.2.2-rc.3`, Node 24.22.1,
+  `--scope entry --entry-claim static`. Total `checked` **119 -> 143**,
+  `declared` **24 -> 0**, `tested` stays **0**. Exactly **24** new
+  `evidence/<pkg>/<version>/0.2.2-rc.3/<stamp>/` directories were written, one
+  per audited row, each with raw report + patch + pack + audit metadata; every
+  report SHA-256 matches both `audit.json` and `patch.json`.
+- Results: **23 `recognized` + 1 `failed`**, 0 ENTRY `blocked`, 0 audit errors.
+  Checker conclusions: 9 `pass`, 14 `warn`, 1 `fail`. Every package exists on
+  npm at the audited version and every `npm pack` succeeded. The failure is a
+  real finding, not an environment error: **`dsh-session-fork@0.4.0`** publishes
+  an `exports["."]` / `main` pointing at `./lib/index.js`, which is **missing
+  from the tarball** (DSC-01 C-1.2, plus DSC-04 C-4); its ENTRY is `failed`
+  and its gate is `blocked`.
+- **Two rows record partial coverage honestly**: `dsh-plugin-shop-catalog@2026.1113.0`
+  and `dsh-plugin-ops-core@0.20.9` ran only **7/14** checks — six runtime
+  checks (`DSC-04..09`) need `--runtime`, and `C-3.5` was not checked, so the
+  report's `entryBlocking.pass` is `false`. The checker still returned `warn`
+  and HCB maps `warn -> recognized` (no blocking bucket); the raw report keeps
+  `notChecked` / `entryBlocking`, and no `static`/`runtime` claim was invented.
+- Warnings recorded, not hidden: **all 24** carry DSC-11 (`dsh.capabilities`
+  absent) and DSC-13 (`dsh.labels` absent); 13 carry DSC-02 (version
+  declaration WARN), 2 carry DSC-03 (install spec / supply chain), 3 carry
+  DSC-12. `DSC-14` and `DSC-04..09` remain outside the static ENTRY scope, so
+  `13/14` is the expected static ceiling (not a perfect score).
+- **Version drift, recorded instead of papered over**: npm `latest` had moved
+  past three matrix rows — `dsh-plugin-compat-check` (row 0.2.4, npm 0.2.5),
+  `dsh-plugin-ops-core` (0.20.9, npm 0.21.1), `dsh-plugin-ops-bundle`
+  (0.20.9, npm 0.21.1). This round audits the **recorded matrix version**, so
+  the evidence matches the row: bumping them is a metadata-refresh round, and
+  `dsh-plugin-compat-check@0.2.5` newly declares `dsh.standards`, which would
+  move the external `declaredTracks` column (0 -> 1) — a data change, not an
+  evidence change, deliberately out of scope here.
+- ENTRY summary: `{recognized:141, failed:2, blocked:0, not-run:0,
+  unknown:0}` (was 118/1/0/0/24). Gate: **2 blocked / 21 review / 120 pilot /
+  0 production-candidate** (was 1/22/120/0); the only movement is
+  `dsh-session-fork` review -> blocked, a direct consequence of its real
+  `failed` ENTRY. Risk and compat are unchanged (3 high / 63 medium / 77
+  unknown; 123 compatible / 20 unknown).
+- 143 rows and their order are unchanged. Coverage structure is unchanged
+  (143/143 covered, 0 missing; each group's `total` / `covered` /
+  `declaredTracks` / `compatDeclared` identical; `engines.dsh` 123/20;
+  `dsh.standards` 5/138). The external gate split moves with the failure
+  (`review 19 -> 18`, `blocked 1 -> 2`). `data/coverage.json` was **not
+  rewritten** (byte-identical; it already predates the v0.8.1+ gate changes).
+  `data/tracks.json` and `data/capabilities.json` were recomputed from the
+  final summary.
+- `data/matrix.v0.10.0.pre-merge.json` is the pre-merge backup (sha256
+  `8c657d06...bd00e6`, 143 rows, evidence `{declared:24, checked:119,
+  tested:0}`). Version files bumped `0.9.0 -> 0.10.0` (`package.json`,
+  `package-lock.json`, `CITATION.cff`).
+- `npm run validate`, `node scripts/coverage.mjs` and `npm test` (10/10) pass.
+  Local only: **no push, no publish**.
+
 ## 0.9.0 — 2026-11-14
 
 - **The dsh-kit family is fully `checked`: 112/112** (34 mainline-default +
