@@ -14,13 +14,13 @@
     "gate": {
       "blocked": 2,
       "review": 31,
-      "pilot": 109,
-      "production-candidate": 1
+      "pilot": 108,
+      "production-candidate": 2
     },
     "standardsDeclared": 21,
     "entry": {
-      "runtime": 12,
-      "recognized": 129,
+      "runtime": 14,
+      "recognized": 127,
       "static": 0,
       "blocked": 0,
       "failed": 2,
@@ -79,21 +79,22 @@
     "latestHost": "0.2.2-rc.3",
     "evidence": {
       "declared": 0,
-      "checked": 131,
-      "tested": 12
+      "checked": 129,
+      "tested": 14
     },
-    "evidenceUpdatedAt": "2026-11-15T13:16:50.423Z"
+    "evidenceUpdatedAt": "2026-11-15T13:36:59.232Z"
   },
   "rows": [
     {
       "name": "dsh-auto-review",
-      "version": "0.15.2",
+      "version": "0.15.3",
       "declaredRange": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
       "rangeValid": true,
       "manifestVersion": 1,
       "capabilities": [
         "network:egress",
-        "sessions:read"
+        "sessions:read",
+        "sessions:write"
       ],
       "repository": "git+https://github.com/PerryLink/dsh-auto-review.git",
       "publishedAt": "2026-11-14T12:53:02.689Z",
@@ -102,7 +103,7 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "recognized",
+          "status": "runtime",
           "evidence": false,
           "declaredStatus": "not-run"
         },
@@ -120,7 +121,8 @@
         "level": "medium",
         "capabilities": [
           "network:egress",
-          "sessions:read"
+          "sessions:read",
+          "sessions:write"
         ],
         "reasons": [
           "medium-capability: network:egress, sessions:read"
@@ -141,23 +143,22 @@
         "0.2.1-rc.1": "declared-compatible"
       },
       "gate": {
-        "decision": "pilot",
+        "decision": "production-candidate",
         "reasons": [
-          "compatible, but unverified",
-          "ENTRY recognized, FLOW manual"
+          "compat + ENTRY runtime + FLOW manual + risk medium"
         ]
       },
       "evidence": {
-        "source": "checked",
-        "checkedAt": "2026-11-15T10:40:58.526Z",
+        "source": "tested",
+        "checkedAt": "2026-11-15T13:35:32.257Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-auto-review/0.15.2/0.2.2-rc.3/2026-11-15T10-40-58-526Z/report.json"
+        "reportPath": "evidence/dsh-auto-review/0.15.3/0.2.2-rc.3/2026-11-15T13-35-32-257Z/report.json"
       }
     },
     {
       "name": "dsh-permission-rules",
-      "version": "0.8.1",
+      "version": "0.8.2",
       "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
       "rangeValid": true,
       "manifestVersion": 1,
@@ -174,7 +175,7 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "recognized",
+          "status": "runtime",
           "evidence": false,
           "note": "Re-audited with dsh-standards@1.7.0 (16-ID capability set, sessions:write); 13/14 checks, 0 blocking, recognized. The earlier 1.6.10 blocked note is superseded.",
           "declaredStatus": "not-run"
@@ -223,11 +224,11 @@
         ]
       },
       "evidence": {
-        "source": "checked",
-        "checkedAt": "2026-11-14T14:31:15.980Z",
+        "source": "tested",
+        "checkedAt": "2026-11-15T13:31:11.190Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-permission-rules/0.8.1/0.2.2-rc.3/2026-11-14T14-31-15-980Z/report.json"
+        "reportPath": "evidence/dsh-permission-rules/0.8.2/0.2.2-rc.3/2026-11-15T13-31-11-190Z/report.json"
       }
     },
     {
@@ -9514,5 +9515,5 @@
     }
   ],
   "schemaVersion": "0.5",
-  "evidenceUpdatedAt": "2026-11-15T13:16:50.423Z"
+  "evidenceUpdatedAt": "2026-11-15T13:36:59.232Z"
 }
