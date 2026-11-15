@@ -1,18 +1,23 @@
 {
-  "generatedAt": "2026-11-14T08:25:14.752Z",
+  "generatedAt": "2026-11-15T11:50:27.650Z",
   "summary": {
     "risk": {
       "low": 0,
-      "medium": 62,
-      "high": 2,
-      "unknown": 79
+      "medium": 66,
+      "high": 12,
+      "unknown": 65
     },
     "capabilities": {
-      "tools:register": 62,
-      "network:egress": 4,
-      "sessions:read": 2,
-      "subprocess": 2,
-      "fs:read": 1
+      "tools:register": 72,
+      "network:egress": 12,
+      "fs:read": 11,
+      "sessions:write": 11,
+      "fs:write": 9,
+      "subprocess": 6,
+      "sessions:read": 5,
+      "system-prompt:write": 5,
+      "network:ingress": 1,
+      "llm:adapter": 1
     }
   }
 }
