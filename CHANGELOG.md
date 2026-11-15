@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.14.0 — 2026-11-15
+
+- **`dsh-auto-review@0.15.3`** now declares `sessions:write`; G0–G3 passed,
+  ENTRY runtime, gate `production-candidate` (ENTRY runtime + FLOW manual +
+  risk medium).
+- **`dsh-permission-rules@0.8.2`** removes the three literal
+  `danger-full-access` values (equality comparison instead; no test deleted);
+  checker passes, G0–G3 passed, ENTRY runtime. Gate stays `review` because of
+  the high-capability surface (`fs:read/fs:write/network:egress/sessions:write`).
+- Summary: 0 declared / 129 checked / 14 tested; ENTRY 14 runtime + 127
+  recognized + 2 failed; gate 2 blocked / 31 review / 108 pilot /
+  **2 production-candidate**.
+
 ## 0.13.0 — 2026-11-15
 
 - Add **5 more `tested` rows** from a second G0–G3 batch:
