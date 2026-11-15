@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.12.0 — 2026-11-15
+
+- Add **6 more `tested` rows** from a G0–G3 batch: `dsh-budget@0.4.26`,
+  `dsh-defend@0.3.28`, `dsh-mask@0.2.25`, `dsh-memento@0.5.31`,
+  `dsh-observe@0.2.28`, `dsh-test-drive@0.3.26`. Each booted a real host
+  (`0.2.2-rc.3`, 1/1 ACTIVE) and passed `DSH-ENTRY runtime`.
+- `dsh-auto-review@0.15.2` and `dsh-permission-rules@0.8.1` also passed
+  G0–G3, but their checker conclusion was `warn` (DSC-11 / DSC-12), so they
+  were **not** written as tested; no false pass.
+- Refresh `dsh-click` to `0.3.30` (published) with its real capabilities;
+  `dsh-mcp-panel` remains on 0.6.31 pending npm 2FA.
+- Summary: 0 declared / 136 checked / 7 tested; ENTRY 7 runtime + 134
+  recognized + 2 failed; gate 2 blocked / 31 review / 109 pilot / 1
+  production-candidate.
+
 ## 0.11.1 — 2026-11-15
 
 - **Absorb 12 published releases and re-check every one.** Each row was
