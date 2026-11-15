@@ -82,7 +82,7 @@
       "checked": 143,
       "tested": 0
     },
-    "evidenceUpdatedAt": "2026-11-15T09:57:00.316Z"
+    "evidenceUpdatedAt": "2026-11-15T10:48:22.279Z"
   },
   "rows": [
     {
@@ -149,10 +149,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:55:27.135Z",
+        "checkedAt": "2026-11-15T10:40:58.526Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-auto-review/0.15.2/0.2.2-rc.3/2026-11-14T13-55-27-135Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-auto-review/0.15.2/0.2.2-rc.3/2026-11-15T10-40-58-526Z/report.json"
       }
     },
     {
@@ -293,10 +293,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:13:07.102Z",
+        "checkedAt": "2026-11-15T10:41:12.847Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-memento/0.5.30/0.2.2-rc.3/2026-11-14T10-13-07-102Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-memento/0.5.30/0.2.2-rc.3/2026-11-15T10-41-12-847Z/report.json"
       }
     },
     {
@@ -356,10 +356,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:13:09.587Z",
+        "checkedAt": "2026-11-15T10:41:18.891Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-research-report/0.4.1/0.2.2-rc.3/2026-11-14T10-13-09-587Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-research-report/0.4.1/0.2.2-rc.3/2026-11-15T10-41-18-891Z/report.json"
       }
     },
     {
@@ -419,10 +419,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:13:12.196Z",
+        "checkedAt": "2026-11-15T10:41:21.636Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-industry-research/0.3.25/0.2.2-rc.3/2026-11-14T10-13-12-196Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-industry-research/0.3.25/0.2.2-rc.3/2026-11-15T10-41-21-636Z/report.json"
       }
     },
     {
@@ -482,10 +482,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:13:13.996Z",
+        "checkedAt": "2026-11-15T10:41:26.117Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-mcp-panel/0.6.31/0.2.2-rc.3/2026-11-14T10-13-13-996Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-mcp-panel/0.6.31/0.2.2-rc.3/2026-11-15T10-41-26-117Z/report.json"
       }
     },
     {
@@ -545,15 +545,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "ENTRY recognized, FLOW not-run"
+          "ENTRY recognized, FLOW manual"
         ]
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:55:39.045Z",
+        "checkedAt": "2026-11-15T10:41:29.163Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-plugin-guide/0.5.9/0.2.2-rc.3/2026-11-14T13-55-39-045Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-plugin-guide/0.5.9/0.2.2-rc.3/2026-11-15T10-41-29-163Z/report.json"
       }
     },
     {
@@ -617,10 +617,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:13:18.103Z",
+        "checkedAt": "2026-11-15T10:41:34.138Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-doublecheck/0.9.31/0.2.2-rc.3/2026-11-14T10-13-18-103Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-doublecheck/0.9.31/0.2.2-rc.3/2026-11-15T10-41-34-138Z/report.json"
       }
     },
     {
@@ -688,10 +688,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:13:23.199Z",
+        "checkedAt": "2026-11-15T10:41:40.972Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-lsp-actions/0.5.20/0.2.2-rc.3/2026-11-14T10-13-23-199Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-lsp-actions/0.5.20/0.2.2-rc.3/2026-11-15T10-41-40-972Z/report.json"
       }
     },
     {
@@ -757,10 +757,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T10:13:25.643Z",
+        "checkedAt": "2026-11-15T10:41:44.498Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-session-sync/0.3.0/0.2.2-rc.3/2026-11-14T10-13-25-643Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-session-sync/0.3.0/0.2.2-rc.3/2026-11-15T10-41-44-498Z/report.json"
       }
     },
     {
@@ -820,10 +820,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:16.888Z",
+        "checkedAt": "2026-11-15T10:41:50.598Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-claude-move/0.4.19/0.2.2-rc.3/2026-11-14T11-18-16-888Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-claude-move/0.4.19/0.2.2-rc.3/2026-11-15T10-41-50-598Z/report.json"
       }
     },
     {
@@ -883,10 +883,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:18.919Z",
+        "checkedAt": "2026-11-15T10:41:53.771Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-checkpoint-rewind/0.6.34/0.2.2-rc.3/2026-11-14T11-18-18-919Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-checkpoint-rewind/0.6.34/0.2.2-rc.3/2026-11-15T10-41-53-771Z/report.json"
       }
     },
     {
@@ -946,10 +946,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:21.209Z",
+        "checkedAt": "2026-11-15T10:41:57.130Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-fund-research/0.5.3/0.2.2-rc.3/2026-11-14T11-18-21-209Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-fund-research/0.5.3/0.2.2-rc.3/2026-11-15T10-41-57-130Z/report.json"
       }
     },
     {
@@ -1008,10 +1008,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:23.508Z",
+        "checkedAt": "2026-11-15T10:42:03.702Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/jevcore/0.4.2/0.2.2-rc.3/2026-11-14T11-18-23-508Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/jevcore/0.4.2/0.2.2-rc.3/2026-11-15T10-42-03-702Z/report.json"
       }
     },
     {
@@ -1070,10 +1070,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:25.705Z",
+        "checkedAt": "2026-11-15T10:42:07.414Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-standards/1.6.12/0.2.2-rc.3/2026-11-14T11-18-25-705Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-standards/1.6.12/0.2.2-rc.3/2026-11-15T10-42-07-414Z/report.json"
       }
     },
     {
@@ -1133,10 +1133,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:27.327Z",
+        "checkedAt": "2026-11-15T10:42:11.116Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-checkers/0.0.1/0.2.2-rc.3/2026-11-14T11-18-27-327Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-checkers/0.0.1/0.2.2-rc.3/2026-11-15T10-42-11-116Z/report.json"
       }
     },
     {
@@ -1200,10 +1200,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:30.124Z",
+        "checkedAt": "2026-11-15T10:42:14.343Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-github-bot/0.8.2/0.2.2-rc.3/2026-11-14T11-18-30-124Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-github-bot/0.8.2/0.2.2-rc.3/2026-11-15T10-42-14-343Z/report.json"
       }
     },
     {
@@ -1263,10 +1263,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:34.562Z",
+        "checkedAt": "2026-11-15T10:42:23.091Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-context/0.84.1/0.2.2-rc.3/2026-11-14T11-18-34-562Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-context/0.84.1/0.2.2-rc.3/2026-11-15T10-42-23-091Z/report.json"
       }
     },
     {
@@ -1326,10 +1326,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:36.396Z",
+        "checkedAt": "2026-11-15T10:42:27.176Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-bili-scroll/2.5.2/0.2.2-rc.3/2026-11-14T11-18-36-396Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-bili-scroll/2.5.2/0.2.2-rc.3/2026-11-15T10-42-27-176Z/report.json"
       }
     },
     {
@@ -1389,10 +1389,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T11:18:38.976Z",
+        "checkedAt": "2026-11-15T10:42:33.190Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-to-figma/0.4.1/0.2.2-rc.3/2026-11-14T11-18-38-976Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-to-figma/0.4.1/0.2.2-rc.3/2026-11-15T10-42-33-190Z/report.json"
       }
     },
     {
@@ -2947,10 +2947,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:03:05.077Z",
+        "checkedAt": "2026-11-15T10:42:36.174Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-autotier/0.2.21/0.2.2-rc.3/2026-11-14T12-03-05-077Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-autotier/0.2.21/0.2.2-rc.3/2026-11-15T10-42-36-174Z/report.json"
       }
     },
     {
@@ -3010,10 +3010,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:03:22.519Z",
+        "checkedAt": "2026-11-15T10:42:39.734Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-budget/0.4.25/0.2.2-rc.3/2026-11-14T12-03-22-519Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-budget/0.4.25/0.2.2-rc.3/2026-11-15T10-42-39-734Z/report.json"
       }
     },
     {
@@ -3073,10 +3073,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:03:26.448Z",
+        "checkedAt": "2026-11-15T10:42:42.642Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-cert-mcp/0.2.13/0.2.2-rc.3/2026-11-14T12-03-26-448Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-cert-mcp/0.2.13/0.2.2-rc.3/2026-11-15T10-42-42-642Z/report.json"
       }
     },
     {
@@ -3136,10 +3136,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:03:32.635Z",
+        "checkedAt": "2026-11-15T10:42:46.603Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-click/0.3.29/0.2.2-rc.3/2026-11-14T12-03-32-635Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-click/0.3.29/0.2.2-rc.3/2026-11-15T10-42-46-603Z/report.json"
       }
     },
     {
@@ -3199,10 +3199,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:03:41.423Z",
+        "checkedAt": "2026-11-15T10:42:49.803Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-composer-history/0.8.16/0.2.2-rc.3/2026-11-14T12-03-41-423Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-composer-history/0.8.16/0.2.2-rc.3/2026-11-15T10-42-49-803Z/report.json"
       }
     },
     {
@@ -3262,10 +3262,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:03:45.390Z",
+        "checkedAt": "2026-11-15T10:42:53.600Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-data-quality/0.3.26/0.2.2-rc.3/2026-11-14T12-03-45-390Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-data-quality/0.3.26/0.2.2-rc.3/2026-11-15T10-42-53-600Z/report.json"
       }
     },
     {
@@ -3325,10 +3325,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:03:48.931Z",
+        "checkedAt": "2026-11-15T10:42:58.071Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-defend/0.3.27/0.2.2-rc.3/2026-11-14T12-03-48-931Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-defend/0.3.27/0.2.2-rc.3/2026-11-15T10-42-58-071Z/report.json"
       }
     },
     {
@@ -3388,10 +3388,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:03:52.804Z",
+        "checkedAt": "2026-11-15T10:43:02.757Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-draw/0.2.26/0.2.2-rc.3/2026-11-14T12-03-52-804Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-draw/0.2.26/0.2.2-rc.3/2026-11-15T10-43-02-757Z/report.json"
       }
     },
     {
@@ -3457,10 +3457,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:04:05.567Z",
+        "checkedAt": "2026-11-15T10:43:05.902Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-fast/0.2.28/0.2.2-rc.3/2026-11-14T12-04-05-567Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-fast/0.2.28/0.2.2-rc.3/2026-11-15T10-43-05-902Z/report.json"
       }
     },
     {
@@ -3520,10 +3520,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:04:16.846Z",
+        "checkedAt": "2026-11-15T10:43:08.932Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-laya/0.1.5/0.2.2-rc.3/2026-11-14T12-04-16-846Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-laya/0.1.5/0.2.2-rc.3/2026-11-15T10-43-08-932Z/report.json"
       }
     },
     {
@@ -3583,10 +3583,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:04:21.936Z",
+        "checkedAt": "2026-11-15T10:43:12.293Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-library/0.3.0/0.2.2-rc.3/2026-11-14T12-04-21-936Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-library/0.3.0/0.2.2-rc.3/2026-11-15T10-43-12-293Z/report.json"
       }
     },
     {
@@ -3646,10 +3646,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:04:30.362Z",
+        "checkedAt": "2026-11-15T10:43:15.857Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-local-ai/0.2.26/0.2.2-rc.3/2026-11-14T12-04-30-362Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-local-ai/0.2.26/0.2.2-rc.3/2026-11-15T10-43-15-857Z/report.json"
       }
     },
     {
@@ -3709,10 +3709,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:05:06.170Z",
+        "checkedAt": "2026-11-15T10:43:18.724Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-mask/0.2.24/0.2.2-rc.3/2026-11-14T12-05-06-170Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-mask/0.2.24/0.2.2-rc.3/2026-11-15T10-43-18-724Z/report.json"
       }
     },
     {
@@ -3772,10 +3772,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:05:16.401Z",
+        "checkedAt": "2026-11-15T10:43:22.843Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-observe/0.2.27/0.2.2-rc.3/2026-11-14T12-05-16-401Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-observe/0.2.27/0.2.2-rc.3/2026-11-15T10-43-22-843Z/report.json"
       }
     },
     {
@@ -3835,10 +3835,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:05:20.650Z",
+        "checkedAt": "2026-11-15T10:43:26.435Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-output-styles/0.8.3/0.2.2-rc.3/2026-11-14T12-05-20-650Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-output-styles/0.8.3/0.2.2-rc.3/2026-11-15T10-43-26-435Z/report.json"
       }
     },
     {
@@ -3898,10 +3898,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:05:31.956Z",
+        "checkedAt": "2026-11-15T10:43:31.295Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-plugin-upgrade/2.2.4/0.2.2-rc.3/2026-11-14T12-05-31-956Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-plugin-upgrade/2.2.4/0.2.2-rc.3/2026-11-15T10-43-31-295Z/report.json"
       }
     },
     {
@@ -3961,10 +3961,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:07:05.587Z",
+        "checkedAt": "2026-11-15T10:43:34.733Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-reach/0.1.24/0.2.2-rc.3/2026-11-14T12-07-05-587Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-reach/0.1.24/0.2.2-rc.3/2026-11-15T10-43-34-733Z/report.json"
       }
     },
     {
@@ -4024,10 +4024,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:07:09.747Z",
+        "checkedAt": "2026-11-15T10:43:40.478Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-score/0.2.28/0.2.2-rc.3/2026-11-14T12-07-09-747Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-score/0.2.28/0.2.2-rc.3/2026-11-15T10-43-40-478Z/report.json"
       }
     },
     {
@@ -4087,10 +4087,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:07:15.321Z",
+        "checkedAt": "2026-11-15T10:43:45.691Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-talk/0.3.29/0.2.2-rc.3/2026-11-14T12-07-15-321Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-talk/0.3.29/0.2.2-rc.3/2026-11-15T10-43-45-691Z/report.json"
       }
     },
     {
@@ -4150,10 +4150,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:07:20.979Z",
+        "checkedAt": "2026-11-15T10:43:48.354Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-test-drive/0.3.25/0.2.2-rc.3/2026-11-14T12-07-20-979Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-test-drive/0.3.25/0.2.2-rc.3/2026-11-15T10-43-48-354Z/report.json"
       }
     },
     {
@@ -4213,10 +4213,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:07:25.830Z",
+        "checkedAt": "2026-11-15T10:43:51.368Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-param-repair/1.0.2/0.2.2-rc.3/2026-11-14T12-07-25-830Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-param-repair/1.0.2/0.2.2-rc.3/2026-11-15T10-43-51-368Z/report.json"
       }
     },
     {
@@ -4280,10 +4280,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:42:49.811Z",
+        "checkedAt": "2026-11-15T10:43:54.523Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-aqua-input-check/0.2.15/0.2.2-rc.3/2026-11-14T12-42-49-811Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-aqua-input-check/0.2.15/0.2.2-rc.3/2026-11-15T10-43-54-523Z/report.json"
       }
     },
     {
@@ -4347,10 +4347,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:48:04.133Z",
+        "checkedAt": "2026-11-15T10:43:58.675Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-archive-check/0.2.12/0.2.2-rc.3/2026-11-14T12-48-04-133Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-archive-check/0.2.12/0.2.2-rc.3/2026-11-15T10-43-58-675Z/report.json"
       }
     },
     {
@@ -4414,10 +4414,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:46:03.566Z",
+        "checkedAt": "2026-11-15T10:44:02.285Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-bid-ca-precheck/0.2.14/0.2.2-rc.3/2026-11-14T12-46-03-566Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-bid-ca-precheck/0.2.14/0.2.2-rc.3/2026-11-15T10-44-02-285Z/report.json"
       }
     },
     {
@@ -4481,10 +4481,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:46:10.349Z",
+        "checkedAt": "2026-11-15T10:44:06.340Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-bid-qual-check/0.2.13/0.2.2-rc.3/2026-11-14T12-46-10-349Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-bid-qual-check/0.2.13/0.2.2-rc.3/2026-11-15T10-44-06-340Z/report.json"
       }
     },
     {
@@ -4548,10 +4548,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:46:16.645Z",
+        "checkedAt": "2026-11-15T10:44:09.468Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-contract-stance/0.2.12/0.2.2-rc.3/2026-11-14T12-46-16-645Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-contract-stance/0.2.12/0.2.2-rc.3/2026-11-15T10-44-09-468Z/report.json"
       }
     },
     {
@@ -4615,10 +4615,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:46:22.485Z",
+        "checkedAt": "2026-11-15T10:44:13.128Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-customs-doc-check/0.2.11/0.2.2-rc.3/2026-11-14T12-46-22-485Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-customs-doc-check/0.2.11/0.2.2-rc.3/2026-11-15T10-44-13-128Z/report.json"
       }
     },
     {
@@ -4682,10 +4682,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:46:28.674Z",
+        "checkedAt": "2026-11-15T10:44:16.712Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-demurrage-ledger/0.2.12/0.2.2-rc.3/2026-11-14T12-46-28-674Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-demurrage-ledger/0.2.12/0.2.2-rc.3/2026-11-15T10-44-16-712Z/report.json"
       }
     },
     {
@@ -4749,10 +4749,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:46:36.149Z",
+        "checkedAt": "2026-11-15T10:44:21.198Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-drill-script-check/0.2.11/0.2.2-rc.3/2026-11-14T12-46-36-149Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-drill-script-check/0.2.11/0.2.2-rc.3/2026-11-15T10-44-21-198Z/report.json"
       }
     },
     {
@@ -4816,10 +4816,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:46:42.623Z",
+        "checkedAt": "2026-11-15T10:44:24.292Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-eia-guide-check/0.2.12/0.2.2-rc.3/2026-11-14T12-46-42-623Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-eia-guide-check/0.2.12/0.2.2-rc.3/2026-11-15T10-44-24-292Z/report.json"
       }
     },
     {
@@ -4883,10 +4883,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:46:48.619Z",
+        "checkedAt": "2026-11-15T10:44:26.941Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-emergency-plan/0.2.11/0.2.2-rc.3/2026-11-14T12-46-48-619Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-emergency-plan/0.2.11/0.2.2-rc.3/2026-11-15T10-44-26-941Z/report.json"
       }
     },
     {
@@ -4946,10 +4946,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:46:58.433Z",
+        "checkedAt": "2026-11-15T10:44:31.903Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-essay-rubric-check/0.2.11/0.2.2-rc.3/2026-11-14T12-46-58-433Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-essay-rubric-check/0.2.11/0.2.2-rc.3/2026-11-15T10-44-31-903Z/report.json"
       }
     },
     {
@@ -5013,10 +5013,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:47:05.625Z",
+        "checkedAt": "2026-11-15T10:44:34.867Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-evidence-check/0.2.14/0.2.2-rc.3/2026-11-14T12-47-05-625Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-evidence-check/0.2.14/0.2.2-rc.3/2026-11-15T10-44-34-867Z/report.json"
       }
     },
     {
@@ -5080,10 +5080,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:47:10.695Z",
+        "checkedAt": "2026-11-15T10:44:37.954Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-export-ctl-check/0.2.14/0.2.2-rc.3/2026-11-14T12-47-10-695Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-export-ctl-check/0.2.14/0.2.2-rc.3/2026-11-15T10-44-37-954Z/report.json"
       }
     },
     {
@@ -5147,10 +5147,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:47:18.109Z",
+        "checkedAt": "2026-11-15T10:44:40.628Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-fmea-table-check/0.2.11/0.2.2-rc.3/2026-11-14T12-47-18-109Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-fmea-table-check/0.2.11/0.2.2-rc.3/2026-11-15T10-44-40-628Z/report.json"
       }
     },
     {
@@ -5214,10 +5214,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:47:24.562Z",
+        "checkedAt": "2026-11-15T10:44:43.900Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-forecast-penalty/0.2.11/0.2.2-rc.3/2026-11-14T12-47-24-562Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-forecast-penalty/0.2.11/0.2.2-rc.3/2026-11-15T10-44-43-900Z/report.json"
       }
     },
     {
@@ -5281,10 +5281,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:47:30.830Z",
+        "checkedAt": "2026-11-15T10:44:47.042Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-gongwen-flow-check/0.2.12/0.2.2-rc.3/2026-11-14T12-47-30-830Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-gongwen-flow-check/0.2.12/0.2.2-rc.3/2026-11-15T10-44-47-042Z/report.json"
       }
     },
     {
@@ -5348,10 +5348,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:47:37.191Z",
+        "checkedAt": "2026-11-15T10:44:49.792Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-gongwen-word-check/0.2.13/0.2.2-rc.3/2026-11-14T12-47-37-191Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-gongwen-word-check/0.2.13/0.2.2-rc.3/2026-11-15T10-44-49-792Z/report.json"
       }
     },
     {
@@ -5415,10 +5415,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:47:42.807Z",
+        "checkedAt": "2026-11-15T10:44:56.876Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-guard-plan-qc/0.2.11/0.2.2-rc.3/2026-11-14T12-47-42-807Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-guard-plan-qc/0.2.11/0.2.2-rc.3/2026-11-15T10-44-56-876Z/report.json"
       }
     },
     {
@@ -5482,10 +5482,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T12:47:49.147Z",
+        "checkedAt": "2026-11-15T10:45:00.300Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-hazchem-check/0.2.14/0.2.2-rc.3/2026-11-14T12-47-49-147Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-hazchem-check/0.2.14/0.2.2-rc.3/2026-11-15T10-45-00-300Z/report.json"
       }
     },
     {
@@ -5549,10 +5549,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:36.071Z",
+        "checkedAt": "2026-11-15T10:45:04.580Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-hazplan-check/0.2.13/0.2.2-rc.3/2026-11-14T13-11-36-071Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-hazplan-check/0.2.13/0.2.2-rc.3/2026-11-15T10-45-04-580Z/report.json"
       }
     },
     {
@@ -5616,10 +5616,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:37.873Z",
+        "checkedAt": "2026-11-15T10:45:09.233Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-hidden-risk-map/0.2.11/0.2.2-rc.3/2026-11-14T13-11-37-873Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-hidden-risk-map/0.2.11/0.2.2-rc.3/2026-11-15T10-45-09-233Z/report.json"
       }
     },
     {
@@ -5683,10 +5683,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:39.778Z",
+        "checkedAt": "2026-11-15T10:45:14.384Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-hs-classify/0.2.13/0.2.2-rc.3/2026-11-14T13-11-39-778Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-hs-classify/0.2.13/0.2.2-rc.3/2026-11-15T10-45-14-384Z/report.json"
       }
     },
     {
@@ -5750,10 +5750,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:42.847Z",
+        "checkedAt": "2026-11-15T10:45:20.329Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-icd-rule-check/0.2.13/0.2.2-rc.3/2026-11-14T13-11-42-847Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-icd-rule-check/0.2.13/0.2.2-rc.3/2026-11-15T10-45-20-329Z/report.json"
       }
     },
     {
@@ -5817,10 +5817,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:44.739Z",
+        "checkedAt": "2026-11-15T10:45:27.414Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-lawcite-adapter/0.2.13/0.2.2-rc.3/2026-11-14T13-11-44-739Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-lawcite-adapter/0.2.13/0.2.2-rc.3/2026-11-15T10-45-27-414Z/report.json"
       }
     },
     {
@@ -5884,10 +5884,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:46.699Z",
+        "checkedAt": "2026-11-15T10:45:32.038Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-lc-doc-check/0.2.12/0.2.2-rc.3/2026-11-14T13-11-46-699Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-lc-doc-check/0.2.12/0.2.2-rc.3/2026-11-15T10-45-32-038Z/report.json"
       }
     },
     {
@@ -5951,10 +5951,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:48.778Z",
+        "checkedAt": "2026-11-15T10:45:37.118Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-learning-gap-check/0.2.11/0.2.2-rc.3/2026-11-14T13-11-48-778Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-learning-gap-check/0.2.11/0.2.2-rc.3/2026-11-15T10-45-37-118Z/report.json"
       }
     },
     {
@@ -6018,10 +6018,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:50.819Z",
+        "checkedAt": "2026-11-15T10:45:44.263Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-medrec-qc/0.2.14/0.2.2-rc.3/2026-11-14T13-11-50-819Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-medrec-qc/0.2.14/0.2.2-rc.3/2026-11-15T10-45-44-263Z/report.json"
       }
     },
     {
@@ -6085,10 +6085,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:52.647Z",
+        "checkedAt": "2026-11-15T10:45:48.833Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-nsfc-form-check/0.2.13/0.2.2-rc.3/2026-11-14T13-11-52-647Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-nsfc-form-check/0.2.13/0.2.2-rc.3/2026-11-15T10-45-48-833Z/report.json"
       }
     },
     {
@@ -6152,10 +6152,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:54.663Z",
+        "checkedAt": "2026-11-15T10:45:53.302Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-nurse-record-check/0.2.14/0.2.2-rc.3/2026-11-14T13-11-54-663Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-nurse-record-check/0.2.14/0.2.2-rc.3/2026-11-15T10-45-53-302Z/report.json"
       }
     },
     {
@@ -6219,10 +6219,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:57.816Z",
+        "checkedAt": "2026-11-15T10:45:59.797Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-origin-rvc-check/0.2.12/0.2.2-rc.3/2026-11-14T13-11-57-816Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-origin-rvc-check/0.2.12/0.2.2-rc.3/2026-11-15T10-45-59-797Z/report.json"
       }
     },
     {
@@ -6286,10 +6286,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:11:59.868Z",
+        "checkedAt": "2026-11-15T10:46:05.713Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-ota-review-check/0.2.13/0.2.2-rc.3/2026-11-14T13-11-59-868Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-ota-review-check/0.2.13/0.2.2-rc.3/2026-11-15T10-46-05-713Z/report.json"
       }
     },
     {
@@ -6353,10 +6353,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:02.068Z",
+        "checkedAt": "2026-11-15T10:46:09.988Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-paper-doc-adapter/0.2.11/0.2.2-rc.3/2026-11-14T13-12-02-068Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-paper-doc-adapter/0.2.11/0.2.2-rc.3/2026-11-15T10-46-09-988Z/report.json"
       }
     },
     {
@@ -6420,10 +6420,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:04.201Z",
+        "checkedAt": "2026-11-15T10:46:14.641Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-permit-report-check/0.2.13/0.2.2-rc.3/2026-11-14T13-12-04-201Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-permit-report-check/0.2.13/0.2.2-rc.3/2026-11-15T10-46-14-641Z/report.json"
       }
     },
     {
@@ -6483,10 +6483,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:06.061Z",
+        "checkedAt": "2026-11-15T10:46:22.425Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-pipeline-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-06-061Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-pipeline-check/0.2.10/0.2.2-rc.3/2026-11-15T10-46-22-425Z/report.json"
       }
     },
     {
@@ -6546,10 +6546,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:08.979Z",
+        "checkedAt": "2026-11-15T10:46:27.255Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-pleading-draft/0.2.12/0.2.2-rc.3/2026-11-14T13-12-08-979Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-pleading-draft/0.2.12/0.2.2-rc.3/2026-11-15T10-46-27-255Z/report.json"
       }
     },
     {
@@ -6609,10 +6609,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:10.883Z",
+        "checkedAt": "2026-11-15T10:46:33.351Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-policy-brief-draft/0.2.12/0.2.2-rc.3/2026-11-14T13-12-10-883Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-policy-brief-draft/0.2.12/0.2.2-rc.3/2026-11-15T10-46-33-351Z/report.json"
       }
     },
     {
@@ -6672,10 +6672,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:13.743Z",
+        "checkedAt": "2026-11-15T10:46:38.415Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-power-loss-split/0.3.0/0.2.2-rc.3/2026-11-14T13-12-13-743Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-power-loss-split/0.3.0/0.2.2-rc.3/2026-11-15T10-46-38-415Z/report.json"
       }
     },
     {
@@ -6735,10 +6735,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:15.920Z",
+        "checkedAt": "2026-11-15T10:46:45.330Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-power-ticket-check/0.2.11/0.2.2-rc.3/2026-11-14T13-12-15-920Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-power-ticket-check/0.2.11/0.2.2-rc.3/2026-11-15T10-46-45-330Z/report.json"
       }
     },
     {
@@ -6802,10 +6802,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:17.959Z",
+        "checkedAt": "2026-11-15T10:46:51.699Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-ppap-check/0.2.11/0.2.2-rc.3/2026-11-14T13-12-17-959Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-ppap-check/0.2.11/0.2.2-rc.3/2026-11-15T10-46-51-699Z/report.json"
       }
     },
     {
@@ -6865,10 +6865,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:19.907Z",
+        "checkedAt": "2026-11-15T10:46:56.345Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-protest-deadline/0.2.12/0.2.2-rc.3/2026-11-14T13-12-19-907Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-protest-deadline/0.2.12/0.2.2-rc.3/2026-11-15T10-46-56-345Z/report.json"
       }
     },
     {
@@ -6928,10 +6928,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:21.870Z",
+        "checkedAt": "2026-11-15T10:47:00.240Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-railway-window/0.2.10/0.2.2-rc.3/2026-11-14T13-12-21-870Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-railway-window/0.2.10/0.2.2-rc.3/2026-11-15T10-47-00-240Z/report.json"
       }
     },
     {
@@ -6991,10 +6991,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:23.983Z",
+        "checkedAt": "2026-11-15T10:47:04.914Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-repair-order-qc/0.2.12/0.2.2-rc.3/2026-11-14T13-12-23-983Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-repair-order-qc/0.2.12/0.2.2-rc.3/2026-11-15T10-47-04-914Z/report.json"
       }
     },
     {
@@ -7054,10 +7054,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:26.827Z",
+        "checkedAt": "2026-11-15T10:47:11.435Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-review-reply-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-26-827Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-review-reply-check/0.2.10/0.2.2-rc.3/2026-11-15T10-47-11-435Z/report.json"
       }
     },
     {
@@ -7117,10 +7117,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:28.891Z",
+        "checkedAt": "2026-11-15T10:47:16.869Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-rulefile-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-28-891Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-rulefile-check/0.2.10/0.2.2-rc.3/2026-11-15T10-47-16-869Z/report.json"
       }
     },
     {
@@ -7180,10 +7180,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:30.824Z",
+        "checkedAt": "2026-11-15T10:47:24.682Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-safety-brief-check/0.2.11/0.2.2-rc.3/2026-11-14T13-12-30-824Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-safety-brief-check/0.2.11/0.2.2-rc.3/2026-11-15T10-47-24-682Z/report.json"
       }
     },
     {
@@ -7243,10 +7243,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:32.951Z",
+        "checkedAt": "2026-11-15T10:47:29.574Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-site-log-check/0.3.2/0.2.2-rc.3/2026-11-14T13-12-32-951Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-site-log-check/0.3.2/0.2.2-rc.3/2026-11-15T10-47-29-574Z/report.json"
       }
     },
     {
@@ -7306,10 +7306,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:34.913Z",
+        "checkedAt": "2026-11-15T10:47:38.649Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-soe-decision-check/0.2.16/0.2.2-rc.3/2026-11-14T13-12-34-913Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-soe-decision-check/0.2.16/0.2.2-rc.3/2026-11-15T10-47-38-649Z/report.json"
       }
     },
     {
@@ -7369,10 +7369,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:37.031Z",
+        "checkedAt": "2026-11-15T10:47:44.937Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-soilwater-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-37-031Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-soilwater-check/0.2.10/0.2.2-rc.3/2026-11-15T10-47-44-937Z/report.json"
       }
     },
     {
@@ -7432,10 +7432,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:39.156Z",
+        "checkedAt": "2026-11-15T10:47:50.227Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-sop-sync-check/0.2.10/0.2.2-rc.3/2026-11-14T13-12-39-156Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-sop-sync-check/0.2.10/0.2.2-rc.3/2026-11-15T10-47-50-227Z/report.json"
       }
     },
     {
@@ -7495,10 +7495,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:43.256Z",
+        "checkedAt": "2026-11-15T10:47:56.238Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-spc-gbt-adapter/0.2.10/0.2.2-rc.3/2026-11-14T13-12-43-256Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-spc-gbt-adapter/0.2.10/0.2.2-rc.3/2026-11-15T10-47-56-238Z/report.json"
       }
     },
     {
@@ -7558,10 +7558,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:46.317Z",
+        "checkedAt": "2026-11-15T10:48:02.950Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-tender-extract/0.2.13/0.2.2-rc.3/2026-11-14T13-12-46-317Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-tender-extract/0.2.13/0.2.2-rc.3/2026-11-15T10-48-02-950Z/report.json"
       }
     },
     {
@@ -7621,10 +7621,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:48.387Z",
+        "checkedAt": "2026-11-15T10:48:08.365Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-tender-matrix/0.2.16/0.2.2-rc.3/2026-11-14T13-12-48-387Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-tender-matrix/0.2.16/0.2.2-rc.3/2026-11-15T10-48-08-365Z/report.json"
       }
     },
     {
@@ -7684,10 +7684,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:51.234Z",
+        "checkedAt": "2026-11-15T10:48:13.391Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-warranty-calc/0.2.12/0.2.2-rc.3/2026-11-14T13-12-51-234Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-warranty-calc/0.2.12/0.2.2-rc.3/2026-11-15T10-48-13-391Z/report.json"
       }
     },
     {
@@ -7751,10 +7751,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:53.067Z",
+        "checkedAt": "2026-11-15T10:48:16.894Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-bid-health-check/0.1.4/0.2.2-rc.3/2026-11-14T13-12-53-067Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-bid-health-check/0.1.4/0.2.2-rc.3/2026-11-15T10-48-16-894Z/report.json"
       }
     },
     {
@@ -7818,10 +7818,10 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-14T13:12:54.828Z",
+        "checkedAt": "2026-11-15T10:48:22.222Z",
         "host": "0.2.2-rc.3",
-        "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-canteen-retention-check/0.2.3/0.2.2-rc.3/2026-11-14T13-12-54-828Z/report.json"
+        "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+        "reportPath": "evidence/dsh-canteen-retention-check/0.2.3/0.2.2-rc.3/2026-11-15T10-48-22-222Z/report.json"
       }
     },
     {
@@ -9365,5 +9365,5 @@
     }
   ],
   "schemaVersion": "0.5",
-  "evidenceUpdatedAt": "2026-11-15T09:57:00.316Z"
+  "evidenceUpdatedAt": "2026-11-15T10:48:22.279Z"
 }
