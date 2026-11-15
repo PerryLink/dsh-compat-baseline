@@ -19,8 +19,8 @@
     },
     "standardsDeclared": 21,
     "entry": {
-      "runtime": 7,
-      "recognized": 134,
+      "runtime": 12,
+      "recognized": 129,
       "static": 0,
       "blocked": 0,
       "failed": 2,
@@ -79,10 +79,10 @@
     "latestHost": "0.2.2-rc.3",
     "evidence": {
       "declared": 0,
-      "checked": 136,
-      "tested": 7
+      "checked": 131,
+      "tested": 12
     },
-    "evidenceUpdatedAt": "2026-11-15T12:29:34.961Z"
+    "evidenceUpdatedAt": "2026-11-15T13:16:50.423Z"
   },
   "rows": [
     {
@@ -598,7 +598,7 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "recognized",
+          "status": "runtime",
           "evidence": false,
           "declaredStatus": "not-run"
         },
@@ -639,15 +639,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "ENTRY recognized, FLOW not-run"
+          "ENTRY runtime, FLOW not-run"
         ]
       },
       "evidence": {
-        "source": "checked",
-        "checkedAt": "2026-11-15T11:18:08.083Z",
+        "source": "tested",
+        "checkedAt": "2026-11-15T13:13:30.398Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-doublecheck/0.9.32/0.2.2-rc.3/2026-11-15T11-18-08-083Z/report.json"
+        "reportPath": "evidence/dsh-doublecheck/0.9.32/0.2.2-rc.3/2026-11-15T13-13-30-398Z/report.json"
       }
     },
     {
@@ -740,7 +740,7 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "recognized",
+          "status": "runtime",
           "evidence": false,
           "declaredStatus": "not-run"
         },
@@ -787,11 +787,11 @@
         ]
       },
       "evidence": {
-        "source": "checked",
-        "checkedAt": "2026-11-15T11:18:19.950Z",
+        "source": "tested",
+        "checkedAt": "2026-11-15T13:13:24.227Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-session-sync/0.3.2/0.2.2-rc.3/2026-11-15T11-18-19-950Z/report.json"
+        "reportPath": "evidence/dsh-session-sync/0.3.2/0.2.2-rc.3/2026-11-15T13-13-24-227Z/report.json"
       }
     },
     {
@@ -818,7 +818,7 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "recognized",
+          "status": "runtime",
           "evidence": false,
           "declaredStatus": "not-run"
         },
@@ -870,11 +870,11 @@
         ]
       },
       "evidence": {
-        "source": "checked",
-        "checkedAt": "2026-11-15T11:49:38.120Z",
+        "source": "tested",
+        "checkedAt": "2026-11-15T13:13:36.097Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-claude-move/0.4.20/0.2.2-rc.3/2026-11-15T11-49-38-120Z/report.json"
+        "reportPath": "evidence/dsh-claude-move/0.4.20/0.2.2-rc.3/2026-11-15T13-13-36-097Z/report.json"
       }
     },
     {
@@ -899,7 +899,7 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "recognized",
+          "status": "runtime",
           "evidence": false,
           "declaredStatus": "not-run"
         },
@@ -949,11 +949,11 @@
         ]
       },
       "evidence": {
-        "source": "checked",
-        "checkedAt": "2026-11-15T11:49:28.794Z",
+        "source": "tested",
+        "checkedAt": "2026-11-15T13:13:33.198Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-checkpoint-rewind/0.6.35/0.2.2-rc.3/2026-11-15T11-49-28-794Z/report.json"
+        "reportPath": "evidence/dsh-checkpoint-rewind/0.6.35/0.2.2-rc.3/2026-11-15T13-13-33-198Z/report.json"
       }
     },
     {
@@ -3325,7 +3325,7 @@
         "schema": "dsh-levels/1",
         "source": "package.json#dsh.standards",
         "entry": {
-          "status": "recognized",
+          "status": "runtime",
           "evidence": false,
           "declaredStatus": "not-run"
         },
@@ -3372,11 +3372,11 @@
         ]
       },
       "evidence": {
-        "source": "checked",
-        "checkedAt": "2026-11-15T11:49:50.358Z",
+        "source": "tested",
+        "checkedAt": "2026-11-15T13:13:39.084Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-data-quality/0.3.27/0.2.2-rc.3/2026-11-15T11-49-50-358Z/report.json"
+        "reportPath": "evidence/dsh-data-quality/0.3.27/0.2.2-rc.3/2026-11-15T13-13-39-084Z/report.json"
       }
     },
     {
@@ -9514,5 +9514,5 @@
     }
   ],
   "schemaVersion": "0.5",
-  "evidenceUpdatedAt": "2026-11-15T12:29:34.961Z"
+  "evidenceUpdatedAt": "2026-11-15T13:16:50.423Z"
 }
