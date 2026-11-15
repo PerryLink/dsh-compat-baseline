@@ -17,7 +17,7 @@
       "pilot": 120,
       "production-candidate": 0
     },
-    "standardsDeclared": 5,
+    "standardsDeclared": 9,
     "entry": {
       "runtime": 0,
       "recognized": 141,
@@ -31,17 +31,17 @@
     "flow": {
       "runtime": 0,
       "manual": 3,
-      "not-run": 2,
+      "not-run": 6,
       "failed": 0,
       "stale": 0,
-      "unknown": 138
+      "unknown": 134
     },
     "boost": {
       "measured": 0,
-      "not-measured": 5,
+      "not-measured": 9,
       "failed": 0,
       "stale": 0,
-      "unknown": 138
+      "unknown": 134
     },
     "risk": {
       "low": 0,
@@ -53,7 +53,7 @@
       "mainline-default": {
         "plugins": 34,
         "compat": 34,
-        "tracks": 5
+        "tracks": 9
       },
       "mainline-opt-in": {
         "plugins": 53,
@@ -82,7 +82,7 @@
       "checked": 143,
       "tested": 0
     },
-    "evidenceUpdatedAt": "2026-11-15T10:48:22.279Z"
+    "evidenceUpdatedAt": "2026-11-15T11:18:20.019Z"
   },
   "rows": [
     {
@@ -232,31 +232,33 @@
     },
     {
       "name": "dsh-memento",
-      "version": "0.5.30",
+      "version": "0.5.31",
       "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
       "rangeValid": true,
       "manifestVersion": 1,
       "capabilities": [
         "network:egress",
-        "tools:register"
+        "tools:register",
+        "sessions:write",
+        "system-prompt:write"
       ],
       "repository": "git+https://github.com/PerryLink/dsh-memento.git",
-      "publishedAt": "2026-11-05T05:23:59.845Z",
-      "downloadsLastWeek": 1618,
+      "publishedAt": "2026-11-15T10:49:22.712Z",
+      "downloadsLastWeek": 1439,
       "standards": {
-        "schema": null,
-        "source": "not-declared",
+        "schema": "dsh-levels/1",
+        "source": "package.json#dsh.standards",
         "entry": {
           "status": "recognized",
           "evidence": false,
-          "declaredStatus": "unknown"
+          "declaredStatus": "not-run"
         },
         "flow": {
-          "status": "unknown",
+          "status": "not-run",
           "evidence": false
         },
         "boost": {
-          "status": "unknown",
+          "status": "not-measured",
           "evidence": false
         }
       },
@@ -264,7 +266,9 @@
         "level": "medium",
         "capabilities": [
           "network:egress",
-          "tools:register"
+          "tools:register",
+          "sessions:write",
+          "system-prompt:write"
         ],
         "reasons": [
           "medium-capability: network:egress, tools:register"
@@ -288,15 +292,15 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "ENTRY recognized, FLOW unknown"
+          "ENTRY recognized, FLOW not-run"
         ]
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-15T10:41:12.847Z",
+        "checkedAt": "2026-11-15T11:18:14.919Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-memento/0.5.30/0.2.2-rc.3/2026-11-15T10-41-12-847Z/report.json"
+        "reportPath": "evidence/dsh-memento/0.5.31/0.2.2-rc.3/2026-11-15T11-18-14-919Z/report.json"
       }
     },
     {
@@ -558,37 +562,39 @@
     },
     {
       "name": "dsh-doublecheck",
-      "version": "0.9.31",
+      "version": "0.9.32",
       "declaredRange": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
       "rangeValid": true,
       "manifestVersion": 1,
       "capabilities": [
-        "tools:register"
+        "tools:register",
+        "sessions:write"
       ],
       "repository": "git+https://github.com/PerryLink/dsh-doublecheck.git",
-      "publishedAt": "2026-11-13T00:47:56.976Z",
-      "downloadsLastWeek": 1832,
+      "publishedAt": "2026-11-15T10:49:34.597Z",
+      "downloadsLastWeek": 2109,
       "standards": {
-        "schema": null,
-        "source": "not-declared",
+        "schema": "dsh-levels/1",
+        "source": "package.json#dsh.standards",
         "entry": {
           "status": "recognized",
           "evidence": false,
-          "declaredStatus": "unknown"
+          "declaredStatus": "not-run"
         },
         "flow": {
-          "status": "unknown",
+          "status": "not-run",
           "evidence": false
         },
         "boost": {
-          "status": "unknown",
+          "status": "not-measured",
           "evidence": false
         }
       },
       "risk": {
         "level": "medium",
         "capabilities": [
-          "tools:register"
+          "tools:register",
+          "sessions:write"
         ],
         "reasons": [
           "medium-capability: tools:register"
@@ -612,20 +618,20 @@
         "decision": "pilot",
         "reasons": [
           "compatible, but unverified",
-          "ENTRY recognized, FLOW unknown"
+          "ENTRY recognized, FLOW not-run"
         ]
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-15T10:41:34.138Z",
+        "checkedAt": "2026-11-15T11:18:08.083Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-doublecheck/0.9.31/0.2.2-rc.3/2026-11-15T10-41-34-138Z/report.json"
+        "reportPath": "evidence/dsh-doublecheck/0.9.32/0.2.2-rc.3/2026-11-15T11-18-08-083Z/report.json"
       }
     },
     {
       "name": "dsh-lsp-actions",
-      "version": "0.5.20",
+      "version": "0.5.21",
       "declaredRange": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
       "rangeValid": true,
       "manifestVersion": 1,
@@ -635,22 +641,22 @@
         "tools:register"
       ],
       "repository": "git+https://github.com/PerryLink/dsh-lsp-actions.git",
-      "publishedAt": "2026-11-13T04:39:48.918Z",
-      "downloadsLastWeek": 2199,
+      "publishedAt": "2026-11-15T10:49:04.608Z",
+      "downloadsLastWeek": 2335,
       "standards": {
-        "schema": null,
-        "source": "not-declared",
+        "schema": "dsh-levels/1",
+        "source": "package.json#dsh.standards",
         "entry": {
           "status": "recognized",
           "evidence": false,
-          "declaredStatus": "unknown"
+          "declaredStatus": "not-run"
         },
         "flow": {
-          "status": "unknown",
+          "status": "not-run",
           "evidence": false
         },
         "boost": {
-          "status": "unknown",
+          "status": "not-measured",
           "evidence": false
         }
       },
@@ -688,39 +694,41 @@
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-15T10:41:40.972Z",
+        "checkedAt": "2026-11-15T11:18:00.364Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-lsp-actions/0.5.20/0.2.2-rc.3/2026-11-15T10-41-40-972Z/report.json"
+        "reportPath": "evidence/dsh-lsp-actions/0.5.21/0.2.2-rc.3/2026-11-15T11-18-00-364Z/report.json"
       }
     },
     {
       "name": "dsh-session-sync",
-      "version": "0.3.0",
+      "version": "0.3.2",
       "declaredRange": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
       "rangeValid": true,
       "manifestVersion": 1,
       "capabilities": [
         "network:egress",
-        "subprocess"
+        "subprocess",
+        "sessions:read",
+        "sessions:write"
       ],
       "repository": "git+https://github.com/PerryLink/dsh-session-sync.git",
-      "publishedAt": "2026-11-13T04:56:26.657Z",
-      "downloadsLastWeek": 1011,
+      "publishedAt": "2026-11-15T10:52:22.630Z",
+      "downloadsLastWeek": 1353,
       "standards": {
-        "schema": null,
-        "source": "not-declared",
+        "schema": "dsh-levels/1",
+        "source": "package.json#dsh.standards",
         "entry": {
           "status": "recognized",
           "evidence": false,
-          "declaredStatus": "unknown"
+          "declaredStatus": "not-run"
         },
         "flow": {
-          "status": "unknown",
+          "status": "not-run",
           "evidence": false
         },
         "boost": {
-          "status": "unknown",
+          "status": "not-measured",
           "evidence": false
         }
       },
@@ -728,11 +736,13 @@
         "level": "high",
         "capabilities": [
           "network:egress",
-          "subprocess"
+          "subprocess",
+          "sessions:read",
+          "sessions:write"
         ],
         "reasons": [
           "high-capability: subprocess",
-          "medium-capability: network:egress"
+          "medium-capability: network:egress, sessions:read"
         ]
       },
       "scope": "family",
@@ -752,15 +762,15 @@
       "gate": {
         "decision": "review",
         "reasons": [
-          "high-capability surface: network:egress, subprocess"
+          "high-capability surface: network:egress, subprocess, sessions:read, sessions:write"
         ]
       },
       "evidence": {
         "source": "checked",
-        "checkedAt": "2026-11-15T10:41:44.498Z",
+        "checkedAt": "2026-11-15T11:18:19.950Z",
         "host": "0.2.2-rc.3",
         "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
-        "reportPath": "evidence/dsh-session-sync/0.3.0/0.2.2-rc.3/2026-11-15T10-41-44-498Z/report.json"
+        "reportPath": "evidence/dsh-session-sync/0.3.2/0.2.2-rc.3/2026-11-15T11-18-19-950Z/report.json"
       }
     },
     {
@@ -9365,5 +9375,5 @@
     }
   ],
   "schemaVersion": "0.5",
-  "evidenceUpdatedAt": "2026-11-15T10:48:22.279Z"
+  "evidenceUpdatedAt": "2026-11-15T11:18:20.019Z"
 }
