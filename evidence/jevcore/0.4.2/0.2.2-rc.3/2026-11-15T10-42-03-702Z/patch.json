@@ -1,0 +1,305 @@
+{
+  "schema": "hcb-evidence-patch/1",
+  "createdAt": "2026-11-15T10:42:03.702Z",
+  "package": "jevcore",
+  "version": "0.4.2",
+  "host": "0.2.2-rc.3",
+  "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+  "entryStatus": "recognized",
+  "checkerStatus": "warn",
+  "checkerLevel": "DSH-ENTRY recognized (warnings)",
+  "exitCode": 0,
+  "rowFound": true,
+  "reportPath": "evidence/jevcore/0.4.2/0.2.2-rc.3/2026-11-15T10-42-03-702Z/report.json",
+  "reportSha256": "d2b03e5509aa08b687c99fe6dd239ced51bd5cd4601df52c0c9a305788f13a34",
+  "evidence": {
+    "source": "checked",
+    "checkedAt": "2026-11-15T10:42:03.702Z",
+    "host": "0.2.2-rc.3",
+    "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+    "reportPath": "evidence/jevcore/0.4.2/0.2.2-rc.3/2026-11-15T10-42-03-702Z/report.json"
+  },
+  "command": [
+    "npx",
+    "-y",
+    "dsh-standards@1.7.0",
+    "/tmp/hcb-audit-eHX1cc/unpacked",
+    "--scope",
+    "entry",
+    "--entry-claim",
+    "static",
+    "--format",
+    "json",
+    "--host-version",
+    "0.2.2-rc.3",
+    "--install-spec",
+    "jevcore@0.4.2"
+  ],
+  "reproduce": [
+    "npm pack jevcore@0.4.2",
+    "tar -xzf jevcore-0.4.2.tgz -C ./unpacked --strip-components=1",
+    "npx -y dsh-standards@1.7.0 ./unpacked --scope entry --entry-claim static --format json --host-version 0.2.2-rc.3 --install-spec jevcore@0.4.2"
+  ],
+  "artifact": {
+    "filename": "jevcore-0.4.2.tgz",
+    "shasum": "35ca60e85647e2d053239b3c6d58d1b7d657da96",
+    "integrity": "sha512-8VIWQVmVVpo9qUH5QjNQ3jQ0d7J8KHqOISofc3lsTW6e1PcWx0xR++spOjsEWMvzRuCjTfhp9D0iiiQ+LVOpMw==",
+    "unpackedSize": 1182470,
+    "entryCount": 146
+  },
+  "before": {
+    "version": "0.4.2",
+    "standardsEntry": {
+      "status": "recognized",
+      "evidence": false,
+      "declaredStatus": "unknown"
+    },
+    "evidence": {
+      "source": "checked",
+      "checkedAt": "2026-11-14T11:18:23.508Z",
+      "host": "0.2.2-rc.3",
+      "checker": "dsh-standards@1.6.10 (dsh-plugin-verify@0.1.0)",
+      "reportPath": "evidence/jevcore/0.4.2/0.2.2-rc.3/2026-11-14T11-18-23-508Z/report.json"
+    },
+    "gate": {
+      "decision": "review",
+      "reasons": [
+        "no declared DSH range"
+      ]
+    }
+  },
+  "after": {
+    "version": "0.4.2",
+    "standardsEntry": {
+      "status": "recognized",
+      "evidence": false,
+      "declaredStatus": "unknown"
+    },
+    "evidence": {
+      "source": "checked",
+      "checkedAt": "2026-11-15T10:42:03.702Z",
+      "host": "0.2.2-rc.3",
+      "checker": "dsh-standards@1.7.0 (dsh-plugin-verify@0.1.0)",
+      "reportPath": "evidence/jevcore/0.4.2/0.2.2-rc.3/2026-11-15T10-42-03-702Z/report.json"
+    }
+  },
+  "report": {
+    "headline": "entry/package · runtime 0.2.2-rc.3 host · blocking 0 (prereq 5/6) · hygiene 4 · partial 0 · not checked 7/14",
+    "reason": "WARN: DSC-01, DSC-02; advisory: DSC-11, DSC-13",
+    "level": "DSH-ENTRY recognized (warnings)",
+    "status": "warn",
+    "coverage": {
+      "total": 14,
+      "mandatory": 5,
+      "checked": 7,
+      "pass": 3,
+      "warn": 4,
+      "advisory": 2,
+      "fail": 0,
+      "na": 1,
+      "notRun": 6,
+      "partial": 0,
+      "error": 6,
+      "entryBlocking": {
+        "required": 6,
+        "checked": [
+          "C-1.1",
+          "C-1.2",
+          "C-1.4",
+          "C-3.1",
+          "C-3.2"
+        ],
+        "notChecked": [
+          "C-3.5"
+        ],
+        "failed": [],
+        "pass": false
+      }
+    },
+    "buckets": {
+      "blocking": [],
+      "hygiene": [
+        {
+          "id": "DSC-01",
+          "clause": "C-1",
+          "result": "WARN",
+          "coverage": "full",
+          "reason": "C-1.3: no apply/default-class shape found by static scan; L1 is authoritative",
+          "declaration": false,
+          "advisory": false
+        },
+        {
+          "id": "DSC-02",
+          "clause": "C-2",
+          "result": "WARN",
+          "coverage": "full",
+          "reason": "entry static claim: version declaration is WARN, not blocking",
+          "declaration": false,
+          "advisory": false
+        },
+        {
+          "id": "DSC-11",
+          "clause": "C-11",
+          "result": "WARN",
+          "coverage": "full",
+          "reason": "C-11.1: dsh.capabilities is not declared (transitional WARN; host does not read it yet)",
+          "declaration": true,
+          "advisory": true
+        },
+        {
+          "id": "DSC-13",
+          "clause": "C-13",
+          "result": "WARN",
+          "coverage": "full",
+          "reason": "C-13.1: dsh.labels is not declared | C-13.2: dsh.capabilities is absent; trigger-to-label mapping cannot be evaluated",
+          "declaration": true,
+          "advisory": true
+        }
+      ]
+    },
+    "checks": [
+      {
+        "id": "DSC-01",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "C-1.3: no apply/default-class shape found by static scan; L1 is authoritative"
+      },
+      {
+        "id": "DSC-02",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "entry static claim: version declaration is WARN, not blocking"
+      },
+      {
+        "id": "DSC-03",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": ""
+      },
+      {
+        "id": "DSC-04",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-05",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-06",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-07",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-08",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-09",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run"
+      },
+      {
+        "id": "DSC-14",
+        "result": "NA",
+        "coverage": "not-run",
+        "reason": "entry static claim: no runtime evidence"
+      },
+      {
+        "id": "DSC-10",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": ""
+      },
+      {
+        "id": "DSC-11",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "C-11.1: dsh.capabilities is not declared (transitional WARN; host does not read it yet)"
+      },
+      {
+        "id": "DSC-12",
+        "result": "PASS",
+        "coverage": "full",
+        "reason": ""
+      },
+      {
+        "id": "DSC-13",
+        "result": "WARN",
+        "coverage": "full",
+        "reason": "C-13.1: dsh.labels is not declared | C-13.2: dsh.capabilities is absent; trigger-to-label mapping cannot be evaluated"
+      }
+    ],
+    "notChecked": [
+      {
+        "id": "DSC-04",
+        "clause": "C-4",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-05",
+        "clause": "C-5",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-06",
+        "clause": "C-6",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-07",
+        "clause": "C-7",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-08",
+        "clause": "C-8",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-09",
+        "clause": "C-9",
+        "result": "ERROR",
+        "coverage": "not-run",
+        "reason": "no --runtime supplied; L1-L3 not run",
+        "howToEnable": "pass --runtime <path> (plugin L1-L3) or --host <dir> (bundle G0-G3); do not use --no-exec"
+      },
+      {
+        "id": "DSC-14",
+        "clause": "C-14",
+        "result": "NA",
+        "coverage": "not-run",
+        "reason": "entry static claim: no runtime evidence",
+        "howToEnable": "pass --host <app-boot/lib/index.js> for bundle G0-G3, or --runtime <path> for a plugin; omit --no-exec and --entry-claim static"
+      }
+    ]
+  }
+}
