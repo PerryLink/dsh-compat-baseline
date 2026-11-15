@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.10.1 — 2026-11-15
+
+- Add FLOW `manual` evidence for `dsh-plugin-guide@0.5.9` (J5 negation-filtered
+  disclosure, J7 live-inventory substitute, J8 headless + web HTTP 200; J3
+  not-run because the plugin exposes no config schema). `manual` is not
+  `runtime`.
+- FLOW summary: **3 manual / 2 not-run / 138 unknown**; gate unchanged
+  (2 blocked / 21 review / 120 pilot / 0 production-candidate).
+
 ## 0.10.0 — 2026-11-15
 
 - **The last 24 external `declared` rows are now `checked`: the matrix is
