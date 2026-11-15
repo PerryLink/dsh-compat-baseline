@@ -30,8 +30,8 @@
     },
     "flow": {
       "runtime": 0,
-      "manual": 2,
-      "not-run": 3,
+      "manual": 3,
+      "not-run": 2,
       "failed": 0,
       "stale": 0,
       "unknown": 138
@@ -82,7 +82,7 @@
       "checked": 143,
       "tested": 0
     },
-    "evidenceUpdatedAt": "2026-11-15T01:38:25.069Z"
+    "evidenceUpdatedAt": "2026-11-15T09:57:00.316Z"
   },
   "rows": [
     {
@@ -509,8 +509,9 @@
           "declaredStatus": "not-run"
         },
         "flow": {
-          "status": "not-run",
-          "evidence": false
+          "status": "manual",
+          "evidence": true,
+          "note": "DSH-FLOW manual per flow-harness J3/J5/J7/J8 on host 0.2.2-rc.3: J3 not-run (plugin exposes no config schema / enabled field, per FLOW applicability rule); J5 manual (negation-filtered disclosure, no fail); J7 manual (host has no name@version startup line; live inventory substitute per issue #9); J8 manual (headless + web HTTP 200; browser/console not run). No runtime claim. Evidence: deepseek-community-hub/artifacts/flow-harness.md."
         },
         "boost": {
           "status": "not-measured",
@@ -9364,5 +9365,5 @@
     }
   ],
   "schemaVersion": "0.5",
-  "evidenceUpdatedAt": "2026-11-15T01:38:25.069Z"
+  "evidenceUpdatedAt": "2026-11-15T09:57:00.316Z"
 }
