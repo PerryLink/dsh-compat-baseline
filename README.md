@@ -1,3 +1,24 @@
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-hcb-hero-en-dark.webp">
+  <img src="docs/assets/dsh-hcb-hero-en-light.webp" width="100%" alt="dsh-hcb: the matrix row for dsh-auto-review@0.15.3 at host 0.2.2-rc.3 — compat declared-compatible, tracks ENTRY=runtime FLOW=manual, tested evidence, risk medium, gate production-candidate — with the three tracks and three evidence levels on the right">
+</picture>
+
+# HCB — Host Compatibility Baseline for DeepSeek Harness plugins
+
+**Declared compatibility + declared adoption tracks, with an explicit `declared / checked / tested` evidence layer.**
+
+*Not a score, not a certification, and not a runtime guarantee. Independent community project — not affiliated with DeepSeek.*
+
+[简体中文](README-zh.md) · [Español](README-es.md) · [Português](README-pt.md) · [हिन्दी](README-hi.md)
+
+[![self-check](https://github.com/PerryLink/dsh-hcb/actions/workflows/self-check.yml/badge.svg)](https://github.com/PerryLink/dsh-hcb/actions/workflows/self-check.yml)
+[![npm](https://img.shields.io/npm/v/dsh-hcb.svg)](https://www.npmjs.com/package/dsh-hcb)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+</div>
+
 > **HCB is the data/gate subproject of [dsh-standards](https://github.com/PerryLink/dsh-standards).**
 > Rules, checker and ENTRY/FLOW/BOOST definitions live in dsh-standards. This repo holds the compatibility matrix, tracks data, the v0.5 evidence layer, risk and `hcb-gate/1`.
 > Independent community project. **Not affiliated with DeepSeek.**
@@ -8,13 +29,6 @@
 npx dsh-hcb check dsh-auto-review
 ```
 
-# HCB — Host Compatibility Baseline for DeepSeek Harness plugins
-
-> **Declared** compatibility + **declared** adoption tracks, with an explicit
-> `declared / checked / tested` evidence layer. Not a score, not a certification,
-> and not a runtime guarantee.
-> Independent community project. **Not affiliated with DeepSeek.**
-
 DSH ships fast and breaks compatibility often. Plugin authors and enterprise buyers have no single place to answer:
 
 - Which DSH versions does this plugin *declare* support?
@@ -24,6 +38,8 @@ DSH ships fast and breaks compatibility often. Plugin authors and enterprise buy
 - Is it ready to pilot, or does it need review first?
 
 HCB answers these from package metadata (`engines.dsh`, `peerDependencies`, `dsh.capabilities`, `dsh.standards`), DSH GitHub releases, and — for rows that have been audited — a stored checker report.
+
+---
 
 ## Three tracks, not three levels
 
@@ -36,6 +52,14 @@ HCB follows the [dsh-standards](https://github.com/PerryLink/dsh-standards) mode
 | **DSH-BOOST** | does it use Cordis natively and efficiently? | LEV-1–8 | measured / not-measured / failed / stale |
 
 Rules: **a skip is not a pass**; `static` is not `runtime`; **BOOST is not a gate**; compatibility is a claim by the package author, not a test result. See [docs/TRACKS.md](docs/TRACKS.md).
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-hcb-flow-v5-dark.svg">
+  <img src="docs/assets/dsh-hcb-flow-v5-light.svg" width="100%" alt="dsh-hcb structure: npm metadata and DSH release data are collected into the matrix, a static tarball audit from dsh-standards produces an evidence patch, ENTRY/FLOW/BOOST stay independent tracks, and the hcb-gate/1 decision is derived from compatibility and risk; declared/checked/tested is the evidence layer">
+</picture>
+
+*Structure: collect → audit → gate; `data/matrix.json` is the source, `row.evidence.checker` labels every audit, and declared/checked/tested are the three evidence levels — a skip is not a pass and static is not runtime. The token labels inside the diagram are the real file, script and track names, so the same picture serves all five languages.*
 
 ## What is in v0.14.0 (schema v0.5)
 
@@ -103,6 +127,10 @@ HCB is measured against the canonical `dsh-kit` family roster (112 packages), no
 Run `npm run coverage` to reproduce; the matrix-derived output is authoritative (the committed `data/coverage.json` is a historical snapshot).
 
 ## CLI
+
+![dsh-hcb: a real run of the checked-in CLI — the dsh-auto-review row resolves to declared-compatible, ENTRY=runtime FLOW=manual, tested evidence and a production-candidate gate, then coverage prints the 143-row matrix grouped by roster group](docs/assets/dsh-hcb-demo.gif)
+
+*Animated: the checked-in scripts' real output over the committed matrix (`node scripts/hcb-cli.mjs check dsh-auto-review`, then `node scripts/coverage.mjs`; re-run 2026-11-21, no network). Every number is read from `data/matrix.json` by the scripts, not typed into the README.*
 
 ```bash
 node scripts/hcb-cli.mjs check dsh-auto-review
