@@ -1,0 +1,469 @@
+{
+  "id": "dsh-local-ai@0.2.27",
+  "name": "dsh-local-ai",
+  "version": "0.2.27",
+  "size": 164159,
+  "unpackedSize": 677827,
+  "shasum": "8151fbb50a3188cb17306f7dd5422396ad4086e8",
+  "integrity": "sha512-xBQZcYZYvwPLHIpx6dFKjRIS6vJRrdnIZaWxX8lqivu3hNh2EJ6PxBlDSewqaxidsI8JeK1eVLPvmKwF7d3NCQ==",
+  "filename": "dsh-local-ai-0.2.27.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 22328,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 31197,
+      "mode": 493
+    },
+    {
+      "path": "README.es.md",
+      "size": 33513,
+      "mode": 493
+    },
+    {
+      "path": "README.hi.md",
+      "size": 49266,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 30278,
+      "mode": 493
+    },
+    {
+      "path": "README.pt.md",
+      "size": 33346,
+      "mode": 493
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1530,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 2838,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.js",
+      "size": 85313,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/adapter.d.ts",
+      "size": 3294,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/adapter.d.ts.map",
+      "size": 1203,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/adapter.js",
+      "size": 13519,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/adapter.js.map",
+      "size": 7788,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/call-id.d.ts",
+      "size": 567,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/call-id.d.ts.map",
+      "size": 301,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/call-id.js",
+      "size": 424,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/call-id.js.map",
+      "size": 200,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 7154,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 3456,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.js",
+      "size": 11116,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.js.map",
+      "size": 9232,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/health.d.ts",
+      "size": 2893,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/health.d.ts.map",
+      "size": 1212,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/health.js",
+      "size": 3758,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/health.js.map",
+      "size": 2493,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 2705,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 1147,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.js",
+      "size": 12809,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.js.map",
+      "size": 11321,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/legacy-blocks.d.ts",
+      "size": 2233,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/legacy-blocks.d.ts.map",
+      "size": 433,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/legacy-blocks.js",
+      "size": 2218,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/legacy-blocks.js.map",
+      "size": 573,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ollama.d.ts",
+      "size": 4894,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ollama.d.ts.map",
+      "size": 3093,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ollama.js",
+      "size": 7674,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ollama.js.map",
+      "size": 6445,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-adapter.d.ts",
+      "size": 1989,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-adapter.d.ts.map",
+      "size": 903,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-adapter.js",
+      "size": 8353,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-adapter.js.map",
+      "size": 4511,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-serialize.d.ts",
+      "size": 3087,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-serialize.d.ts.map",
+      "size": 1114,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-serialize.js",
+      "size": 7210,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-serialize.js.map",
+      "size": 4410,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-translate.d.ts",
+      "size": 2199,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-translate.d.ts.map",
+      "size": 1004,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-translate.js",
+      "size": 7253,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai-translate.js.map",
+      "size": 5798,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai.d.ts",
+      "size": 1778,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai.d.ts.map",
+      "size": 663,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai.js",
+      "size": 4542,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/openai.js.map",
+      "size": 3494,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/route.d.ts",
+      "size": 4255,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/route.d.ts.map",
+      "size": 1203,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/route.js",
+      "size": 7353,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/route.js.map",
+      "size": 3756,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/sanitize.d.ts",
+      "size": 2837,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/sanitize.d.ts.map",
+      "size": 666,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/sanitize.js",
+      "size": 4499,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/sanitize.js.map",
+      "size": 2369,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/serialize.d.ts",
+      "size": 3898,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/serialize.d.ts.map",
+      "size": 1313,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/serialize.js",
+      "size": 9756,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/serialize.js.map",
+      "size": 6457,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/translate.d.ts",
+      "size": 3259,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/translate.d.ts.map",
+      "size": 1053,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/translate.js",
+      "size": 10383,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/translate.js.map",
+      "size": 7244,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/version.d.ts",
+      "size": 239,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/version.d.ts.map",
+      "size": 152,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/version.js",
+      "size": 229,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/version.js.map",
+      "size": 160,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 6611,
+      "mode": 493
+    },
+    {
+      "path": "src/adapter.ts",
+      "size": 11305,
+      "mode": 493
+    },
+    {
+      "path": "src/call-id.ts",
+      "size": 557,
+      "mode": 493
+    },
+    {
+      "path": "src/config.ts",
+      "size": 15167,
+      "mode": 493
+    },
+    {
+      "path": "src/health.ts",
+      "size": 4489,
+      "mode": 493
+    },
+    {
+      "path": "src/index.ts",
+      "size": 13733,
+      "mode": 493
+    },
+    {
+      "path": "src/legacy-blocks.ts",
+      "size": 2700,
+      "mode": 493
+    },
+    {
+      "path": "src/ollama.ts",
+      "size": 9459,
+      "mode": 493
+    },
+    {
+      "path": "src/openai-adapter.ts",
+      "size": 5971,
+      "mode": 493
+    },
+    {
+      "path": "src/openai-serialize.ts",
+      "size": 7878,
+      "mode": 493
+    },
+    {
+      "path": "src/openai-translate.ts",
+      "size": 7485,
+      "mode": 493
+    },
+    {
+      "path": "src/openai.ts",
+      "size": 4765,
+      "mode": 493
+    },
+    {
+      "path": "src/route.ts",
+      "size": 7715,
+      "mode": 493
+    },
+    {
+      "path": "src/sanitize.ts",
+      "size": 4439,
+      "mode": 493
+    },
+    {
+      "path": "src/serialize.ts",
+      "size": 10594,
+      "mode": 493
+    },
+    {
+      "path": "src/translate.ts",
+      "size": 10256,
+      "mode": 493
+    },
+    {
+      "path": "src/version.ts",
+      "size": 193,
+      "mode": 493
+    }
+  ],
+  "entryCount": 91,
+  "bundled": []
+}

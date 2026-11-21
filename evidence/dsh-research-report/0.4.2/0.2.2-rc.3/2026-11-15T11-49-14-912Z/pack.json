@@ -1,0 +1,479 @@
+{
+  "id": "dsh-research-report@0.4.2",
+  "name": "dsh-research-report",
+  "version": "0.4.2",
+  "size": 223489,
+  "unpackedSize": 918203,
+  "shasum": "41975bc431ee0f878ab58b84a48fcfb6c758d9af",
+  "integrity": "sha512-MH2f0wFF2zXp8mgRgqEU8R0fYW+9j6/2tJstkfysEHQOiNDmSrU4c1eqYp0ipwViz+kGkTkSF6uCfCvCR0Aqag==",
+  "filename": "dsh-research-report-0.4.2.tgz",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 31543,
+      "mode": 493
+    },
+    {
+      "path": "LICENSE",
+      "size": 11357,
+      "mode": 493
+    },
+    {
+      "path": "README.en.md",
+      "size": 36482,
+      "mode": 493
+    },
+    {
+      "path": "README.es.md",
+      "size": 38963,
+      "mode": 493
+    },
+    {
+      "path": "README.hi.md",
+      "size": 58646,
+      "mode": 493
+    },
+    {
+      "path": "README.md",
+      "size": 34659,
+      "mode": 493
+    },
+    {
+      "path": "README.pt.md",
+      "size": 38470,
+      "mode": 493
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1560,
+      "mode": 493
+    },
+    {
+      "path": "cordis.patch.yml",
+      "size": 1440,
+      "mode": 493
+    },
+    {
+      "path": "lib/cli.js",
+      "size": 3972,
+      "mode": 493
+    },
+    {
+      "path": "lib/index.js",
+      "size": 91672,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/assemble.d.ts",
+      "size": 8994,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/assemble.d.ts.map",
+      "size": 3776,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/assemble.js",
+      "size": 13587,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/assemble.js.map",
+      "size": 10422,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/cli.d.ts",
+      "size": 586,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/cli.d.ts.map",
+      "size": 122,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/cli.js",
+      "size": 4594,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/cli.js.map",
+      "size": 3928,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.d.ts",
+      "size": 2874,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.d.ts.map",
+      "size": 1041,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.js",
+      "size": 2924,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/config.js.map",
+      "size": 2004,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/doi.d.ts",
+      "size": 1570,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/doi.d.ts.map",
+      "size": 494,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/doi.js",
+      "size": 3072,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/doi.js.map",
+      "size": 1766,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/gather.d.ts",
+      "size": 5242,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/gather.d.ts.map",
+      "size": 2215,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/gather.js",
+      "size": 7563,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/gather.js.map",
+      "size": 5530,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.d.ts",
+      "size": 3970,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.d.ts.map",
+      "size": 1956,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.js",
+      "size": 5102,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/index.js.map",
+      "size": 2493,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ledger.d.ts",
+      "size": 7761,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ledger.d.ts.map",
+      "size": 3429,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ledger.js",
+      "size": 12022,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/ledger.js.map",
+      "size": 8489,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/provider-local.d.ts",
+      "size": 9650,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/provider-local.d.ts.map",
+      "size": 2849,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/provider-local.js",
+      "size": 38689,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/provider-local.js.map",
+      "size": 26370,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/service.d.ts",
+      "size": 15299,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/service.d.ts.map",
+      "size": 5423,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/service.js",
+      "size": 2466,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/service.js.map",
+      "size": 320,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/evidence-add.d.ts",
+      "size": 1249,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/evidence-add.d.ts.map",
+      "size": 697,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/evidence-add.js",
+      "size": 6577,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/evidence-add.js.map",
+      "size": 4073,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/ledger-query.d.ts",
+      "size": 1459,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/ledger-query.d.ts.map",
+      "size": 874,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/ledger-query.js",
+      "size": 7280,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/ledger-query.js.map",
+      "size": 6015,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/research-report.d.ts",
+      "size": 2466,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/research-report.d.ts.map",
+      "size": 1517,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/research-report.js",
+      "size": 16390,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/research-report.js.map",
+      "size": 11985,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/research-trail.d.ts",
+      "size": 2246,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/research-trail.d.ts.map",
+      "size": 1506,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/research-trail.js",
+      "size": 6848,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/tools/research-trail.js.map",
+      "size": 5889,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/verify-sealed.d.ts",
+      "size": 6198,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/verify-sealed.d.ts.map",
+      "size": 2340,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/verify-sealed.js",
+      "size": 11257,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/verify-sealed.js.map",
+      "size": 7704,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/verify.d.ts",
+      "size": 5517,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/verify.d.ts.map",
+      "size": 1919,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/verify.js",
+      "size": 9357,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/verify.js.map",
+      "size": 6094,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/version.d.ts",
+      "size": 245,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/version.d.ts.map",
+      "size": 165,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/version.js",
+      "size": 235,
+      "mode": 493
+    },
+    {
+      "path": "lib/types/version.js.map",
+      "size": 173,
+      "mode": 493
+    },
+    {
+      "path": "lib/verify-sealed-BHAE-3Zw.js",
+      "size": 27069,
+      "mode": 493
+    },
+    {
+      "path": "package.json",
+      "size": 6457,
+      "mode": 493
+    },
+    {
+      "path": "src/assemble.ts",
+      "size": 16821,
+      "mode": 493
+    },
+    {
+      "path": "src/cli.ts",
+      "size": 4811,
+      "mode": 493
+    },
+    {
+      "path": "src/config.ts",
+      "size": 4857,
+      "mode": 493
+    },
+    {
+      "path": "src/doi.ts",
+      "size": 3118,
+      "mode": 493
+    },
+    {
+      "path": "src/gather.ts",
+      "size": 9464,
+      "mode": 493
+    },
+    {
+      "path": "src/index.ts",
+      "size": 6286,
+      "mode": 493
+    },
+    {
+      "path": "src/ledger.ts",
+      "size": 14275,
+      "mode": 493
+    },
+    {
+      "path": "src/provider-local.ts",
+      "size": 39071,
+      "mode": 493
+    },
+    {
+      "path": "src/service.ts",
+      "size": 15243,
+      "mode": 493
+    },
+    {
+      "path": "src/tools/evidence-add.ts",
+      "size": 6312,
+      "mode": 493
+    },
+    {
+      "path": "src/tools/ledger-query.ts",
+      "size": 7363,
+      "mode": 493
+    },
+    {
+      "path": "src/tools/research-report.ts",
+      "size": 17330,
+      "mode": 493
+    },
+    {
+      "path": "src/tools/research-trail.ts",
+      "size": 7489,
+      "mode": 493
+    },
+    {
+      "path": "src/verify-sealed.ts",
+      "size": 14623,
+      "mode": 493
+    },
+    {
+      "path": "src/verify.ts",
+      "size": 11783,
+      "mode": 493
+    },
+    {
+      "path": "src/version.ts",
+      "size": 200,
+      "mode": 493
+    }
+  ],
+  "entryCount": 93,
+  "bundled": []
+}
